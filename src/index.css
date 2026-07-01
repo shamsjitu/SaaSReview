@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Urbanist", sans-serif;
+  
+  --color-primary: #05062A;
+  --color-secondary: #CFA9FF;
+  --color-body-text: #5A5A64;
+  --color-accent: #FFDE65;
+}
+
+@layer base {
+  .markdown-body h2 {
+    @apply text-3xl font-display font-bold text-primary mt-12 mb-[29px];
+  }
+  .markdown-body h3 {
+    @apply text-2xl font-display font-bold text-primary mt-8 mb-[21px];
+  }
+  .markdown-body p {
+    @apply mb-6 leading-relaxed text-[17px];
+  }
+  .markdown-body ul {
+    @apply list-disc pl-6 mb-6 space-y-2;
+  }
+  .markdown-body strong {
+    @apply font-black text-primary;
+  }
+  .markdown-body a {
+    @apply text-secondary font-bold hover:underline;
+  }
+}
