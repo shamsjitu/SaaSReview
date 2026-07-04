@@ -11,6 +11,7 @@ interface BlogCoverImageProps {
   category?: string;
   aspectRatio?: string; // e.g. "aspect-[16/9]"
   textOnly?: boolean;
+  image?: string;
 }
 
 // ==========================================
@@ -312,7 +313,7 @@ const CyberInsiderLogo = () => (
   </div>
 );
 
-export default function BlogCoverImage({ slug, title, category = "Privacy & Security", aspectRatio = "aspect-[16/9]", textOnly }: BlogCoverImageProps) {
+export default function BlogCoverImage({ slug, title, category = "Privacy & Security", aspectRatio = "aspect-[16/9]", textOnly, image }: BlogCoverImageProps) {
   const [textOnlyMode, setTextOnlyMode] = useState(() => {
     if (typeof window === 'undefined') return false;
     return localStorage.getItem('blog_cover_text_only') === 'true';
@@ -327,6 +328,19 @@ export default function BlogCoverImage({ slug, title, category = "Privacy & Secu
   }, []);
 
   const isTextOnly = textOnly ?? textOnlyMode;
+
+  const hasImage = !!image && typeof image === 'string' && image.trim() !== '';
+
+  if (hasImage && !isTextOnly) {
+    return (
+      <img 
+        src={image} 
+        alt={title}
+        className={`w-full h-full object-cover ${aspectRatio}`}
+        referrerPolicy="no-referrer"
+      />
+    );
+  }
   const info = getCoverDetails(slug, title);
   const theme = themeStyles[info.themeAccent] || themeStyles.indigo;
 

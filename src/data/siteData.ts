@@ -141,7 +141,7 @@ export const SITE_DATA = {
       slug: "proton-pass-free-vs-paid",
       excerpt: "Compare Proton Pass Free vs Paid features, pricing, and aliases side-by-side to determine if Pass Plus is worth upgrading to in our detailed 2026 analysis.",
       category: "Privacy & Security",
-      image: "/images/proton_pass_vs_paid.jpg"
+      image: "/images/proton_pass_vs_paid.png"
     },
     {
       id: 3,
@@ -717,7 +717,7 @@ Verdict: 4.2/5 — Strong on security, less strong on pricing transparency and b
       category: "Privacy & Security",
       date: "June 25, 2026",
       readTime: "11 min",
-      image: "/images/proton_pass_vs_paid.jpg",
+      image: "/images/proton_pass_vs_paid.png",
       excerpt: "Compare Proton Pass Free vs Paid features, pricing, and aliases side-by-side to determine if Pass Plus is worth upgrading to in our detailed 2026 analysis.",
       content: `## Introduction: The New Security Frontier
 

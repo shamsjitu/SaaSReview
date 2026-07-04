@@ -14,6 +14,16 @@ export interface BlogPost {
 
 const CUSTOM_POSTS_KEY = 'saasreview_custom_posts';
 
+function sanitizePostImage(post: BlogPost): BlogPost {
+  if (post.image && post.image.endsWith('.svg')) {
+    return {
+      ...post,
+      image: post.image.replace(/\.svg$/, '.jpg')
+    };
+  }
+  return post;
+}
+
 export function getBlogPosts(): BlogPost[] {
   if (typeof window === 'undefined') return SITE_DATA.blogPosts;
   
@@ -21,7 +31,7 @@ export function getBlogPosts(): BlogPost[] {
   if (!saved) return SITE_DATA.blogPosts;
   
   try {
-    const custom = JSON.parse(saved) as BlogPost[];
+    const custom = (JSON.parse(saved) as BlogPost[]).map(sanitizePostImage);
     // Place custom posts first, then the preset ones
     return [...custom, ...SITE_DATA.blogPosts];
   } catch (e) {
@@ -58,7 +68,7 @@ export function getCustomPosts(): BlogPost[] {
   const saved = localStorage.getItem(CUSTOM_POSTS_KEY);
   if (!saved) return [];
   try {
-    return JSON.parse(saved) as BlogPost[];
+    return (JSON.parse(saved) as BlogPost[]).map(sanitizePostImage);
   } catch {
     return [];
   }

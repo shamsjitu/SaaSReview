@@ -378,7 +378,7 @@ export default function PostDetail({ overriddenSlug }: { overriddenSlug?: string
       {/* Featured Image */}
       <div className="max-w-6xl mx-auto px-4 mb-20 animate-fade-in">
         <div className="rounded-[40px] overflow-hidden shadow-2xl">
-          <BlogCoverImage slug={post.slug} title={post.title} category={post.category} aspectRatio="aspect-[21/9]" />
+          <BlogCoverImage slug={post.slug} title={post.title} category={post.category} aspectRatio="aspect-[21/9]" image={post.image} />
         </div>
       </div>
 

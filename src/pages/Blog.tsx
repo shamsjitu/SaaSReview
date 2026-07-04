@@ -80,7 +80,7 @@ export default function Blog() {
               <div className="overflow-hidden">
                 <Link to={`/blog/${post.slug}`}>
                   <div className="group-hover:scale-102 transition-transform duration-500">
-                    <BlogCoverImage slug={post.slug} title={post.title} category={post.category} />
+                    <BlogCoverImage slug={post.slug} title={post.title} category={post.category} image={post.image} />
                   </div>
                 </Link>
               </div>

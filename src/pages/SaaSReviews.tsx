@@ -188,7 +188,7 @@ export default function SaaSReviews() {
               >
                 <Link to={`/blog/${review.slug}`} className="block aspect-[16/10] overflow-hidden rounded-[32px] mb-6 shadow-sm group-hover:shadow-lg transition-all border border-gray-100 relative">
                   {review.image && review.image.startsWith('/images/') ? (
-                    <BlogCoverImage slug={review.slug} title={review.title} category={review.category} aspectRatio="w-full h-full" />
+                    <BlogCoverImage slug={review.slug} title={review.title} category={review.category} aspectRatio="w-full h-full" image={review.image} />
                   ) : (
                     <img 
                       src={review.image} 
