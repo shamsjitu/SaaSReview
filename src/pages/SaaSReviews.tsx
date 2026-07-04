@@ -3,12 +3,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
-import { Search, Star, ArrowRight } from 'lucide-react';
+import { Search, Star, ArrowRight, Sparkles, AlignLeft } from 'lucide-react';
 import { SITE_DATA } from '../data/siteData';
 import { Link } from 'react-router-dom';
 import { getBlogPosts } from '../utils/blogHelper';
+import BlogCoverImage from '../components/BlogCoverImage';
 
 interface ReviewItem {
   id: number | string;
@@ -23,6 +24,16 @@ interface ReviewItem {
 export default function SaaSReviews() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTag, setSelectedTag] = useState('All');
+  const [textOnlyMode, setTextOnlyMode] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    return localStorage.getItem('blog_cover_text_only') === 'true';
+  });
+
+  const toggleCoverMode = (val: boolean) => {
+    localStorage.setItem('blog_cover_text_only', String(val));
+    setTextOnlyMode(val);
+    window.dispatchEvent(new Event('blog_cover_text_only_changed'));
+  };
 
   // Convert default reviews and blog posts into a unified review stream
   const staticReviews: ReviewItem[] = (SITE_DATA.reviews || []).map((r, index) => ({
@@ -117,23 +128,51 @@ export default function SaaSReviews() {
             </div>
           </div>
           
-          <div className="flex flex-wrap gap-4">
-            {["All", "SEO Tools", "Impact Radius", "Product Hunt", "Hosting", "AI", "Security"].map(tag => {
-              const isActive = selectedTag === tag;
-              return (
-                <button 
-                  key={tag} 
-                  onClick={() => setSelectedTag(tag)}
-                  className={`px-6 py-2.5 rounded-full border text-sm font-bold transition-all ${
-                    isActive 
-                      ? 'bg-primary text-secondary border-primary shadow-md' 
-                      : 'border-gray-200 text-gray-500 hover:border-primary hover:text-primary'
-                  }`}
-                >
-                  {tag}
-                </button>
-              );
-            })}
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 pt-6 mt-6 border-t border-gray-100">
+            <div className="flex flex-wrap gap-4">
+              {["All", "SEO Tools", "Impact Radius", "Product Hunt", "Hosting", "AI", "Security"].map(tag => {
+                const isActive = selectedTag === tag;
+                return (
+                  <button 
+                    key={tag} 
+                    onClick={() => setSelectedTag(tag)}
+                    className={`px-6 py-2.5 rounded-full border text-sm font-bold transition-all cursor-pointer ${
+                      isActive 
+                        ? 'bg-primary text-secondary border-primary shadow-md' 
+                        : 'border-gray-200 text-gray-500 hover:border-primary hover:text-primary'
+                    }`}
+                  >
+                    {tag}
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Design Style Switcher */}
+            <div className="inline-flex items-center gap-1.5 p-1 bg-gray-50 border border-gray-100 rounded-2xl">
+              <button
+                onClick={() => toggleCoverMode(false)}
+                className={`flex items-center gap-2 px-4 py-2 rounded-xl text-[11px] font-black uppercase tracking-wider transition-all cursor-pointer ${
+                  !textOnlyMode
+                    ? 'bg-primary text-white shadow-sm'
+                    : 'text-gray-400 hover:text-primary'
+                }`}
+              >
+                <Sparkles className="w-3.5 h-3.5" />
+                With Logos
+              </button>
+              <button
+                onClick={() => toggleCoverMode(true)}
+                className={`flex items-center gap-2 px-4 py-2 rounded-xl text-[11px] font-black uppercase tracking-wider transition-all cursor-pointer ${
+                  textOnlyMode
+                    ? 'bg-primary text-white shadow-sm'
+                    : 'text-gray-400 hover:text-primary'
+                }`}
+              >
+                <AlignLeft className="w-3.5 h-3.5" />
+                Text-Only
+              </button>
+            </div>
           </div>
         </header>
 
@@ -148,12 +187,16 @@ export default function SaaSReviews() {
                 className="group flex flex-col h-full bg-white rounded-[32px] overflow-hidden"
               >
                 <Link to={`/blog/${review.slug}`} className="block aspect-[16/10] overflow-hidden rounded-[32px] mb-6 shadow-sm group-hover:shadow-lg transition-all border border-gray-100 relative">
-                  <img 
-                    src={review.image} 
-                    alt={review.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    referrerPolicy="no-referrer"
-                  />
+                  {review.image && review.image.startsWith('/images/') ? (
+                    <BlogCoverImage slug={review.slug} title={review.title} category={review.category} aspectRatio="w-full h-full" />
+                  ) : (
+                    <img 
+                      src={review.image} 
+                      alt={review.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      referrerPolicy="no-referrer"
+                    />
+                  )}
                   <span className="absolute top-4 left-4 px-3 py-1 bg-white/95 backdrop-blur-sm text-primary rounded-full text-[9px] font-black uppercase tracking-widest border border-gray-100 shadow-sm">
                     {review.category}
                   </span>

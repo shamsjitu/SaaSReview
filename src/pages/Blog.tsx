@@ -3,8 +3,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
-import { Calendar, User, Clock, ChevronRight } from 'lucide-react';
+import { Calendar, User, Clock, ChevronRight, Sparkles, AlignLeft } from 'lucide-react';
 import { SITE_DATA } from '../data/siteData';
 import { Link } from 'react-router-dom';
 import { getBlogPosts } from '../utils/blogHelper';
@@ -12,6 +13,16 @@ import BlogCoverImage from '../components/BlogCoverImage';
 
 export default function Blog() {
   const posts = getBlogPosts();
+  const [textOnlyMode, setTextOnlyMode] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    return localStorage.getItem('blog_cover_text_only') === 'true';
+  });
+
+  const toggleCoverMode = (val: boolean) => {
+    localStorage.setItem('blog_cover_text_only', String(val));
+    setTextOnlyMode(val);
+    window.dispatchEvent(new Event('blog_cover_text_only_changed'));
+  };
 
   return (
     <div className="pt-24 min-h-screen bg-gray-50">
@@ -27,6 +38,32 @@ export default function Blog() {
             <p className="text-body-text max-w-2xl mx-auto text-lg leading-relaxed">
               Detailed tutorials, marketing strategies, and personal research on how to grow your digital publishing empire.
             </p>
+
+            {/* Design Style Switcher */}
+            <div className="mt-10 inline-flex items-center gap-1.5 p-1.5 bg-white border border-gray-100 rounded-2xl shadow-sm">
+              <button
+                onClick={() => toggleCoverMode(false)}
+                className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider transition-all cursor-pointer ${
+                  !textOnlyMode
+                    ? 'bg-primary text-white shadow-md'
+                    : 'text-gray-400 hover:text-primary hover:bg-gray-50'
+                }`}
+              >
+                <Sparkles className="w-4 h-4" />
+                With Brand Logos
+              </button>
+              <button
+                onClick={() => toggleCoverMode(true)}
+                className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider transition-all cursor-pointer ${
+                  textOnlyMode
+                    ? 'bg-primary text-white shadow-md'
+                    : 'text-gray-400 hover:text-primary hover:bg-gray-50'
+                }`}
+              >
+                <AlignLeft className="w-4 h-4" />
+                Text-Only (Title)
+              </button>
+            </div>
           </motion.div>
         </header>
 

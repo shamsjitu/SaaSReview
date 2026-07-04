@@ -132,7 +132,7 @@ export const SITE_DATA = {
       slug: "keeper-security-review",
       excerpt: "Read our comprehensive Keeper Security Review 2026 to evaluate its features, pricing, security, and see how Keeper Free vs Paid comparing options stack up for your needs.",
       category: "Privacy & Security",
-      image: "/images/keeper_review_1782204653751.jpg"
+      image: "/images/keeper_review.jpg"
     },
     {
       id: 2,
@@ -141,7 +141,7 @@ export const SITE_DATA = {
       slug: "proton-pass-free-vs-paid",
       excerpt: "Compare Proton Pass Free vs Paid features, pricing, and aliases side-by-side to determine if Pass Plus is worth upgrading to in our detailed 2026 analysis.",
       category: "Privacy & Security",
-      image: "/images/proton_pass_vs_paid_1782204573083.jpg"
+      image: "/images/proton_pass_vs_paid.jpg"
     },
     {
       id: 3,
@@ -150,7 +150,7 @@ export const SITE_DATA = {
       slug: "keeper-free-vs-paid",
       excerpt: "Comparing Keeper Free vs Paid features, device support, and password storage limits to see if upgrading to Keeper Unlimited is worth it for your security.",
       category: "Privacy & Security",
-      image: "/images/keeper_free_vs_paid_1782204557937.jpg"
+      image: "/images/keeper_free_vs_paid.jpg"
     },
     {
       id: 4,
@@ -159,7 +159,7 @@ export const SITE_DATA = {
       slug: "nordpass-family-vs-premium",
       excerpt: "Explore our side-by-side comparison of NordPass Family vs Premium features, pricing, and user limits to see which NordPass plan provides the ultimate value.",
       category: "Privacy & Security",
-      image: "/images/nordpass_family_vs_premium_1782204585191.jpg"
+      image: "/images/nordpass_family_vs_premium.jpg"
     },
     {
       id: 5,
@@ -168,7 +168,7 @@ export const SITE_DATA = {
       slug: "nordpass-family-plan-review",
       excerpt: "Our detailed NordPass Family Plan Review explores whether multi-user password management features, security, pricing, and family sharing are worth the cost.",
       category: "Privacy & Security",
-      image: "/images/nordpass_family_review_1782204669270.jpg"
+      image: "/images/nordpass_family_review.jpg"
     },
     {
       id: 6,
@@ -177,7 +177,7 @@ export const SITE_DATA = {
       slug: "nordpass-premium-review",
       excerpt: "Read our comprehensive NordPass Premium Review to explore pricing, unique features, encryption standards, and whether the upgrade is truly worth it.",
       category: "Privacy & Security",
-      image: "/images/nordpass_premium_review_1782204682248.jpg"
+      image: "/images/nordpass_premium_review.jpg"
     },
     {
       id: 7,
@@ -186,7 +186,7 @@ export const SITE_DATA = {
       slug: "nordpass-free-review",
       excerpt: "This detailed NordPass Free Review breaks down the single-device limitation, password storage capacity, and security strengths to see if it's worth using.",
       category: "Privacy & Security",
-      image: "/images/nordpass_free_review_1782204694700.jpg"
+      image: "/images/nordpass_free_review.jpg"
     },
     {
       id: 8,
@@ -195,7 +195,7 @@ export const SITE_DATA = {
       slug: "roboform-free-review",
       excerpt: "Read our in-depth RoboForm Free Review to evaluate its browser integration, password storage, security limitations, and overall user convenience.",
       category: "Privacy & Security",
-      image: "/images/roboform_free_review_1782204710403.jpg"
+      image: "/images/roboform_free_review.jpg"
     },
     {
       id: 9,
@@ -204,7 +204,7 @@ export const SITE_DATA = {
       slug: "roboform-free-vs-premium",
       excerpt: "Compare RoboForm Free vs Premium side-by-side to understand the key differences in syncing, device limits, and see if the upgrade is worth it in 2026.",
       category: "Privacy & Security",
-      image: "/images/roboform_free_vs_premium_1782204598869.jpg"
+      image: "/images/roboform_free_vs_premium.jpg"
     },
     {
       id: 10,
@@ -213,7 +213,7 @@ export const SITE_DATA = {
       slug: "roboform-vs-google-password-manager",
       excerpt: "In this RoboForm vs Google Password Manager comparison, we match their features, encryption security, across-device sync, and passkeys support head-to-head.",
       category: "Privacy & Security",
-      image: "/images/roboform_vs_google_1782204611513.jpg"
+      image: "/images/roboform_vs_google.jpg"
     }
   ],
   blogPosts: [
@@ -225,7 +225,7 @@ export const SITE_DATA = {
       category: "Privacy & Security",
       date: "June 18, 2026",
       readTime: "10 min",
-      image: "/images/keeper_free_vs_paid_1782204557937.jpg",
+      image: "/images/keeper_free_vs_paid.jpg",
       excerpt: "Comparing Keeper Free vs Paid features, device support, and password storage limits to see if upgrading to Keeper Unlimited is worth it for your security.",
       content: `## Introduction
 
@@ -540,7 +540,7 @@ Because plan details and downgrade policies can change over time, it's a good id
       category: "Privacy & Security",
       date: "June 19, 2026",
       readTime: "12 min",
-      image: "/images/keeper_review_1782204653751.jpg",
+      image: "/images/keeper_review.jpg",
       excerpt: "Read our comprehensive Keeper Security Review 2026 to evaluate its features, pricing, security, and see how Keeper Free vs Paid comparing options stack up for your needs.",
       content: `Password reuse is probably the single biggest reason accounts get hacked. Most people know this, yet they still end up using the same password across multiple websites because remembering unique credentials for every account feels impossible.
 
@@ -717,7 +717,7 @@ Verdict: 4.2/5 — Strong on security, less strong on pricing transparency and b
       category: "Privacy & Security",
       date: "June 25, 2026",
       readTime: "11 min",
-      image: "/images/proton_pass_vs_paid_1782204573083.jpg",
+      image: "/images/proton_pass_vs_paid.jpg",
       excerpt: "Compare Proton Pass Free vs Paid features, pricing, and aliases side-by-side to determine if Pass Plus is worth upgrading to in our detailed 2026 analysis.",
       content: `## Introduction: The New Security Frontier
 
@@ -836,7 +836,7 @@ However, if you take your privacy seriously and want to eliminate spam, the upgr
       category: "Privacy & Security",
       date: "June 19, 2026",
       readTime: "12 min",
-      image: "/images/nordpass_family_vs_premium_1782204585191.jpg",
+      image: "/images/nordpass_family_vs_premium.jpg",
       excerpt: "Explore our side-by-side comparison of NordPass Family vs Premium features, pricing, and user limits to see which NordPass plan provides the ultimate value.",
       content: `# NordPass Family vs Premium: Which Plan Should You Choose?
 
@@ -1093,7 +1093,7 @@ Nothing, practically speaking. Unused slots don't cost extra or require any acti
       category: "Privacy & Security",
       date: "June 20, 2026",
       readTime: "15 min",
-      image: "/images/nordpass_family_review_1782204669270.jpg",
+      image: "/images/nordpass_family_review.jpg",
       excerpt: "Our detailed NordPass Family Plan Review explores whether multi-user password management features, security, pricing, and family sharing are worth the cost.",
       content: `# NordPass Family Plan Review: Is It Worth It for Your Household?
 
@@ -1372,7 +1372,7 @@ NordPass offers a 30-day money-back guarantee on the Family plan rather than a t
       category: "Privacy & Security",
       date: "June 20, 2026",
       readTime: "12 min",
-      image: "/images/nordpass_premium_review_1782204682248.jpg",
+      image: "/images/nordpass_premium_review.jpg",
       excerpt: "Read our comprehensive NordPass Premium Review to explore pricing, unique features, encryption standards, and whether the upgrade is truly worth it.",
       content: `# NordPass Premium Review: Features, Pricing & Real Value (2026)
 
@@ -1627,7 +1627,7 @@ You can cancel within 30 days of purchase for a full refund under NordPass's mon
       category: "Privacy & Security",
       date: "June 20, 2026",
       readTime: "12 min",
-      image: "/images/nordpass_free_review_1782204694700.jpg",
+      image: "/images/nordpass_free_review.jpg",
       excerpt: "This detailed NordPass Free Review breaks down the single-device limitation, password storage capacity, and security strengths to see if it's worth using.",
       content: `# NordPass Free Review (2026): Is It Worth Using or Too Limited?
 
@@ -1969,7 +1969,7 @@ Both are solid options. NordPass Free has a cleaner interface and no device rest
       category: "Privacy & Security",
       date: "June 21, 2026",
       readTime: "12 min",
-      image: "/images/roboform_free_review_1782204710403.jpg",
+      image: "/images/roboform_free_review.jpg",
       excerpt: "Read our in-depth RoboForm Free Review to evaluate its browser integration, password storage, security limitations, and overall user convenience.",
       content: `# RoboForm Free Review: Features, Security & Limitations
 
@@ -2351,7 +2351,7 @@ Your vault is backed up to the cloud on the free plan. If your device is lost or
       category: "Privacy & Security",
       date: "June 21, 2026",
       readTime: "12 min",
-      image: "/images/roboform_free_vs_premium_1782204598869.jpg",
+      image: "/images/roboform_free_vs_premium.jpg",
       excerpt: "Compare RoboForm Free vs Premium side-by-side to understand the key differences in syncing, device limits, and see if the upgrade is worth it in 2026.",
       content: `# RoboForm Free vs Premium: Which Plan Should You Choose in 2026?
 
@@ -2846,7 +2846,7 @@ Yes. RoboForm Premium comes with a 30-day money-back guarantee, giving you a ris
       category: "Privacy & Security",
       date: "June 22, 2026",
       readTime: "15 min",
-      image: "/images/roboform_vs_google_1782204611513.jpg",
+      image: "/images/roboform_vs_google.jpg",
       excerpt: "In this RoboForm vs Google Password Manager comparison, we match their features, encryption security, across-device sync, and passkeys support head-to-head.",
       content: `# RoboForm vs Google Password Manager: Complete Comparison (2026)
 

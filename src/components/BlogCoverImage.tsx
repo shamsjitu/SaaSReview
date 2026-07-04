@@ -3,13 +3,14 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface BlogCoverImageProps {
   slug: string;
   title: string;
   category?: string;
   aspectRatio?: string; // e.g. "aspect-[16/9]"
+  textOnly?: boolean;
 }
 
 // ==========================================
@@ -311,7 +312,21 @@ const CyberInsiderLogo = () => (
   </div>
 );
 
-export default function BlogCoverImage({ slug, title, category = "Privacy & Security", aspectRatio = "aspect-[16/9]" }: BlogCoverImageProps) {
+export default function BlogCoverImage({ slug, title, category = "Privacy & Security", aspectRatio = "aspect-[16/9]", textOnly }: BlogCoverImageProps) {
+  const [textOnlyMode, setTextOnlyMode] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    return localStorage.getItem('blog_cover_text_only') === 'true';
+  });
+
+  useEffect(() => {
+    const handleUpdate = () => {
+      setTextOnlyMode(localStorage.getItem('blog_cover_text_only') === 'true');
+    };
+    window.addEventListener('blog_cover_text_only_changed', handleUpdate);
+    return () => window.removeEventListener('blog_cover_text_only_changed', handleUpdate);
+  }, []);
+
+  const isTextOnly = textOnly ?? textOnlyMode;
   const info = getCoverDetails(slug, title);
   const theme = themeStyles[info.themeAccent] || themeStyles.indigo;
 
@@ -367,10 +382,12 @@ export default function BlogCoverImage({ slug, title, category = "Privacy & Secu
           <div className="flex flex-col items-center justify-center space-y-3">
             {/* Lockup together: Logo and Name next to each other */}
             <div className="flex items-center gap-2.5 md:gap-3.5 px-3 md:px-5 py-2 md:py-3 rounded-xl bg-white/[0.02] border border-white/[0.04] backdrop-blur-sm transition-all hover:bg-white/[0.03] hover:border-white/[0.06]">
-              <div className="shrink-0 drop-shadow-[0_4px_10px_rgba(0,0,0,0.4)]">
-                {leftLogo}
-              </div>
-              <span className="text-sm sm:text-base md:text-xl font-extrabold tracking-tight text-white font-display select-none">
+              {!isTextOnly && (
+                <div className="shrink-0 drop-shadow-[0_4px_10px_rgba(0,0,0,0.4)]">
+                  {leftLogo}
+                </div>
+              )}
+              <span className="text-sm sm:text-base md:text-xl font-extrabold tracking-tight text-white font-display select-none uppercase">
                 {info.leftTitle}
               </span>
             </div>
@@ -383,10 +400,12 @@ export default function BlogCoverImage({ slug, title, category = "Privacy & Secu
           <div className="flex flex-col items-center justify-center space-y-3">
             {/* Lockup together: Logo and Name next to each other */}
             <div className="flex items-center gap-2.5 md:gap-3.5 px-3 md:px-5 py-2 md:py-3 rounded-xl bg-white/[0.02] border border-white/[0.04] backdrop-blur-sm transition-all hover:bg-white/[0.03] hover:border-white/[0.06]">
-              <div className="shrink-0 drop-shadow-[0_4px_10px_rgba(0,0,0,0.4)]">
-                {rightLogo}
-              </div>
-              <span className="text-sm sm:text-base md:text-xl font-extrabold tracking-tight text-white font-display select-none">
+              {!isTextOnly && (
+                <div className="shrink-0 drop-shadow-[0_4px_10px_rgba(0,0,0,0.4)]">
+                  {rightLogo}
+                </div>
+              )}
+              <span className="text-sm sm:text-base md:text-xl font-extrabold tracking-tight text-white font-display select-none uppercase">
                 {info.rightTitle}
               </span>
             </div>
@@ -440,14 +459,16 @@ export default function BlogCoverImage({ slug, title, category = "Privacy & Secu
       <div className="relative z-10 flex flex-col items-center justify-center my-auto space-y-3.5 md:space-y-4">
         {/* Brand Lockup: logo and text side-by-side inside glass panel */}
         <div className="flex items-center gap-3 md:gap-4 px-4 md:px-6 py-2.5 md:py-3.5 rounded-2xl bg-white/[0.02] border border-white/[0.05] shadow-[0_12px_40px_rgba(0,0,0,0.5)] backdrop-blur-md transition-all hover:bg-white/[0.03] hover:border-white/[0.07]">
-          <div className="shrink-0 drop-shadow-[0_4px_12px_rgba(0,0,0,0.55)]">
-            {brandLogo}
-          </div>
-          <div className="flex flex-col items-start text-left">
+          {!isTextOnly && (
+            <div className="shrink-0 drop-shadow-[0_4px_12px_rgba(0,0,0,0.55)]">
+              {brandLogo}
+            </div>
+          )}
+          <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
             <span className={`text-[8px] md:text-[9px] font-mono tracking-[0.2em] ${theme.accentText} font-bold uppercase`}>
               SECURE REVIEW
             </span>
-            <span className="text-base sm:text-lg md:text-2xl font-black tracking-tight text-white font-display select-none">
+            <span className="text-base sm:text-lg md:text-2xl font-black tracking-tight text-white font-display select-none uppercase">
               {info.title}
             </span>
           </div>
