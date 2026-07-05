@@ -6,6 +6,7 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { X, Mail, CheckCircle2, Loader2 } from 'lucide-react';
 import { useState } from 'react';
+import { createPortal } from 'react-dom';
 
 interface SubscribeModalProps {
   isOpen: boolean;
@@ -33,7 +34,7 @@ export default function SubscribeModal({ isOpen, onClose }: SubscribeModalProps)
     }, 1500);
   };
 
-  return (
+  return createPortal(
     <AnimatePresence>
       {isOpen && (
         <>
@@ -134,6 +135,7 @@ export default function SubscribeModal({ isOpen, onClose }: SubscribeModalProps)
         </div>
       </>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   );
 }
