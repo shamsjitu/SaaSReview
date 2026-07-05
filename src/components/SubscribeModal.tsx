@@ -44,12 +44,13 @@ export default function SubscribeModal({ isOpen, onClose }: SubscribeModalProps)
             onClick={onClose}
             className="fixed inset-0 z-[60] bg-primary/60 backdrop-blur-sm cursor-pointer"
           />
-          <div className="fixed inset-0 z-[70] flex items-start md:items-center justify-center p-4 overflow-y-auto pointer-events-none">
+          <div className="fixed inset-0 z-[70] overflow-y-auto pointer-events-none">
+            <div className="min-h-full flex items-center justify-center p-4">
             <motion.div
               initial={{ opacity: 0, scale: 0.9, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 20 }}
-              className="relative w-full max-w-lg bg-white rounded-[32px] p-8 md:p-12 shadow-2xl my-8 md:my-0 max-h-[85vh] overflow-y-auto pointer-events-auto"
+              className="relative w-full max-w-lg bg-white rounded-[32px] p-8 md:p-12 shadow-2xl my-8 pointer-events-auto"
             >
               {/* Background Accent */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-secondary/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
@@ -129,6 +130,7 @@ export default function SubscribeModal({ isOpen, onClose }: SubscribeModalProps)
               </>
             )}
           </motion.div>
+          </div>
         </div>
       </>
       )}
