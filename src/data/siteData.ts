@@ -221,6 +221,7 @@ export const SITE_DATA = {
     {
       id: 13,
       slug: "keeper-free-vs-paid",
+      toolName: "Keeper",
       title: "Keeper Free vs Paid: Is Keeper Unlimited Worth the Upgrade in 2026?",
       category: "Privacy & Security",
       date: "June 18, 2026",
@@ -536,6 +537,7 @@ Because plan details and downgrade policies can change over time, it's a good id
     {
       id: 11,
       slug: "keeper-security-review",
+      toolName: "Keeper",
       title: "Keeper Security Review 2026: Is It Worth the Cost?",
       category: "Privacy & Security",
       date: "June 19, 2026",
@@ -713,6 +715,7 @@ Verdict: 4.2/5 — Strong on security, less strong on pricing transparency and b
     {
       id: 12,
       slug: "proton-pass-free-vs-paid",
+      toolName: "Proton Pass",
       title: "Proton Pass Free vs Paid: Is Pass Plus Worth It in 2026?",
       category: "Privacy & Security",
       date: "June 25, 2026",
@@ -832,6 +835,7 @@ However, if you take your privacy seriously and want to eliminate spam, the upgr
     {
       id: 14,
       slug: "nordpass-family-vs-premium",
+      toolName: "NordPass",
       title: "NordPass Family vs Premium: Which Plan Should You Choose?",
       category: "Privacy & Security",
       date: "June 19, 2026",
@@ -1089,6 +1093,7 @@ Nothing, practically speaking. Unused slots don't cost extra or require any acti
     {
       id: 15,
       slug: "nordpass-family-plan-review",
+      toolName: "NordPass",
       title: "NordPass Family Plan Review: Is It Worth It in 2026?",
       category: "Privacy & Security",
       date: "June 20, 2026",
@@ -1368,6 +1373,7 @@ NordPass offers a 30-day money-back guarantee on the Family plan rather than a t
     {
       id: 16,
       slug: "nordpass-premium-review",
+      toolName: "NordPass",
       title: "NordPass Premium Review: Features, Pricing & Real Value (2026)",
       category: "Privacy & Security",
       date: "June 20, 2026",
@@ -1623,6 +1629,7 @@ You can cancel within 30 days of purchase for a full refund under NordPass's mon
     {
       id: 17,
       slug: "nordpass-free-review",
+      toolName: "NordPass",
       title: "NordPass Free Review (2026): Is It Worth Using or Too Limited?",
       category: "Privacy & Security",
       date: "June 20, 2026",
@@ -1965,6 +1972,7 @@ Both are solid options. NordPass Free has a cleaner interface and no device rest
     {
       id: 18,
       slug: "roboform-free-review",
+      toolName: "RoboForm",
       title: "RoboForm Free Review: Features, Security & Limitations",
       category: "Privacy & Security",
       date: "June 21, 2026",
@@ -2347,6 +2355,7 @@ Your vault is backed up to the cloud on the free plan. If your device is lost or
     {
       id: 19,
       slug: "roboform-free-vs-premium",
+      toolName: "RoboForm",
       title: "RoboForm Free vs Premium: Which Plan Should You Choose in 2026?",
       category: "Privacy & Security",
       date: "June 21, 2026",
@@ -2842,6 +2851,7 @@ Yes. RoboForm Premium comes with a 30-day money-back guarantee, giving you a ris
     {
       id: 20,
       slug: "roboform-vs-google-password-manager",
+      toolName: "RoboForm",
       title: "RoboForm vs Google Password Manager: Complete Comparison (2026)",
       category: "Privacy & Security",
       date: "June 22, 2026",
