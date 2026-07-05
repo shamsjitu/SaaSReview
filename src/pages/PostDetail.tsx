@@ -557,7 +557,7 @@ export default function PostDetail({ overriddenSlug }: { overriddenSlug?: string
         <div className="mt-20 p-10 bg-primary rounded-[40px] text-white">
           <h3 className="text-3xl font-display font-bold mb-6 italic">Expert Verdict</h3>
           <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-            Based on our internal testing, we believe this tool represents the best value for professionals in 2024. If you decide to pick it up, using our link helps us continue doing these deep research dives.
+            Based on our internal testing, we believe {post.toolName || 'this tool'} represents strong value for professionals right now. Full disclosure: if you purchase through our link, we may earn a commission at no extra cost to you — this helps us continue doing these deep research dives.
           </p>
           <a 
             href="#" 
