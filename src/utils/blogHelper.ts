@@ -10,6 +10,7 @@ export interface BlogPost {
   image: string;
   excerpt: string;
   content: string;
+  toolName?: string;
 }
 
 const CUSTOM_POSTS_KEY = 'saasreview_custom_posts';
