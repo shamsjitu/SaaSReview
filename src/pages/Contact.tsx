@@ -3,10 +3,32 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Mail, MessageSquare, Send, MapPin } from 'lucide-react';
 
+const CONTACT_EMAIL = 'shamsjitu2019@gmail.com';
+
 export default function Contact() {
+  const [firstName, setFirstName] = useState('');
+  const [senderEmail, setSenderEmail] = useState('');
+  const [subject, setSubject] = useState('Software Review Request');
+  const [message, setMessage] = useState('');
+  const [sent, setSent] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    const emailSubject = `[ShamsStack] ${subject}${firstName ? ` — from ${firstName}` : ''}`;
+    const emailBody =
+      `${message}\n\n---\n` +
+      `Name: ${firstName || 'Not provided'}\n` +
+      `Reply-to email: ${senderEmail || 'Not provided'}`;
+
+    const mailtoLink = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+    window.location.href = mailtoLink;
+    setSent(true);
+  };
   return (
     <div className="pt-24 min-h-screen bg-white">
       <header className="bg-primary py-20 text-center">
@@ -64,20 +86,37 @@ export default function Contact() {
             animate={{ opacity: 1, x: 0 }}
             className="bg-gray-50 p-10 rounded-[40px] border border-gray-100 shadow-sm"
           >
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-bold text-primary mb-2">First Name</label>
-                  <input type="text" className="w-full px-6 py-4 rounded-2xl bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary" placeholder="Shams" />
+                  <input
+                    type="text"
+                    value={firstName}
+                    onChange={(e) => setFirstName(e.target.value)}
+                    className="w-full px-6 py-4 rounded-2xl bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary"
+                    placeholder="Shams"
+                  />
                 </div>
                 <div>
                   <label className="block text-sm font-bold text-primary mb-2">Email Address</label>
-                  <input type="email" className="w-full px-6 py-4 rounded-2xl bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary" placeholder="jitu@example.com" />
+                  <input
+                    type="email"
+                    value={senderEmail}
+                    onChange={(e) => setSenderEmail(e.target.value)}
+                    required
+                    className="w-full px-6 py-4 rounded-2xl bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary"
+                    placeholder="jitu@example.com"
+                  />
                 </div>
               </div>
               <div>
                 <label className="block text-sm font-bold text-primary mb-2">Subject</label>
-                <select className="w-full px-6 py-4 rounded-2xl bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary">
+                <select
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
+                  className="w-full px-6 py-4 rounded-2xl bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary"
+                >
                   <option>Software Review Request</option>
                   <option>Advertising Enquiry</option>
                   <option>General Question</option>
@@ -86,12 +125,27 @@ export default function Contact() {
               </div>
               <div>
                 <label className="block text-sm font-bold text-primary mb-2">Message</label>
-                <textarea rows={5} className="w-full px-6 py-4 rounded-2xl bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary" placeholder="Write your message here..."></textarea>
+                <textarea
+                  rows={5}
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  required
+                  className="w-full px-6 py-4 rounded-2xl bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Write your message here..."
+                ></textarea>
               </div>
-              <button className="w-full bg-primary text-secondary py-5 rounded-[20px] font-black flex items-center justify-center gap-3 hover:scale-[1.02] active:scale-95 transition-all shadow-xl shadow-primary/20">
+              <button
+                type="submit"
+                className="w-full bg-primary text-secondary py-5 rounded-[20px] font-black flex items-center justify-center gap-3 hover:scale-[1.02] active:scale-95 transition-all shadow-xl shadow-primary/20"
+              >
                 Send Message
                 <Send className="w-5 h-5" />
               </button>
+              {sent && (
+                <p className="text-center text-sm text-body-text">
+                  Your email app should now be open with the message ready — just hit send there to reach us.
+                </p>
+              )}
             </form>
           </motion.div>
         </div>
