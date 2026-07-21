@@ -5,6 +5,7 @@
 
 import { motion } from 'motion/react';
 import { Mail, Linkedin, Twitter } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { SITE_DATA } from '../data/siteData';
 
 export default function AboutAuthor() {
@@ -29,10 +30,10 @@ export default function AboutAuthor() {
                 </p>
                 
                 <div className="flex gap-4">
-                  <a href="#" className="flex items-center gap-2 px-6 py-3 bg-primary text-secondary rounded-xl font-bold hover:bg-opacity-90 transition-all">
+                  <Link to="/company/contact" className="flex items-center gap-2 px-6 py-3 bg-primary text-secondary rounded-xl font-bold hover:bg-opacity-90 transition-all">
                     <Mail className="w-4 h-4" />
                     Contact Me
-                  </a>
+                  </Link>
                   <div className="flex gap-2">
                     <a href="#" className="p-3 bg-gray-100 text-primary rounded-xl hover:bg-secondary transition-all">
                       <Linkedin className="w-5 h-5" />
