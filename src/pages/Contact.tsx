@@ -34,7 +34,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-primary mb-1">Email Us</h4>
-                  <p className="text-body-text">hello@saasreview.com</p>
+                  <p className="text-body-text">shamsjitu2019@gmail.com</p>
                   <p className="text-xs text-gray-400 mt-1">We usually reply within 24 hours.</p>
                 </div>
               </div>
