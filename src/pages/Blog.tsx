@@ -33,8 +33,11 @@ export default function Blog() {
   const goToPage = (page: number) => {
     const clamped = Math.min(Math.max(page, 1), totalPages);
     setSearchParams(clamped === 1 ? {} : { page: String(clamped) });
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }, [currentPage]);
 
   const toggleCoverMode = (val: boolean) => {
     localStorage.setItem('blog_cover_text_only', String(val));
