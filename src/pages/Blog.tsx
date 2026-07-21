@@ -5,18 +5,36 @@
 
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
-import { Calendar, User, Clock, ChevronRight, Sparkles, AlignLeft } from 'lucide-react';
+import { Calendar, User, Clock, ChevronRight, ChevronLeft, Sparkles, AlignLeft } from 'lucide-react';
 import { SITE_DATA } from '../data/siteData';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { getBlogPosts } from '../utils/blogHelper';
 import BlogCoverImage from '../components/BlogCoverImage';
 
+const POSTS_PER_PAGE = 10;
+
 export default function Blog() {
-  const posts = getBlogPosts();
+  const allPosts = getBlogPosts();
+  const [searchParams, setSearchParams] = useSearchParams();
   const [textOnlyMode, setTextOnlyMode] = useState(() => {
     if (typeof window === 'undefined') return false;
     return localStorage.getItem('blog_cover_text_only') === 'true';
   });
+
+  const totalPages = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
+  const pageParam = parseInt(searchParams.get('page') || '1', 10);
+  const currentPage = Number.isFinite(pageParam) ? Math.min(Math.max(pageParam, 1), totalPages) : 1;
+
+  const posts = allPosts.slice(
+    (currentPage - 1) * POSTS_PER_PAGE,
+    currentPage * POSTS_PER_PAGE
+  );
+
+  const goToPage = (page: number) => {
+    const clamped = Math.min(Math.max(page, 1), totalPages);
+    setSearchParams(clamped === 1 ? {} : { page: String(clamped) });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   const toggleCoverMode = (val: boolean) => {
     localStorage.setItem('blog_cover_text_only', String(val));
@@ -125,6 +143,44 @@ export default function Blog() {
             </motion.article>
           ))}
         </div>
+
+        {totalPages > 1 && (
+          <div className="mt-20 flex items-center justify-center gap-2 select-none">
+            <button
+              onClick={() => goToPage(currentPage - 1)}
+              disabled={currentPage === 1}
+              className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-sm font-bold text-gray-400 hover:text-primary hover:bg-white disabled:opacity-40 disabled:hover:bg-transparent disabled:hover:text-gray-400 disabled:cursor-not-allowed transition-all"
+            >
+              <ChevronLeft className="w-4 h-4" />
+              Previous
+            </button>
+
+            <div className="flex items-center gap-2">
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                <button
+                  key={page}
+                  onClick={() => goToPage(page)}
+                  className={`w-10 h-10 rounded-full text-sm font-bold transition-all ${
+                    page === currentPage
+                      ? 'bg-primary text-white shadow-md'
+                      : 'text-gray-400 hover:bg-white hover:text-primary'
+                  }`}
+                >
+                  {page}
+                </button>
+              ))}
+            </div>
+
+            <button
+              onClick={() => goToPage(currentPage + 1)}
+              disabled={currentPage === totalPages}
+              className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-sm font-bold text-gray-400 hover:text-primary hover:bg-white disabled:opacity-40 disabled:hover:bg-transparent disabled:hover:text-gray-400 disabled:cursor-not-allowed transition-all"
+            >
+              Next
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
