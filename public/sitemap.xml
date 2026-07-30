@@ -46,6 +46,11 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.shamsstack.com/blog/nordpass-vs-apple-passwords</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.shamsstack.com/blog/keeper-security-review</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -87,6 +92,11 @@
   </url>
   <url>
     <loc>https://www.shamsstack.com/blog/roboform-free-vs-premium</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.shamsstack.com/blog/roboform-vs-apple-passwords</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
