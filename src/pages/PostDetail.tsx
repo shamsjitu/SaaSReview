@@ -50,17 +50,51 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
 
   switch (s) {
     // 1. Comparisons with custom dual buttons
+    case 'nordpass-vs-apple-passwords':
+      buttons = [
+        {
+          text: 'Try NordPass Free Trial',
+          url: 'https://nordpass.com/plans/',
+          toastText: 'Opening official NordPass Free Trial...',
+          isPrimary: true
+        },
+        {
+          text: 'Set Up Apple Passwords',
+          url: 'https://support.apple.com/en-us/120758',
+          toastText: 'Opening official Apple Passwords guide...',
+          isPrimary: false
+        }
+      ];
+      break;
+
+    case 'roboform-vs-apple-passwords':
+      buttons = [
+        {
+          text: 'Try RoboForm Free Trial',
+          url: 'https://www.roboform.com/pricing-personal',
+          toastText: 'Opening official RoboForm 30-day Free Trial...',
+          isPrimary: true
+        },
+        {
+          text: 'Set Up Apple Passwords',
+          url: 'https://support.apple.com/en-us/120758',
+          toastText: 'Opening official Apple Passwords guide...',
+          isPrimary: false
+        }
+      ];
+      break;
+
     case 'nordpass-family-vs-premium':
       buttons = [
         {
           text: 'Try Family for Free',
-          url: 'https://nordpass.com/pricing/',
+          url: 'https://nordpass.com/plans/',
           toastText: 'Opening official NordPass Family Plan Trial...',
           isPrimary: true
         },
         {
           text: 'Try Premium Free',
-          url: 'https://nordpass.com/pricing/',
+          url: 'https://nordpass.com/plans/',
           toastText: 'Opening official NordPass Premium Trial...',
           isPrimary: false
         }
@@ -71,7 +105,7 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
       buttons = [
         {
           text: 'Try RoboForm Free Trial',
-          url: 'https://www.roboform.com/pricing',
+          url: 'https://www.roboform.com/pricing-personal',
           toastText: 'Opening official RoboForm 30-day Free Trial...',
           isPrimary: true
         },
@@ -105,13 +139,13 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
       buttons = [
         {
           text: 'Sign Up Free',
-          url: 'https://www.keepersecurity.com/pricing.html',
+          url: 'https://www.keepersecurity.com/pricing/personal-and-family.html',
           toastText: 'Opening official Keeper Security Free registration...',
           isPrimary: true
         },
         {
           text: 'Try Free Trial',
-          url: 'https://www.keepersecurity.com/pricing.html',
+          url: 'https://www.keepersecurity.com/pricing/personal-and-family.html',
           toastText: 'Opening official Keeper Security 30-day Free Trial...',
           isPrimary: false
         }
@@ -122,13 +156,13 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
       buttons = [
         {
           text: 'Sign Up Free',
-          url: 'https://www.roboform.com/pricing',
+          url: 'https://www.roboform.com/pricing-personal',
           toastText: 'Opening official RoboForm Free registration...',
           isPrimary: true
         },
         {
           text: 'Try Free Trial',
-          url: 'https://www.roboform.com/pricing',
+          url: 'https://www.roboform.com/pricing-personal',
           toastText: 'Opening official RoboForm 30-day Free Trial...',
           isPrimary: false
         }
@@ -140,7 +174,7 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
       buttons = [
         {
           text: 'Sign Up Free',
-          url: 'https://nordpass.com/pricing/',
+          url: 'https://nordpass.com/plans/',
           toastText: 'Opening official NordPass Free registration...',
           isPrimary: true
         }
@@ -151,7 +185,7 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
       buttons = [
         {
           text: 'Try Free Trial',
-          url: 'https://nordpass.com/pricing/',
+          url: 'https://nordpass.com/plans/',
           toastText: 'Opening official NordPass Premium 30-day Free Trial...',
           isPrimary: true
         }
@@ -162,7 +196,7 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
       buttons = [
         {
           text: 'Try Free Trial',
-          url: 'https://nordpass.com/pricing/',
+          url: 'https://nordpass.com/plans/',
           toastText: 'Opening official NordPass Family Plan Trial...',
           isPrimary: true
         }
@@ -173,7 +207,7 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
       buttons = [
         {
           text: 'Sign Up Free',
-          url: 'https://www.roboform.com/pricing',
+          url: 'https://www.roboform.com/pricing-personal',
           toastText: 'Opening official RoboForm Free registration...',
           isPrimary: true
         }
@@ -184,7 +218,7 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
       buttons = [
         {
           text: 'Try Free Trial',
-          url: 'https://www.keepersecurity.com/pricing.html',
+          url: 'https://www.keepersecurity.com/pricing/personal-and-family.html',
           toastText: 'Opening official Keeper Security 30-day Free Trial...',
           isPrimary: true
         }
@@ -196,7 +230,7 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
       buttons = [
         {
           text: 'Try Free Trial',
-          url: 'https://nordpass.com/pricing/',
+          url: 'https://nordpass.com/plans/',
           toastText: 'Opening secure registration portal...',
           isPrimary: true
         }
