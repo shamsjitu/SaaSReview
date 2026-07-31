@@ -4,7 +4,7 @@
  */
 
 import { motion } from 'motion/react';
-import { Mail, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SITE_DATA } from '../data/siteData';
 
@@ -35,11 +35,8 @@ export default function AboutAuthor() {
                     Contact Me
                   </Link>
                   <div className="flex gap-2">
-                    <a href="#" className="p-3 bg-gray-100 text-primary rounded-xl hover:bg-secondary transition-all">
+                    <a href="https://www.linkedin.com/in/md-shamsuzzaman-4002201a4/" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-100 text-primary rounded-xl hover:bg-secondary transition-all">
                       <Linkedin className="w-5 h-5" />
-                    </a>
-                    <a href="#" className="p-3 bg-gray-100 text-primary rounded-xl hover:bg-secondary transition-all">
-                      <Twitter className="w-5 h-5" />
                     </a>
                   </div>
                 </div>
