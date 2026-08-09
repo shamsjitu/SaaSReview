@@ -218,6 +218,503 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 24,
+      slug: "dualsafe-vs-apple-passwords",
+      toolName: "DualSafe",
+      title: "DualSafe Password Manager vs Apple Passwords: Which Should You Use in 2026?",
+      category: "Privacy & Security",
+      date: "August 9, 2026",
+      readTime: "16 min",
+      image: "/images/dualsafe_vs_apple_passwords.jpg",
+      excerpt: "DualSafe Password Manager vs Apple Passwords compared on security, passkeys, features, and pricing, including iTop's own on-the-record answers and hands-on testing.",
+      content: `If you're weighing a dedicated, feature-rich password manager against the one already built into your Apple devices, the decision usually comes down to trade-offs rather than a clear winner. DualSafe Password Manager packs in secure notes, payment storage, a built-in authenticator, and Emergency Access — features Apple Passwords doesn't attempt. Apple Passwords, in turn, offers something DualSafe can't match: native passkey support and tight integration with Face ID, Touch ID, and the rest of Apple's ecosystem.
+
+This comparison combines hands-on testing of DualSafe Password Manager with documented product behavior and publicly available information about Apple Passwords, covering security architecture, feature depth, account recovery, cross-platform reach, and pricing.
+
+## Quick Comparison Table
+
+| Category | DualSafe Password Manager | Apple Passwords |
+| --- | --- | --- |
+| Company | iTop Inc. | Apple Inc. |
+| Launched | 2022 | 2024 (iOS 18) |
+| Price | Free + paid plans | Free |
+| Encryption | AES-256, PBKDF2 SHA-256 | End-to-end encryption |
+| Zero-knowledge | Vendor-confirmed | Apple-stated |
+| Independent security audit | Vendor confirmed: not published | No product-specific audit located; broader Apple platform security is extensively documented |
+| Public vulnerability disclosure program | No | No dedicated VDP for Passwords specifically |
+| Passkeys | No | Yes |
+| Secure notes | Yes | No |
+| Payment info storage | Yes | No |
+| Personal info storage | Yes | No |
+| Built-in TOTP/authenticator | Yes | Yes |
+| Password health check | Yes | Yes (Security Recommendations) |
+| Dark web / breach monitoring | Yes (dedicated tool) | Compromised-password alerts only |
+| Emergency access | Yes, dedicated feature | No dedicated feature (Legacy Contact is account-level) |
+| Import options | CSV, browser | CSV only |
+| Data export | Yes | Limited |
+| Windows | Yes | Yes (via iCloud) |
+| Mobile app (iOS/Android) | Unconfirmed — see Cross-Platform Support | Yes (iOS only) |
+| Linux | No | No |
+| Vision Pro | No | Yes |
+| Support | Ticket form, 24–48 hrs | General Apple Support |
+| Overall Winner | ⭐ Better for cross-platform users who want a full-featured vault | ⭐ Best for Apple-only users who want passkeys and zero setup |
+
+## What Is DualSafe Password Manager?
+
+DualSafe Password Manager launched in 2022 from iTop Inc., a Hong Kong-based company also known for iTop VPN. It's built to compete with established names like Dashlane, LastPass, and RoboForm. iTop's official product page confirms a Windows desktop app plus browser extensions for Chrome, Edge, Firefox, Opera, and Brave; some third-party listings additionally describe Mac, iOS, and Android apps, though we couldn't independently confirm an active Google Play Store or Apple App Store listing at the time of writing — worth verifying directly with iTop if mobile access is a requirement for you.
+
+Beyond password storage, it includes secure notes, payment info, personal info, a built-in TOTP authenticator, and Emergency Access — see our full [DualSafe Password Manager Review](/blog/dualsafe-password-manager-review) for hands-on testing details.
+
+## What Is Apple Passwords?
+
+Apple Passwords is the password manager built into iOS, iPadOS, macOS, and visionOS, launched with iOS 18 in 2024. It stores passwords, passkeys, Wi-Fi credentials, and 2FA codes, unlocked with Face ID, Touch ID, or Optic ID on Vision Pro.
+
+It's free and syncs through iCloud, including to Windows via iCloud for Windows, though there's no Android or Linux support at all.
+
+## Feature-by-Feature Comparison
+
+## Security & Encryption
+
+### DualSafe Password Manager
+
+DualSafe uses AES-256 encryption with PBKDF2 SHA-256 key derivation and salted hashing. When we asked iTop directly, the company confirmed DualSafe operates on a zero-knowledge model — data is encrypted locally before syncing to its servers, and the company says it cannot access or decrypt vault contents. iTop also confirmed it has not published a report from an independent, external security auditor, and does not hold certifications like SOC 2 or ISO 27001 for DualSafe specifically.
+
+### Apple Passwords
+
+Apple Passwords benefits from Apple's end-to-end encryption and device-level security architecture, including protections provided by the Secure Enclave on supported devices, and Apple states it cannot view stored data either. There's no independent, third-party audit report specific to the Passwords app that we could locate, but this is a different situation than DualSafe's: Apple's broader platform security architecture (iCloud Keychain, Secure Enclave, device-level encryption) has extensive public documentation and has been the subject of substantial independent security research over the years, even without a Passwords-app-specific audit report.
+
+### Winner: Apple Passwords, with an important caveat
+
+Neither product has a published, product-specific independent audit that we could verify. However, Apple's password infrastructure sits within a much more extensively documented and independently studied security ecosystem, while DualSafe's security claims — despite the company's rare, on-the-record confirmation of the audit gap — currently have less external verification behind them.
+
+---
+
+## Password Storage & Organization
+
+### DualSafe Password Manager
+
+Stores passwords, secure notes, payment info, and personal info, each in their own category, with multiple website URLs supported per login entry.
+
+### Apple Passwords
+
+Stores passwords, passkeys, Wi-Fi credentials, and 2FA codes only. No secure notes, no payment storage, no personal info fields.
+
+### Winner: DualSafe Password Manager
+
+It functions as a general-purpose secure vault; Apple Passwords is strictly a credential manager.
+
+---
+
+## Password Generator
+
+### DualSafe Password Manager
+
+A dedicated generator with a length slider, individual toggles for uppercase, lowercase, digits, and symbols, plus a Password History log. Confirmed working reliably on real websites during hands-on testing, not just inside the app.
+
+### Apple Passwords
+
+Generates strong, unique, character-based passwords automatically during account creation and can suggest replacements for weak ones.
+
+### Winner: DualSafe Password Manager
+
+More visible customization and a history log give it the edge, though both generate strong passwords by default.
+
+---
+
+## Passkeys
+
+### DualSafe Password Manager
+
+DualSafe does not currently support passkeys. Its official product pages, user manual, and app interface consistently describe passwords, secure notes, payment info, and personal info as supported item types — passkeys aren't among them.
+
+### Apple Passwords
+
+Full native passkey support, deeply integrated with Face ID, Touch ID, and Optic ID.
+
+### Winner: Apple Passwords
+
+This is a clear, confirmed gap for DualSafe. If passkey support matters to you today, Apple Passwords is the only one of the two that delivers it.
+
+---
+
+## Password Health
+
+### DualSafe Password Manager
+
+A dedicated Password Health dashboard scores your overall vault status and flags weak, reused, or old passwords, tested and confirmed working during hands-on review.
+
+### Apple Passwords
+
+Apple's Security Recommendations feature evaluates stored passwords and flags weak, reused, or compromised ones.
+
+### Winner: Tie
+
+Both flag weak and reused credentials effectively, with similar underlying functionality.
+
+---
+
+## Dark Web Monitor & Breach Alerts
+
+### DualSafe Password Manager
+
+A dedicated Dark Web Monitor scans for whether stored credentials have appeared in known leaks, confirmed working in testing with a clear "nothing detected" status when clean.
+
+### Apple Passwords
+
+Includes compromised-password alerts as part of its security recommendations, flagging credentials that show up in known breaches.
+
+### Winner: DualSafe Password Manager, for dedicated monitoring
+
+DualSafe offers a standalone, dedicated Dark Web Monitor as its own tool. Apple's version is a real, useful capability, but it's bundled into general Security Recommendations rather than presented as its own feature — worth knowing if you specifically want a dedicated breach-monitoring tool rather than a bundled check.
+
+---
+
+## TOTP / 2FA Codes
+
+### DualSafe Password Manager
+
+Each login entry includes a built-in One-Time Password field that generates TOTP codes, turning DualSafe into a standalone authenticator alongside your password vault.
+
+### Apple Passwords
+
+Includes built-in 2FA verification code generation with autofill support.
+
+### Winner: Tie
+
+Both offer a genuinely useful built-in authenticator, removing the need for a separate 2FA app.
+
+---
+
+## Secure Notes & Personal Information
+
+### DualSafe Password Manager
+
+Dedicated Secure Notes and Personal Info categories for storing sensitive text and identity details outside of login credentials.
+
+### Apple Passwords
+
+No equivalent feature. Apple Passwords is limited to login-related data only.
+
+### Winner: DualSafe Password Manager
+
+---
+
+## Payment Information
+
+### DualSafe Password Manager
+
+Dedicated Payment Info storage for card details, kept in the same encrypted vault as passwords.
+
+### Apple Passwords
+
+No payment info storage within the Passwords app. Card details live in Apple Wallet instead, a separate system.
+
+### Winner: DualSafe Password Manager
+
+---
+
+## Emergency Access & Account Recovery
+
+### DualSafe Password Manager
+
+DualSafe includes a dedicated Emergency Access feature, split into "Who I Trust" and "Who Trust Me," letting a trusted contact request your data or a master password reset if you're unable to access your account. Separately, DualSafe issues a downloadable recovery code (as a PDF) at setup, used to reset your master password if you forget it.
+
+### Apple Passwords
+
+There's no dedicated emergency access feature built into the Passwords app itself. Apple's separate Legacy Contact setting can grant someone access to parts of your Apple ID and iCloud data after death, but that's a broader account-level setting, not something built into Passwords. Day-to-day recovery instead runs through your Apple ID account — a recovery key, trusted devices, or trusted contacts.
+
+### Winner: DualSafe Password Manager
+
+A purpose-built emergency access feature, designed specifically for password-vault access, beats a general account-recovery system that wasn't built with this use case in mind.
+
+---
+
+## Password Sharing
+
+### DualSafe Password Manager
+
+Share your password vault with people you trust, useful for teams, family, or close contacts managing shared accounts.
+
+### Apple Passwords
+
+Uses free Shared Groups — anyone with an Apple ID can join, no iCloud+ required, and you can share specific passwords or passkeys without exposing your whole vault.
+
+### Winner: Apple Passwords
+
+Shared Groups let users share selected passwords or passkeys without exposing the entire vault, which gives Apple an advantage for straightforward family or household sharing.
+
+---
+
+## Autofill
+
+### DualSafe Password Manager
+
+Confirmed working reliably on real websites during testing — correctly detected login fields on a sign-in page and offered the password generator inline on a signup page.
+
+### Apple Passwords
+
+Deeply integrated into iOS and macOS; autofill in Safari and supported apps works immediately since it's built into the OS.
+
+### Winner: Apple Passwords
+
+Native OS-level integration gives Apple Passwords a slight edge for reliability within its own ecosystem, though DualSafe performed well in direct testing too.
+
+---
+
+## Browser Support
+
+### DualSafe Password Manager
+
+Extensions for Chrome, Edge, Firefox, Opera, and Brave.
+
+### Apple Passwords
+
+Native in Safari, with a Firefox extension and Chrome/Edge support through iCloud for Windows.
+
+### Winner: DualSafe Password Manager
+
+Broader native coverage if Safari isn't your primary browser.
+
+---
+
+## Cross-Platform Support
+
+### DualSafe Password Manager
+
+iTop's own official product page confirms a Windows desktop app plus browser extensions (Chrome, Edge, Firefox, Opera, Brave). Several third-party download sites additionally list Mac, iOS, and Android support, but we could not locate an active listing for DualSafe on the Google Play Store or Apple App Store to confirm this directly. If mobile access matters to you, verify current platform availability with iTop before subscribing.
+
+### Apple Passwords
+
+Runs on iPhone, iPad, Mac, Vision Pro, and Windows via iCloud. No Android, no Linux.
+
+### Winner: Unclear — verify before deciding
+
+If DualSafe's mobile apps are current and active, it would have the edge for Android users specifically, since Apple Passwords doesn't work there at all. But given the platform claims we could confirm are limited to Windows and browser extensions, don't assume mobile support without checking directly. Apple Passwords' platform support, by contrast, is consistent and well-documented across every source we checked.
+
+---
+
+## Import & Export
+
+### DualSafe Password Manager
+
+Imports from CSV files or directly from your browser's saved passwords. Includes a genuine Export Data option, so you're not locked in if you switch tools later.
+
+### Apple Passwords
+
+Import is limited strictly to CSV files, with no direct import from other password managers. Export is possible but more manual, and has historically been more restricted than competitors.
+
+### Winner: DualSafe Password Manager
+
+The dedicated export option matters if you ever want to leave — something Apple Passwords makes harder.
+
+---
+
+## Vulnerability Disclosure & Security Transparency
+
+### DualSafe Password Manager
+
+iTop confirmed DualSafe doesn't have a public Vulnerability Disclosure Program (VDP). The company says it handles security reports through an internal process instead, without a formal public channel or bounty for independent researchers.
+
+### Apple Passwords
+
+There's no VDP specific to the Passwords app, but Apple does run a broader Apple Security Bounty program covering its operating systems and services, which the Passwords app would fall under as part of iOS/macOS.
+
+### Winner: Apple Passwords
+
+A company-wide bounty program, even if not Passwords-specific, is still a more formal channel for researchers than an internal-only process.
+
+---
+
+## Customer Support
+
+### DualSafe Password Manager
+
+Support runs through a structured ticket form requiring product, platform, operating system, version number, email confirmation, and a message of at least 30 characters. iTop states a 24–48 hour response window. No live chat.
+
+### Apple Passwords
+
+No dedicated support line for the app itself, but it benefits from Apple's general phone, chat, and in-store support — broader in scope but not tailored to Passwords specifically.
+
+### Winner: Apple Passwords
+
+Apple's support infrastructure offers more contact options than DualSafe's ticket-only system, even though it's not tailored specifically to the Passwords app.
+
+---
+
+## Pricing Comparison
+
+### DualSafe Password Manager
+
+The free plan is generous: unlimited password storage and the full password generator at no cost. Premium unlocks Dark Web Monitor, Emergency Access, and cross-device sync. Pricing is heavily discount-driven — the listed monthly rate varies depending on the promotion or billing option active at the time, so treat any single figure as a snapshot rather than a fixed price, and check the current rate directly before subscribing. iTop offers a 30-day money-back guarantee on subscription plans; refund requests go through the same ticket system, and past user reports suggest the process isn't always as smooth as the written policy implies.
+
+### Apple Passwords
+
+Completely free, with no upgrade tier and nothing locked behind a paywall.
+
+### Winner: Apple Passwords on cost. DualSafe Password Manager on value if you need more than basic storage.
+
+---
+
+## Real User Feedback
+
+DualSafe users on third-party download platforms and browser extension stores frequently praise the generous free tier and responsive support when setup issues come up. Complaints, where they appear, tend to focus on the confusing discount-heavy pricing rather than core functionality.
+
+Apple Passwords users consistently highlight how little setup is required and how tightly it integrates with Face ID and Touch ID. The most common criticism is the complete lack of Android and Linux support, which rules it out for anyone outside the Apple ecosystem.
+
+## Known Limitations
+
+### DualSafe Password Manager
+
+No independent security audit, no public vulnerability disclosure program, and pricing that's difficult to predict long-term due to heavy promotional discounting. No passkey support as of this review.
+
+### Apple Passwords
+
+No Android or Linux support at all, no secure notes or payment storage, and no dedicated emergency access feature — recovery depends entirely on your broader Apple ID account.
+
+## Pros and Cons
+
+### DualSafe Password Manager Pros
+
+* Unlimited passwords on the free plan
+* Secure notes, payment info, and personal info storage
+* Built-in TOTP authenticator
+* Dedicated Emergency Access feature
+* Dark Web Monitor and Password Health included
+* Data export available, no lock-in
+* Confirmed Windows desktop app plus five browser extensions
+* Autofill and generator confirmed working on real websites
+* 30-day money-back guarantee on subscriptions
+
+### DualSafe Password Manager Cons
+
+* No passkey support
+* No independent third-party security audit
+* No public vulnerability disclosure program
+* Confusing, discount-heavy pricing
+* No live chat support
+* No biometric unlock option found during desktop-app testing
+* No Linux or Vision Pro support
+* Mobile app availability (iOS/Android) couldn't be confirmed through an active app store listing at the time of writing — verify directly before assuming support
+
+### Apple Passwords Pros
+
+* Completely free
+* Native passkey support
+* Face ID, Touch ID, and Optic ID unlock
+* Works on iPhone, iPad, Mac, Vision Pro, and Windows
+* Free Shared Groups for password sharing
+* Built-in 2FA code generator
+* Zero setup for existing Apple users
+
+### Apple Passwords Cons
+
+* No Android or Linux support
+* No secure notes, payment info, or personal info storage
+* No dedicated emergency access feature
+* Import limited to CSV only
+* No independent audit specific to the Passwords app
+* No app-specific support channel
+
+## Full Feature Comparison Table
+
+| Feature | DualSafe Password Manager | Apple Passwords |
+| --- | --- | --- |
+| Passkeys | No | Yes |
+| Secure notes | Yes | No |
+| Payment info | Yes | No |
+| Personal info | Yes | No |
+| Password history | Yes | Limited |
+| Built-in TOTP | Yes | Yes |
+| Password health | Yes | Yes |
+| Dark web monitoring | Yes (dedicated tool) | Compromised-password alerts (bundled into Security Recommendations) |
+| Emergency access | Yes | No |
+| Password sharing | Yes | Yes (Shared Groups) |
+| Import from browser | Yes | No (CSV only) |
+| Data export | Yes | Limited |
+| Windows | Yes | Yes (iCloud) |
+| Mobile app (iOS/Android) | Unconfirmed via app store listing | Yes (iOS only) |
+| Linux | No | No |
+| Vision Pro | No | Yes |
+| Independent audit | Vendor-confirmed: none | None found for Passwords specifically |
+| Public VDP | No | No (general Apple Security Bounty applies) |
+| Live chat support | No | Via general Apple Support |
+| Free plan | Yes | Yes (entire product) |
+
+## Who Should Choose DualSafe Password Manager?
+
+* You want a full-featured Windows-based vault with browser extensions across Chrome, Edge, Firefox, Opera, and Brave
+* You want secure notes, payment info, or personal info stored alongside passwords
+* You need a dedicated emergency access feature for a trusted contact
+* You want the option to export your data if you switch tools later
+* You don't currently rely on passkeys
+
+For another cross-platform alternative to Apple Passwords, see our [RoboForm vs Apple Passwords](/blog/roboform-vs-apple-passwords) comparison.
+
+## Who Should Choose Apple Passwords?
+
+* You're fully committed to the Apple ecosystem
+* Passkey support matters to you today
+* You want zero setup and free password/passkey storage
+* You don't need secure notes, payment storage, or dedicated emergency access
+* You primarily browse with Safari
+
+If you're comparing more than one Apple Passwords alternative, our [NordPass vs Apple Passwords](/blog/nordpass-vs-apple-passwords) comparison covers a similarly-positioned, more established competitor.
+
+## Final Verdict
+
+DualSafe Password Manager and Apple Passwords solve different problems. DualSafe is the more complete vault — secure notes, payment info, Emergency Access, and confirmed Windows plus browser-extension coverage — but it currently lacks passkey support, any independent verification of its security claims, and a confirmed mobile app presence. Apple Passwords is narrower in scope but includes native passkeys and Apple's tightly integrated biometric unlock, at zero cost, with the significant limitation that it doesn't work on Android or Linux at all.
+
+### Our Recommendation
+
+If you're on Windows, want more than basic password storage, or need emergency access built in, **DualSafe Password Manager** is the more complete tool, free tier included — just confirm mobile-app support directly with iTop if that's a requirement for you. If you're fully inside the Apple ecosystem, need Android support today, or want native passkey support with zero setup, **Apple Passwords** remains the simpler, cost-free choice for Apple devices, while DualSafe's browser extensions cover you on Windows regardless of which browser you use.
+
+## FAQ
+
+### Does DualSafe Password Manager support passkeys?
+
+No. As of this review, DualSafe doesn't support passkeys — its supported item types are passwords, secure notes, payment info, and personal info.
+
+### Does DualSafe Password Manager have an Android app?
+
+This is unclear. iTop's official DualSafe product page confirms a Windows desktop app and browser extensions, but doesn't mention Android or iOS. Some third-party download sites describe mobile apps, but we couldn't locate an active Google Play Store or Apple App Store listing to confirm this. Verify directly with iTop before assuming mobile support.
+
+### Does Apple Passwords work on Android?
+
+No. Apple Passwords has no Android app and isn't supported on Android at all.
+
+### Is DualSafe Password Manager free?
+
+Yes, the free plan includes unlimited password storage and the full password generator. Premium adds Dark Web Monitor, Emergency Access, and cross-device sync.
+
+### Has DualSafe been independently audited?
+
+No. iTop confirmed directly that DualSafe has not been audited by an independent, external security firm, and doesn't hold certifications like SOC 2 or ISO 27001.
+
+### Has Apple Passwords been independently audited?
+
+No product-specific, named audit for the Passwords app was found. Apple's broader platform security architecture is extensively documented and has been the subject of independent research, but that's separate from an audit naming the Passwords app itself.
+
+### Does DualSafe have emergency access?
+
+Yes, a dedicated feature letting a trusted contact request your data or reset your master password. Apple Passwords has no equivalent app-specific feature.
+
+### Can I store payment card details in Apple Passwords?
+
+No. Apple Passwords only stores passwords, passkeys, Wi-Fi credentials, and 2FA codes. Card details are stored separately in Apple Wallet.
+
+### Does DualSafe Password Manager support biometric unlock?
+
+No biometric unlock (fingerprint/Face ID) option was found during testing on the desktop app. Apple Passwords unlocks with Face ID, Touch ID, or Optic ID.
+
+### Which is better for switching to a different password manager later?
+
+DualSafe, since it includes a dedicated data export option. Apple Passwords' export capability is more limited.
+
+### Does either have a bug bounty or vulnerability disclosure program?
+
+Neither has a program specific to the password manager itself. DualSafe confirmed it has no public VDP. Apple Passwords falls under Apple's general Security Bounty program, which covers its platforms more broadly.`
+    },
+    {
       id: 23,
       slug: "dualsafe-password-manager-review",
       toolName: "DualSafe",
@@ -237,7 +734,7 @@ DualSafe Password Manager is a genuinely feature-rich password manager from iTop
 |---|---|
 | Developer | iTop Inc. |
 | Launched | 2022 |
-| Platforms | Windows, Mac, iOS, Android |
+| Platforms | Windows desktop, confirmed; Mac/iOS/Android listed by some third-party sites but unconfirmed via an active app store listing |
 | Browser extensions | Chrome, Edge, Firefox, Opera, Brave |
 | Encryption | AES-256, PBKDF2 SHA-256, salted hashing |
 | Free plan | Yes, unlimited passwords |
@@ -306,7 +803,7 @@ A few follow-up questions rounded out the picture. On vulnerability disclosure, 
 
 On paper, iTop's refund policy is reasonable: a 30-day full money-back guarantee on subscription plans (60 days for one-time purchases), plus partial refunds for unused months in some cases. That said, refund requests must go through the same support ticket system described above, and past user reports — including at least one documented case involving a Hong Kong consumer protection agency — suggest refund requests aren't always processed as smoothly as the written policy implies. If you're on the fence, the safest approach is to start on the free plan and only upgrade once you're confident you'll want to keep using it.
 
-*A note on methodology: this review is based on hands-on testing of the Windows desktop app and Chrome browser extension. The iOS and Android apps exist and are covered based on their listed features, but were not independently tested for this review.*
+*A note on methodology: this review is based on hands-on testing of the Windows desktop app and Chrome browser extension. iTop's official product page confirms Windows plus browser-extension support; some third-party sites describe additional Mac, iOS, and Android apps, but we could not locate an active app store listing to confirm this, so we did not test or verify mobile availability for this review.*
 
 ## DualSafe Password Manager Pricing
 
@@ -340,7 +837,7 @@ For the free tier alone, yes — unlimited password storage and a solid generato
 * Password Health scoring
 * Import from CSV or browser, plus genuine data export
 * Clean, modern interface across desktop and browser extension
-* Available on Windows, Mac, iOS, and Android
+* Confirmed Windows desktop app plus five browser extensions
 * 30-day money-back guarantee
 * Recovery code provided as a downloadable PDF during setup
 * Autofill and password generator confirmed working reliably on real websites, not just inside the app
@@ -354,8 +851,9 @@ For the free tier alone, yes — unlimited password storage and a solid generato
 * Parent company (iTop) has documented real-world refund-friction complaints on its other products, even though its official policy is generous on paper
 * Hong Kong jurisdiction, a consideration for some privacy-focused users
 * No live chat — support runs through a ticket form requiring several fields and a 24–48 hour response window
-* No biometric unlock (fingerprint/Face ID) option found in testing
+* No biometric unlock (fingerprint/Face ID) option found during desktop-app testing
 * No public vulnerability disclosure program for independent security researchers
+* Mobile app availability (iOS/Android) couldn't be confirmed through an active app store listing at the time of writing — verify directly before assuming support
 
 ## Final Verdict
 
@@ -383,7 +881,7 @@ No. We asked iTop directly, and the company confirmed it performs internal secur
 
 ### Does DualSafe Password Manager have a mobile app?
 
-Yes, DualSafe is available on both iOS and Android, alongside Windows, Mac, and browser extensions.
+This is unclear. iTop's official DualSafe product page confirms a Windows desktop app and browser extensions but doesn't mention iOS or Android. Some third-party download sites describe mobile apps, but we couldn't locate an active Google Play Store or Apple App Store listing to confirm this directly. If mobile access matters to you, verify current availability with iTop before subscribing.
 
 ### Does DualSafe support two-factor authentication codes?
 
