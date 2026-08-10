@@ -50,6 +50,23 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
 
   switch (s) {
     // 1. Comparisons with custom dual buttons
+    case 'dualsafe-vs-google-password-manager':
+      buttons = [
+        {
+          text: 'Try DualSafe Password Manager',
+          url: 'https://www.itopvpn.com/password-manager-plans?a_aid=pvxnbl3gq6byn',
+          toastText: 'Opening official DualSafe Password Manager plans...',
+          isPrimary: true
+        },
+        {
+          text: 'Open Google Password Manager',
+          url: 'https://passwords.google.com/',
+          toastText: 'Opening Google Password Manager...',
+          isPrimary: false
+        }
+      ];
+      break;
+
     case 'dualsafe-vs-apple-passwords':
       buttons = [
         {
