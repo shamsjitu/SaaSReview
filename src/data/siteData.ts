@@ -547,6 +547,8 @@ Apple's support infrastructure offers more contact options than DualSafe's ticke
 
 The free plan is generous: unlimited password storage and the full password generator at no cost. Premium unlocks Dark Web Monitor, Emergency Access, and cross-device sync. Pricing is heavily discount-driven — the listed monthly rate varies depending on the promotion or billing option active at the time, so treat any single figure as a snapshot rather than a fixed price, and check the current rate directly before subscribing. iTop offers a 30-day money-back guarantee on subscription plans; refund requests go through the same ticket system, and past user reports suggest the process isn't always as smooth as the written policy implies.
 
+👉 **[Download DualSafe Password Manager Free](https://www.itopvpn.com/update/dualsafe-password-manager?a_aid=pvxnbl3gq6byn)**
+
 ### Apple Passwords
 
 Completely free, with no upgrade tier and nothing locked behind a paywall.
@@ -667,6 +669,8 @@ DualSafe Password Manager and Apple Passwords solve different problems. DualSafe
 ### Our Recommendation
 
 If you're on Windows, want more than basic password storage, or need emergency access built in, **DualSafe Password Manager** is the more complete tool, free tier included — just confirm mobile-app support directly with iTop if that's a requirement for you. If you're fully inside the Apple ecosystem, need Android support today, or want native passkey support with zero setup, **Apple Passwords** remains the simpler, cost-free choice for Apple devices, while DualSafe's browser extensions cover you on Windows regardless of which browser you use.
+
+👉 **[Explore DualSafe Password Manager](https://www.itopvpn.com/dualsafe-password-manager?a_aid=pvxnbl3gq6byn)**
 
 ## FAQ
 
