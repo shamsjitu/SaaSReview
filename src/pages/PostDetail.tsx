@@ -50,6 +50,23 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
 
   switch (s) {
     // 1. Comparisons with custom dual buttons
+    case 'dualsafe-vs-apple-passwords':
+      buttons = [
+        {
+          text: 'Try DualSafe Password Manager',
+          url: 'https://www.itopvpn.com/password-manager-plans?a_aid=pvxnbl3gq6byn',
+          toastText: 'Opening official DualSafe Password Manager plans...',
+          isPrimary: true
+        },
+        {
+          text: 'Set Up Apple Passwords',
+          url: 'https://support.apple.com/en-us/120758',
+          toastText: 'Opening official Apple Passwords guide...',
+          isPrimary: false
+        }
+      ];
+      break;
+
     case 'dualsafe-password-manager-review':
       buttons = [
         {
@@ -604,13 +621,7 @@ export default function PostDetail({ overriddenSlug }: { overriddenSlug?: string
           <p className="text-lg text-gray-300 mb-8 leading-relaxed">
             Based on our internal testing, we believe {post.toolName || 'this tool'} represents strong value for professionals right now. Full disclosure: if you purchase through our link, we may earn a commission at no extra cost to you — this helps us continue doing these deep research dives.
           </p>
-          <a 
-            href="#" 
-            className="inline-flex items-center gap-3 px-8 py-4 bg-secondary text-primary font-black rounded-full hover:scale-105 transition-transform group"
-          >
-            VIEW LATEST PRICING
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </a>
+          <TableCTA slug={post.slug} onShowToast={setToastMessage} />
         </div>
       </article>
 
