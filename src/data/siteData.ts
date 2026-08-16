@@ -218,6 +218,216 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 26,
+      slug: "zerorank-ai-review",
+      toolName: "ZeroRank AI",
+      title: "ZeroRank AI Review: Is This AppSumo AI Visibility Deal Worth It in 2026?",
+      category: "AppSumo Deals",
+      date: "August 11, 2026",
+      readTime: "12 min",
+      image: "/images/zerorank_ai_review.jpg",
+      excerpt: "An honest, research-based ZeroRank AI review covering features, AppSumo pricing tiers, founder update history, and real user feedback before you buy the lifetime deal.",
+      content: `If you've ever wondered whether ChatGPT, Gemini, or Perplexity even know your brand exists — let alone recommend it — that's the exact problem ZeroRank AI is built to solve. It's part of a fast-growing category called AI visibility or GEO (Generative Engine Optimization): tracking and improving how your brand shows up in AI-generated answers, the same way SEO tools track your Google rankings. According to ZeroRank AI's latest update, the platform tracks brand visibility across 17 AI platforms and models.
+
+*A note on methodology: this review is based on ZeroRank AI's official AppSumo listing, founder update posts, published customer reviews (AppSumo, Trustpilot, and independent review sites), and publicly available product documentation. We don't currently have hands-on product access, so performance claims are attributed to the company or to user reviews rather than presented as our own testing.*
+
+## Quick Verdict
+
+ZeroRank AI tracks your brand's visibility, citations, and sentiment across AI platforms, then turns the gaps into prioritized recommendations you can actually act on. It's new — founded July 2025 — but it carries AppSumo's "Select" quality badge, held a 4.9/5 rating across 38 reviews at the time of this research, and its founder has shipped several rounds of substantial free upgrades to existing buyers since launch. At the time of this research, the lifetime deal was live and purchasable — check the current AppSumo listing before buying, since availability can change.
+
+## ZeroRank AI At a Glance
+
+| Category | Details |
+| --- | --- |
+| Company | ZeroRank AI |
+| Founder | Kelvin Cobanaj (Co-Founder & CEO) |
+| Founded | July 7, 2025, Tirana, Albania |
+| Team size | 1–10 (bootstrapped) |
+| Category | AI search visibility / GEO (Generative Engine Optimization) |
+| Positioning | AI search visibility / GEO tool |
+| AppSumo status | Live, "AppSumo Select" badge |
+| Pricing | $69–$1,699 (lifetime, 7 tiers) |
+| Refund window | 60 days |
+| Rating | 4.9/5 on AppSumo (38 reviews checked during research) |
+
+## What Is ZeroRank AI?
+
+ZeroRank AI is a platform that monitors how your brand appears — or doesn't — across AI-powered answer engines. Instead of tracking blue-link rankings on Google, it tracks whether ChatGPT, Perplexity, Gemini, and similar tools mention your brand, how they talk about it, and which competitors they recommend instead.
+
+According to the official listing, it's positioned as an alternative to traditional SEO tools like Ahrefs and SEMrush, aimed at marketers, marketing agencies, and SaaS companies trying to understand a newer channel: AI-driven discovery.
+
+## How ZeroRank AI Works
+
+The core loop, based on the official product description and user walkthroughs, works like this:
+
+1. **You set up prompts** — the actual questions people might ask an AI assistant in your category (for example, "best CRM for real estate agents").
+2. **ZeroRank tracks the AI answers** to those prompts across supported platforms, checking whether your brand is mentioned, how it's framed (sentiment), and which sources the AI is citing.
+3. **It benchmarks you against competitors** automatically — one reviewer reported that the platform automatically identified more than 100 competitor brands in their category without manual setup.
+4. **It turns gaps into recommendations** — on-page (content to create), off-page (communities and publications to target), and technical (schema, site speed, structured data) — each with a priority level you can mark as Done, Declined, or Todo.
+
+## Key Features
+
+**AI Visibility Tracking.** According to ZeroRank's June 2026 update, the platform now tracks brand mentions across 17 AI models and engines — consumer-facing tools like ChatGPT, Perplexity, Google AI Overviews, Google AI Mode, Grok, and Bing Copilot, plus frontier models like Claude and GPT-5, and regional engines like Baidu and Naver. Prompt tracking is unlimited across all tiers as of the latest update.
+
+**Citation & Source Analysis.** The platform reportedly shows exactly which URLs and domains AI engines cite when answering prompts in your category, broken down by domain type (corporate, user-generated content, editorial, reference sites), so you know where to focus outreach.
+
+**Competitor Benchmarking.** Automatic tracking of competitor brands and their AI visibility, with share-of-voice comparisons, according to both the official listing and multiple user reviews.
+
+**Content Generation.** Built-in content creation tools for formats AI models are more likely to cite, including articles, product pages, category pages, and comparison content — though article generation and content optimization credits are only included starting at Tier 3, based on the plan comparison table.
+
+**Technical AI-Readiness Scoring.** An "LLM Readiness Score" evaluates technical factors like HTTPS, llms.txt, robots.txt, sitemap presence, and structured data (JSON-LD), based on a crawl of up to 15 pages, according to ZeroRank's own changelog.
+
+**Integrations.** Google Search Console, Google Analytics, a REST API, and an MCP server (Model Context Protocol) with both read and write tools, according to the official feature list.
+
+**Agency & White-Label Tools (Tier 3+).** Shareable client dashboards, white-label branding, custom domains for reports, custom SMTP for branded emails, and scheduled report delivery.
+
+**BYOK (Bring Your Own Key).** Starting at Tier 3, you can connect your own LLM API key through several gateways (OpenRouter, Requesty, Glama, Vercel AI Gateway, and others) to run content generation without being limited by your tier's built-in credits.
+
+## AppSumo Deal & License Tiers
+
+ZeroRank AI's AppSumo deal spans seven tiers, from $69 to $1,699, all with lifetime access and covered by AppSumo's 60-day money-back guarantee.
+
+| | Tier 1 ($69) | Tier 2 ($159) | Tier 3 ($299) | Tier 4 ($499, listed as "Recommended") |
+| --- | --- | --- | --- | --- |
+| Prompts tracked | Unlimited | Unlimited | Unlimited | Unlimited |
+| Answer credits/month | 180 | 540 | 1,800 | 3,600 |
+| Article generations | 0 | 0 | 14 | 30 |
+| Content optimizations | 0 | 0 | 14 | 30 |
+| Workspaces | 1 | 3 | 6 | 12 |
+| AI platforms tracked | 17 | 17 | 17 | 17 |
+| White-label / agency tools | No | No | Yes | Yes |
+| BYOK | No | No | Yes | Yes |
+
+Tiers 5–7 ($799–$1,699) scale the same limits further for larger agencies. A few deal terms worth knowing: this offer is for brand-new ZeroRank AI users only (no prior accounts or trials with the company), you must activate your license within 60 days of purchase, and while you can upgrade to a higher tier at any time, downgrades are only permitted within the first 60 days.
+
+## Founder Transparency & Update Speed
+
+This is worth its own section because it's one of the more unusual things about this listing. Since launching on AppSumo in early June 2026, founder Kelvin Cobanaj has published detailed, dated changelog posts roughly every 1–3 weeks, each describing features shipped for free to people who already bought the lifetime deal — not paywalled as new upsells.
+
+According to the founder's June 2026 update posts, in the span of about a month: workspaces were added, BYOK was introduced, all AI models were unlocked on every tier, prompt and answer limits were doubled across every tier at no cost, and then — in the largest update — prompt tracking and AI model access were made fully unlimited on every tier, alongside a full agency/white-label suite, a public REST API, an MCP server, and a 12-language interface. The founder also responds directly to reviews and questions on the AppSumo listing, and one reviewer described being personally onboarded via a call with the co-founder.
+
+For an AppSumo lifetime deal, this is encouraging because one common concern with LTD products is whether development continues after the initial sales period. Based on the update history we reviewed, it has.
+
+## Known Limitations
+
+Based on published reviews, a few limitations come up consistently enough to be worth flagging honestly:
+
+- **Learning curve.** Multiple reviewers describe the dashboard as data-dense, taking some time to fully understand what's available.
+- **Occasional glitches.** The company has acknowledged this directly in review responses, attributing it to the platform scraping live data from AI platforms in real time, which can occasionally slow results; the founder states this is an active area of improvement.
+- **Content generation is gated by tier.** Article generation and content optimization credits are not included at Tier 1 or Tier 2 — you need Tier 3 or above.
+- **No manual, from-scratch prompt creation (yet).** At least one detailed reviewer wanted the option to define prompts manually rather than only through auto-generation; ZeroRank has stated this is on its roadmap.
+- **"Workflows" automation is enterprise-only.** Based on one in-depth review, deeper workflow automation is not included in the AppSumo lifetime deal tiers.
+- **Limited operating history.** Founded in July 2025, ZeroRank AI does not yet have the long public track record of established SEO platforms. We also did not locate a published independent audit of its security or data practices during our research.
+
+## ZeroRank AI vs Traditional SEO Tools
+
+It's worth being clear about what this tool is and isn't. Ahrefs, SEMrush, and similar platforms are built to track and improve your visibility in traditional Google search results — rankings, backlinks, keywords. ZeroRank AI tracks a different, newer layer: whether AI-generated answers mention and recommend your brand at all.
+
+AppSumo positions ZeroRank AI as an alternative to Ahrefs and SEMrush, but the more accurate framing, based on the product's own scope, is complementary rather than a replacement — traditional SEO still matters for organic search traffic, while a tool like ZeroRank AI addresses the growing share of discovery happening through AI assistants instead of search engine results pages.
+
+If you're curious how it compares to Visby, a similarly positioned AI-visibility tool, Visby's AppSumo deal was sold out at the time of this research, while ZeroRank AI's was live — though both statuses can change, so check current listings.
+
+## Pros and Cons
+
+### ZeroRank AI Pros
+
+* Tracks brand visibility across 17 AI platforms and models
+* Unlimited prompt tracking on every tier, including the base tier
+* Strong, consistent review ratings across AppSumo, Trustpilot, and independent blogs
+* Founder has shipped multiple rounds of substantial free upgrades since launch
+* Automatic competitor tracking and benchmarking
+* REST API and MCP server for developers and AI-native workflows
+* BYOK support removes content-generation limits for technical users (Tier 3+)
+* 60-day money-back guarantee
+* "AppSumo Select" quality badge
+
+### ZeroRank AI Cons
+
+* New company with a short operating history (founded July 2025)
+* No independent third-party audit of data practices located
+* Content generation and agency/white-label tools require Tier 3 or higher
+* Some reviewers report a learning curve and occasional glitches
+* No manual, from-scratch prompt creation yet (on the roadmap)
+* Deeper workflow automation is enterprise-only, not included in AppSumo tiers
+
+## Who Should Buy ZeroRank AI?
+
+- You're a marketer, SaaS founder, or agency that wants to know how your brand appears in ChatGPT, Gemini, Perplexity, and similar tools
+- You already invest in traditional SEO and want to expand into AI-answer visibility as a complementary channel
+- You run an agency and want white-label client reporting (Tier 3 and above)
+- You want a tool with an actively shipping roadmap, based on the founder's public update history
+
+## Who Should Skip It?
+
+- You don't yet have consistent content or marketing output to optimize — there's little for the tool to work with
+- You need deep workflow automation today rather than the roadmap version of it
+- You'd rather wait for a longer track record before committing, given the company's short operating history
+
+## Is the AppSumo Deal Worth It?
+
+Based on the published pricing, feature scope, and consistently positive reviews across multiple platforms, Tier 1 at $69 looks like reasonable value for solo marketers or small teams just getting started with AI visibility tracking, especially given unlimited prompt tracking across all 17 platforms even at the base tier. Content generation and agency features don't kick in until Tier 3 ($299), which is the more relevant entry point for agencies specifically. The 60-day refund window gives you room to test it properly before deciding.
+
+👉 **[View ZeroRank AI on AppSumo](https://appsumo.com/products/zerorank-ai/)**
+
+## Final Verdict
+
+ZeroRank AI has received consistently positive ratings across the review sources examined for this article, in a category that's still very new. Its founder has continued shipping updates for existing lifetime-deal customers since launch. It isn't a replacement for your existing SEO stack, and it's young enough that some rough edges are expected — but the combination of broad AI-platform coverage, unlimited prompt tracking even at the entry tier, and a fast-shipping roadmap makes it a reasonable pick for anyone taking AI search visibility seriously in 2026.
+
+### Our Recommendation
+
+If you want to understand how your brand shows up in AI-generated answers and don't mind backing a newer company, Tier 1 is a low-risk way to start, with the 60-day guarantee as a safety net. Agencies wanting white-label reporting should look at Tier 3 and above instead.
+
+## FAQ
+
+### What is ZeroRank AI used for?
+
+It tracks how your brand appears in AI-generated answers from tools like ChatGPT, Gemini, and Perplexity, benchmarks you against competitors, and recommends specific content and technical changes to improve your visibility.
+
+### Which AI platforms does ZeroRank AI track?
+
+As of its most recent update, 17 platforms and models, including ChatGPT, Perplexity, Google Gemini, Google AI Overviews, Google AI Mode, Grok, Bing Copilot, Claude, and several regional and frontier models.
+
+### Is ZeroRank AI a replacement for Ahrefs or SEMrush?
+
+No. It's a complementary tool focused on AI-answer visibility rather than traditional Google search rankings, even though AppSumo lists it as an alternative to those tools.
+
+### How much does the ZeroRank AI lifetime deal cost?
+
+Pricing on AppSumo ranges from $69 (Tier 1) to $1,699 (Tier 7), with lifetime access and a 60-day refund guarantee.
+
+### Is content generation included in every tier?
+
+No. Article generation and content optimization credits start at Tier 3.
+
+### Can I bring my own AI API key?
+
+Yes, starting at Tier 3, through several supported gateways including OpenRouter and Vercel AI Gateway.
+
+### Who is behind ZeroRank AI?
+
+Kelvin Cobanaj, a co-founder with roughly 18 years of experience building online products, including past involvement with Adworld Conference, Affiliate World Conferences, and LanderLab.
+
+### Is the ZeroRank AI AppSumo deal still available?
+
+At the time this review was researched, ZeroRank AI's AppSumo deal was live. AppSumo availability can change, so check the current listing before purchasing.
+
+### What are the most common complaints about ZeroRank AI?
+
+Reviewers most often mention a learning curve given the amount of data in the dashboard, and occasional slower results tied to live data scraping. The company has acknowledged both directly in review responses.
+
+### Does ZeroRank AI work for agencies?
+
+Yes — Tier 3 and above include white-label dashboards, custom domains for client reports, and multi-workspace client management.
+
+### Has ZeroRank AI been independently audited?
+
+We did not locate a published independent third-party audit of ZeroRank AI's security or data practices during our research.
+
+### What's ZeroRank AI's refund policy?
+
+AppSumo's standard 60-day money-back guarantee applies, covered under their "We Got Your Back" policy.`
+    },
+    {
       id: 25,
       slug: "dualsafe-vs-google-password-manager",
       toolName: "DualSafe",
