@@ -50,6 +50,17 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
 
   switch (s) {
     // 1. Comparisons with custom dual buttons
+    case 'zerorank-ai-review':
+      buttons = [
+        {
+          text: 'View ZeroRank AI on AppSumo',
+          url: 'https://appsumo.com/products/zerorank-ai/',
+          toastText: 'Opening ZeroRank AI on AppSumo...',
+          isPrimary: true
+        }
+      ];
+      break;
+
     case 'dualsafe-vs-google-password-manager':
       buttons = [
         {
