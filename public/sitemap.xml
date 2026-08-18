@@ -11,6 +11,26 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.shamsstack.com/blog/letterly-review</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.shamsstack.com/blog/zerorank-ai-review</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.shamsstack.com/blog/dualsafe-vs-google-password-manager</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.shamsstack.com/blog/dualsafe-vs-apple-passwords</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.shamsstack.com/blog/dualsafe-password-manager-review</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
