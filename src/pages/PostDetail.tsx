@@ -50,6 +50,17 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
 
   switch (s) {
     // 1. Comparisons with custom dual buttons
+    case 'letterly-review':
+      buttons = [
+        {
+          text: "Visit Letterly's Official Site",
+          url: 'https://letterly.app/',
+          toastText: 'Opening Letterly...',
+          isPrimary: true
+        }
+      ];
+      break;
+
     case 'zerorank-ai-review':
       buttons = [
         {
