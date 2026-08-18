@@ -218,6 +218,181 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 27,
+      slug: "letterly-review",
+      toolName: "Letterly",
+      title: "Letterly Review: Is This AppSumo Voice-to-Text Deal Worth It in 2026?",
+      category: "AppSumo Deals",
+      date: "August 12, 2026",
+      readTime: "10 min",
+      image: "/images/letterly_review.jpg",
+      excerpt: "An honest, research-based Letterly review covering features, AppSumo lifetime pricing, founder update history, and real user feedback before you buy.",
+      content: `If you've ever lost a good idea because typing it out felt slower than thinking it, Letterly is built around a simple premise: talk instead of type, directly inside whatever app you're already using. It's part of the voice-to-text/dictation category, positioned by AppSumo as an alternative to tools like Otter.ai and WisprFlow.
+
+*A note on methodology: this review is based on Letterly's official AppSumo listing, founder update posts, and published customer reviews. We don't currently have hands-on product access, so performance claims are attributed to the company or to user reviews rather than presented as our own testing.*
+
+## Quick Verdict
+
+Letterly lets you dictate text directly into any app — email, Slack, a document, a browser — rather than requiring you to write inside its own interface first. At the time of this research, it held a 4.70/5 rating across 356 reviews on AppSumo, carried the "AppSumo Select" quality badge, and had a founder update history stretching back to August 2024 — a longer update history than many of the newer AppSumo lifetime deals we've looked at. AppSumo lifetime deals typically run for a limited window, so if the tiered pricing described below isn't showing on AppSumo when you read this, Letterly's own site still offers the app directly.
+
+## Letterly At a Glance
+
+| Category | Details |
+| --- | --- |
+| Company | Letterly |
+| Founder | Anton Lebedev |
+| Founded | September 1, 2023, Spain |
+| Team size | 1–10 (bootstrapped) |
+| Positioning | Voice-to-text / dictation tool |
+| AppSumo status | Live at time of research, "AppSumo Select" badge |
+| Pricing | $89–$890 (lifetime, scales by device count) |
+| Refund window | 60 days |
+| Rating | 4.70/5 on AppSumo (356 reviews checked during research) |
+
+## What Is Letterly?
+
+Letterly is a dictation app that works across Mac, Windows, and web, designed to let you speak text directly into whatever application you're already working in — email, documents, chat apps, browsers — instead of switching to a separate transcription tool first. According to the official listing, it's positioned as an alternative to Otter.ai and WisprFlow, and AppSumo recommends it for C-suite professionals, content creators, and marketers.
+
+The company reports winning "AppSumo Tools of the Year 2024," and has maintained an active presence on the platform since its original AppSumo launch in August 2024.
+
+## How Letterly Works
+
+The basic idea is simple: you place your cursor where you want the text to appear, start dictating, and Letterly puts the transcribed text there — inside whatever app you're already using, rather than a separate window you have to copy from afterward. According to the founder's May 2026 update, this in-app dictation capability was a significant addition beyond the tool's earlier versions.
+
+## Key Features
+
+Based on the tier comparison table published on Letterly's official AppSumo listing, the following features are included at every tier, from the base plan upward:
+
+- **Cross-platform dictation** — Mac, Windows, and web versions
+- **Apple Watch support**
+- **Unlimited dictations with no word limits**
+- **90+ language support**
+- **MCP connections** with Claude and ChatGPT
+- **Zapier and Webhooks integration**
+- **Meeting mode** and **offline mode**
+- **Widget access** for quick dictation
+
+A few of these are worth explaining rather than just listing. The **direct in-app dictation** is really the core of what makes Letterly different from a standalone transcription app — instead of dictating into Letterly's own window and pasting the result elsewhere, the text lands directly in whatever field you're typing into. The **MCP connections** with Claude and ChatGPT let those tools read from or act on your dictated notes through Anthropic's Model Context Protocol, which is a newer, more technical integration than most dictation tools offer. And **meeting mode**, based on the product description, is built for transcribing spoken conversations rather than a single person dictating notes — useful if you want to capture a call rather than just draft an email by voice.
+
+According to the founder's update history, notable additions over time include a web version (October 2024), a native Mac app (October–December 2024), custom rewrite/tone options (December 2024), auto-titles and search (April 2025), and a Windows app plus direct in-app dictation and Claude/ChatGPT MCP integration (May 2026).
+
+## AppSumo Deal & License Tiers
+
+Letterly's AppSumo pricing works differently from a lot of lifetime deals. The higher tiers don't add extra features — they simply give you more device licenses. The official listing states this directly: **"Unlock 100% of the app's features with nothing hidden or locked behind higher tiers."**
+
+| | 1 Code | 2 Codes | 4 Codes | 10 Codes |
+| --- | --- | --- | --- | --- |
+| Price | $89 | ~$178 | ~$356 | $890 |
+| List price | $200 | ~$400 | ~$800 | $4,000 |
+| Devices | 1 | 2 | 4 | 10 |
+| Features | Full | Full | Full | Full |
+
+All future Pro Plan updates are included at no extra cost, according to the deal terms. Licenses must be redeemed within 60 days of purchase, codes can be stacked without an upper limit, and existing customers can buy additional codes later to cover more devices. The deal is backed by AppSumo's standard 60-day refund guarantee.
+
+## Founder Transparency & Update History
+
+Letterly's founder, Anton Lebedev, has published detailed, dated update posts on the AppSumo listing since the product's original launch in August 2024 — multiple rounds of updates over roughly two years, based on the posts we reviewed: an initial launch post (August 2024), a second update introducing a web version beta, Mac version, and device sync (October 2024), a third update shipping the web and Mac versions along with custom rewrite options (December 2024), an "AI Week" update adding auto-titles, search, an Android widget, and integrations (April 2025), and a May 2026 update introducing direct in-app dictation, a Windows app, and MCP integration with Claude and ChatGPT.
+
+One common concern with lifetime deals is whether development continues after the initial sales period. Based on the update history we reviewed, Letterly's update history spans nearly two years of consistent, dated activity.
+
+## Known Limitations
+
+A few limitations came up in the sources we reviewed:
+
+- **Language auto-detection.** One review mentioned occasional problems with automatic language detection. We couldn't independently verify how often this happens.
+- **Per-device pricing model.** Unlike a flat unlimited-seats deal, Letterly's pricing scales by device count. It's fully disclosed rather than hidden, but the cost adds up for anyone needing many devices.
+- **Feature requests noted in reviews.** Earlier reviews mentioned wanting a dedicated Windows app and better organization options. A Windows app has since shipped, according to the founder's update posts, though we didn't verify the current state of organization or folder features ourselves.
+- **Limited operating history relative to established competitors.** Founded in 2023, Letterly has a shorter track record than long-established dictation tools like Otter.ai.
+
+## Letterly vs Alternatives
+
+AppSumo positions Letterly as an alternative to Otter.ai and WisprFlow. The biggest distinction is how the products are used: Letterly is built around system-wide dictation into whatever app you're working in, while Otter.ai is more focused on recording and transcribing meetings as a standalone product. WisprFlow is the closer comparison, since it also targets replacing typing across apps rather than meeting transcription specifically. We didn't test the three products side by side, so this is a positioning comparison based on how each is marketed, not a performance comparison.
+
+## Pros and Cons
+
+### Letterly Pros
+
+- Full feature set included at every pricing tier, with no functionality gated behind higher-priced plans
+- Regular founder updates and visible product development
+- Cross-platform: Mac, Windows, and web
+- MCP integration with Claude and ChatGPT
+- 90+ language support
+- Meeting mode and offline mode included
+- "AppSumo Select" quality badge
+- 60-day money-back guarantee
+
+### Letterly Cons
+
+- Pricing scales by device count rather than a flat unlimited-device model
+- Limited operating history compared to established competitors like Otter.ai
+- Limited publicly documented information about its security and data practices
+- Some reviews mention language auto-detection concerns
+- We do not have hands-on testing to verify real-world transcription accuracy
+
+## Who Should Buy Letterly?
+
+- You want to dictate directly into apps you already use, rather than switching to a separate transcription tool
+- You value knowing that every pricing tier includes the same full feature set
+- You want MCP integration with Claude or ChatGPT as part of your workflow
+- You prefer an AppSumo product with a visible history of updates rather than a newly launched lifetime deal
+
+## Who Should Skip It?
+
+- You need licenses for many devices, since cost scales per device rather than being a flat unlimited deal
+- You need independently verified accuracy for a compliance-sensitive workflow
+- You'd rather stay on a subscription model with a longer-established provider
+
+## Is the AppSumo Deal Worth It?
+
+Based on the published pricing, the fully-unlocked feature set at every tier, and the company's update history, the single-code tier at $89 looked like reasonable value for an individual user wanting cross-platform dictation without a recurring subscription, at the time of this research. AppSumo lifetime deals run for a limited time, so it's worth checking the current AppSumo listing directly to see if that pricing is still active. Anyone needing multiple devices should calculate the per-device cost against their actual usage, since pricing scales linearly rather than offering an unlimited-device option. The 60-day refund window, when the AppSumo deal is active, gives buyers a reasonable period to test whether it fits their workflow.
+
+👉 **[Visit Letterly's Official Site](https://letterly.app/)**
+
+## Final Verdict
+
+The overall picture is positive. Letterly has a strong AppSumo rating, a long history of founder updates, and a pricing model that keeps the full feature set available at every tier — which avoids the hidden-cost complaints that show up with some competing lifetime deals. The main catch is the device-based pricing, and we can't personally verify transcription accuracy, since we didn't have product access for this review.
+
+For most individual users who want cross-app dictation without a recurring subscription, the single-code tier is a reasonable place to start, backed by the 60-day guarantee. If you need several devices, run the math against the tier pricing first to check it still beats a subscription alternative.
+
+## FAQ
+
+### What is Letterly used for?
+
+It's a dictation tool that lets you speak text directly into any application — email, documents, chat, browsers — rather than requiring a separate transcription step.
+
+### Does every pricing tier include the same features?
+
+Yes, according to the official AppSumo listing, all tiers include the full feature set; only the number of device licenses changes between tiers.
+
+### Is the Letterly AppSumo deal still available?
+
+At the time this review was researched, Letterly's AppSumo deal was live, but AppSumo lifetime deals typically run for a limited window and can end without much notice. Check the current AppSumo listing to see if it's still active — if it's not, Letterly is also available directly from its official website, though at regular pricing rather than the lifetime-deal rate.
+
+### Does Letterly work on Windows?
+
+Yes, according to the founder's May 2026 update, a Windows app was added alongside the existing Mac and web versions.
+
+### Does Letterly integrate with AI assistants?
+
+Yes, the official listing states MCP integration with Claude and ChatGPT is included at every tier.
+
+### How many languages does Letterly support?
+
+The official listing states support for 90+ languages.
+
+### Who is behind Letterly?
+
+Founder Anton Lebedev, based in Spain, with the company founded in September 2023.
+
+### Has Letterly been independently audited?
+
+We did not locate a published independent third-party audit of Letterly's security or data practices during our research.
+
+### Is Letterly better than Otter.ai?
+
+We did not conduct a direct hands-on comparison for this review. Otter.ai is generally used for meeting transcription, while Letterly focuses on system-wide, in-app dictation — the better fit depends on your specific use case.`
+    },
+    {
       id: 26,
       slug: "zerorank-ai-review",
       toolName: "ZeroRank AI",
