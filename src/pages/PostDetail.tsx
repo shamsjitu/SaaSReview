@@ -6,7 +6,7 @@ import { SITE_DATA } from '../data/siteData';
 import { Calendar, Clock, ChevronLeft, Share2, Bookmark, ArrowRight, ChevronDown, ChevronUp } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { getPostBySlug, getBlogPosts } from '../utils/blogHelper';
+import { getPostBySlug, getBlogPosts, CTAButton } from '../utils/blogHelper';
 import BlogCoverImage from '../components/BlogCoverImage';
 
 const generateSlug = (text: string): string => {
@@ -32,277 +32,23 @@ const getTextFromReactNode = (node: any): string => {
 };
 
 interface TableCTAProps {
-  slug: string;
+  buttons?: CTAButton[];
   onShowToast: (message: string) => void;
 }
 
-interface CTAButton {
-  text: string;
-  url: string;
-  toastText: string;
-  isPrimary: boolean;
-}
-
-function TableCTA({ slug, onShowToast }: TableCTAProps) {
-  const s = slug.toLowerCase().trim();
-  
-  let buttons: CTAButton[] = [];
-
-  switch (s) {
-    // 1. Comparisons with custom dual buttons
-    case 'letterly-review':
-      buttons = [
-        {
-          text: "Visit Letterly's Official Site",
-          url: 'https://letterly.app/',
-          toastText: 'Opening Letterly...',
-          isPrimary: true
-        }
-      ];
-      break;
-
-    case 'zerorank-ai-review':
-      buttons = [
-        {
-          text: 'View ZeroRank AI on AppSumo',
-          url: 'https://appsumo.com/products/zerorank-ai/',
-          toastText: 'Opening ZeroRank AI on AppSumo...',
-          isPrimary: true
-        }
-      ];
-      break;
-
-    case 'dualsafe-vs-google-password-manager':
-      buttons = [
-        {
-          text: 'Try DualSafe Password Manager',
-          url: 'https://www.itopvpn.com/password-manager-plans?a_aid=pvxnbl3gq6byn',
-          toastText: 'Opening official DualSafe Password Manager plans...',
-          isPrimary: true
-        },
-        {
-          text: 'Open Google Password Manager',
-          url: 'https://passwords.google.com/',
-          toastText: 'Opening Google Password Manager...',
-          isPrimary: false
-        }
-      ];
-      break;
-
-    case 'dualsafe-vs-apple-passwords':
-      buttons = [
-        {
-          text: 'Try DualSafe Password Manager',
-          url: 'https://www.itopvpn.com/password-manager-plans?a_aid=pvxnbl3gq6byn',
-          toastText: 'Opening official DualSafe Password Manager plans...',
-          isPrimary: true
-        },
-        {
-          text: 'Set Up Apple Passwords',
-          url: 'https://support.apple.com/en-us/120758',
-          toastText: 'Opening official Apple Passwords guide...',
-          isPrimary: false
-        }
-      ];
-      break;
-
-    case 'dualsafe-password-manager-review':
-      buttons = [
-        {
-          text: 'Try DualSafe Password Manager',
-          url: 'https://www.itopvpn.com/password-manager-plans?a_aid=pvxnbl3gq6byn',
-          toastText: 'Opening official DualSafe Password Manager plans...',
-          isPrimary: true
-        }
-      ];
-      break;
-
-    case 'nordpass-vs-apple-passwords':
-      buttons = [
-        {
-          text: 'Try NordPass Free Trial',
-          url: 'https://nordpass.com/plans/',
-          toastText: 'Opening official NordPass Free Trial...',
-          isPrimary: true
-        },
-        {
-          text: 'Set Up Apple Passwords',
-          url: 'https://support.apple.com/en-us/120758',
-          toastText: 'Opening official Apple Passwords guide...',
-          isPrimary: false
-        }
-      ];
-      break;
-
-    case 'roboform-vs-apple-passwords':
-      buttons = [
-        {
-          text: 'Try RoboForm Free Trial',
-          url: 'https://www.roboform.com/pricing-personal',
-          toastText: 'Opening official RoboForm 30-day Free Trial...',
-          isPrimary: true
-        },
-        {
-          text: 'Set Up Apple Passwords',
-          url: 'https://support.apple.com/en-us/120758',
-          toastText: 'Opening official Apple Passwords guide...',
-          isPrimary: false
-        }
-      ];
-      break;
-
-    case 'nordpass-family-vs-premium':
-      buttons = [
-        {
-          text: 'Try Family for Free',
-          url: 'https://nordpass.com/plans/',
-          toastText: 'Opening official NordPass Family Plan Trial...',
-          isPrimary: true
-        },
-        {
-          text: 'Try Premium Free',
-          url: 'https://nordpass.com/plans/',
-          toastText: 'Opening official NordPass Premium Trial...',
-          isPrimary: false
-        }
-      ];
-      break;
-
-    case 'roboform-vs-google-password-manager':
-      buttons = [
-        {
-          text: 'Try RoboForm Free Trial',
-          url: 'https://www.roboform.com/pricing-personal',
-          toastText: 'Opening official RoboForm 30-day Free Trial...',
-          isPrimary: true
-        },
-        {
-          text: 'Try Google Password Manager',
-          url: 'https://passwords.google.com/',
-          toastText: 'Opening official Google Password Manager...',
-          isPrimary: false
-        }
-      ];
-      break;
-
-    case 'proton-pass-free-vs-paid':
-      buttons = [
-        {
-          text: 'Sign Up Free',
-          url: 'https://proton.me/pass/pricing',
-          toastText: 'Opening official Proton Pass Free registration...',
-          isPrimary: true
-        },
-        {
-          text: 'Try Free Trial',
-          url: 'https://proton.me/pass/pricing',
-          toastText: 'Opening official Proton Pass 30-day Free Trial...',
-          isPrimary: false
-        }
-      ];
-      break;
-
-    case 'keeper-free-vs-paid':
-      buttons = [
-        {
-          text: 'Sign Up Free',
-          url: 'https://www.keepersecurity.com/pricing/personal-and-family.html',
-          toastText: 'Opening official Keeper Security Free registration...',
-          isPrimary: true
-        },
-        {
-          text: 'Try Free Trial',
-          url: 'https://www.keepersecurity.com/pricing/personal-and-family.html',
-          toastText: 'Opening official Keeper Security 30-day Free Trial...',
-          isPrimary: false
-        }
-      ];
-      break;
-
-    case 'roboform-free-vs-premium':
-      buttons = [
-        {
-          text: 'Sign Up Free',
-          url: 'https://www.roboform.com/pricing-personal',
-          toastText: 'Opening official RoboForm Free registration...',
-          isPrimary: true
-        },
-        {
-          text: 'Try Free Trial',
-          url: 'https://www.roboform.com/pricing-personal',
-          toastText: 'Opening official RoboForm 30-day Free Trial...',
-          isPrimary: false
-        }
-      ];
-      break;
-
-    // 2. Reviews with single button pointing to official pricing page
-    case 'nordpass-free-review':
-      buttons = [
-        {
-          text: 'Sign Up Free',
-          url: 'https://nordpass.com/plans/',
-          toastText: 'Opening official NordPass Free registration...',
-          isPrimary: true
-        }
-      ];
-      break;
-
-    case 'nordpass-premium-review':
-      buttons = [
-        {
-          text: 'Try Free Trial',
-          url: 'https://nordpass.com/plans/',
-          toastText: 'Opening official NordPass Premium 30-day Free Trial...',
-          isPrimary: true
-        }
-      ];
-      break;
-
-    case 'nordpass-family-plan-review':
-      buttons = [
-        {
-          text: 'Try Free Trial',
-          url: 'https://nordpass.com/plans/',
-          toastText: 'Opening official NordPass Family Plan Trial...',
-          isPrimary: true
-        }
-      ];
-      break;
-
-    case 'roboform-free-review':
-      buttons = [
-        {
-          text: 'Sign Up Free',
-          url: 'https://www.roboform.com/pricing-personal',
-          toastText: 'Opening official RoboForm Free registration...',
-          isPrimary: true
-        }
-      ];
-      break;
-
-    case 'keeper-security-review':
-      buttons = [
-        {
-          text: 'Try Free Trial',
-          url: 'https://www.keepersecurity.com/pricing/personal-and-family.html',
-          toastText: 'Opening official Keeper Security 30-day Free Trial...',
-          isPrimary: true
-        }
-      ];
-      break;
-
-    // Fallback/Defaults
-    default:
-      buttons = [
-        {
-          text: 'Try Free Trial',
-          url: 'https://nordpass.com/plans/',
-          toastText: 'Opening secure registration portal...',
-          isPrimary: true
-        }
-      ];
+// Used whenever a post has no ctaButtons defined in siteData.ts, so we never
+// silently fall through to an unrelated company's button.
+const SAFE_DEFAULT_BUTTONS: CTAButton[] = [
+  {
+    text: 'Explore More Reviews',
+    url: '/blog',
+    toastText: 'Redirecting to more reviews...',
+    isPrimary: true
   }
+];
+
+function TableCTA({ buttons, onShowToast }: TableCTAProps) {
+  const resolvedButtons = buttons && buttons.length > 0 ? buttons : SAFE_DEFAULT_BUTTONS;
 
   const handleAction = (btn: CTAButton) => {
     onShowToast(btn.toastText);
@@ -313,7 +59,7 @@ function TableCTA({ slug, onShowToast }: TableCTAProps) {
 
   return (
     <div className="mt-8 mb-4 flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-lg mx-auto select-none">
-      {buttons.map((btn, index) => (
+      {resolvedButtons.map((btn, index) => (
         <button
           key={index}
           onClick={() => handleAction(btn)}
@@ -602,7 +348,7 @@ export default function PostDetail({ overriddenSlug }: { overriddenSlug?: string
                         </table>
                       </div>
                     </div>
-                    <TableCTA slug={post.slug} onShowToast={setToastMessage} />
+                    <TableCTA buttons={post.ctaButtons} onShowToast={setToastMessage} />
                   </div>
                 ),
                 thead: ({ children }) => (
@@ -660,7 +406,7 @@ export default function PostDetail({ overriddenSlug }: { overriddenSlug?: string
           <p className="text-lg text-gray-300 mb-8 leading-relaxed">
             Based on our internal testing, we believe {post.toolName || 'this tool'} represents strong value for professionals right now. Full disclosure: if you purchase through our link, we may earn a commission at no extra cost to you — this helps us continue doing these deep research dives.
           </p>
-          <TableCTA slug={post.slug} onShowToast={setToastMessage} />
+          <TableCTA buttons={post.ctaButtons} onShowToast={setToastMessage} />
         </div>
       </article>
 
