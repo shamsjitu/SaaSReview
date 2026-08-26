@@ -1,5 +1,12 @@
 import { SITE_DATA } from '../data/siteData';
 
+export interface CTAButton {
+  text: string;
+  url: string;
+  toastText: string;
+  isPrimary: boolean;
+}
+
 export interface BlogPost {
   id: number;
   slug: string;
@@ -11,6 +18,7 @@ export interface BlogPost {
   excerpt: string;
   content: string;
   toolName?: string;
+  ctaButtons?: CTAButton[];
 }
 
 const CUSTOM_POSTS_KEY = 'saasreview_custom_posts';
