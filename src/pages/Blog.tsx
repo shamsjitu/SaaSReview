@@ -48,20 +48,13 @@ export default function Blog() {
   return (
     <div className="pt-24 min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
-        <header className="mb-20 text-center">
+        <header className="mb-10 text-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
           >
-            <h1 className="text-4xl md:text-6xl font-display font-extrabold text-primary mb-6">
-              Insights & Expertise
-            </h1>
-            <p className="text-body-text max-w-2xl mx-auto text-lg leading-relaxed">
-              Detailed tutorials, marketing strategies, and personal research on how to grow your digital publishing empire.
-            </p>
-
             {/* Design Style Switcher */}
-            <div className="mt-10 inline-flex items-center gap-1.5 p-1.5 bg-white border border-gray-100 rounded-2xl shadow-sm">
+            <div className="inline-flex items-center gap-1.5 p-1.5 bg-white border border-gray-100 rounded-2xl shadow-sm">
               <button
                 onClick={() => toggleCoverMode(false)}
                 className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider transition-all cursor-pointer ${
