@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { Github, Twitter, Instagram, Youtube, ShoppingBag } from 'lucide-react';
+import { ShoppingBag } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -27,20 +27,6 @@ export default function Footer() {
             <p className="text-[10px] text-gray-400 italic mb-8 max-w-xs leading-relaxed">
               Affiliate Disclosure: ShamsStack is a professional review site that receives compensation from the companies whose products we review.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="p-2 bg-white rounded-lg border border-gray-100 text-gray-400 hover:text-primary hover:border-primary transition-all">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="p-2 bg-white rounded-lg border border-gray-100 text-gray-400 hover:text-primary hover:border-primary transition-all">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="p-2 bg-white rounded-lg border border-gray-100 text-gray-400 hover:text-primary hover:border-primary transition-all">
-                <Youtube className="w-5 h-5" />
-              </a>
-              <a href="#" className="p-2 bg-white rounded-lg border border-gray-100 text-gray-400 hover:text-primary hover:border-primary transition-all">
-                <Github className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           {/* Links */}
