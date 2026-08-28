@@ -218,6 +218,228 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 33,
+      slug: "xemailcampaign-review",
+      toolName: "XemailCampaign",
+      title: "XemailCampaign Review 2026: Is This AppSumo Cold Email Deal Worth It?",
+      category: "AppSumo Deals",
+      date: "August 27, 2026",
+      readTime: "9 min",
+      image: "/images/xemailcampaign_review.jpg",
+      excerpt: "An honest, research-based XemailCampaign review covering deliverability-focused cold email features, AppSumo pricing tiers, what's live versus roadmap, and whether the lifetime deal is worth it.",
+      ctaButtons: [
+        {
+          text: 'View XemailCampaign on AppSumo',
+          url: 'https://appsumo.com/products/xemailcampaign/',
+          toastText: 'Opening XemailCampaign on AppSumo...',
+          isPrimary: true
+        }
+      ],
+      content: `Most cold email tools will proudly tell you a campaign "sent." What they won't tell you is where it landed. You can write a great sequence, load a clean list, and still end up with your emails going to spam without realizing it until the campaign is already underperforming. XemailCampaign is built around that problem: finding deliverability issues before they hurt a campaign, rather than only showing you the results afterward.
+
+## What Is XemailCampaign?
+
+XemailCampaign is a cold email platform focused on deliverability, with sender setup, inbox warmup, multi-step sequences, and reply management built into the same tool. It checks domain health (SPF, DKIM, DMARC), runs inbox placement tests, and flags spam-trigger risks before a campaign goes out, alongside more familiar features like sequence building and a unified reply inbox.
+
+## Who Built It?
+
+XemailCampaign was founded by Niharika Agarwal, who describes herself as an email deliverability specialist. The company itself was founded on August 9, 2021, in Noida, India, and is bootstrapped with a small team of 1–10 people. This AppSumo listing itself is very recent: Tier 4 was only added on August 27, 2026, so the deal is still in its early days even though the underlying company has been around for a few years.
+
+## The AppSumo Launchpad Badge
+
+XemailCampaign carries AppSumo's Launchpad badge rather than Select. That generally puts it in the newer/emerging-product category, so there is less track record to evaluate on the platform. It's useful context, but not a reason by itself to buy or avoid the product.
+
+## How XemailCampaign Works
+
+1. Connect your sending accounts (Gmail, Google Workspace, or Office 365)
+2. Set up warmup for those accounts before sending any real campaigns
+3. Build sequences using the template library, or write your own
+4. Launch campaigns with built-in deliverability checks running alongside the campaign
+5. Track replies in a unified inbox, and monitor performance through the analytics dashboard
+
+## What Makes the Warmup Different
+
+Most cold email tools bundle in some form of warmup, so on its own this isn't unique. Two specific design choices stand out here, according to the founder's own description of the product:
+
+- **ESP-targeted warmup.** You can choose which email service provider your account warms up on. If most of your prospects use Microsoft 365, you can warm up specifically there instead of warming against inbox providers that may not match your actual prospect base.
+- **Template warmup.** You can set your live campaign templates as your warmup templates, so the copy itself gets tested and warmed up alongside the sending account, not just the domain and IP.
+
+These are specific, verifiable claims from the founder's product description, not independently tested here.
+
+## Key Features
+
+Beyond warmup, the platform covers most of the basic workflow you'd expect from a cold email tool.
+
+- Domain health monitoring (SPF, DKIM, DMARC) with inbox placement testing and spam-trigger detection
+- Multi-step sequences with A/B variants and safe, automatic scheduling
+- A reusable template library for warmup, sequences, and full campaigns
+- Unified inbox for all replies (positive, negative, auto-reply) across every connected sender account
+- Campaign and email account analytics, including a full sent-to-replied funnel view
+- Reputation protection, bounce detection, and a global block list
+- Unlimited email accounts on every tier, including Tier 1
+
+## Pricing and Tiers
+
+| | Tier 1 ($49) | Tier 2 ($89) | Tier 3 ($159) | Tier 4 ($259) |
+|---|---|---|---|---|
+| Uploaded contacts | 2,000 | 4,000 | 10,000 | 20,000 |
+| Emails/month | 5,000 | 16,000 | 100,000 | 200,000 |
+| Email warmup capacity | 2,500 | 8,000 | 50,000 | 100,000 |
+| Custom templates | 10 | 25 | Unlimited | Unlimited |
+
+All tiers include unlimited email accounts, unified inbox with replies, A/B testing, advanced scheduling, advanced warmup and sequences, analytics, global block list, reputation protection, and bounce detection.
+
+The difference between tiers is purely volume (contacts, monthly emails, and warmup capacity), not feature access. That makes the tier decision fairly simple: you're mainly paying for more contacts, emails, and warmup capacity.
+
+## What's Actually Built vs. What's Still Roadmap
+
+This is worth stating clearly, because it comes directly from the founder rather than a guess. As of the most recent update, two commonly requested features are explicitly listed as "what's next," not what's currently shipped:
+
+- **Campaign-level inbox placement testing** — testing exactly where a specific campaign will land before you send it, rather than a general placement check
+- **Agentic AI campaigns** — describing an objective and audience and having the system generate full campaigns with sequences and variants for review
+
+If either of these features is the main reason you're considering XemailCampaign, it's worth waiting until they're actually available. Everything else described in this review (deliverability monitoring, warmup, sequences, unified inbox, analytics) is live today.
+
+## AppSumo Deal Terms
+
+Refundable within 60 days, and Plus members are covered by AppSumo's We Got Your Back guarantee. The license must be activated within 60 days of purchase.
+
+Here's where it gets worth flagging directly: AppSumo's own deal-terms section for this listing contains two lines that read as contradictory. One states you can upgrade while the deal is live but can only downgrade within 60 days of purchase. Another, immediately following it, states plainly that the deal does not allow upgrades or downgrades between license tiers at all. Both appear on the live listing at the time of writing. Until AppSumo or the vendor clarifies the wording, it's safer to choose the tier you expect to need rather than relying on a future upgrade or downgrade.
+
+## Pros
+
+- Deliverability monitoring is built into the core workflow rather than sold as a separate add-on or third-party integration
+- ESP-targeted and template warmup are specific, differentiated features, not just a generic "warmup included" checkbox
+- Every tier includes unlimited email accounts and the full feature set, so the pricing decision is purely about volume
+- The founder has a background in email deliverability and regularly publishes detailed product updates
+- Founder is explicit about what's built versus what's still on the roadmap, which is unusually transparent for a new listing
+
+## Cons
+
+- Only 3 reviews at the time of writing, so there's not enough user feedback yet to judge long-term reliability
+- No substantial independent reviews or user reports outside AppSumo could be found, so real-world performance is still difficult to verify
+- Two headline features (campaign-level inbox placement testing, agentic AI campaign generation) are not available yet, despite being prominent in the founder's messaging
+- The deal terms around upgrades and downgrades are unclear as written, and worth clarifying with the vendor before purchase, especially if you're unsure which tier you'll need long-term
+
+## Who Should Buy XemailCampaign?
+
+XemailCampaign makes the most sense for small sales teams and agencies that rely on cold email and want warmup, deliverability monitoring, sequencing, and reply management in one place.
+
+## Who Should Skip It?
+
+If you specifically want agentic AI campaign generation or campaign-level inbox placement testing, neither is live yet, so there's currently no reason to buy for those features alone. If you need a large, well-established review history before trusting a lifetime deal, you may prefer to wait until there are more reviews and independent user reports.
+
+## Is XemailCampaign Worth It?
+
+XemailCampaign has a clear focus: deliverability is part of the campaign workflow rather than something you check separately after sending. The ESP-targeted and template-based warmup features make that positioning more than just a marketing line.
+
+The main concern is that the AppSumo deal is still very new. There are only 3 reviews, no substantial independent testing available, and two planned features aren't live yet.
+
+For a small team that wants warmup, sequencing, deliverability checks, and reply management in one tool, it's worth considering. If you need the roadmap features now or want a longer user track record, it's worth waiting.`
+    },
+    {
+      id: 32,
+      slug: "fuse-ai-review",
+      toolName: "Fuse",
+      title: "Fuse AI Review 2026: Is This Agentic Outbound Sales Tool Worth Buying on AppSumo?",
+      category: "AppSumo Deals",
+      date: "August 27, 2026",
+      readTime: "9 min",
+      image: "/images/fuse_review.jpg",
+      excerpt: "An honest, research-based Fuse (FuseAI) review covering agentic outbound sales features, AppSumo credit economics, pricing tiers, and who should actually buy the lifetime deal.",
+      ctaButtons: [
+        {
+          text: 'View Fuse on AppSumo',
+          url: 'https://appsumo.com/products/fuseai/',
+          toastText: 'Opening Fuse on AppSumo...',
+          isPrimary: true
+        }
+      ],
+      content: `*Note: This review covers Fuse (FuseAI), an outbound sales automation tool. Don't confuse it with FuseBase, a completely different and much older client-collaboration/workspace platform. Because the names are so similar, mixing the two up during a search is extremely common.*
+
+If your outbound sales stack currently means using Apollo for data enrichment, Clay for workflow building, and Lemlist for sending sequences, you already know how much time that tool-hopping wastes. Separate logins, separate bills, and data that never quite syncs across all three. Fuse tries to fold that entire problem into one platform.
+
+## What Is Fuse?
+
+Fuse is an agentic AI outbound sales platform that combines prospecting, buying-signal detection, and multi-channel outreach (email, LinkedIn, power dialer) in a single tool. AppSumo's official listing positions it as an alternative to Apollo, Clay, and Lemlist.
+
+## Who Built Fuse?
+
+Fuse's Co-Founder and CEO is Saurav Bubber, who previously worked on Deel's GTM Strategy & Operations team, where he saw firsthand how larger companies spend $1,500–$2,000 per person per month running full revenue-operations teams for outbound, a cost structure that's out of reach for smaller companies.
+
+The company was founded on November 25, 2025, in San Francisco, and is part of Y Combinator's W25 batch.
+
+## Key Features
+
+- **Multi-channel campaigns** — email and LinkedIn sequencing, AI-personalized messaging, built-in warmup to protect deliverability
+- **Power dialer** — parallel dialing for faster calling, with call disposition/outcomes logged directly in the platform
+- **Buying-signal tracking** — real-time intent signals like job changes, LinkedIn activity, and website visits
+- **AI Smart Actions** — surfaces warm leads, runs waterfall enrichment across 20+ data providers, uses an AI research agent to research prospects, and adds them to an AI-drafted outreach campaign in one click
+
+## What Actually Sets Fuse Apart From Apollo/Clay/Lemlist?
+
+Apollo is strong mainly as a database plus basic sequencing. Clay is built for data enrichment and workflow automation, but it doesn't send outbound itself, you still need a separate sending tool for that. Lemlist is solid for sequencing and deliverability but lacks a dialer or deep signal-tracking.
+
+Fuse's core pitch is bringing all three categories, data, sequencing, and calling, into one place, so you're not stacking and integrating separate tools.
+
+## Pricing and Credit Economics
+
+Fuse has four pricing tiers, all lifetime access:
+
+| | Tier 1 ($89) | Tier 2 ($279) | Tier 3 ($499) | Tier 4 ($799) |
+|---|---|---|---|---|
+| One-time credits | 60K | 250K | 500K | 800K |
+| Monthly credits | 1,000 | 4,000 | 10,000 | 10,000 |
+| Seats | 1 | 1 | 3 | 5 |
+| API/MCP access | ❌ | ❌ | ✅ | ✅ |
+
+Credit counts alone don't tell the full story, what matters is how many credits each action actually costs. Per AppSumo's official FAQ:
+
+- Basic email enrichment: 20 credits
+- Waterfall email enrichment: 50 credits
+- Waterfall phone enrichment: 200 credits
+- Contact save/search: 2 credits
+- Email message / LinkedIn message / person-or-company website visitor: 5 credits each
+
+So if you run waterfall phone enrichment on just 100 prospects, that alone burns 20,000 credits, 20 times Tier 1's entire monthly allowance. If your workflow leans heavily on enrichment, Tier 1 or 2 can run out fast, so it's worth running the numbers against your own usage before buying.
+
+## AppSumo Deal Terms Worth Knowing
+
+- Within the 60-day refund window, only 50% of one-time credits are usable; the remaining 50% is released after that window closes.
+- The license must be activated within 60 days of purchase. You can upgrade anytime during the deal, but downgrades are only allowed within 60 days of the original purchase.
+- Future AI models may come at a discounted rate, or may require a separate add-on cost. This isn't a firm commitment in the official terms, so it's worth keeping in mind that costs could rise later.
+
+## The AppSumo Select Badge
+
+Fuse carries the AppSumo Select badge, which AppSumo awards based on quality, performance, and support. It's a positive signal, but it shouldn't be treated as an independent guarantee, the product is still young and worth evaluating on its own merits.
+
+## Pros
+
+- Consolidates several outbound tools, data enrichment, sequencing, and calling, without stacking separate platforms
+- Founder is visibly active, answering detailed technical questions on Product Hunt and speaking openly about deliverability and infrastructure
+- AppSumo Select badge, 60-day refund guarantee
+- Credit costs per action are clearly documented in the official listing, not opaque
+
+## Cons
+
+- Only 2 reviews so far, both 5-taco, too small a sample to say much about long-term reliability
+- Heavy enrichment use can burn through credits quickly, especially on Tier 1/2 where waterfall phone enrichment alone costs 200 credits per contact
+- The product is only a few months old (founded Nov 2025), no long-term track record yet
+- Future AI models may carry additional cost, this isn't guaranteed either way yet
+
+## Who Should Buy Fuse?
+
+Small or mid-sized sales teams already juggling separate tools for data, sequencing, and dialing, and looking to consolidate them, will find Fuse a reasonable option.
+
+## Who Should Skip It?
+
+If your outreach volume is very high (enriching or messaging thousands of contacts a month), run the credit math against Tier 3/4 before buying, otherwise your actual monthly cost could end up higher than expected. If you need to see an established track record before committing, it may also be worth waiting, since the review count is still very limited.
+
+## Final Verdict
+
+Fuse is a genuinely useful consolidation tool, particularly for anyone whose outbound stack has gotten messy. That said, with so few reviews and somewhat involved credit economics, it's worth running your actual usage pattern (how many contacts you'll enrich, how many messages you'll send) through the numbers before buying. The AppSumo Select badge and 60-day refund window meaningfully reduce that risk.`
+    },
+    {
       id: 31,
       slug: "usearticle-review",
       toolName: "UseArticle",
