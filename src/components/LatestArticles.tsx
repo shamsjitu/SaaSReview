@@ -83,7 +83,7 @@ export default function LatestArticles() {
 
         <div className="mt-16 flex justify-center">
           <Link
-            to="/blog"
+            to="/blog?page=2"
             className="inline-flex items-center gap-2 px-10 py-4 bg-primary text-white font-black uppercase tracking-widest text-sm rounded-full hover:bg-primary/90 hover:scale-105 transition-all shadow-lg shadow-primary/20"
           >
             See More
