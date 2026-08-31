@@ -45,8 +45,8 @@ export default function AboutAuthor() {
             
             <div className="relative aspect-square lg:aspect-auto">
               <img 
-                src="https://picsum.photos/seed/author_shams/800/1000" 
-                alt="Author" 
+                src={SITE_DATA.author.image} 
+                alt={SITE_DATA.author.name} 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
               />
