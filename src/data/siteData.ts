@@ -218,6 +218,277 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 35,
+      slug: "genpage-review",
+      toolName: "GenPage",
+      title: "GenPage Review 2026: Is This AI Landing Page Builder Worth It for B2B Teams?",
+      category: "AppSumo Deals",
+      date: "August 28, 2026",
+      readTime: "10 min",
+      image: "/images/genpage_review.jpg",
+      excerpt: "GenPage Review 2026: does this AI-native landing page builder actually deliver personalized pages at scale for outbound and ABM teams? We cover pricing tiers, integrations, and real G2 feedback.",
+      ctaButtons: [
+        {
+          text: 'View GenPage on AppSumo',
+          url: 'https://appsumo.com/products/genpage/',
+          toastText: 'Opening GenPage on AppSumo...',
+          isPrimary: true
+        }
+      ],
+      content: `Most companies spend hours polishing their ads and cold emails, then send every click to the same generic landing page. That mismatch is one of the quieter reasons outbound and paid campaigns underperform. GenPage builds a separate, personalized page for each lead, keyword, or target account instead, using AI to generate and adapt the page itself.
+
+This review covers what GenPage actually offers, who benefits from it, where it falls short, and whether it's worth a spot in your marketing stack. It's based on GenPage's official AppSumo listing, the founder's own product updates, and independent reviews on G2, not just the vendor's pitch page.
+
+## GenPage at a Glance
+
+| | |
+|---|---|
+| **Best for** | B2B outbound, ABM, and agencies |
+| **Main feature** | AI-generated, personalized landing pages |
+| **Custom domains** | Included from Tier 2 up |
+| **Best fit** | Teams that already have lead or campaign data |
+| **Main drawback** | Credit costs and a small review sample |
+
+## What Is GenPage?
+
+GenPage is an AI-powered landing page builder designed for B2B sales and marketing teams. It helps businesses create personalized pages for different leads, keywords, and target accounts, instead of sending every visitor to one generic page.
+
+It's run by CEO Sam Barbier, and the company was founded in mid-2024. This is actually GenPage's second AppSumo launch. The first version, back in 2024, was built specifically around cold outreach landing pages. According to the founder's own update post, the platform was rebuilt from the ground up over the following year into a broader tool that now covers ABM, Google Ads, and general campaign personalization, not just cold email. That's a different product than what launched in 2024, and it's worth knowing if you remember GenPage from back then.
+
+## Key Features
+
+**AI page generation from almost anything.** The biggest time saver is that GenPage doesn't require starting from a blank canvas. You can feed it a website URL, a sales deck, an image, or a plain-text prompt, and it produces a publish-ready page draft within seconds. It also pulls your existing brand voice and styling automatically, so pages don't look like they came from a separate design tool.
+
+**Personalization at the lead, keyword, or account level.** A single template can generate hundreds of variants, each with different headlines, proof points, and calls to action depending on who's viewing it. This is the core of the product, everything else supports this one function.
+
+**Scale through direct integrations.** You can import a CSV or sync campaigns directly from Clay, HeyReach, or Google Ads to auto-generate a page per record. Editing the template once pushes that change across every live variant, so updating messaging doesn't mean rebuilding pages one at a time.
+
+**Built-in analytics.** Heatmaps, session replays, and custom dashboards track which pages actually move visitors toward conversion. Real-time Slack and email alerts fire when a target account visits, which matters more for ABM-style sales motions than for general marketing.
+
+**HTML import and code-level editing.** If you need more control than the AI editor or drag-and-drop blocks give you, you can import your own HTML and edit it directly.
+
+## GenPage Pros and Cons
+
+**Pros**
+- Generates personalized landing pages quickly, without a designer
+- Built specifically for ABM and outbound campaigns
+- Direct integrations with Clay, HeyReach, and Google Ads
+- No coding required for most use cases
+- Useful for agencies managing several client campaigns at once
+
+**Cons**
+- Not a good fit for a single, simple website or landing page
+- Requires an existing lead list or campaign data to be useful
+- Credit costs add up for high-volume use, according to at least one reviewer
+- Small review sample size (27 verified AppSumo reviews) compared to more established tools
+
+## Pricing and What Each Tier Actually Includes
+
+GenPage's AppSumo listing runs five lifetime tiers, from $69 to $899. The lower tiers are genuinely limited in ways that matter:
+
+| Tier | Price | Monthly Credits | Personalized Sessions/Month | Seats | Custom Domains |
+|---|---|---|---|---|---|
+| Tier 1 | $69 | 100 | 500 | 1 | Not included |
+| Tier 2 | $139 | 300 | 1,500 | 3 | Unlimited |
+| Tier 3 | $299 | 1,000 | 5,000 | Unlimited | Unlimited |
+| Tier 4 | $599 | 3,000 | 10,000 | Unlimited | Unlimited |
+
+Tier 1 doesn't include custom domains at all, which is a real constraint if you're running this for client work or anything customer-facing, you'd be stuck on GenPage's own subdomain.
+
+### Which Tier Should You Pick?
+
+- **Tier 1** if you're just testing the platform and don't need your own domain yet.
+- **Tier 2** if you're running client campaigns or branding matters, this is the realistic starting point for most agencies.
+- **Tier 3 or higher** if you're managing large-scale outbound or ABM campaigns with multiple team members.
+
+It's also worth being direct about something the founder addressed publicly: GenPage's pricing changed when the platform was rebuilt, because the AI-native version costs significantly more to run on the backend. Existing AppSumo customers from the first launch were grandfathered into their original terms, according to the founder's own post, but new buyers are paying current-generation pricing, not 2024 pricing.
+
+## What Users Are Saying
+
+GenPage holds a 4.63 out of 5 on AppSumo from 27 verified reviews. That's a solid score, but the sample size is small enough that it's worth weighing individual reviews more heavily than you would with a product that has hundreds of reviews.
+
+The consistent praise is around ease of use, reviewers repeatedly mention the drag-and-drop builder being usable without design experience, and several specifically call out how quickly personalized pages come together compared to manually building separate landing pages per campaign.
+
+On G2, one reviewer's stated limitation is worth repeating directly, because it's a specific complaint rather than vague dissatisfaction: credits aren't cheap, and you need an existing lead list before you can actually build meaningful personalized landing pages with the platform. That second part matters, GenPage assumes you already have the data infrastructure (a lead list, a Clay workflow, an ad account) to personalize against. It's not a tool that generates leads or personalization data on its own.
+
+An earlier AppSumo review, from the original 2024 launch, described some basic functionality not working properly and called the release a bit early for general use. That feedback predates the full rebuild the founder describes, so it's worth taking as historical context rather than a description of the current product.
+
+## Who This Is Actually For
+
+GenPage is built specifically for B2B sales and marketing teams running outbound, ABM, or paid search campaigns where matching the page to the visitor's context actually changes conversion outcomes. If you're an SDR team, a marketing agency running client campaigns, or a growth team running Google Ads at any real volume, the personalization-at-scale angle solves a problem those teams genuinely have.
+
+## Who Should Skip It
+
+If you need a single, well-designed landing page, a product launch page, an event page, a simple business site, GenPage is the wrong tool, and a simpler builder will be cheaper and easier. The entire value proposition here is generating variants at scale. You're also better served elsewhere if you don't already have a lead list, ad account, or CRM data to personalize against; GenPage builds pages around data you bring in, it doesn't generate that data for you.
+
+## A Few Alternatives to Know About
+
+If your needs are closer to a single high-converting page or a general-purpose site, tools like Unbounce, Leadpages, and Instapage are worth researching separately, each targets a different part of the landing page market. GenPage's niche is personalization at scale for B2B teams with existing lead data; if that's not your situation, it's worth comparing options rather than assuming GenPage is the default choice.
+
+## Frequently Asked Questions
+
+### Does GenPage work with tools other than Clay and HeyReach?
+
+Yes. The official integration list also includes Google Ads, HubSpot, and Zapier, with API and MCP access available on higher tiers for custom connections.
+
+### Can I use my own domain on the lower-priced tiers?
+
+Not on Tier 1. Custom domains start at Tier 2 and are unlimited from there.
+
+### Is this the same product that launched on AppSumo in 2024?
+
+It's the same company and the same core concept, but the founder describes the platform as rebuilt from the ground up since then, with AI generation, new integrations, and analytics added that weren't part of the original release.
+
+### Do I need technical skills to use it?
+
+No. The AI page builder and drag-and-drop editor are built for non-technical marketers, though an HTML import option exists if you want more direct control.
+
+### Is GenPage good for beginners?
+
+It's approachable from a usability standpoint, but it assumes you already have some campaign data (a lead list or ad account) to personalize against. Beginners without that in place may not get much value from it yet.
+
+### Does GenPage replace a website builder?
+
+No. It's built for campaign-specific landing pages tied to leads, keywords, or accounts, not for building a full company website.
+
+### Can agencies use GenPage for clients?
+
+Yes. Multiple seats and unlimited custom domains are available from Tier 2 up, which is what most agencies running several client campaigns would need.
+
+## Is GenPage Worth It?
+
+GenPage is not for everyone. If you need a normal landing page builder, cheaper and simpler alternatives exist. But if your business depends on outbound sales, ABM campaigns, or personalized advertising experiences, GenPage solves a problem that traditional landing page builders aren't built to handle: generating dozens or hundreds of page variants matched to individual leads, keywords, or accounts, without hiring a designer for each one.
+
+For an agency or outbound-heavy sales team, the lifetime deal is worth serious consideration, just budget for Tier 2 if a custom domain matters to you, and go in aware that credit costs are a real, reported friction point, not just a footnote.`
+    },
+    {
+      id: 34,
+      slug: "aiwritebook-review",
+      toolName: "AIWriteBook",
+      title: "AIWriteBook Review 2026: Is This AI Book Writing Tool Actually Worth It?",
+      category: "AppSumo Deals",
+      date: "August 28, 2026",
+      readTime: "10 min",
+      image: "/images/aiwritebook_review.jpg",
+      excerpt: "AIWriteBook Review 2026: we break down this AI book-writing platform's credit-based pricing, the new Audiobook Studio, and what verified AppSumo and Trustpilot reviewers say before you buy.",
+      ctaButtons: [
+        {
+          text: 'View AIWriteBook on AppSumo',
+          url: 'https://appsumo.com/products/aiwritebook/',
+          toastText: 'Opening AIWriteBook on AppSumo...',
+          isPrimary: true
+        }
+      ],
+      content: `Writing a book is hard. Formatting it, designing a cover, and getting it ready for Amazon KDP can feel like a completely separate job. AIWriteBook brings those tasks into one workspace, from outlining and writing to cover design and publishing preparation.
+
+This review looks at what the tool actually does, what real users report after buying it, and where it falls short. It's based on AIWriteBook's official AppSumo listing, the founder's public posts, and independent Trustpilot reviews.
+
+## What Is AIWriteBook?
+
+AIWriteBook is a browser-based platform for writing, designing, and publishing books with AI assistance. It covers outlining, chapter writing, character development, illustrations, cover design, audiobook narration, and KDP-ready file exports, all inside one dashboard.
+
+AIWriteBook was founded in late 2025 by Mykyta Chernenko and his co-founder, Artem. According to the founder, the underlying writing pipeline was first developed for NanoReads, their own reading platform, before AIWriteBook became a standalone product. That gives the product some background beyond its current AppSumo launch.
+
+There is one detail that's unclear: AppSumo's company page lists AIWriteBook as based in London, England, while its Trustpilot business profile lists the company's location as Norway. We couldn't independently confirm which location is current, so it's worth not relying too heavily on either listing.
+
+## Key Features
+
+**Style training.** You can upload a previous manuscript or draft, and the AI uses it so new chapters can better reflect your existing voice, pacing, and dialogue style.
+
+**Outline and character building.** Before a single chapter gets written, you build out a chapter-by-chapter outline and, for fiction, detailed characters with arcs and backstories. You approve the outline before generation starts, so you're not stuck reworking a full draft that went in the wrong direction.
+
+**Chapter generation and editing.** Chapters generate based on your outline and style profile. You can regenerate sections, edit directly in the manuscript, or use the AI assistant for feedback on pacing and direction.
+
+**Illustrations and cover design.** The platform generates chapter illustrations that stay visually consistent and produces book covers with unlimited variations. This could be especially useful for children's books, cookbooks, and comics, where visuals are part of the finished product.
+
+**Audiobook Studio.** Added in August 2026, Audiobook Studio turns a finished manuscript into a narrated audiobook using your chapter text. It offers 25 voices across several English accents, automatic multi-voice character detection for dialogue-heavy books, and exports in retail or streaming-ready mastering formats.
+
+**KDP export and metadata.** Finished manuscripts export as KDP-ready EPUB, print-ready PDF, or DOCX, with built-in keyword research and blurb generation to help with the Amazon listing itself.
+
+**Multilingual support.** The platform supports writing and publishing in more than 30 languages. It may also be useful for authors working in multiple languages or preparing books for different markets.
+
+## Pricing: AppSumo Lifetime Deal vs. the Regular Subscription
+
+If you're considering the AppSumo deal, this comparison matters more than the headline price. AIWriteBook's regular subscription, sold directly through its own site, runs on a monthly or annual plan: a free tier, then paid tiers starting around $12/month and scaling up to roughly $120/month for the highest tier, which adds book translation and access to AIWriteBook's own reader distribution network.
+
+The AppSumo listing instead offers one-time, lifetime access:
+
+| Tier | Price | Monthly Credits | Notable Unlocks |
+|---|---|---|---|
+| Tier 1 | $79 | 500 | Core writing tools |
+| Tier 2 | $159 | 1,000 | Audiobook generation |
+| Tier 3 | $319 | 2,500 | BYOK (bring your own AI key), book series support |
+| Tier 4 | $519 | 5,000 | NSFW content support, full feature set |
+
+For example, if you would otherwise use a roughly $30/month subscription, a $319 lifetime tier would cost about the same as 10–11 months of subscription payments. After that point, the lifetime deal could be cheaper, assuming the product continues to meet your needs.
+
+One caveat: credits reset monthly and don't roll over, on both the subscription and the lifetime plans. Buying "lifetime access" gets you permanent access to the tool and your monthly credit allowance, it doesn't mean unlimited generation forever.
+
+## What's New: The August 2026 Update
+
+AIWriteBook's founder posted a fairly substantial update on August 26, 2026. Since the update is recent, older reviews may not include these features. Three things shipped:
+
+1. **BYOK support through OpenRouter (Tier 3 and 4).** You can connect your own OpenRouter API key and run generation through virtually any AI model available on that platform, including ones released after AIWriteBook itself. A BYOK-powered action costs a flat 1 credit instead of the normal per-chapter cost. For users comfortable managing their own API key, this could reduce the number of platform credits needed for generation.
+2. **Audiobook Studio (Tier 2 and up)**, detailed above.
+3. **Library organization tools**, available to every tier for free: series folders, custom tags, an archive function for old drafts, and search/sort by title or progress.
+
+The founder says these updates came from the public feature-request roadmap, which at least shows that some requested features are being acted on.
+
+## What Users Are Saying
+
+AIWriteBook holds a 4.79 out of 5 rating on AppSumo across 103 verified reviews, and separately a 4.7 out of 5 "Excellent" rating on Trustpilot from 86 reviews, with about 98% of those reviews at 4 or 5 stars. The strong ratings appear on both the AppSumo marketplace and Trustpilot, giving feedback from more than one review source.
+
+Reviewers commonly mention that the tool is easy to use for non-technical users, that it helps push past writer's block, and that the style-matching feature does what it claims — several reviewers specifically mention that chapters started sounding like their own writing rather than generic AI output after training it on a sample.
+
+## The Credit System: What to Watch For
+
+The credit system is the main concern that comes up in some user reviews.
+
+Some reviewers find the credit system restrictive, and one recurring criticism is that it can interrupt the writing workflow. That's a minority opinion among the reviews, but it's a repeated one, not a one-off complaint.
+
+There's also a practical issue reported by at least one user: if a generation is interrupted by a weak mobile connection, the credits used for that attempt aren't automatically refunded. The founder has stated that emailing support will get those credits restored, but that's a manual process you have to remember to do, not something the system handles on its own.
+
+If you're on Tier 1 or Tier 2 and plan to write multiple books a year, budget some time to understand exactly how many credits a full chapter costs before you commit to a tier, since going over your monthly allowance means waiting for the reset or upgrading.
+
+## Who Should Use AIWriteBook
+
+AIWriteBook makes the most sense for self-publishing authors and ghostwriters who want outlining, drafting, cover design, and KDP export in one workspace. It may also suit authors with a partially finished manuscript who want help continuing, organizing, and formatting the project.
+
+## Who Should Skip It
+
+If you only plan to use the tool occasionally, a lifetime deal may not offer enough value to justify the upfront price. The monthly credit allowance also becomes less useful if you don't write consistently. And if you're looking for a fully hands-off "type an idea, get a finished novel" experience with zero editing on your part, this isn't built for that; the outline-approval step and inline editing are core to how it works, not optional extras.
+
+## Frequently Asked Questions
+
+### Do I own the books I create with AIWriteBook?
+
+Yes. The platform states that all content generated belongs entirely to the user, with full rights to publish and sell it.
+
+### What happens if I run out of credits partway through a book?
+
+You can upgrade your tier, or wait for your monthly credit allowance to reset. Unused credits from a previous month don't carry over.
+
+### Can I import a manuscript I already started elsewhere?
+
+Yes. AIWriteBook supports importing existing drafts, and the style-training feature will use that draft to match tone and voice in the new chapters it generates.
+
+### Does it work for nonfiction, not just novels?
+
+Yes. Nonfiction projects get outlines built around chapter structure and key takeaways rather than characters and plot arcs, along with support for citations and references.
+
+### Is the AppSumo lifetime deal actually cheaper than the subscription long-term?
+
+It can be. The answer depends on which subscription tier and lifetime tier you would otherwise use. Comparing the lifetime tiers to the equivalent monthly subscription tiers shows the lifetime deal paying for itself within roughly six to twelve months, depending on which tier you'd otherwise need.
+
+## Is AIWriteBook Worth It?
+
+AIWriteBook is designed for authors who want to handle more of the book-creation process in one place. You can outline, generate and edit chapters, create visuals, prepare files for KDP, and now generate audiobooks without moving between several separate tools.
+
+The main limitation is the monthly credit system. Lifetime access does not mean unlimited AI generation, and heavy users need to make sure their chosen tier provides enough credits for the way they write.
+
+For self-publishing authors and ghostwriters who plan to use the platform regularly, the AppSumo lifetime deal can make financial sense compared with an ongoing subscription. If you only write occasionally or want unlimited generation without tracking credits, it may not be the right fit.`
+    },
+    {
       id: 33,
       slug: "xemailcampaign-review",
       toolName: "XemailCampaign",
