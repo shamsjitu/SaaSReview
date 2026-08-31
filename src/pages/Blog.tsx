@@ -36,7 +36,7 @@ export default function Blog() {
   }, [currentPage]);
 
   return (
-    <div className="pt-24 min-h-screen bg-gray-50">
+    <div className="pt-16 min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 pt-10 pb-16 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-10">
           {posts.map((post, index) => (
