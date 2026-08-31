@@ -2915,7 +2915,7 @@ Official pricing starts around $14.59/month, though heavily discounted promotion
       ctaButtons: [
         {
           text: 'Try NordPass Free Trial',
-          url: 'https://nordpass.com/plans/',
+          url: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=155712&url_id=902',
           toastText: 'Opening official NordPass Free Trial...',
           isPrimary: true
         },
@@ -3098,7 +3098,7 @@ Unless every device in your household is made by Apple, NordPass covers more gro
 
 ### NordPass
 
-NordPass offers Teams, Business, and Enterprise plans with an admin console, SSO (Google Workspace, Microsoft Entra ID, AD FS, Okta), SCIM provisioning for automated user management, and API integrations with tools like Splunk and Microsoft Sentinel for activity logging. Current business pricing is listed on the [official NordPass plans page](https://nordpass.com/plans/).
+NordPass offers Teams, Business, and Enterprise plans with an admin console, SSO (Google Workspace, Microsoft Entra ID, AD FS, Okta), SCIM provisioning for automated user management, and API integrations with tools like Splunk and Microsoft Sentinel for activity logging. Current business pricing is listed on the [official NordPass plans page](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=155712&url_id=902).
 
 ### Apple Passwords
 
@@ -4971,13 +4971,13 @@ If you're weighing Proton Pass against other options before committing, our [Nor
       ctaButtons: [
         {
           text: 'Try Family for Free',
-          url: 'https://nordpass.com/plans/',
+          url: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=155712&url_id=902',
           toastText: 'Opening official NordPass Family Plan Trial...',
           isPrimary: true
         },
         {
           text: 'Try Premium Free',
-          url: 'https://nordpass.com/plans/',
+          url: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=155712&url_id=902',
           toastText: 'Opening official NordPass Premium Trial...',
           isPrimary: false
         }
@@ -5110,7 +5110,7 @@ Some users report occasional autofill issues on Android and Firefox. These aren'
 
 ## 6. Cost Per User Analysis
 
-This is where the comparison between Premium and Family gets most interesting, because the math shifts significantly depending on how many accounts you're actually buying for. Prices below reflect the rates shown on the [official NordPass plans page](https://nordpass.com/plans/) at the time of writing.
+This is where the comparison between Premium and Family gets most interesting, because the math shifts significantly depending on how many accounts you're actually buying for. Prices below reflect the rates shown on the [official NordPass plans page](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=155712&url_id=902) at the time of writing.
 
 | Number of Users | Premium Total Cost | Family Total Cost | Saving With Family |
 |---|---|---|---|
@@ -5243,7 +5243,7 @@ Nothing, practically speaking. Unused slots don't cost extra or require any acti
       ctaButtons: [
         {
           text: 'Try Free Trial',
-          url: 'https://nordpass.com/plans/',
+          url: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=155712&url_id=902',
           toastText: 'Opening official NordPass Family Plan Trial...',
           isPrimary: true
         }
@@ -5283,7 +5283,7 @@ The plan includes every feature NordPass offers at the Premium level. This isn't
 
 ## How Does the Pricing Actually Work?
 
-The Family plan costs $2.79 per month, billed as a lump sum of $66.96 covering the first 24 months. That's a two-year commitment upfront rather than a rolling monthly payment. You can verify current rates on the [official NordPass plans page](https://nordpass.com/plans/) before committing.
+The Family plan costs $2.79 per month, billed as a lump sum of $66.96 covering the first 24 months. That's a two-year commitment upfront rather than a rolling monthly payment. You can verify current rates on the [official NordPass plans page](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=155712&url_id=902) before committing.
 
 Before deciding whether that's good value, it helps to look at what the cost actually breaks down to per person.
 
@@ -5531,7 +5531,7 @@ NordPass offers a 30-day money-back guarantee on the Family plan rather than a t
       ctaButtons: [
         {
           text: 'Try Free Trial',
-          url: 'https://nordpass.com/plans/',
+          url: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=155712&url_id=902',
           toastText: 'Opening official NordPass Premium 30-day Free Trial...',
           isPrimary: true
         }
@@ -5698,7 +5698,7 @@ Indispensable for everyone, this is the core daily-use feature of any password m
 
 NordPass Premium starts at $1.49/month on the 2-year plan or $1.99/month on the 1-year plan. Both plans include a 30-day money-back guarantee and a 30-day Premium trial.
 
-Keep in mind that these are introductory prices. Renewal rates may be higher, so it's worth checking the current renewal terms before subscribing. VAT may also apply depending on your location. You can view current rates directly on the [official NordPass plans page](https://nordpass.com/plans/).
+Keep in mind that these are introductory prices. Renewal rates may be higher, so it's worth checking the current renewal terms before subscribing. VAT may also apply depending on your location. You can view current rates directly on the [official NordPass plans page](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=155712&url_id=902).
 
 ---
 
@@ -5795,7 +5795,7 @@ You can cancel within 30 days of purchase for a full refund under NordPass's mon
       ctaButtons: [
         {
           text: 'Sign Up Free',
-          url: 'https://nordpass.com/plans/',
+          url: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=155712&url_id=902',
           toastText: 'Opening official NordPass Free registration...',
           isPrimary: true
         }
@@ -6085,7 +6085,7 @@ If you're a single-device user, or you're evaluating NordPass before paying, Nor
 
 If you regularly switch between a phone, laptop, and tablet, however, the one-active-session restriction becomes frustrating surprisingly quickly. In that case, upgrading to Premium—or choosing a free alternative like Bitwarden—will likely provide a better long-term experience.
 
-**Final Rating: 4/5** — Strong fundamentals, one significant limitation that matters a lot depending on how you work. Current plan details are available on the [official NordPass plans page](https://nordpass.com/plans/).
+**Final Rating: 4/5** — Strong fundamentals, one significant limitation that matters a lot depending on how you work. Current plan details are available on the [official NordPass plans page](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=155712&url_id=902).
 
 ---
 
