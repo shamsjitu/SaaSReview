@@ -43,14 +43,13 @@ export default function AboutAuthor() {
               </motion.div>
             </div>
             
-            <div className="relative aspect-square lg:aspect-auto">
+            <div className="relative aspect-square lg:aspect-auto bg-white">
               <img 
                 src={SITE_DATA.author.image} 
                 alt={SITE_DATA.author.name} 
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-contain p-6 md:p-10 grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent pointer-events-none" />
             </div>
           </div>
         </div>
