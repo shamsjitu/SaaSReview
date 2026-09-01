@@ -10,23 +10,20 @@ import { SITE_DATA } from '../data/siteData';
 
 export default function AboutAuthor() {
   return (
-    <section id="about" className="py-24 bg-gray-50">
+    <section id="about" className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-[40px] shadow-sm border border-gray-100 overflow-hidden">
           <div className="grid lg:grid-cols-2">
-            <div className="p-12 md:p-16 flex flex-col justify-center">
+            <div className="p-8 md:p-10 flex flex-col justify-center">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
               >
-                <span className="text-secondary font-bold uppercase tracking-widest text-xs mb-4 block">The Expert Behind The Reviews</span>
-                <h2 className="font-display text-4xl font-bold text-primary mb-6">Hello, I'm {SITE_DATA.author.name}</h2>
-                <p className="text-body-text text-lg leading-relaxed mb-8">
-                  {SITE_DATA.author.bio}
-                </p>
-                <p className="text-body-text mb-10">
-                  I started ShamsStack with one simple goal: to help publishers and founders navigate the complex world of software tools. I don't just list software; I test them in my daily workflow to ensure you're getting honest, practical advice.
+                <span className="text-secondary font-bold uppercase tracking-widest text-xs mb-3 block">The Expert Behind The Reviews</span>
+                <h2 className="font-display text-3xl font-bold text-primary mb-4">Hello, I'm {SITE_DATA.author.name}</h2>
+                <p className="text-body-text text-base leading-relaxed mb-6">
+                  {SITE_DATA.author.bio} I test every tool in my daily workflow to bring you honest, practical advice.
                 </p>
                 
                 <div className="flex gap-4">
@@ -47,7 +44,7 @@ export default function AboutAuthor() {
               <img 
                 src={SITE_DATA.author.image} 
                 alt={SITE_DATA.author.name} 
-                className="w-full h-full object-contain p-6 md:p-10 grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-contain p-4 sm:p-6 lg:p-8 grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
               />
             </div>
