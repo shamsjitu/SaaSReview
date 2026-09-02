@@ -53,7 +53,7 @@ export default function Footer() {
               <li><Link to="/blog" className="text-body-text hover:text-primary transition-colors">Expert Reviews</Link></li>
               <li><Link to="/upcoming" className="text-body-text hover:text-primary transition-colors">How-To Guides</Link></li>
               <li><Link to="/upcoming" className="text-body-text hover:text-primary transition-colors">Lifetime Deals</Link></li>
-              <li><Link to="/legal/affiliate-disclosure" className="text-body-text hover:text-primary transition-colors">Affiliate Disclosure</Link></li>
+              <li><Link to="/blog/latest-news" className="text-body-text hover:text-primary transition-colors">Latest News</Link></li>
             </ul>
           </div>
 
@@ -61,8 +61,9 @@ export default function Footer() {
             <h4 className="font-display font-bold text-primary mb-6">Company</h4>
             <ul className="space-y-4">
               <li><Link to="/company/about-my-process" className="text-body-text hover:text-primary transition-colors">About My Process</Link></li>
-              <li><Link to="/blog/latest-news" className="text-body-text hover:text-primary transition-colors">Latest News</Link></li>
               <li><Link to="/legal/privacy-policy" className="text-body-text hover:text-primary transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/legal/terms-and-conditions" className="text-body-text hover:text-primary transition-colors">Terms & Conditions</Link></li>
+              <li><Link to="/legal/affiliate-disclosure" className="text-body-text hover:text-primary transition-colors">Affiliate Disclosure</Link></li>
               <li><Link to="/company/contact" className="text-body-text hover:text-primary transition-colors">Contact Us</Link></li>
             </ul>
           </div>
@@ -73,8 +74,8 @@ export default function Footer() {
             © 2024 ShamsStack. All rights reserved.
           </p>
           <div className="flex gap-8">
-            <a href="#" className="text-xs font-bold text-gray-400 hover:text-primary uppercase tracking-widest">Privacy</a>
-            <a href="#" className="text-xs font-bold text-gray-400 hover:text-primary uppercase tracking-widest">Terms</a>
+            <Link to="/legal/privacy-policy" className="text-xs font-bold text-gray-400 hover:text-primary uppercase tracking-widest">Privacy</Link>
+            <Link to="/legal/terms-and-conditions" className="text-xs font-bold text-gray-400 hover:text-primary uppercase tracking-widest">Terms</Link>
             <a href="/sitemap.xml" className="text-xs font-bold text-gray-400 hover:text-primary uppercase tracking-widest">Sitemap</a>
           </div>
         </div>
