@@ -15,6 +15,7 @@ import AboutMe from './pages/AboutMe';
 import CategoryDetail from './pages/CategoryDetail';
 import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
+import TermsAndConditions from './pages/TermsAndConditions';
 import Resources from './pages/Resources';
 import ExpertBlueprints from './pages/ExpertBlueprints';
 import HowToGuides from './pages/HowToGuides';
@@ -46,6 +47,7 @@ export default function App() {
             <Route path="/company/about-my-process" element={<AboutMe />} />
             <Route path="/company/contact" element={<Contact />} />
             <Route path="/legal/privacy-policy" element={<Privacy />} />
+            <Route path="/legal/terms-and-conditions" element={<TermsAndConditions />} />
             <Route path="/legal/affiliate-disclosure" element={<AffiliateDisclosure />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/category/:slug" element={<CategoryDetail />} />
