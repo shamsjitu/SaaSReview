@@ -247,27 +247,27 @@ Volza is a global trade intelligence platform that pulls shipment-level customs 
 
 Volza's core search tool lets you query by product keyword, HS code, or company name, and it returns matching shipment records — date, HS code, product description, consignee (buyer), shipper (supplier), and port. In one test search using several related product terms, Volza returned more than 51,000 importers and 44,000 exporters connected to more than 611,000 shipment records across 96 countries. The platform also suggests related keywords to widen a search, which helps if you're not sure of the exact product terminology customs data uses.
 
-![The Universal Search screen on Volza, showing a related-keyword cloud plus shipment, importer, and exporter counts before opening a result](/images/volza_review.png)
-*The Universal Search screen — searching by product keyword returns a related-keyword cloud plus a shipment/importer/exporter count before you even open a result.*
+![Universal Search results on Volza for "led light" and "office chair," showing full shipment details with consignee and shipper names locked behind padlock icons](/images/volza_universal_search.png)
+*Universal Search results: full shipment detail is visible, but consignee and shipper names stay locked until you spend points.*
 
 For freight-forwarder use specifically, the more relevant workflow is: pick a product → narrow it to an HS code → filter by destination country → see which importers are actually receiving shipments → check how recent and how frequent that activity is. That last step matters more than people expect — a single old shipment record isn't much of a lead, but a company with a repeating shipment history is a company that's actively buying freight and logistics services right now.
 
-![Shipment-level search results on Volza filtered by HS code, showing real recent shipment activity rather than a static directory listing](/images/volza_review_3.png)
-*Shipment-level results filtered by HS code — real recent shipment activity, not a static company directory.*
+![A closer view of Volza's shipment records table showing product descriptions, HS codes, and country of origin/destination fields](/images/volza_shipment_detail_view.png)
+*A closer look at individual shipment records — HS code, product description, and origin/destination details are fully visible on the free trial.*
 
 ## Trending Companies: The Better Prospecting Tool
 
 A company that imported once six months ago isn't necessarily a good sales prospect. A company whose import activity is increasing is much more interesting. That's where Volza's Trending Companies feature helps — it ranks importers or exporters by shipment value and growth over a chosen period, filterable by country, so you get a list sorted by who's actually scaling up rather than just who showed up in a search once.
 
-![Volza's Trending Companies tool filtered to Australia, ranking importers by shipment value and period-over-period growth](/images/volza_review_4.png)
-*Trending Companies, filtered to Australia — importers ranked by shipment value and period-over-period growth, not just raw record count.*
+![Volza's Trending Companies tool showing unlocked real importer and exporter company names](/images/volza_trending_companies.png)
+*Trending Companies is the one place real buyer and supplier names show up without spending any points — useful for scoping out major players before you commit to a search.*
 
 ## The Biggest Catch for Freight Forwarders
 
 In the shipment search view, the Consignee and Shipper columns show a padlock icon instead of the actual company name until you unlock them. You can see that a shipment happened, what it was, and when — but not who was on either end of it — without spending credits or upgrading. That's a real limitation for freight-forwarder prospecting specifically, since the whole point is getting a name and contact you can actually call.
 
-![Consignee and shipper company names locked behind a padlock icon in Volza's results table](/images/volza_review_2.png)
-*Consignee and Shipper names sit behind a lock icon in the results table — you can see shipment activity but not the counterparty without unlocking.*
+![Volza's Partial View mode showing a shipment records table with individual lock icons next to the Consignee and Shipper columns](/images/volza_locked_shipment_view.png)
+*Volza's Partial View mode lets you filter and unlock specific fields, like Consignee or Shipper, individually rather than the whole record.*
 
 In our own trial account, we also noticed how quickly the available credits could disappear after several searches — something worth budgeting for if you plan to search often rather than occasionally.
 
