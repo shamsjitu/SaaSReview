@@ -218,6 +218,126 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 37,
+      slug: "volza-for-freight-forwarders",
+      toolName: "Volza",
+      title: "Volza for Freight Forwarders: How to Find Importer Leads by HS Code",
+      category: "Business Tools",
+      date: "September 12, 2026",
+      readTime: "7 min",
+      image: "/images/volza_review_5.jpg",
+      excerpt: "Volza Review 2026: freight forwarders can mine HS-code shipment searches and Trending Companies growth rankings for leads, but locked contact names and $1,500+/year pricing are real trade-offs.",
+      ctaButtons: [
+        {
+          text: 'Try Volza Free Trial',
+          url: 'https://www.volza.com/export-import-trade-data/?red=shamss&utm_source=partner&utm_medium=reditus',
+          toastText: 'Opening Volza...',
+          isPrimary: true
+        }
+      ],
+      content: `*Last updated: September 2026*
+
+Finding new clients is one of the harder parts of running a freight-forwarding business. You can cold-call companies from old directories, buy lead lists, or wait for referrals. Volza gives you another option: look at companies that are already importing and use their shipment activity to find potential prospects. Here's what that actually looks like in practice, based on searches we ran ourselves inside a live Volza account.
+
+## What Is Volza?
+
+Volza is a global trade intelligence platform that pulls shipment-level customs data from government records across dozens of countries and makes it searchable by product, HS code, company name, or country. It's built primarily for exporters hunting for buyers and importers hunting for suppliers, but the same shipment data is useful for freight forwarders too. Those shipment records can also reveal companies that are actively moving goods internationally, which makes the data useful for freight-forwarding prospecting.
+
+## What You Actually Get
+
+Volza's core search tool lets you query by product keyword, HS code, or company name, and it returns matching shipment records — date, HS code, product description, consignee (buyer), shipper (supplier), and port. In one test search using several related product terms, Volza returned more than 51,000 importers and 44,000 exporters connected to more than 611,000 shipment records across 96 countries. The platform also suggests related keywords to widen a search, which helps if you're not sure of the exact product terminology customs data uses.
+
+![The Universal Search screen on Volza, showing a related-keyword cloud plus shipment, importer, and exporter counts before opening a result](/images/volza_review.png)
+*The Universal Search screen — searching by product keyword returns a related-keyword cloud plus a shipment/importer/exporter count before you even open a result.*
+
+For freight-forwarder use specifically, the more relevant workflow is: pick a product → narrow it to an HS code → filter by destination country → see which importers are actually receiving shipments → check how recent and how frequent that activity is. That last step matters more than people expect — a single old shipment record isn't much of a lead, but a company with a repeating shipment history is a company that's actively buying freight and logistics services right now.
+
+![Shipment-level search results on Volza filtered by HS code, showing real recent shipment activity rather than a static directory listing](/images/volza_review_3.png)
+*Shipment-level results filtered by HS code — real recent shipment activity, not a static company directory.*
+
+## Trending Companies: The Better Prospecting Tool
+
+A company that imported once six months ago isn't necessarily a good sales prospect. A company whose import activity is increasing is much more interesting. That's where Volza's Trending Companies feature helps — it ranks importers or exporters by shipment value and growth over a chosen period, filterable by country, so you get a list sorted by who's actually scaling up rather than just who showed up in a search once.
+
+![Volza's Trending Companies tool filtered to Australia, ranking importers by shipment value and period-over-period growth](/images/volza_review_4.png)
+*Trending Companies, filtered to Australia — importers ranked by shipment value and period-over-period growth, not just raw record count.*
+
+## The Biggest Catch for Freight Forwarders
+
+In the shipment search view, the Consignee and Shipper columns show a padlock icon instead of the actual company name until you unlock them. You can see that a shipment happened, what it was, and when — but not who was on either end of it — without spending credits or upgrading. That's a real limitation for freight-forwarder prospecting specifically, since the whole point is getting a name and contact you can actually call.
+
+![Consignee and shipper company names locked behind a padlock icon in Volza's results table](/images/volza_review_2.png)
+*Consignee and Shipper names sit behind a lock icon in the results table — you can see shipment activity but not the counterparty without unlocking.*
+
+In our own trial account, we also noticed how quickly the available credits could disappear after several searches — something worth budgeting for if you plan to search often rather than occasionally.
+
+## Pricing: What the Plans Actually Mean
+
+Volza runs on annual plans with a points-based credit system, not a flat unlimited subscription:
+
+| Plan | Approx. Annual Price |
+|---|---|
+| Startup | ~$1,500/year |
+| SME | ~$4,500/year |
+| Corporate | ~$9,600/year |
+
+Points get spent when you unlock or download a shipment record, and the cost varies by country: a US or India shipment typically costs 1 point, while harder-to-source markets can run up to 10 points per record. This isn't a cheap lead-list tool. Volza makes more sense for a freight-forwarding team that plans to use shipment data regularly than for someone who needs a few prospects once in a while. You can [check current plan details here](https://www.volza.com/export-import-trade-data/?red=shamss&utm_source=partner&utm_medium=reditus) to see exact numbers for your target countries.
+
+Coverage isn't identical across plans either — the entry-level tier excludes a set of "premium" markets (including Brazil, Turkey, Indonesia, and several others). Before choosing the cheapest plan, check whether the countries you actually target are included.
+
+## Volza vs. ImportGenius vs. Panjiva
+
+- **Mostly sourcing leads from US imports?** ImportGenius is US-focused and doesn't bundle verified contact details the way Volza does — a reasonable pick if you're comfortable finding contact info yourself.
+- **Need enterprise-level data depth?** Panjiva (owned by S&P Global) has the most complete dataset of the three, but costs several times more and is built for enterprise procurement teams, not solo forwarders or small brokerages.
+- **Need global coverage plus self-serve prospecting?** Volza trades some data depth for broader country coverage and upfront, published pricing instead of an enterprise sales cycle.
+
+## Who Volza Makes Sense For
+
+Volza makes the most sense if you:
+
+- Regularly need new importer prospects, not just a one-time list
+- Work across multiple countries rather than a single market
+- Want to find companies based on actual shipment activity instead of a static directory
+- Can justify an annual subscription and will use enough searches to make the credits worthwhile
+- Want to prioritize leads whose import activity is growing, not just companies that shipped once
+
+If that sounds like your workflow, it's worth checking Volza out before committing to an annual plan.
+
+👉 **[Try Volza Free Trial](https://www.volza.com/export-import-trade-data/?red=shamss&utm_source=partner&utm_medium=reditus)**
+
+## Who Should Think Twice
+
+- Anyone who only needs occasional, light lookups — the annual commitment and credit-burn model punishes infrequent use
+- Forwarders working exclusively in one of the "premium" markets excluded from the entry-level plan
+- Teams that need contact details as the primary deliverable — names and emails are separately metered on top of the base plan, so budget for that specifically rather than assuming it's included
+
+## FAQ
+
+### Does Volza show buyer and supplier names for free?
+
+No. Consignee and shipper names are locked behind a padlock icon until you spend credits or upgrade, even though the shipment record itself is visible.
+
+### How much does Volza cost per year?
+
+Plans start around $1,500/year (Startup), scaling to roughly $4,500/year (SME) and $9,600/year (Corporate), plus a points system for unlocking individual records.
+
+### Is Volza good for freight-forwarder lead generation specifically?
+
+It works well if you want ongoing, filterable prospects by HS code and country, especially through Trending Companies for spotting importers with growing volume. It's a weaker fit if you mainly want cheap, one-off lookups.
+
+### Volza vs ImportGenius — which is better?
+
+ImportGenius sticks to US import data and skips contact details. Volza covers more countries and includes metered contact unlocks, at a different price point — the right pick depends on how global your target list needs to be.
+
+### How current is Volza's shipment data?
+
+In our test account, general search results were current through the last week of August 2026, though freshness varies by country — some markets update daily, others lag by weeks or months.
+
+👉 **[Start Your Free Volza Trial](https://www.volza.com/export-import-trade-data/?red=shamss&utm_source=partner&utm_medium=reditus)**
+
+*Note: we can't independently verify Volza's own marketing claims about specific customer results — pricing and feature details above are based on our own trial account plus current vendor documentation and verified third-party reviews (Capterra).*`
+    },
+    {
       id: 36,
       slug: "volza-review",
       toolName: "Volza",
