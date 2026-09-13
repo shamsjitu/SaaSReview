@@ -218,6 +218,134 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 38,
+      slug: "volza-for-textile-exporters",
+      toolName: "Volza",
+      title: "Volza for Textile Exporters: How to Find Buyers in the US & EU",
+      category: "Business Tools",
+      date: "September 13, 2026",
+      readTime: "8 min",
+      image: "/images/textile_review_3.jpg",
+      excerpt: "Volza Review 2026: our live HS code 5208 test returned 3,031 US shipments and 778 importers, but buyer names stay locked in Partial View, and EU searches must run one country at a time.",
+      ctaButtons: [
+        {
+          text: 'Try Volza Free Trial',
+          url: 'https://www.volza.com/export-import-trade-data/?red=shamss&utm_source=partner&utm_medium=reditus',
+          toastText: 'Opening Volza...',
+          isPrimary: true
+        }
+      ],
+      content: `If you export textiles, you already know the hard part isn't making the product — it's finding the next buyer. Trade shows and referrals only go so far, while generic buyer-list services can leave you with outdated or overly broad leads. Volza takes a different starting point: instead of a static list, it works from shipment-level trade data, so you can identify companies that are importing your specific product category and investigate their recent shipment activity. Here's how that search actually works, based on a search we ran ourselves.
+
+## What Is Volza and How Does It Work?
+
+Volza is a global trade intelligence platform that provides shipment-level import and export data across 200 countries, sourced from customs departments, trading authorities, government agencies, and private data partners. For exporters, that means you're not simply guessing who might want your product — you can research companies with an actual import history in your category.
+
+## How the Search Actually Works
+
+Volza gives you two ways into the same data: search by product description (a keyword like "cotton fabric"), or search directly by HS code. For textile exporters, HS code search can be more useful when you want to narrow results to a specific product category, because product-description searches can miss shipments that use slightly different wording in the customs filing.
+
+One useful detail is that the HS code field accepts 4-, 6-, or 8-digit codes in the same "HS 4, 6 Or 8" field, alongside separate options for a plain Product Description search or an HS Description search if you don't have the exact code handy. In our testing, an 8-digit code was sometimes too specific to return useful results, while 4- or 6-digit searches produced broader results.
+
+![Volza's search builder screen showing country selection, date range, and search field options for a Product Description or HS code search](/images/textile_review.png)
+*The search builder, with country, date range, and search field options set before running a search.*
+
+One workflow detail worth knowing upfront: Volza searches one country's import or export dataset at a time — there's no single combined "EU" search. If your target markets are the US, Germany, and France, that's three separate country searches, not one. It's the same method every time, just swapped per market.
+
+## How to Use Volza to Find Textile Buyers
+
+Once you understand the search mechanics above, the actual workflow looks like this:
+
+1. **Start with your HS code** — for example, 5208 for woven cotton fabrics.
+2. **Choose the target country** — for example, United States, then repeat separately for Germany, France, or wherever else you're selling.
+3. **Start with a broader date range** — 12 months first, rather than jumping straight to "Last 30 Days."
+4. **Review the shipment activity** — look for companies importing your product category more than once, not just a single shipment.
+5. **Narrow the list** — filter by recent and recurring importers rather than trying to work through every result.
+6. **Unlock only the companies worth contacting** — don't spend credits unlocking every row; shortlist first.
+7. **Qualify the buyer before outreach** — check the company's website, product range, and market to confirm your fabric actually fits what they're sourcing.
+
+The goal isn't to collect thousands of names. It's to narrow a large dataset down to a smaller group of companies that are already buying products similar to yours, then qualify them before you spend time on outreach.
+
+## Our Real Volza Test: HS Code 5208
+
+In our test search, run in September 2026, HS code 5208 (woven cotton fabric) against US import data over a 12-month window returned 3,031 matching shipments, tied to 778 unique consignees (importing companies) across 74 countries of origin. That's a meaningful pool to work from — real companies, with a real, recent import date attached to each record, not a static directory entry that might be years out of date.
+
+![Volza search results for HS code 5208 against US import data, shown in Partial View with buyer and supplier names hidden behind a lock icon](/images/textile_review_2.png)
+*Real results for HS code 5208 against US import data — 3,031 shipments, 778 consignees, with HS code, product description, and shipment volume all visible per record.*
+
+## The Catch: Partial View and Hidden Buyer Names
+
+There is one important catch: the results are shown in "Partial View." A banner across the results says plainly that buyer, supplier, and notify-party names are hidden until you switch to full Shipment View. You can see that a company imported 293 cartons of "100% Cotton Fabric" from Sri Lanka into Savannah — but not which company, without unlocking it. For an exporter whose entire goal is getting a name to contact, that's the step that actually requires paid usage — Volza runs on a points system for unlocking shipment and contact details, on top of the base subscription.
+
+## What Happens When Your Search Returns Zero Results?
+
+A narrower finding worth flagging honestly: in our test, an overly specific 8-digit code combined with a tight date range (like "Last 30 Days") returned zero results. Broadening to the 4-digit code and a wider date window (12 months) is what actually surfaced the 3,031 shipments above — worth remembering if your own first search comes back empty, since it doesn't necessarily mean there's no data.
+
+## Volza Pricing: Plans, Searches and Data Credits
+
+Volza offers a free trial, plus three annual plans:
+
+| Plan | Approx. Annual Price | Coverage |
+|---|---|---|
+| Startup | $1,500/year | 108 countries, excludes 25 premium markets |
+| SME | $4,500/year | All 200+ countries, including premium markets |
+| Corporate | $9,600/year | All 200+ countries, including premium markets |
+
+Volza says the number of points deducted for unlocking a shipment record varies by country and database — for example, it currently lists 1 point for India and US shipments and 10 points for Guatemala. If you're planning to search across multiple markets (US, EU, elsewhere) as a textile exporter, that per-country cost structure is worth mapping against your actual target list before committing to a plan. The Startup plan's 25 excluded premium countries are worth checking against your specific EU target before assuming the cheapest tier covers it.
+
+If you want to test whether Volza can actually find buyers for your textile products, start with the free trial before committing to an annual plan — use your actual HS code and target country rather than browsing generic categories.
+
+👉 **[Try Volza Free Trial](https://www.volza.com/export-import-trade-data/?red=shamss&utm_source=partner&utm_medium=reditus)**
+
+## Volza vs. ImportGenius vs. Panjiva
+
+- **Mostly need US data?** ImportGenius has particularly strong US coverage and also offers selected international datasets.
+- **Need an enterprise-oriented option with extensive supply-chain and company data?** Panjiva (S&P Global) is built more for large procurement teams than individual exporters.
+- **Need coverage across multiple markets (US, EU, and beyond) with country-level filtering and transparent self-serve pricing?** Volza is the more practical fit for a textile exporter juggling several target countries at once.
+
+## Is Volza Worth It for Textile Exporters?
+
+If you regularly need new buyer leads and you're targeting more than one country, Volza is generally worth it — the annual cost is easier to justify when you're running searches and unlocking contacts often enough to use what you're paying for. If you only need five or ten leads occasionally, it's a harder sell; the annual commitment and per-unlock credit cost don't reward light, infrequent use. Either way, the free trial is the right first step — run your actual HS code against your actual target country before deciding whether to pay for a full plan.
+
+## Who Volza Makes Sense For
+
+- Textile exporters actively searching for new buyers in more than one country, not just occasionally checking one market
+- Exporters who know (or can look up) their product's HS code and want a repeatable, filterable way to find recent importers in that category
+- Teams that expect to use the platform regularly enough to justify an annual subscription
+
+## Who Should Think Twice
+
+- Exporters who only need a handful of leads once in a while — the annual commitment and per-unlock credit cost don't reward light, occasional use
+- Anyone assuming "200+ countries" means unlimited access everywhere on the cheapest plan — the Startup tier excludes 25 premium markets, so check your specific target countries first
+- Exporters expecting one search to cover the EU as a region — it doesn't; budget the time (and credits) for a separate search per country
+
+## FAQ
+
+### Can I search Volza for EU buyers the same way as US buyers?
+
+Yes, but as a separate search each time — Volza's data is organized by individual country, so there's no single "EU" search. You'd run the same HS code against Germany, France, the Netherlands, etc. one at a time.
+
+### Can I see buyer names for free on Volza?
+
+Full buyer and supplier name access requires paid usage — results show in a "Partial View" with names hidden until you unlock them. Volza also offers a free trial to test the search itself before you commit to a plan.
+
+### What HS code length should I search with?
+
+Volza accepts 4, 6, or 8-digit codes in the same field. In our testing, a 4 or 6-digit code returned broader, more useful results than an 8-digit code, especially when paired with a wider date range.
+
+### How much does Volza cost for a textile exporter targeting multiple countries?
+
+Volza currently lists Startup at $1,500/year, SME at $4,500/year, and Corporate at $9,600/year. It also offers a free trial, and data access/downloads consume searches or points depending on the plan and country — which adds up faster the more countries and codes you search.
+
+### What's the difference between Volza and ImportGenius for textile exporters?
+
+ImportGenius has particularly strong US coverage, but also offers selected international datasets. Volza's advantage is its broader country coverage, which may be more useful if you're researching buyers across multiple markets like the US and EU rather than a single country.
+
+👉 **[Start Your Free Volza Trial](https://www.volza.com/export-import-trade-data/?red=shamss&utm_source=partner&utm_medium=reditus)**
+
+*Editor's note: Shipment counts and search behavior in this article are based on our own live test of Volza's US import data. Results can change as the database is updated. The EU-market figures were not independently tested, so readers should check their target country directly.*`
+    },
+    {
       id: 37,
       slug: "volza-for-freight-forwarders",
       toolName: "Volza",
