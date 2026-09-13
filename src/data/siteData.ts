@@ -225,7 +225,7 @@ export const SITE_DATA = {
       category: "Business Tools",
       date: "September 13, 2026",
       readTime: "8 min",
-      image: "/images/textile_review_3.jpg",
+      image: "/images/textile_review_3.jpeg",
       excerpt: "Volza Review 2026: our live HS code 5208 test returned 3,031 US shipments and 778 importers, but buyer names stay locked in Partial View, and EU searches must run one country at a time.",
       ctaButtons: [
         {
