@@ -229,9 +229,9 @@ export const SITE_DATA = {
       excerpt: "Reditus Review 2026: verified live pricing, real marketplace listings, a Reditus vs PartnerStack/Impact comparison, and an honest verdict for both SaaS companies and affiliates.",
       ctaButtons: [
         {
-          text: 'Join Reditus as an Affiliate (Free)',
-          url: 'https://app.getreditus.com/affiliate/sign_up?source=affiliate',
-          toastText: 'Opening Reditus affiliate signup...',
+          text: 'Start Your Free Reditus Trial',
+          url: 'https://www.getreditus.com/?red=shamss',
+          toastText: 'Opening Reditus...',
           isPrimary: true
         }
       ],
@@ -266,6 +266,15 @@ If other sites you've seen list different numbers (including an older $139/month
 ## Is Reditus Free for Affiliates?
 
 Yes. If you're evaluating Reditus as an affiliate rather than a SaaS company, this part is straightforward and directly confirmed on Reditus's own site: joining as an affiliate is always free. Reditus makes its money from the SaaS companies paying for the platform, not from affiliates. As a SaaS company, you'll want to browse the marketplace and evaluate whether programs relevant to your specific audience are actually listed there before assuming the network size alone guarantees a fit — more on that below.
+
+It's worth separating two different ways to earn through Reditus. Most affiliates join to promote the SaaS companies listed in Reditus's marketplace (Leadpages, Joiin, Volza, and others) — in that case, the SaaS company you refer pays the commission, not Reditus. But Reditus also runs its own affiliate program, where you refer other SaaS companies to become Reditus customers, and Reditus itself pays the commission:
+
+| Reditus's Own Affiliate Program | |
+|---|---|
+| Cookie window | 30 days |
+| Commission | 30% |
+| Commission period | 24 months |
+| Minimum payout | $50 |
 
 👉 **[Join Reditus as an Affiliate (Free)](https://app.getreditus.com/affiliate/sign_up?source=affiliate)**
 
@@ -381,7 +390,9 @@ For affiliates, it's worth joining because it costs nothing, but the real value 
 
 Compared against competitors, Reditus isn't automatically "the best" platform in every scenario. Its strongest selling point is specialization: everything about it is built around B2B SaaS specifically, which is exactly why it's simpler and cheaper than PartnerStack or Impact for companies that don't need their broader, more complex feature sets — and exactly why it's the wrong tool for anyone outside that niche.
 
-👉 **[Join Reditus as an Affiliate (Free)](https://app.getreditus.com/affiliate/sign_up?source=affiliate)**
+If you're a B2B SaaS company weighing whether to set up an affiliate program, the free trial is the lowest-risk way to see whether Reditus's marketplace and AI discovery actually surface relevant partners for your specific product.
+
+👉 **[Start Your Free Reditus Trial](https://www.getreditus.com/?red=shamss)**
 
 ## FAQ
 
