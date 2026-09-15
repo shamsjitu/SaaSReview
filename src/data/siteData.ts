@@ -218,6 +218,206 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 41,
+      slug: "reditus-review",
+      toolName: "Reditus",
+      title: "Reditus Review 2026: Is It the Best B2B SaaS Affiliate Network?",
+      category: "Business Tools",
+      date: "September 15, 2026",
+      readTime: "11 min",
+      image: "/images/reditus_review_banner.jpg",
+      excerpt: "Reditus Review 2026: verified live pricing, real marketplace listings, a Reditus vs PartnerStack/Impact comparison, and an honest verdict for both SaaS companies and affiliates.",
+      ctaButtons: [
+        {
+          text: 'Join Reditus as an Affiliate (Free)',
+          url: 'https://app.getreditus.com/affiliate/sign_up?source=affiliate',
+          toastText: 'Opening Reditus affiliate signup...',
+          isPrimary: true
+        }
+      ],
+      content: `Reditus has built a reputation as one of the more focused affiliate platforms in a crowded market — it only works with B2B SaaS companies, rather than trying to serve every type of business. That narrow focus is either exactly what you need or a reason to look elsewhere, depending on what you're building.
+
+We looked at Reditus from both sides of the platform — as a tool SaaS companies use to run affiliate programs, and as a network affiliates use to find B2B SaaS products to promote — to see whether the "best B2B SaaS affiliate network" claim actually holds up.
+
+## What Is Reditus?
+
+Reditus is an affiliate and referral management platform built exclusively for B2B SaaS companies. It combines affiliate program tracking, an in-app customer referral option, a marketplace connecting SaaS companies with affiliates, and AI-powered affiliate discovery, all in one dashboard.
+
+According to Reditus's own company story page, the platform was founded by Joran Hofman, who had previously run his own content site as a B2B SaaS affiliate and experienced the common frustrations firsthand — inconsistent tracking, unclear payouts, and having to log into multiple dashboards across tools like Rewardful and FirstPromoter. That background shapes the product: Reditus is built by someone who was on the affiliate side of the table, not just the SaaS-company side.
+
+## Reditus Pricing for SaaS Companies
+
+We checked Reditus's live pricing page directly, since third-party review sites currently show conflicting figures for this platform. Here's what it actually shows, billed annually:
+
+- **Growth — $99/month** ($1,188 billed once a year), discounted from a $149 list price. Covers up to $60K ARR generated through the channel. Includes the in-app referral program, full affiliate program toolkit, automated payouts, unlimited advocates and affiliates, and one AI affiliate search per month. Comes with a 14-day free trial and no credit card required.
+- **Scale Up — $399/month** ($4,788 billed annually, 12-month plan, marked "Most Popular"). Covers up to $360K ARR. Adds marketplace listing, a vetted affiliate database, full AI affiliate database access, five AI affiliate searches per month, and public campaigns.
+- **Enterprise — from $799/month** ($9,588 billed annually, 12-month plan). Unlimited ARR, white-glove onboarding, unlimited AI searches, a named Customer Success Manager, and custom contracts.
+
+![Reditus's live pricing page showing Growth at $99/month, Scale Up at $399/month marked "Most Popular," and Enterprise starting from $799/month, all billed annually](/images/reditus_pricing_plans.png)
+*Reditus's live pricing page — Growth, Scale Up, and Enterprise plans with their monthly and annual billing figures.*
+
+Reditus does not currently offer a full free plan for SaaS companies — new customers start with the 14-day free trial instead of an ongoing free tier. Marketplace listing, which is how affiliates discover your program organically rather than through direct recruitment, is only included from Scale Up upward, not on Growth.
+
+![Reditus's pricing page feature breakdown, showing marketplace listing, vetted affiliate database, and public campaigns listed under the Scale Up tier and above, not under Growth](/images/reditus_pricing_features.png)
+*The plan feature breakdown — marketplace listing, the vetted affiliate database, and public campaigns are only included from Scale Up upward.*
+
+If other sites you've seen list different numbers (including an older $139/month figure we initially found elsewhere), Reditus's pricing has evidently changed since those pages were last updated — always check the live pricing page directly before deciding.
+
+## Is Reditus Free for Affiliates?
+
+Yes. If you're evaluating Reditus as an affiliate rather than a SaaS company, this part is straightforward and directly confirmed on Reditus's own site: joining as an affiliate is always free. Reditus makes its money from the SaaS companies paying for the platform, not from affiliates. As a SaaS company, you'll want to browse the marketplace and evaluate whether programs relevant to your specific audience are actually listed there before assuming the network size alone guarantees a fit — more on that below.
+
+👉 **[Join Reditus as an Affiliate (Free)](https://app.getreditus.com/affiliate/sign_up?source=affiliate)**
+
+## Reditus Network: By the Numbers
+
+According to Reditus's own current network page, here's what the platform reports:
+
+| Metric | Reditus reports |
+|---|---|
+| Active affiliates | 27,000+ |
+| Sales generated for customers | $11M+ |
+| Countries reached | 190+ |
+| Partnerships created | 61,000+ |
+| Vetted affiliates (curated subset) | ~650 |
+
+![Reditus's network page showing 27,000+ active affiliates, $11M+ in sales driven for customers, 190+ countries reached, and 61k partnerships created](/images/reditus_network_stats.png)
+*Reditus's live network page — the headline numbers behind the "B2B SaaS affiliate network" claim.*
+
+That "vetted" tier is worth understanding on its own: it's a smaller pool within the broader 27,000+ network — partners who applied and were approved with first-party data (like connected Google Analytics, YouTube, or LinkedIn accounts) and documented revenue history. Reditus positions this as its most validated tier for direct outreach, separate from the wider network anyone can technically be part of.
+
+![Reditus's AI discovery diagram showing the open web narrowing down to the 27,000+ affiliate network and a smaller vetted tier of 650 affiliates with first-party data](/images/reditus_ai_discovery.png)
+*Reditus's own funnel diagram — from the open web, to the 27,000+ network, down to the 650 vetted affiliates with documented, first-party data.*
+
+We also looked at Reditus's live marketplace directly rather than relying on the headline stats alone. Real listings we saw included Leadpages (20% commission for 12 months, 90-day cookie), Joiin (40-50% for 12 months), and — notably — Volza FZ LLC, which we've [reviewed separately on this site](/blog/volza-review), listed with a 60-day cookie window. Each listing shows the commission structure, cookie length, and an approximate average payout figure, so affiliates can compare offers before applying.
+
+![Reditus's live marketplace page showing real SaaS listings including Parallel AI, Leadpages, Joiin, and Volza FZ LLC with their commission rates and cookie windows](/images/reditus_marketplace.png)
+*Reditus's live marketplace — real, named SaaS programs including Leadpages, Joiin, and Volza FZ LLC, each with commission rate and cookie length shown upfront.*
+
+## Key Features
+
+**Marketplace.** SaaS companies with a paid plan (Growth tier and above, though full listing visibility requires Scale Up) get listed in Reditus's marketplace, where affiliates can browse and apply to join programs that match their audience. This solves a real problem — a tracking tool alone doesn't help you find affiliates, and a database of potential partners isn't the same as a pipeline of people who'll actually promote you.
+
+**AI-Powered Affiliate Discovery.** Reditus's AI search works in three distinct modes: by keywords (finding sites already ranking for your buying-intent terms — listicles, comparisons, review pages), by competitors (surfacing affiliates already promoting rival or complementary tools), and by ICP access (finding agencies, consultants, and communities your ideal customer already trusts). This search runs across the open web, separate from the curated 27,000+ affiliate network itself.
+
+**In-App Referral Program.** Separate from the external affiliate program, this lets SaaS companies turn their own existing customers into referrers directly inside the product, using the same underlying tracking infrastructure — a distinct use case from recruiting outside affiliates, running alongside it rather than replacing it.
+
+**Payment Integrations.** Reditus integrates directly with Stripe and Paddle for automatic commission attribution, plus a custom API for businesses on a different payment stack.
+
+**Affiliate Vetting Data.** For SaaS companies evaluating potential affiliates before approving a partnership, Reditus shows the type of business, revenue track record with other SaaS companies, audience/niche fit, and examples of how that affiliate promotes products.
+
+**Campaigns.** Beyond ongoing commission, SaaS companies can offer one-off bounties for specific actions — a comparison article, a G2 review, a newsletter mention, or hitting a referral milestone — paid on top of an affiliate's regular recurring commission. Campaigns are included on every paid plan; live bounties on the network at the time we checked ranged from $10 for a simple mention up to $250 for a researched article or referral milestone. Public campaigns, broadcast to the full affiliate network rather than just your own affiliates, require Scale Up or higher.
+
+**Migration Support.** Switching from another affiliate platform includes free white-glove migration with any annual plan — Reditus's team handles the data import, tracking setup, and Stripe cutover, and affiliates keep their existing links. The process runs through an intro call, installation, data preparation, data migration, and launch day, with a 30-day cookie transition window.
+
+## Reditus Pros and Cons
+
+**Pros**
+- Built specifically for B2B SaaS, with recurring-commission structures suited to that model
+- Always free to join as an affiliate
+- Built-in marketplace connects SaaS companies with relevant affiliates directly
+- AI affiliate discovery goes beyond a static database — searches the open web by keyword, competitor, or ICP
+- Native Stripe and Paddle integrations
+- Campaigns give SaaS companies a way to activate affiliates who join but never promote
+
+**Cons**
+- Not suitable for non-SaaS or non-recurring-billing businesses
+- Full marketplace listing for SaaS companies starts at the Scale Up tier ($399/month), not the entry Growth plan
+- Smaller overall ecosystem than larger, more general partnership platforms like PartnerStack or Impact
+- No full free plan for SaaS companies anymore — 14-day trial only
+- Marketplace affiliate quality varies by program; a large network doesn't guarantee affiliates relevant to your specific niche
+
+## Reditus vs Competitors
+
+| Platform | Best for | SaaS-focused | Marketplace | Affiliate discovery | Complexity |
+|---|---|---|---|---|---|
+| Reditus | B2B SaaS specifically | Yes | Yes | AI + curated network | Low–Medium |
+| PartnerStack | Larger, complex partner programs | No | Yes | Strong, enterprise-oriented | High |
+| Impact | Broad partnerships across industries | No | Yes | Strong, broad | High |
+| Rewardful | Simple SaaS affiliate tracking | Mostly | Limited | Limited | Low |
+| Tapfiliate | General-purpose affiliate programs | No | Limited | Limited | Low–Medium |
+
+*This table reflects each platform's current public positioning at the time of writing — features and plans change, so confirm directly with each provider before deciding.*
+
+**Reditus vs. PartnerStack:** PartnerStack is the larger, more established platform in this space, built for companies that need complex reseller networks, multi-tier structures, and deep CRM integrations like bidirectional HubSpot or Salesforce sync. Choose PartnerStack if you have a dedicated partnerships team, a longer sales cycle, and need that level of depth. Choose Reditus if you're a smaller B2B SaaS company that wants a simpler setup without paying for complexity you won't use.
+
+**Reditus vs. Impact:** Impact supports a broader range of business types beyond SaaS specifically, with a correspondingly broader (and more complex) feature set. Capterra and G2 reviewers of Reditus have specifically described it as simpler to set up and use than Impact — see the "What Real Users Say" section below for that evidence directly. Choose Impact if you need cross-industry partnership management; choose Reditus if B2B SaaS is your entire business model and you'd rather not manage features built for other verticals.
+
+**Reditus vs. Rewardful/Tapfiliate:** These are generally more focused on affiliate tracking and program management on their own, while Reditus adds a SaaS-focused marketplace and affiliate discovery layer on top of tracking. If all you need is basic link tracking, a simpler, cheaper tool may cover it. If finding relevant affiliates (not just tracking the ones you already have) is your actual bottleneck, that's the gap Reditus is built to close.
+
+## What Real Users Say
+
+Reviews on Capterra and G2 frequently mention Reditus's clean, simple dashboard and responsive support team, with several reviewers specifically calling it easier to use than Impact and cheaper than PartnerStack. The marketplace and built-in network of affiliates come up repeatedly as the main reason SaaS companies chose Reditus over a pure tracking tool.
+
+The recurring criticism is more about fit than execution: Reditus is not ideal if you need deep customization, complex multi-tier affiliate structures, or non-SaaS billing integrations like Shopify or physical product tracking. One G2 reviewer also noted that while the affiliate marketplace is growing, finding high-quality partners within it can still take time — a database of affiliates isn't automatically a pipeline of customers. That's a fair caveat worth taking seriously rather than glossing over.
+
+## Is Reditus Legit?
+
+Given how often this comes up as a direct search, it's worth addressing plainly: yes, based on everything we could verify — a real company with a named founder, a documented history (Joran Hofman's own experience as a struggling B2B SaaS affiliate before building the platform), published G2 and Capterra reviews from real users, transparent live pricing, and a functioning public marketplace we browsed directly with real, named SaaS companies listed. None of that guarantees any individual program on the marketplace will be a good fit for your audience, but the platform itself checks out as a legitimate, operating business rather than a shell or a scam.
+
+## Is Reditus Worth It for Affiliates?
+
+Since it costs nothing to join, the honest answer is: yes, it's worth signing up, with realistic expectations. Being free removes the downside — Reditus makes its revenue from the SaaS companies, not from affiliates, so there's no cost to joining and browsing.
+
+That said, network size alone doesn't guarantee results. 27,000+ affiliates and 100+ SaaS programs is a real, sizeable marketplace, but whether it's useful to you specifically depends on whether programs relevant to your actual audience and niche are listed there. It's also not automatically better than approaching a SaaS company directly about their affiliate program if you already have a specific tool in mind — Reditus's value is aggregation and discovery, not exclusivity. For affiliates who cover multiple B2B SaaS tools and want one dashboard for tracking and payouts across programs, that convenience is the real draw, more than the network size headline number.
+
+## Who Should Use Reditus
+
+- **B2B SaaS companies with some product-market fit** who use Stripe or Paddle and want more than basic link tracking — the marketplace and AI discovery features are where Reditus earns its price over a simpler tool.
+- **Affiliates who specifically promote SaaS products** and want access to a curated network of B2B programs rather than a general-purpose affiliate marketplace mixed with ecommerce and other verticals.
+- **Solo founders or small marketing teams** who want an affiliate program without the complexity (or cost) of an enterprise platform like PartnerStack or Impact.
+
+## Who Should Skip It
+
+- **Non-SaaS businesses** — Reditus is explicitly built around recurring SaaS billing models; ecommerce or physical-product businesses are better served elsewhere.
+- **Companies needing complex multi-tier affiliate structures** or deep CRM bidirectional sync — PartnerStack is the more established option for that level of complexity.
+- **Very early-stage products still changing every week** — several reviewers note Reditus works best once you have some product-market fit and a stable value proposition to actually recruit affiliates around.
+
+## Final Verdict: Is Reditus Worth It?
+
+For B2B SaaS companies, Reditus is strongest when you want affiliate tracking, a marketplace, and affiliate discovery in one platform rather than stitching together separate tools — the trade-off is that full marketplace access requires the $399/month Scale Up tier, not the cheaper Growth plan.
+
+For affiliates, it's worth joining because it costs nothing, but the real value depends on whether the marketplace actually contains programs relevant to your specific audience — not just the size of the network as a whole.
+
+Compared against competitors, Reditus isn't automatically "the best" platform in every scenario. Its strongest selling point is specialization: everything about it is built around B2B SaaS specifically, which is exactly why it's simpler and cheaper than PartnerStack or Impact for companies that don't need their broader, more complex feature sets — and exactly why it's the wrong tool for anyone outside that niche.
+
+👉 **[Join Reditus as an Affiliate (Free)](https://app.getreditus.com/affiliate/sign_up?source=affiliate)**
+
+## FAQ
+
+**Is Reditus free?**
+
+For affiliates, yes — joining and promoting programs through Reditus is always free. For SaaS companies, there is no longer a full free plan; a 14-day free trial is available instead, with paid plans required for ongoing use and full marketplace access.
+
+**How much does Reditus cost for SaaS companies?**
+
+Verified directly on Reditus's live pricing page: Growth is $99/month ($1,188 billed annually) for up to $60K ARR, Scale Up is $399/month for up to $360K ARR (marketplace listing included from this tier up), and Enterprise starts from $799/month for unlimited ARR.
+
+**Does Reditus have a free trial?**
+
+Yes, a 14-day free trial with no credit card required, available on the Growth plan.
+
+**How does Reditus pay affiliates?**
+
+Reditus tracks referred customers and consolidates affiliate commissions, with payouts handled based on the payment method each affiliate sets during profile creation. Exact payout methods and timing are confirmed during signup rather than published as a single fixed policy.
+
+**Does Reditus have an affiliate marketplace?**
+
+Yes — SaaS companies on Scale Up or higher are listed in a public marketplace where affiliates can browse, filter, and apply to join programs. We browsed it directly and found real, named listings including Leadpages, Joiin, and Volza FZ LLC.
+
+**Who founded Reditus?**
+
+Joran Hofman, who previously worked as a B2B SaaS affiliate himself before building Reditus to solve the tracking and transparency problems he experienced firsthand.
+
+**Is Reditus better than PartnerStack?**
+
+For smaller B2B SaaS companies that want a simpler setup and lower cost, Reditus is generally the better fit. For larger companies needing complex multi-tier structures and deep CRM integration, PartnerStack's greater depth may justify its added complexity and cost.
+
+**Does Reditus only work with SaaS companies?**
+
+Yes, Reditus is explicitly built around B2B SaaS and recurring revenue billing models via Stripe or Paddle. It's not designed for ecommerce, Shopify integrations, or physical-product businesses.`
+    },
+    {
       id: 40,
       slug: "volza-vs-trademo",
       toolName: "Volza",
