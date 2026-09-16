@@ -218,6 +218,136 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 42,
+      slug: "reditus-for-micro-saas-founders",
+      toolName: "Reditus",
+      title: "Reditus for Micro-SaaS Founders: Building an Affiliate Program on a $0 Budget",
+      category: "Business Tools",
+      date: "September 16, 2026",
+      readTime: "10 min",
+      image: "/images/reditus_microsaas_banner.jpg",
+      excerpt: "Can a micro-SaaS founder actually build an affiliate program with no upfront budget on Reditus? We break down the genuinely free path (in-app referrals, the trial) versus what actually costs money — and why $0 platform cost still isn't the same as $0 affiliate marketing.",
+      ctaButtons: [
+        {
+          text: 'Start Reditus Free (14-Day Trial)',
+          url: 'https://www.getreditus.com/?red=shamss',
+          toastText: 'Opening Reditus...',
+          isPrimary: true
+        }
+      ],
+      content: `If you're running a micro-SaaS with a handful of paying customers and no marketing budget, "just start an affiliate program" is easy advice to give and hard advice to act on. Traditional affiliate networks can come with setup costs, platform fees, and ongoing network or transaction fees — overhead that can be difficult to justify when you're running a small SaaS on a tight budget.
+
+This article looks at whether Reditus, a platform built specifically for B2B SaaS, really lets a micro-SaaS start affiliate marketing with $0 upfront — and where that free option ends.
+
+## The Honest Answer: Two Different $0 Paths, Not One
+
+Reditus doesn't offer a single "free forever" plan that gives SaaS companies access to the full affiliate platform. But there are two genuinely free ways to get started, and the difference matters before you assume either one covers everything you need.
+
+**Path 1: The in-app referral program.** Reditus markets this as free to start, on a pay-per-performance model — you're not paying a subscription just to turn your existing customers into a referral channel. This is the more literal "$0 budget" option: set it up, start using it, and payment is tied to actual results rather than a flat fee.
+
+**Path 2: The 14-day free trial.** For the full affiliate program (external affiliates, marketplace listing, AI affiliate discovery), Reditus offers a 14-day trial with no credit card required. That's a real, no-cost way to test the full toolkit — but after 14 days, continuing requires the Growth plan at $99/month, and full marketplace visibility (which gives SaaS companies exposure to Reditus's affiliate network) requires the $399/month Scale Up tier.
+
+So the honest framing for a $0-budget micro-SaaS founder: the in-app referral program is the part that stays free indefinitely. The full external affiliate program is free to test, not free to run long-term. For a broader look at Reditus's features, pricing, and affiliate tools, see our full [Reditus review](/blog/reditus-review).
+
+## Why This Matters More for Micro-SaaS Specifically
+
+Reditus is designed around B2B SaaS and recurring subscription businesses, using Stripe or Paddle for billing — which matches most micro-SaaS products by default. But the bigger reason it fits this audience specifically comes down to commission economics, not just the pricing model.
+
+Traditional affiliate networks are generally designed to connect merchants with large pools of publishers, but that infrastructure can be more than a small SaaS needs at the beginning. For a micro-SaaS selling a low-priced monthly product, platform fees and other network costs can make the economics harder to justify at an early stage. Because Reditus only works with B2B SaaS, commissions tend to be recurring and tied to higher ticket prices relative to typical consumer affiliate offers, which changes the math for a small, early-stage product trying to make partner marketing pay for itself quickly.
+
+## What You Actually Get for $0
+
+Based on Reditus's own documentation of the in-app referral program and trial period, here's what's realistically available without spending anything:
+
+- **A working in-app referral widget** inside your product, so existing customers can share a referral link without leaving the app
+- **Automated reward tracking**, so you're not manually calculating who's owed what
+- **Referral analytics** — who referred whom, conversion rates, and more
+- **14 days of the full affiliate toolkit** — enough time to set up your program, invite a handful of affiliates, and see whether external affiliate marketing is worth pursuing before you commit any money
+- **Stripe integration with a copy-paste tracking setup**, according to Reditus's documentation, which can reduce the technical work needed to get started
+
+What you don't get for $0: a listing in Reditus's public marketplace (which gives SaaS companies exposure to Reditus's wider affiliate network), AI-powered affiliate discovery beyond the trial window, and campaigns to activate affiliates who join but don't promote. Those require a paid plan.
+
+![Reditus's pricing page feature breakdown, showing marketplace listing, vetted affiliate database, and public campaigns listed under the Scale Up tier and above, not under Growth](/images/reditus_pricing_features.png)
+*Marketplace listing, AI affiliate database access, and public campaigns are all gated behind Scale Up ($399/month) and above — not part of the free trial or the Growth plan.*
+
+## $0 Platform Cost Doesn't Mean $0 Affiliate Marketing
+
+This distinction is worth being direct about: starting an affiliate program for $0 and running affiliate marketing for $0 are not the same thing.
+
+Reditus can remove the upfront platform cost, but you still need something worth promoting and a reason for affiliates to care. That usually means having a clear landing page, a competitive commission, a product that actually converts, and enough margin to pay partners once they generate customers.
+
+You'll likely also need to spend your own time recruiting affiliates, at least early on. During the free trial, that can mean contacting relevant bloggers, reviewers, newsletter owners, and creators in your niche directly, rather than waiting for affiliates to discover your program on their own.
+
+So for a micro-SaaS founder, the realistic goal isn't necessarily "spend nothing." It's "avoid paying for affiliate software before you know the channel can work."
+
+## How Much Should a Micro-SaaS Pay Affiliates?
+
+Rather than picking a commission percentage out of the air, it helps to work backward from your actual numbers. A useful starting sequence:
+
+1. **Start with your subscription price** and estimate annual revenue per customer (monthly price × expected months retained, not just × 12 — most customers don't stay a full year).
+2. **Subtract your gross margin costs** — payment processing fees, hosting, and any per-customer support cost.
+3. **Factor in churn and refund rate** — a commission based on year-one revenue assumes the customer sticks around; if churn is high, that assumption doesn't hold.
+4. **Set your affiliate commission as a share of what's left**, not a share of the sticker price, so you're not accidentally paying out more than a customer is actually worth to you.
+
+This is more work than copying a commission rate you saw on a competitor's program, but it's the difference between an affiliate program that's sustainable and one that quietly loses money per referral.
+
+## A Realistic Path for a Micro-SaaS Founder on No Budget
+
+1. **Start with the in-app referral program first.** It's the genuinely indefinite-free option, and if you already have paying customers, this is usually the fastest way to generate your first few referrals without spending anything.
+2. **Use the 14-day trial to test the external affiliate side.** Set up your program, write a simple commission structure using the math above, and try to attract a few relevant affiliates manually (reach out directly to bloggers or reviewers in your niche) during the trial window.
+3. **Only upgrade to Growth ($99/month) once you have evidence** that the channel is producing — or is likely to produce — enough revenue to justify the monthly cost.
+4. **Treat marketplace listing (Scale Up, $399/month) as a later-stage decision**, once your product has enough traction that a public listing among Reditus's affiliate network is likely to attract quality partners rather than get lost.
+
+![Reditus's live pricing page showing Growth at $99/month, Scale Up at $399/month marked "Most Popular," and Enterprise starting from $799/month, all billed annually](/images/reditus_pricing_plans.png)
+*The step-up path in practice: Growth at $99/month once the free trial proves the channel works, Scale Up at $399/month once you're ready for marketplace exposure.*
+
+The main advantage of this approach is simple: you can test the channel before taking on a recurring platform cost.
+
+## What I'd Do With a $0 Budget
+
+If I were starting from zero, in order: launch the in-app customer referral program first, since it costs nothing and uses customers you already have. Then prepare a simple affiliate landing page — commission terms, product benefits, and how to apply — while that referral program runs. Next, use the 14-day trial to manually recruit 10-20 relevant affiliates in your niche rather than waiting for the marketplace to bring them to you. Only after that, track actual conversions for a few weeks before deciding whether the $99/month Growth plan is worth paying for.
+
+👉 **[Start Reditus Free (14-Day Trial)](https://www.getreditus.com/?red=shamss)**
+
+## Who This Is Genuinely a Good Fit For
+
+- Micro-SaaS founders already using Stripe or Paddle, with at least a small base of paying customers to activate through the in-app referral program
+- Founders who want to test external affiliate marketing without committing to a monthly platform fee before knowing if it'll work
+- Products with recurring billing models — Reditus is primarily designed around SaaS businesses with subscription-style revenue
+
+## Who Should Hold Off
+
+- Pre-revenue products with no paying customers yet — there's no one to refer through the in-app program, and it's hard to attract affiliates to a product with no proof it converts
+- Founders expecting the marketplace's affiliate network to be free — full marketplace access is a paid feature (Scale Up, $399/month), not part of the free trial or the referral program
+- Non-SaaS businesses, or products whose billing and commission structure doesn't fit Reditus's SaaS-focused model well
+
+## FAQ
+
+**Is Reditus actually free for a micro-SaaS founder?**
+
+Partially. The in-app customer referral program is free to start with a pay-per-performance model. The full external affiliate program (including marketplace listing) is free to trial for 14 days, then requires a paid plan starting at $99/month.
+
+**What's the real difference between the in-app referral program and the affiliate program?**
+
+The referral program turns your existing customers into referrers inside your product. The affiliate program recruits outside partners — bloggers, reviewers, other SaaS founders — to promote you externally, with access to Reditus's broader affiliate network once you're on a paid plan.
+
+**Do I need a credit card to try Reditus?**
+
+No — the 14-day free trial doesn't require a credit card, based on Reditus's own signup messaging.
+
+**How much can a micro-SaaS actually expect to pay once it moves past the free options?**
+
+The Growth plan is $99/month ($1,188 billed annually) and covers up to $60K ARR generated through the channel. Marketplace listing, which gives you exposure to Reditus's wider affiliate network, requires the $399/month Scale Up plan.
+
+**Is this cheaper than using a traditional affiliate network?**
+
+For a small SaaS, the main advantage is the lower upfront commitment. Reditus lets you test its full affiliate platform before taking on a monthly subscription, while traditional networks can involve their own platform, transaction, or program-management costs. The exact cost depends on the network and the agreement, so it's worth comparing current pricing directly rather than relying on older setup-fee figures you might find elsewhere.
+
+## Bottom Line
+
+If you're a small SaaS with existing customers, Reditus gives you a way to test referral and affiliate marketing without committing to a large upfront platform cost. The important part is knowing which features are actually free and when the paid plans become necessary — and remembering that a $0 platform still requires real effort to turn into revenue.`
+    },
+    {
       id: 41,
       slug: "reditus-review",
       toolName: "Reditus",
