@@ -218,6 +218,357 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 44,
+      slug: "icompass-review",
+      toolName: "iCompass",
+      title: "iCompass Review: Is It Worth It for Small-Town Clerks Managing Council Meetings?",
+      category: "GovTech Tools",
+      date: "September 17, 2026",
+      readTime: "12 min",
+      image: "/images/icompass_review_banner.jpg",
+      excerpt: "iCompass Review 2026: Diligent's agenda and minutes platform for small-town clerks — no public pricing, only one independent G2 review, and a real Horseshoe Bay case study to weigh before requesting a quote.",
+      ctaButtons: [
+        {
+          text: 'Request iCompass Demo & Pricing',
+          url: 'https://icompass.io/?red=shamss',
+          toastText: 'Opening iCompass...',
+          isPrimary: true
+        }
+      ],
+      content: `If you work as a town clerk in a small municipality, council meetings can take much more time than the meeting itself.
+
+There are agendas to prepare, documents to collect, packets to distribute, minutes to complete, records to organize, and public information to publish. When much of that work is handled manually, even a routine council meeting can create hours of administrative work.
+
+That is where iCompass Meeting Manager comes in.
+
+In this iCompass review, we'll look at the platform from a small-town clerk's perspective — not just at its features, but at whether it can actually reduce the administrative work that comes with council meetings.
+
+iCompass is a local-government meeting and agenda management platform designed around municipal workflows. Its tools cover agenda preparation, meeting materials, minutes, records, public access, and related council processes. Diligent describes iCompass as a platform for local governments of different sizes, with tools for creating and publishing agendas and minutes and managing boards, commissions, and committees.
+
+The product is part of the Diligent family, and Diligent also promotes Diligent Community, a public-sector governance platform covering agendas, meetings, minutes, committees, digital voting, document libraries, and public access.
+
+But there is a more useful question than simply asking what iCompass can do: is iCompass actually worth considering for a small-town clerk who has limited staff, limited time, and a relatively small council? Let's look at it from that perspective.
+
+## Quick Answer: Is iCompass Worth It for a Small Town?
+
+iCompass can make sense for a small municipality if the clerk is spending significant time preparing agendas, assembling meeting packets, managing minutes, distributing documents, and maintaining public records.
+
+The strongest case for iCompass is not one individual feature. It is the way the platform connects several parts of the meeting workflow. Diligent describes iCompass as a comprehensive government platform with agenda creation, meeting management, records management, board management, and meeting follow-up tools.
+
+However, small municipalities should look carefully at pricing, implementation, staff adoption, and whether they actually need a full municipal meeting-management platform.
+
+Pricing is not displayed as a standard public price on Diligent's iCompass pages. Instead, the company directs prospective customers to request a demo or pricing.
+
+There is also limited independent review data available. G2 currently shows one review for iCompass Meeting Manager, so that review should not be treated as a broad measure of customer satisfaction.
+
+In other words, iCompass is worth investigating, but a small town should compare the cost and implementation effort with its actual meeting workload before committing.
+
+## What Is iCompass?
+
+iCompass is a cloud-based agenda and meeting management platform designed specifically for local governments.
+
+Instead of treating a council meeting as a collection of Word documents, PDFs, emails, folders, and spreadsheets, iCompass is designed to bring more of that workflow into one system.
+
+Diligent says iCompass provides tools for:
+
+- Creating and publishing agendas
+- Managing meetings
+- Managing records
+- Managing boards and committees
+- Handling meeting follow-up
+- Providing access to meeting information
+- Managing supporting documents
+
+The platform is specifically positioned for state and local government rather than general business meetings.
+
+That distinction matters. A small-town clerk may already be able to create an agenda in Microsoft Word, store documents in cloud storage, email a PDF to council members, and publish files on the municipality's website. The question is whether those separate steps are creating enough work to justify dedicated software.
+
+## What Does iCompass Actually Help a Municipal Clerk Do?
+
+The easiest way to understand iCompass is to follow a typical council meeting workflow.
+
+### Build and Distribute Agendas
+
+Preparing an agenda can involve collecting items from different departments, adding supporting documents, arranging items in the correct order, getting approvals, creating the final packet, and distributing everything.
+
+iCompass is designed to centralize that process. Diligent describes its agenda workflow as a way to create and publish agendas and minutes while improving collaboration between staff and council members.
+
+For a clerk who currently manages agenda preparation through email attachments and separate files, having a structured workflow can reduce some of that back-and-forth.
+
+### Manage Meeting Minutes
+
+Minutes are another area where administrative work can pile up. After the meeting, the clerk may need to review notes, record motions and votes, format the minutes, attach supporting information, and eventually publish the final record.
+
+iCompass includes meeting and minutes management as part of its broader workflow. Diligent's current government materials also emphasize meeting follow-up and records management.
+
+The important point is that the value isn't simply "it has a minutes feature." The potential benefit comes from having the minutes connected to the meeting and agenda materials rather than creating them as an entirely separate process.
+
+### Keep Meeting Documents Together
+
+Council meetings often involve more than an agenda. There may be staff reports, resolutions, ordinances, supporting documents, meeting packets, previous minutes, public records, and follow-up information.
+
+iCompass is designed to manage meeting-related records and documents within the municipal workflow. That can become particularly useful when a clerk needs to find an older meeting document instead of searching through several folders or email conversations.
+
+### Provide Public Access
+
+Public transparency is another important part of municipal meeting management. Diligent says iCompass allows access to current agendas, minutes, records, and meeting recordings across devices.
+
+This means the platform isn't only about helping the clerk — the public-facing side matters too. Residents may want to find the next council meeting, an agenda, previous meeting minutes, supporting documents, meeting records, and in some setups, meeting recordings. For a municipality that wants to make these materials easier to find, that can be an important part of the software's value.
+
+### Manage Boards and Committees
+
+Small municipalities often have more than one group holding meetings — a city or town council, a planning commission, a zoning board, advisory committees, and other boards and commissions.
+
+Diligent specifically lists boards, commissions, and committees among the workflows supported by iCompass. If a clerk manages several groups, having a common meeting-management system may be more useful than it would be for a town with only a simple council schedule.
+
+## How iCompass Could Reduce a Clerk's Manual Work
+
+Imagine a typical meeting cycle. A department sends an agenda item. The clerk collects the supporting documents, organizes the item, adds it to the agenda, prepares the packet, distributes the materials, handles changes, manages the meeting record, completes the minutes, and eventually publishes the information.
+
+Now imagine doing that for several boards and committees every month. The individual tasks may not seem difficult — the problem is the number of small tasks.
+
+Diligent positions iCompass as a way to reduce manual and paper-based processes and bring agenda and meeting work into a more connected workflow. That is where the potential time savings come from.
+
+The question isn't whether iCompass has lots of features. The question is how many manual steps it can remove from your particular workflow. That is the question a small-town clerk should ask before requesting a quote.
+
+## Is iCompass a Good Fit for a Small Town?
+
+The answer depends heavily on how the municipality currently handles meetings. Diligent explicitly markets iCompass to local governments of different sizes, including organizations with limited resources. But being designed for small governments does not automatically mean every small town needs it.
+
+iCompass may make more sense when:
+
+- The clerk spends substantial time preparing meeting packets
+- Agenda items come from several departments or contributors
+- Supporting documents are difficult to organize
+- Minutes require significant manual work
+- Several boards or committees need to be managed
+- Residents frequently request meeting documents
+- The municipality wants a more structured public records workflow
+- Council members need easier digital access to meeting materials
+- The current process relies on several disconnected tools
+
+A smaller municipality may want to think twice when:
+
+- The council meets infrequently
+- There are only a few agenda items per meeting
+- One person can manage the entire workflow without much effort
+- Existing document and website systems already work well
+- The municipality has a very limited software budget
+- Staff and council members may struggle with adopting a new system
+
+The key point is simple: a small population does not automatically mean a small administrative workload — and a small administrative workload does not automatically justify specialized software.
+
+## Where iCompass May Be More Than a Small Municipality Needs
+
+This is one of the most important questions in an iCompass review. Software can solve a real problem and still be more than an organization needs.
+
+If your town has two or three simple meetings each month, with a small number of agenda items and very little document management, a large meeting-management platform may introduce more complexity than it removes.
+
+On the other hand, a town with a small population can still have a busy clerk's office. The better way to evaluate iCompass is therefore not "how many people live in our town?" Instead, ask "how much administrative work goes into every meeting?"
+
+Look at the full process: agenda preparation → document collection → packet creation → distribution → meeting → minutes → records → public access.
+
+If several of those steps are currently manual, dedicated software may have a stronger business case. If most of them already work efficiently, the value may be harder to justify.
+
+## iCompass Ease of Use: What Do Users Report?
+
+This is an area where you should be careful with the available evidence.
+
+G2 currently lists one review for iCompass Meeting Manager. The verified reviewer was from an organization with 50 or fewer employees and said iCompass freed up time previously spent on tasks such as photocopying. The reviewer also mentioned that the system could feel intimidating for some less technology-oriented community members.
+
+That is useful feedback, but one review isn't enough to establish a general pattern. It does, however, highlight an important issue for small municipalities: there are two different users to consider.
+
+The first is the clerk or administrator — they may use the system regularly and become comfortable with the workflow. The second is the council member, committee member, or resident — those people may interact with the system less frequently.
+
+That means ease of use should not be evaluated only from the administrator's perspective. When you request a demo, ask the vendor to show you both sides:
+
+- What does the clerk see?
+- What does a council member see?
+- What does a resident see when searching for an old agenda?
+- How easy is it to access a meeting packet?
+- What happens when someone needs a document from an older meeting?
+
+Those answers may tell you more than a feature list.
+
+## iCompass Pricing: What We Know — and What We Couldn't Verify
+
+Pricing is one of the harder parts of researching iCompass. Diligent's current iCompass pages direct potential customers to request pricing rather than displaying a standard public subscription price.
+
+You may also find different numbers on third-party software directories. For example, Softwr currently lists iCompass at $400 per month in its directory. However, this is a third-party listing and is not confirmed as a current official iCompass price by Diligent — so we would not use "$400/month" as the definitive price in this review. Instead, treat it as an example of why small municipalities should request a current quote directly from the vendor.
+
+The actual cost may depend on factors such as municipality size, products or modules included, number of users, implementation, training, support, additional services, and contract terms.
+
+Don't just ask "how much does iCompass cost?" Ask for the total annual cost, including any setup, implementation, training, support, required modules, and other fees that apply to your municipality. That gives you a much better number for comparing the software with your current process.
+
+## What Do Real iCompass Users Say?
+
+There are two types of feedback worth separating.
+
+**Independent user reviews.** As mentioned above, G2 currently has only one iCompass Meeting Manager review listed. The reviewer reported saving time on manual tasks such as photocopying, while also noting that the software could be intimidating for some less technology-oriented users. Because the review volume is so small, it should be viewed as an individual experience rather than representative evidence for all municipalities.
+
+**Vendor testimonials.** Diligent's iCompass website also publishes testimonials from municipal officials describing benefits such as time savings, support, and easier electronic agenda management. These can provide useful examples of how customers describe the product, but remember that they are vendor-selected testimonials, not independent review data. That distinction matters when you're researching software for a public organization.
+
+## iCompass Pros and Cons
+
+**Pros**
+- Built specifically around local-government meeting workflows
+- Agenda and meeting management in one platform
+- Supports records and document management
+- Supports boards, commissions, and committees
+- Provides public access to meeting information
+- Designed to reduce manual and paper-based processes
+- Can support meeting follow-up workflows
+- Vendor provides demos, training, and support resources
+
+**Cons**
+- Standard public pricing is not displayed by the vendor
+- Third-party pricing information can be inconsistent
+- Independent review volume is very limited
+- May provide more functionality than a very small municipality needs
+- Staff and council adoption still matters
+- Public-facing usability should be tested before purchase
+- The current Diligent product lineup makes it important to clarify exactly which product and roadmap apply to a new customer
+
+That last point deserves a closer look.
+
+## iCompass vs. Other Meeting-Management Options
+
+iCompass is not the only platform serving government meeting workflows. Two names that small municipalities may encounter during their research are CivicPlus and Granicus. There are also broader board-management products such as Boardable, OnBoard, and BoardEffect. However, these products should not all be treated as identical alternatives.
+
+### iCompass vs. CivicPlus
+
+CivicPlus offers Agenda and Meeting Management software specifically for local government. Its current product information covers agenda creation, workflows, meeting management, minutes, voting, public engagement, publishing, and public portals. That makes CivicPlus a relevant comparison for a small municipality evaluating meeting-management platforms.
+
+The important questions are: how much manual work does each platform remove? How easy is agenda preparation? How does public access work? How much training is required? What is the total cost? Which system fits your existing municipal website and records workflow?
+
+CivicPlus also currently offers multiple meeting-management products, so make sure you are comparing the actual product being quoted rather than just the company name.
+
+### iCompass vs. Granicus
+
+Granicus offers Agenda LE, formerly known as Legistar Agenda Management. Granicus describes it as an end-to-end agenda and meeting management system for government, including legislative files, agenda creation, meeting management, minutes, document management, and public publishing.
+
+This makes it another relevant option to investigate, although its own product page specifically positions Agenda LE toward larger government organizations. For a small municipality, that makes implementation effort, cost, and required functionality particularly important questions.
+
+### What About Boardable, OnBoard, and BoardEffect?
+
+You may see these names on software comparison websites when searching for iCompass alternatives. The important difference is that they are generally positioned around broader board-management use cases rather than being identical municipal meeting platforms.
+
+So don't compare products simply by counting features. Instead, ask: does this platform understand the workflow of a municipal clerk? That is a more useful comparison.
+
+## A Real Small-City Example: Horseshoe Bay's 2026 Evaluation
+
+One particularly useful piece of research comes from the City of Horseshoe Bay, Texas. In a 2026 agenda-management software evaluation, the city described itself as having a population of approximately 5,000 and about 15 staff users. It evaluated three platforms: CivicPlus Agenda & Meeting Management Select, Granicus Legistar, and Diligent Community (iCompass).
+
+The evaluation looked at operational fit, training burden, support dependency, citizen experience, and long-term considerations. The report describes Diligent Community/iCompass as a governance-focused platform with a moderate learning curve.
+
+It also shows something important about buying municipal software: a small city may need to evaluate more than just features and price. Training, public access, staff workload, support, and long-term product direction can all affect the decision.
+
+This is exactly why a small-town clerk should ask for a demonstration using a realistic meeting workflow rather than accepting a generic product presentation.
+
+## What Should a Small Town Ask Before Buying iCompass?
+
+Before signing a contract, ask these seven questions:
+
+1. **What will our total annual cost be?** Ask for the complete price, including implementation, training, support, modules, and other applicable fees.
+2. **Which features are included?** Don't assume every feature shown during a demo is included in the quoted package.
+3. **How much implementation work will our staff have to do?** A platform can look simple during a demo but still require considerable setup.
+4. **How much training will clerks, council members, and other users need?** Ask whether training is included and what happens when a new staff member joins.
+5. **How easy is public access?** Ask the vendor to demonstrate how a resident would find a current agenda, an old agenda, meeting minutes, supporting documents, and meeting recordings, if applicable.
+6. **What support is included?** Ask about response times, support channels, onboarding, and ongoing assistance.
+7. **What is the current product roadmap?** Diligent currently promotes both iCompass and Diligent Community within its public-sector governance offerings. Diligent Community covers agenda and meeting management, minutes, digital voting, committees, document libraries, and public access. If you're a new customer, ask the sales representative exactly which product you would be purchasing and what the long-term product path looks like.
+
+## Is iCompass Still Being Used, or Is It Becoming Diligent Community?
+
+This is an important question for anyone researching iCompass in 2026.
+
+Diligent continues to maintain and market iCompass as a local-government agenda and meeting-management solution. At the same time, Diligent is actively promoting Diligent Community as its public-sector governance platform. Diligent Community currently includes agenda and meeting management, meeting minutes, digital voting, committee management, document libraries, public access, livestream management, and AI-supported minutes.
+
+So if you're a small-town clerk considering iCompass today, don't simply ask "does iCompass still exist?" A better question is: "which Diligent product is right for our municipality, and what does the long-term product path look like?" That can help you avoid making a purchasing decision based on an outdated product description.
+
+## Who Should Consider iCompass?
+
+iCompass is worth looking into if your municipality has a meaningful amount of administrative work surrounding meetings. It may be particularly relevant when your clerk is responsible for preparing agendas, collecting supporting documents, building meeting packets, distributing materials, recording minutes, managing meeting records, publishing documents, supporting multiple boards or committees, and responding to requests for older meeting information.
+
+The more disconnected those processes are, the more useful it may be to evaluate a dedicated system.
+
+## Who May Want a Simpler Option?
+
+A simpler solution may deserve consideration if your municipality has very few meetings, simple agendas, few supporting documents, one person managing the entire process, an efficient existing workflow, very limited software spending, or little need for advanced meeting-management features.
+
+In that situation, the question isn't whether iCompass has useful features. It is whether those features solve a problem large enough to justify the cost and implementation effort.
+
+## Is iCompass Worth It for Small-Town Clerks?
+
+For the right municipality, iCompass is worth evaluating. The strongest reason isn't a particular feature — it's the possibility of bringing together the administrative work that happens before, during, and after a council meeting.
+
+If your current process involves multiple emails, Word documents, PDFs, folders, spreadsheets, manual packet preparation, and separate publishing steps, a dedicated meeting-management platform may help create a more structured workflow. But if your current system is already simple and efficient, the case is different.
+
+The best way to evaluate iCompass is therefore to start with your own workflow. Write down everything that happens for one council meeting:
+
+1. Agenda items arrive
+2. Documents are collected
+3. Agenda is prepared
+4. Approvals happen
+5. Packet is created
+6. Materials are distributed
+7. Meeting takes place
+8. Motions and decisions are recorded
+9. Minutes are prepared
+10. Records are published and stored
+
+Then ask: which of these steps currently takes the most staff time? That is where you should look for the potential value of iCompass.
+
+## Final Verdict
+
+iCompass is not simply another calendar or generic meeting-management application. It is built around the workflow of local governments, including agendas, meetings, records, boards, committees, and public access. That makes it relevant to small municipalities where meeting administration has become a significant part of the clerk's workload.
+
+At the same time, there are important questions that shouldn't be ignored. Pricing isn't publicly listed as a standard amount. Independent review data is limited. And a small municipality may not need every feature in a comprehensive government meeting platform. The current Diligent product lineup also makes it worth asking about the relationship between iCompass and Diligent Community before making a long-term decision.
+
+So rather than deciding based on the feature list alone, take your actual meeting workflow to the vendor. Ask for the current quote. Ask what is included. Ask about implementation and training. Ask how residents will access meeting information. And ask what product and roadmap apply to your municipality.
+
+## FAQ
+
+### What is iCompass used for?
+
+iCompass is used by local governments for agenda and meeting management, including agenda creation, meeting materials, minutes, records, boards, commissions, committees, and public access.
+
+### Is iCompass designed for small municipalities?
+
+Yes. Diligent says iCompass is designed to support local governments of different sizes, including organizations with limited resources. However, that doesn't mean every small municipality will need the full platform — the actual meeting workload should be considered.
+
+### Does iCompass publish its pricing?
+
+Diligent's current iCompass pages direct potential customers to request pricing rather than showing a standard public subscription price.
+
+### How much does iCompass cost?
+
+There is no current official standard price displayed publicly on Diligent's iCompass page. Some third-party directories list prices, but those figures should be verified directly with Diligent before using them for budgeting.
+
+### Does iCompass help with meeting minutes?
+
+Yes. Meeting and minutes management are part of the iCompass/local-government workflow, and Diligent describes its platform as supporting agenda and minutes creation and publishing.
+
+### Does iCompass provide public access to meeting information?
+
+Yes. Diligent says iCompass provides access to agendas, minutes, records, and meeting recordings across devices.
+
+### Are there independent iCompass reviews?
+
+There are some independent review listings, but the current G2 profile shows only one iCompass Meeting Manager review. That is too small a sample to treat as representative of all customers.
+
+### Is iCompass the same as Diligent Community?
+
+Both are part of Diligent's public-sector governance offerings, but they should not simply be treated as identical product names. Diligent currently maintains iCompass information while also promoting Diligent Community as a public-sector governance platform. If you're considering a new purchase, ask Diligent which product and roadmap apply to your municipality.
+
+### What are the main iCompass alternatives?
+
+Municipalities researching meeting-management software may also encounter platforms such as CivicPlus Agenda and Meeting Management and Granicus Agenda LE/Legistar. Broader board-management products such as Boardable may also appear in software directories, but their target use cases are not necessarily identical to a municipal agenda-management system.
+
+### Is iCompass worth it for a small town?
+
+That depends on the municipality's meeting workload, current workflow, budget, implementation requirements, and need for features such as agenda management, minutes, records, committee management, and public access. For a small town with a highly manual meeting process, it may be worth evaluating. For a municipality with a simple and efficient workflow, a simpler solution may be sufficient.`
+    },
+    {
       id: 43,
       slug: "audiorista-review",
       toolName: "Audiorista",
