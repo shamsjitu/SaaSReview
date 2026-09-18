@@ -218,6 +218,282 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 45,
+      slug: "geo-targetly-review",
+      toolName: "Geo Targetly",
+      title: "Geo Targetly Review 2026: Is It Worth It for Geo Redirects?",
+      category: "Business Tools",
+      date: "September 18, 2026",
+      readTime: "10 min",
+      image: "/images/geo_targetly_review_banner.jpg",
+      excerpt: "Geo Targetly Review 2026: no-code country-based URL redirects starting at $9/month, 99% country-level accuracy per the vendor, and pageview-based pricing that catches teams running multiple products at once.",
+      ctaButtons: [
+        {
+          text: 'Try Geo Targetly Free',
+          url: 'https://www.geotargetly.com/',
+          toastText: 'Opening Geo Targetly...',
+          isPrimary: true
+        }
+      ],
+      content: `If you run an ecommerce store with multiple regional sites, or a SaaS product with different pricing pages for different markets, you've probably run into the same problem: a visitor from Canada lands on your US pricing page, gets confused by the currency, and bounces.
+
+Country-based URL redirects fix this — but building that logic yourself usually means fighting with IP geolocation APIs, server config, and edge cases.
+
+Geo Targetly is one of the more established tools built specifically to solve this. It's a no-code geolocation platform, its core redirect product is called Geo Redirect, it works for teams without a developer on hand, and plans start at $9/month on the yearly billing option. This review focuses on that core use case — redirecting visitors based on their country, state, or city — and whether it's actually worth paying for versus building the logic yourself.
+
+## What Geo Targetly's Geo Redirect Actually Does
+
+Geo Redirect detects a visitor's location and sends them to the right version of your site automatically — or asks them first with a popup or bar, depending on how you configure it.
+
+You can apply a redirect rule across your entire site, a specific URL, or a group of pages, depending on how granular your routing needs to be. That matters if, say, only your pricing and checkout pages need location logic while the rest of your content stays the same for everyone.
+
+![Geo Targetly's geo-redirect product page](/images/geo_targetly_geo_redirect_hero.jpg)
+*Geo Targetly's live "Redirect website visitors based on location" page, showing the redirect concept in action: a US visitor and a Spain visitor landing on different versions of the same store.*
+
+### What Can You Target?
+
+The targeting can go as broad or as narrow as you need:
+
+- Continent, country, state/region, or city
+- Latitude, longitude, and radius (minimum 50 miles)
+- IP address or IP address range
+
+You can stack these conditions to build more precise segments. A couple of practical examples:
+
+- "United States, excluding California" routed one way, everyone else routed another
+- US visitors sent to the US store, UK visitors sent to the UK store, and everyone else sent to a global store
+
+## Setup: How Much Work Is This, Really?
+
+The setup flow is genuinely simple, which matters if you're not a developer:
+
+1. Choose what to redirect — the whole site, selected pages, or one URL
+2. Build location segments — country, state, city, coordinates, or IP ranges
+3. Set the redirect behavior — automatic, or a popup/bar asking the visitor to confirm
+4. Fine-tune advanced settings — page exclusions and conditions for bypassing the redirect
+5. Test before going live — a built-in Test Mode simulates visits from any location, so you don't need a VPN to check your rules
+
+That last point is worth calling out. Testing geo-logic without a VPN or a friend in another country is normally a pain, so having simulation built into the dashboard saves real time during setup.
+
+How long does setup take? For a straightforward country redirect, it's relatively lightweight: choose the pages, define the location rules, select the destination URL, and test the behavior before publishing. A more advanced multi-segment setup with exclusions and custom popups obviously takes longer.
+
+### Does Geo Targetly Require Coding?
+
+Not for the basic setup. Geo Targetly's dashboard handles the redirect logic with no-code configuration, and JavaScript, CMS plugins, or Google Tag Manager are available for teams that want more deployment control.
+
+### Deployment Options
+
+Three ways to get the tracking script onto your site:
+
+- JavaScript snippet — one lightweight code block, works on any platform
+- Native plugins — official WordPress and Webflow plugins for teams that want stable, centralized management
+- Google Tag Manager — deploy without touching your site code, useful if your team already manages tags there
+
+![Geo Targetly's integrations page](/images/geo_targetly_integrations_page.jpg)
+*Geo Targetly's integrations page, listing native support for Shopify, Squarespace, Wix, WordPress, Webflow, Bubble, Zapier, and WooCommerce.*
+
+## Geo Targetly Pricing
+
+Geo Targetly's pricing is usage-based, tied to a pageview quota rather than feature tiers — every plan gets the full feature set, including all products in the suite, unlimited domains, and unlimited location rules.
+
+Here's the current pricing, verified directly from Geo Targetly's live pricing page:
+
+| Plan | Monthly | Yearly* | Pageview quota |
+|---|---|---|---|
+| Dev | $12/mo | $9/mo | 500K/month or 6M/year |
+| Startup | $24/mo | $19/mo | 500K/month or 6M/year |
+| Growth | $49/mo | $39/mo | 500K/month or 6M/year |
+| Business | $99/mo | $79/mo | 500K/month or 6M/year |
+| High Traffic | $199/mo | $159/mo | 500K/month or 6M/year |
+| Enterprise | from $349/mo | from $279/mo | Custom |
+
+*Yearly price shown is the effective monthly rate when billed annually.
+
+The plans mainly differ by how much traffic you can process, not by what you're allowed to do — higher tiers primarily increase the pageview quota rather than unlocking different targeting capabilities. For low-traffic sites, the entry tiers may be sufficient. The right plan for you depends mainly on how many pageviews your active Geo Targetly products consume — which is a different number than your raw site traffic, explained below.
+
+![Geo Targetly's pricing page](/images/geo_targetly_pricing_page.jpg)
+*Geo Targetly's live pricing slider (Dev through Enterprise). Note the page auto-displays pricing in your local currency based on your location — shown here in Bangladeshi taka rather than USD — so always check the currency toggle before comparing numbers.*
+
+### How Geo Targetly's Pageview Quota Works
+
+This is one of the least obvious parts of the pricing, and it's worth understanding before you pick a plan.
+
+A pageview is consumed on every page visit, for every product you have active. If a visitor loads a page where both Geo Redirect and Geo Currency are active, that single visit consumes two pageviews from your quota. At 100,000 such visits, that's 200,000 pageviews of quota usage — not 100,000.
+
+Geo Link is the exception: it only consumes a pageview on a link click, not on the destination page load.
+
+Yearly plans include the full year's quota upfront rather than resetting monthly, so there's no wasted quota if your traffic is seasonal or uneven month to month.
+
+### What Happens If You Exceed Your Quota?
+
+If you exceed your quota, Geo Targetly provides a two-day grace period to upgrade or renew before service is suspended, with email alerts sent at 30%, 10%, 5%, and 0% remaining. There are no refunds, and unused quota doesn't roll over between billing cycles.
+
+One account covers unlimited domains and unlimited product instances, so agencies managing several client sites don't need separate subscriptions.
+
+## How Accurate Is Geo Targetly?
+
+Geo Targetly states that its accuracy is around 99% at the country level, 80–90% at the state/region level, and 70–80% at the city level. Those are the company's own published estimates, not an independently verified benchmark, so treat them as a starting point rather than a guarantee.
+
+For country-level routing, that stated figure is the most relevant one, since that's the level most international redirect setups rely on. City-level targeting is inherently fuzzier for any IP geolocation provider — which is also why Geo Targetly itself recommends a minimum 50-mile radius for location-based rules rather than pinpoint targeting.
+
+## Is Geo Targetly Safe for SEO?
+
+This deserves its own section rather than a footnote, because it's the question most likely to cause a real problem if you skip it.
+
+Geo Redirect works through client-side JavaScript, meaning the redirect logic runs after the page begins loading rather than at the server or edge level. A few things to keep in mind:
+
+- Search engine crawlers don't necessarily experience the redirect the same way a real visitor's browser does, since crawler behavior around JavaScript execution varies
+- Geo redirects are not a substitute for proper international SEO structure — you still want correct hreflang tags, country/language-specific URLs, and clear signals to search engines about which page serves which market
+- Test your most important pages in Test Mode before rolling redirects out sitewide, and watch how they behave for both real visitors and in tools that simulate crawler behavior
+
+If SEO performance and first-paint speed are strict priorities for a high-stakes site, a server-side or edge-level redirect (through your CDN or hosting provider) avoids these client-side considerations entirely — at the cost of needing a developer to build and maintain it.
+
+## Real-World Use Cases
+
+Based on Geo Targetly's published case studies and its own product marketing, the tool sees real use in a few recurring scenarios:
+
+- Ecommerce localization — routing shoppers to the correct regional store or checkout, often paired with Geo Currency for local pricing
+- Multilingual sites — sending visitors to the right language or region-specific version of a page
+- Marketing campaigns — pointing ad traffic to region-specific landing pages
+- Legal and regulatory compliance — restricting content or offers in regions where a product can't legally be sold or shipped
+- Affiliate marketing — sending visitors from different countries to the appropriate merchant, offer, or localized landing page
+
+One published case study describes a company achieving an 87% match rate between where visitors were physically located and which domain version they landed on. It's a useful benchmark for what a well-configured setup can achieve, though it's one company's reported result rather than an industry-wide guarantee.
+
+![Geo Targetly's case studies page](/images/geo_targetly_case_studies_page.jpg)
+*Geo Targetly's public case studies page, including the Intrend study referenced above (the 87% location-match result) alongside Bandai Namco, Ordotype, and Daniel Desjardins.*
+
+## Who Should Use Geo Targetly?
+
+**Good fit:**
+- International ecommerce stores with multiple regional storefronts
+- SaaS businesses with regional pricing pages
+- Agencies managing geo-targeting across several client websites
+- Multilingual websites
+- Affiliate marketers routing traffic by country
+- Marketing teams running location-specific campaigns that change often
+
+**Less suitable:**
+- One-page or single-market sites with no international traffic
+- Businesses that need exactly one permanent redirect rule and never plan to change it
+- Teams that require server-side redirects for strict technical or SEO reasons
+
+## Pros and Cons
+
+**Pros**
+- No-code setup that a marketer can manage without pulling in a developer
+- Built-in Test Mode removes the need for VPNs to verify redirect rules
+- Feature-complete on every plan — no feature-gating between tiers
+- Works across unlimited domains on a single account, which is agency-friendly
+- Multiple deployment options, including WordPress, Webflow, and Google Tag Manager
+- Granular targeting down to the page level, not just the whole site
+- Fallback URL handling means no visitor gets stuck with a broken redirect
+- Published, transparent pricing (a lot of geo-targeting tools hide pricing behind a "contact sales" wall)
+
+**Cons**
+- Pricing is pageview-based, so a high-traffic site running multiple Geo Targetly products at once can burn through quota faster than expected
+- City-level accuracy (70–80%, per the company's own figures) isn't precise enough for hyper-local use cases
+- No refunds if you overestimate your plan or your traffic drops after committing to a yearly quota
+- Client-side JavaScript redirects may be less suitable than server/edge redirects when redirect timing and SEO are critical
+
+## Geo Targetly Reviews and Reputation
+
+Geo Targetly has an established presence on third-party software review sites. G2 currently lists it at 4.4 out of 5 across 84 reviews, and Capterra lists it at 4.5 out of 5. Reviewers on both platforms commonly mention ease of setup and flexibility as strengths, with some feedback pointing to a learning curve around the number of available options and pricing becoming a bigger factor at higher traffic volumes.
+
+The company behind Geo Targetly, TechTurtle s.r.o., is based in Slovakia and has published case studies with named clients, including Bandai Namco.
+
+## Geo Targetly Alternatives
+
+Geo Targetly isn't the only way to solve country-based routing. Here's how the main approaches compare, grouped by who they actually make sense for.
+
+### 1. Build it yourself with IP geolocation
+
+Combine an IP geolocation API with server or CDN-level redirect logic.
+
+Best for: technical teams that want maximum control and are comfortable maintaining custom code.
+
+Trade-off: more development time upfront and ongoing maintenance as location databases update.
+
+### 2. Shopify-specific geo-redirect apps
+
+For Shopify stores specifically, there's a whole category of dedicated geo-redirect apps built into the Shopify App Store ecosystem, some of which integrate more tightly with Shopify Markets. Pricing for these tends to run in a similar $5–50/month range.
+
+Best for: Shopify merchants who want a platform-native option and don't need Geo Targetly's other products (translate, currency, popups, etc.).
+
+Trade-off: locked into Shopify; you'd need a separate tool if you ever run a non-Shopify site too.
+
+### 3. Broader geo-targeting / personalization platforms
+
+Some platforms bundle geo-redirects into a wider personalization suite that also handles audience segmentation, behavior-based rules, and A/B testing.
+
+Best for: teams that need geo-targeting as one piece of a larger personalization strategy, not the main event.
+
+### 4. CDN/edge-based redirects
+
+Server- or edge-level routing (through Cloudflare Workers, Vercel edge functions, or similar) handles the redirect before the page ever renders.
+
+Best for: performance- and SEO-sensitive sites with developer resources to build and maintain it.
+
+Trade-off: no dashboard, no built-in testing tool, and every rule change needs a code deploy.
+
+### Comparison at a Glance
+
+| Approach | No-code | Ongoing cost | Developer work | Best for |
+|---|---|---|---|---|
+| Geo Targetly | Yes | Subscription | Low | Marketers/agencies |
+| DIY IP geolocation | No | Depends | High | Developers |
+| Shopify geo app | Usually | Subscription | Low | Shopify stores |
+| CDN/edge rules | Usually no | Depends | Medium–high | Technical teams |
+
+This isn't a "winner" comparison — it's a trade-off between how much control you want versus how much setup and maintenance you're willing to take on.
+
+## Is Geo Targetly Worth It?
+
+For agencies, ecommerce brands with multiple regional storefronts, and marketing teams that regularly change location-based campaigns, Geo Targetly's pricing is easier to justify because the platform removes most of the development and maintenance work. You're paying for the dashboard, the testing tool, and not needing a developer every time a rule changes.
+
+For a static site with one redirect rule that rarely changes, a developer-managed server or edge solution may be more economical over time, since you'd avoid an ongoing subscription tied to pageviews entirely.
+
+The calculation really changes based on how often your redirect logic needs to change and who on your team needs to be able to change it.
+
+## FAQ
+
+### Does Geo Targetly require coding?
+
+No, not for standard setups. The dashboard handles configuration with no-code tools; JavaScript, CMS plugins, and Google Tag Manager are available for more advanced deployments.
+
+### Does Geo Targetly work with WordPress?
+
+Yes, there's a native WordPress plugin.
+
+### Does Geo Targetly work with Webflow?
+
+Yes, there's a native Webflow plugin as well.
+
+### Can Geo Targetly redirect visitors by country?
+
+Yes — country is one of the core targeting options, alongside continent, state/region, city, IP address/range, and coordinates with a radius.
+
+### Can Geo Targetly target specific cities?
+
+Yes, though the company's own stated accuracy at the city level (70–80%) is lower than at the country level (around 99%), so city-level rules are less precise by nature.
+
+### Does Geo Targetly affect SEO?
+
+It can, because redirects run client-side via JavaScript rather than at the server level. This isn't unique to Geo Targetly — it applies to any client-side redirect tool — but it means proper international SEO structure (hreflang, localized URLs) still matters alongside any geo-redirect tool you use.
+
+### How does Geo Targetly count pageviews?
+
+Every page visit consumes a pageview per active product. Running two Geo Targetly products on the same page counts as two pageviews for that one visit. Geo Link is the exception, counting only on link clicks.
+
+### Does Geo Targetly offer a free trial?
+
+Yes — 14 days, and no credit card is required to start it.
+
+### Can Geo Targetly cause redirect loops?
+
+Not on its own, but any geo-redirect tool can create one if your rules overlap or point back at each other — for example, if two regional URLs each redirect to the other under certain conditions. Use Test Mode and page exclusions to verify each rule individually before publishing, especially on sites with more than two or three regional segments.`
+    },
+    {
       id: 44,
       slug: "icompass-review",
       toolName: "iCompass",
