@@ -218,6 +218,237 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 46,
+      slug: "team-pulse-review",
+      toolName: "Team Pulse",
+      title: "Team Pulse Review 2026: Is This the Best Project Management + CRM Tool for Small Teams?",
+      category: "Business Tools",
+      date: "September 20, 2026",
+      readTime: "11 min",
+      image: "/images/team_pulse_review_banner.jpg",
+      excerpt: "Team Pulse Review 2026: unlimited-collaborator project management plus a native CRM pipeline from $0/month, no per-seat pricing, and a real cost breakdown against running Asana and HubSpot separately.",
+      ctaButtons: [
+        {
+          text: 'Try Team Pulse Free',
+          url: 'https://goteampulse.io/',
+          toastText: 'Opening Team Pulse...',
+          isPrimary: true
+        }
+      ],
+      content: `Most small teams end up running two subscriptions to manage one business: a project management tool to track the work, and a separate CRM to track the deals that fund the work. The two often don't connect as smoothly as teams expect. Sales closes a deal in the CRM, then someone manually re-creates it as a project somewhere else — and some team members end up paying for tools they barely use.
+
+Team Pulse takes a different approach: one workspace that handles both project management and a lightweight CRM, with unlimited collaborators and no per-seat pricing. This review looks at whether it's actually a credible replacement for running two separate tools, or just a project management app with a pipeline feature bolted on.
+
+## What Is Team Pulse?
+
+Team Pulse is a work management platform built around two connected views: Projects, for tracking tasks and deliverables, and Pipelines, for tracking deals and revenue. Both live in the same workspace on the same Kanban-style interface, and the product is built so a closed deal in a pipeline can be turned into a project without starting the data entry over.
+
+The pitch is straightforward: instead of a project management tool that's missing sales features, or a CRM that's missing task management, you get both in one place — without paying per user for either.
+
+## Team Pulse Features
+
+- **Projects** — Task and deliverable tracking with progress tracking, milestones, and status dashboards.
+- **Pipelines** — A visual, drag-and-drop deal pipeline with deal values, source tags, ratings, owner assignment, and a built-in leaderboard showing revenue and win rates by rep.
+- **Team Activity** — A live feed of what every team member is working on, plus workload and capacity views so you can see who's overloaded before it becomes a problem.
+- **Collaboration** — Comments, mentions, and file sharing live directly on tasks, so conversations stay attached to the work instead of scattering across Slack and email threads.
+- **Files** — Files attach directly to tasks and projects with version history, instead of living in a separate drive you have to go dig through.
+- **AI Insights** — Team Pulse advertises project-level AI insights and AI workflow generation on its Growth and Pro plans. In practice, this means the AI can flag potential blockers and surface recommendations from project activity — treat it as assistive analysis rather than something that runs the project for you.
+
+![Team Pulse features grid](/images/team_pulse_features_grid.jpg)
+*Team Pulse's features overview — Projects, Pipelines, Team Activity, Collaboration, Files, and AI Insights, as shown on the official site.*
+
+## How Fast Can You Set Up Team Pulse?
+
+Team Pulse's own onboarding is built around three steps:
+
+1. Create your first project — name it, add a first task
+2. Invite your team — add teammates by email; they get instant access to shared projects and pipelines
+3. See progress instantly — tasks, deals, team activity, and AI insights populate as you use the workspace
+
+Team Pulse markets this as "under 2 minutes" to get started, and the flow is genuinely lightweight — there's no lengthy configuration wizard standing between signup and a usable workspace, which matters if your last tool took a week to configure before anyone actually used it.
+
+![Team Pulse onboarding flow](/images/team_pulse_onboarding_steps.jpg)
+*Team Pulse's three-step onboarding — create a project, invite your team, and see a live project dashboard populate automatically.*
+
+## Team Pulse Pricing
+
+| Plan | Price | Projects | Pipelines | AI credits/mo | Storage | Support |
+|---|---|---|---|---|---|---|
+| Free | $0/mo | 2 | — | 15 | 1GB | Self-service |
+| Starter | $29/mo | 5 | — | 100 | 25GB | Self-service |
+| Growth | $79/mo | 10 | 1 | 250 | 100GB | Ticketed |
+| Pro | $159/mo | 20 | 2 | 750 | 500GB | Priority |
+| Scale | $299/mo | 40 | 4 | — | — | — |
+
+Every plan — including the free one — includes unlimited collaborators, with no per-seat pricing on any tier. Annual billing saves 20% versus paying monthly.
+
+The Free plan can work for a solo operator or a very small team that only needs basic project management. Starter adds more projects but still has no pipeline. Growth is the first paid tier that adds a pipeline, which makes it the plan to look at if you want both project management and CRM features in the same subscription. Scale exists for teams that have outgrown Pro's 20-project, 2-pipeline ceiling but don't need full enterprise CRM software.
+
+*Note: the Scale tier is a newer addition to the pricing page — confirm current figures on goteampulse.io before relying on them, since it wasn't part of the original pricing screenshots.*
+
+![Team Pulse pricing page](/images/team_pulse_pricing_page.jpg)
+*Team Pulse's live pricing page — Free, Starter, Growth (marked "Most Popular"), and Pro, with a monthly/annual toggle showing the 20% annual discount.*
+
+## How Much Can Team Pulse Save Compared With Separate Tools?
+
+The "no per-seat pricing" detail is worth turning into an actual number, not just a marketing line.
+
+Take a 5-person team currently running Asana Starter (around $10.99/user/month billed annually) for project management, plus HubSpot's Starter CRM tier (around $15–20/seat/month depending on billing frequency) for deal tracking:
+
+- Asana Starter: ~$11 × 5 = ~$55/month
+- HubSpot Starter: ~$15–20 × 5 = ~$75–100/month
+- Combined: roughly $130–155/month, and that's before either team grows
+
+Team Pulse's Growth plan, with unlimited collaborators, is $79/month flat — whether the team is 5 people or 15, because collaborators aren't billed per seat.
+
+The comparison isn't identical feature-for-feature (more on that below), but for a team whose current CRM usage is genuinely lightweight, that gap is real money.
+
+## Team Pulse vs Asana vs ClickUp vs HubSpot
+
+| | Team Pulse | Asana | ClickUp | HubSpot |
+|---|---|---|---|---|
+| Project management | Yes | Yes, extensive | Yes, extensive | Limited (CRM-first) |
+| CRM / pipeline | Native | Client-management workflows, not a full CRM | Configurable as a lightweight CRM (custom fields/templates), not a dedicated CRM product | Native, deep CRM feature set |
+| Pricing model | Flat, unlimited seats | Per user (~$11–30/user/mo) | Per user (~$7–12/user/mo) | Per seat (~$15–20+/seat/mo) |
+| Free plan | Yes | Yes | Yes | Yes (CRM only) |
+| Setup speed | Very fast (~2 min) | Moderate | Moderate–high | Moderate |
+| Best for | Small teams wanting PM + lightweight CRM without per-seat cost | Structured, cross-functional project work at scale | Teams wanting maximum feature depth and customization | Teams where CRM and marketing automation are the core of the business |
+
+## Team Pulse vs ClickUp: What's Actually Different?
+
+ClickUp is probably the closest competitor to Team Pulse's pitch, since ClickUp can also be configured to track deals alongside projects. The difference is in how you get there. ClickUp gives you the building blocks — custom fields, custom statuses, automation recipes — to build a CRM-like workflow yourself, which is powerful but takes setup time and, per third-party guides on the process, generally means configuring lists, statuses, and automations from scratch rather than getting a pipeline view out of the box.
+
+Team Pulse's pipeline is a native, pre-built feature: deal stages, values, ratings, and a leaderboard exist the moment you create one. You trade ClickUp's depth and configurability for something that works immediately with far less setup.
+
+Choose ClickUp if you want maximum feature depth, don't mind building your own workflows, and are comfortable with a steeper learning curve in exchange for flexibility.
+
+Choose Team Pulse if you want a pipeline that works out of the box and would rather trade configurability for a shorter setup.
+
+## Team Pulse vs Asana: Which Workflow Fits Better?
+
+Asana is built for structured, cross-functional project and work management — timelines, portfolios, goals, workload views, and an extensive automation and integration ecosystem. It does not include a native sales pipeline; its newer client-management and workflow features help manage external stakeholders on a project, but that's a different thing from tracking a sales pipeline through to a closed deal.
+
+Team Pulse's differentiator against Asana isn't going deeper on project management — Asana wins there for larger or more complex teams. It's combining that project workflow with a lightweight sales pipeline in the same subscription, without per-seat pricing.
+
+Choose Asana if project management itself is complex enough (cross-team dependencies, goals, portfolio-level reporting) that you need Asana's depth, and you don't need a built-in sales pipeline.
+
+Choose Team Pulse if your project management needs are more straightforward and you'd rather not pay for a separate CRM on top.
+
+## Team Pulse vs HubSpot: Lightweight CRM vs Full CRM
+
+HubSpot is a CRM-first platform with a much deeper feature set: contact and deal management, marketing automation, email sequences, reporting, and AI tools spread across its Sales, Marketing, and Service hubs. Its project-management capability, by comparison, is limited — HubSpot isn't really built to run delivery work.
+
+Team Pulse flips that emphasis: solid, straightforward project management with a CRM feature that covers the basics (stages, values, ownership, a leaderboard) but nothing close to HubSpot's automation depth.
+
+Choose HubSpot if CRM and marketing automation are the center of your business and project delivery is a secondary concern.
+
+Choose Team Pulse if project delivery matters as much as the sales pipeline, and your CRM needs are genuinely lightweight.
+
+## Can Team Pulse Replace Your CRM?
+
+For teams that only need a lightweight CRM, potentially yes. Pipelines give you the core of what a CRM needs to run a basic sales process: drag-and-drop deal stages, deal values, lead source tracking, ratings, owner assignment, and a leaderboard for revenue and win rates. If your current "CRM" is a spreadsheet, or a lightweight tool you're not using to its full potential anyway, consolidating into Team Pulse removes an entire subscription and a data hand-off step between sales and delivery.
+
+## What Team Pulse Doesn't Do Well
+
+To be direct about the trade-offs:
+
+- **No multi-step marketing automation** — no email sequences, lead scoring, or drip campaigns the way HubSpot or a dedicated marketing CRM offers
+- **Limited pipeline count** — 1 pipeline on Growth, 2 on Pro, 4 on Scale, which will feel tight for teams running several genuinely distinct sales processes at once
+- **No deep forecasting** — Team Pulse's leaderboard covers revenue and win rates, not the territory- or quota-based forecasting a dedicated sales CRM provides
+- **Smaller integration ecosystem** — nowhere near the third-party app marketplace that Asana, ClickUp, or HubSpot have built up over years
+- **Storage caps on lower tiers** — 1GB free, 25GB Starter, which is tight for teams sharing large design or video files
+
+If any of these are core to how your team operates, Team Pulse is the wrong tool regardless of the price advantage.
+
+## What Customers Say
+
+Team Pulse's published customer feedback includes a few consistent themes:
+
+- **Sam Kowalski**, Founder at LaunchPad SaaS, describes switching from ClickUp and finding Team Pulse gives him project status at a glance without digging — calling it the first PM tool he's actually enjoyed using.
+- **Olivia Bennett**, VP Sales at Northwind Co., points to pipelines as the standout feature, saying her team tracks deals from first call to close and reps can move straight from a closed deal into project delivery in the same app.
+- **Priya Sharma**, Team Lead at NovaBrand, reports a 40% team productivity improvement in her first month using the tool, crediting the visibility into who's working on what without needing formal project-management training.
+- **Jessica Martinez**, Head of Operations at Growthly, says her team replaced Asana with Team Pulse in about 10 minutes and that the whole team became self-sufficient on status updates.
+- **Marcus Chen**, COO at Stackflow, describes replacing a separate CRM with Team Pulse's pipelines so that sales and delivery data live on the same page.
+
+These are Team Pulse's own published testimonials rather than independently verified case studies, so treat the specific numbers (like the 40% figure) as one customer's reported result rather than a guaranteed outcome.
+
+![Team Pulse testimonials — Sam Kowalski, Olivia Bennett, Priya Sharma](/images/team_pulse_testimonials_1.jpg)
+*Testimonials from Sam Kowalski (LaunchPad SaaS), Olivia Bennett (Northwind Co.), and Priya Sharma (NovaBrand) on Team Pulse's site.*
+
+![Team Pulse testimonials — Jessica Martinez, Marcus Chen, Sam Kowalski](/images/team_pulse_testimonials_2.jpg)
+*More testimonials from the same carousel — Jessica Martinez (Growthly) and Marcus Chen (Stackflow) on replacing Asana and a separate CRM, respectively.*
+
+## Who Is Team Pulse Actually For?
+
+**Great fit:**
+- Small agencies and consultancies
+- Service businesses and freelance teams managing client work
+- SaaS or startup teams that need project tracking and a lightweight sales pipeline together
+- Founders and small teams replacing a spreadsheet-plus-underused-PM-tool setup
+
+**Poor fit:**
+- Enterprise sales teams that need territory management and complex forecasting
+- Teams relying on marketing automation, lead scoring, or email sequences
+- Businesses running many simultaneous, complex sales pipelines
+- Teams that depend on a large third-party integration stack
+
+## Pros and Cons
+
+**Pros**
+- No per-seat pricing — unlimited collaborators on every plan, including free
+- Projects and pipelines share one workspace, so sales-to-delivery handoff doesn't require re-entering data
+- Fast setup — the company says teams can get started in under two minutes, and the flow itself has no configuration wizard to fight through
+- AI blocker detection and recommendations included on Growth and above rather than sold as a separate add-on
+- Clients and external collaborators can be invited at no extra cost, useful for agencies
+- Free plan is a real, usable product, not a crippled trial
+
+**Cons**
+- Pipeline limits remain low compared with a dedicated CRM — 1 pipeline on Growth, 2 on Pro, 4 on Scale
+- Not a substitute for a dedicated CRM if you need marketing automation, complex forecasting, or deep third-party sales-stack integrations
+- Storage caps on lower tiers will be tight for teams sharing large design or video files
+- Much smaller integration marketplace than Asana, ClickUp, or HubSpot have built up over the years
+
+## Final Verdict
+
+Team Pulse isn't trying to out-feature ClickUp, out-scale Asana, or out-automate HubSpot — and it shouldn't be judged as if it were. Its actual differentiator is narrower and more useful for a specific kind of team: project management plus a lightweight CRM, unlimited collaborators, no per-seat pricing, and a setup that takes minutes instead of days.
+
+For a small team currently paying for a project management tool and a separate CRM — and using maybe half the features of each — that combination is a legitimate reason to consolidate. For teams that need deep sales automation, complex forecasting, or Asana- or ClickUp-level configurability, it's the wrong tool, and the sections above should make that clear enough to decide before you sign up rather than after.
+
+## FAQ
+
+### Is Team Pulse a CRM or a project management tool?
+
+Both — it's primarily a project management tool with a native, lightweight CRM pipeline built into the same workspace, rather than two separate products glued together.
+
+### Is Team Pulse better than ClickUp for small teams?
+
+It depends on what you value. ClickUp offers more depth and customization but takes more setup time, including for CRM-style workflows. Team Pulse trades that depth for a pipeline that works immediately and a shorter learning curve.
+
+### Can Team Pulse replace Asana?
+
+For straightforward project tracking, many small teams do replace Asana with Team Pulse. For complex, cross-functional work needing portfolios, goals, and deep automation, Asana's feature set still goes further.
+
+### Is Team Pulse cheaper than using a project management tool and CRM separately?
+
+Often, yes, for teams with genuinely lightweight CRM needs — see the cost comparison above. It's less clear-cut if you'd otherwise be on the cheapest tier of a per-user tool with a very small team.
+
+### Does Team Pulse have a free plan?
+
+Yes — 2 projects, unlimited collaborators, no pipeline. It's a real, ungated free tier rather than a time-limited trial.
+
+### Does Team Pulse charge per user?
+
+No. Every plan, including free, includes unlimited collaborators. Pricing scales by project/pipeline count and storage, not by headcount.
+
+### What are the limitations of Team Pulse?
+
+No marketing automation, limited pipeline counts even on higher tiers, no deep sales forecasting, and a much smaller integration ecosystem than established competitors. See "What Team Pulse Doesn't Do Well" above.
+
+### How long does setup take?
+
+Team Pulse advertises under two minutes to a working workspace — create a project or pipeline, invite your team, and start adding tasks or deals.`
+    },
+    {
       id: 45,
       slug: "geo-targetly-review",
       toolName: "Geo Targetly",
