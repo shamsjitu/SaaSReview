@@ -218,6 +218,250 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 49,
+      slug: "algomo-review",
+      toolName: "Algomo",
+      title: "Algomo Review 2026: Is It Worth It for B2B Website Personalization and Visitor Identification?",
+      category: "Business Tools",
+      date: "September 23, 2026",
+      readTime: "15 min",
+      image: "/images/algomo_review_banner.jpg",
+      excerpt: "Algomo Review 2026: bundles visitor deanonymization, full-site personalization, an AI agent, outbound prospecting, and LinkedIn ads from a $200/month floor — vs. RB2B and Warmly.",
+      ctaButtons: [
+        {
+          text: 'Book a Demo with Algomo',
+          url: 'https://newmode.ai/pricing',
+          toastText: 'Opening Algomo...',
+          isPrimary: true
+        }
+      ],
+      content: `Here's the gap most B2B marketing stacks have without anyone quite noticing it: you run LinkedIn ads that mention a specific pain point, someone clicks, and they land on a homepage that's identical for every visitor. You know 200 companies visited your pricing page last month — but not which people, so nothing happens. Your outreach sequence links to the same generic landing page you send everyone. Each tool works fine in isolation. None of them talk to each other.
+
+Algomo's pitch is that this gap — not any single missing tool — is where a lot of potential pipeline gets lost. It bundles visitor deanonymization, website personalization, an AI inbound agent, outbound prospecting, and LinkedIn ad personalization into one connected platform, on the logic that identifying a visitor has limited value if nothing downstream acts on that identity. The real question isn't whether Algomo has these features — most B2B GTM reviews will confirm it does. It's whether the five pieces actually work together well enough to replace a fragmented stack, and whether that's worth more than a sharper, cheaper point solution for whichever single piece you actually need. This review focuses on the two modules in the name — deanonymization and personalization — while working through that broader question.
+
+## What Algomo Actually Does
+
+Algomo (built by the team behind newmode.ai) is organized around one connected data layer feeding five products:
+
+- **Website Deanonymization** — identifies anonymous visitors by name, company, job title, and contact info where legally permitted
+- **Website Personalization** — rewrites your actual site (not just a landing page) per account, segment, or rule-based ICP match
+- **AI Inbound Agent** — a chat agent that qualifies visitors and books sales meetings, aware of which campaign brought them in
+- **Outbound Prospecting** — generates personalized landing pages per contact for outbound sequences
+- **LinkedIn Ads** — AI-generated 1:1 or segment-based ad campaigns, each linked to a matching personalized website experience
+
+## Website Visitor Deanonymization
+
+This is the foundation the other modules build on. Once installed, it identifies visitors landing on your pricing page, case studies, or product pages, and passes that identity into UTM/campaign data, pages visited, and content consumed — which is what lets the personalization and AI agent modules react to "who this specific visitor is" rather than just "someone showed up."
+
+### Where Algomo Can Identify Visitors
+
+Coverage isn't uniform, and Algomo is explicit about that rather than burying it:
+
+| Coverage level | Countries | What you get |
+|---|---|---|
+| Full visitor identification | 14 | Individual-level ID, no opt-in required |
+| Opt-in visitor identification | 159 | Individual-level ID via a consent-based partner network |
+| Company identification only | 50 (GDPR regions) | Company-level only, no individual identity |
+
+Coverage figures are based on Algomo's current documentation as of this review and may change as its identification network expands — worth confirming directly before you buy if regional coverage is a deciding factor.
+
+### How Algomo's Identification Works
+
+Worth explaining plainly rather than glossing over, since this is the part of any deanonymization tool worth scrutinizing. Outside its 14 no-opt-in countries, Algomo says its individual-level identification runs on an opt-in partnership model: it partners with high-traffic sites offering free consumer tools (speed tests, IP lookups) in exchange for opt-in consent to track browsing behavior. Users who opt in get the free tool, and Algomo says this consent gives it the legal right to identify those same users elsewhere, including on its customers' sites. In GDPR-covered regions specifically, it restricts itself to company-level identification only, not individual identity, and states it has invested more than $500,000 in compliance work across GDPR, CCPA, LGPD, PIPL, and other privacy frameworks, with opt-out requests honored immediately.
+
+That's a more transparent explanation of the underlying mechanism than most vendors in this category volunteer — but it's still the vendor's own account of its practices, not an independent audit. Get your own legal review before deploying individual-level identification in any region, rather than treating any vendor's compliance framing as a substitute for your own counsel's sign-off.
+
+![Algomo's website deanonymization landing page](/images/algomo_website_deanonymization.png)
+*Algomo's Website Deanonymization product page, showing the pitch to identify visitors by name, company, and contact info where legally permitted.*
+
+## Website Personalization
+
+The pitch here is specifically that it personalizes your actual site — every page a visitor navigates — not a single microsite or landing page bolted on separately. Three levels of granularity: 1:1 for top named accounts (bespoke messaging per company), 1:few for grouped segments (by industry, persona, or deal stage), and 1:many for rule-based personalization across your whole ICP ("if enterprise, show X; if European, mention Y; if competitor customer, lead with Z").
+
+Setup is a conversational editor — describe the change you want in plain English rather than using a visual builder or touching code — and returning visitors get sticky sessions, so a personalized experience persists without needing a special tracking link every time. The company's own framing for how fast this scales: "100 accounts personalized in an afternoon, not a quarter" — a company estimate worth verifying against your own account list's complexity rather than assuming it holds for every use case.
+
+![Algomo's website personalization product page showing a personalized message for Brex](/images/algomo_website_personalization.png)
+*Algomo's Website Personalization page, showing an example of a site rewritten with account-specific messaging for a named company (Brex).*
+
+## AI Inbound Agent
+
+Since the deanonymization and personalization modules are the focus of this review, it's worth being clear about what the AI Inbound Agent is and isn't. It's a homepage chat agent that qualifies visitors and books meetings — aware of which ad or campaign brought the visitor in, so the conversation continues that thread rather than restarting cold. It's a sales-qualification and meeting-booking bot, not a customer-support chatbot answering help-desk tickets; if what you need is FAQ-style customer support, this isn't built for that job. Its real value in this bundle is closing the loop: deanonymization identifies who's on the site, personalization tailors what they see, and the AI agent is one of the paths that converts that attention into a booked meeting instead of a silent bounce.
+
+![Algomo's AI Inbound Agent product page showing a live chat qualification example](/images/algomo_ai_inbound_agent.png)
+*Algomo's AI Inbound Agent page, showing the chat agent recognizing a visitor came from a HubSpot campaign and qualifying them mid-conversation.*
+
+## Outbound Prospecting and LinkedIn Ads
+
+Both modules pull from the same account/contact data you'd upload for personalization, applied to two different channels.
+
+**Outbound Prospecting** turns a CSV or CRM export into individually personalized landing pages you can drop into Apollo, Outreach, or LinkedIn messages — useful for reps who want a warmer link than a generic homepage.
+
+![Algomo's outbound prospecting page showing a personalized landing page example for a Notion contact](/images/algomo_outbound_prospecting.png)
+*Algomo's Outbound Prospecting page, showing a personalized landing page generated for an individual contact (Maria at Notion) to drop into an outreach email.*
+
+**LinkedIn Ads** generates AI-written ad copy, images, and video per account or segment, synced directly to LinkedIn Campaign Manager, with each ad landing on a website experience that continues the same message rather than dropping the visitor onto a generic page.
+
+![Algomo's LinkedIn Ads product page showing a 1:1 personalized ad example](/images/algomo_linkedin_ads.png)
+*Algomo's LinkedIn Ads page, showing a 1:1 personalized ad example addressed to HubSpot.*
+
+The stated logic across all three (ads, outbound, personalization) is that one uploaded account list powers all of them, so the messaging stays consistent from ad click to landing page to follow-up.
+
+## How Algomo Fits Into a B2B GTM Workflow
+
+This is the actual differentiation, more than any single module: visitor arrives → Algomo identifies the account → the website personalizes automatically → the AI agent qualifies the visitor → sales gets a signal with full context → outbound or LinkedIn follow-up continues the same message.
+
+Each step feeds the next from the same underlying data, rather than requiring you to manually export from an identification tool, import into a personalization tool, and re-upload the same list again for outreach and ads. Whether that connected workflow is worth more to your team than a best-in-class point solution for one step is the real buying decision — covered directly in the comparison below.
+
+## Pricing
+
+| Plan | Price | What's included |
+|---|---|---|
+| Growth | From $200/month (custom quote) | Full platform: 1:1 personalized LinkedIn ads, AI-generated ad copy, website personalization, CRM integration, email support |
+| Enterprise | Custom quote | Everything in Growth, plus unlimited campaigns, custom integrations, a dedicated success manager, priority support, advanced analytics |
+
+Both tiers are sales-assisted — there's no self-serve checkout, and exact pricing depends on account volume and which modules you're using. $200/month is the published floor, not a fixed plan price.
+
+![Algomo's pricing page showing Growth and Enterprise plans, both starting from $200/month](/images/algomo_pricing.png)
+*Algomo's pricing page — both the Growth and Enterprise plans are "Let's chat" quote-based tiers rather than self-serve checkout.*
+
+## Algomo vs. RB2B vs. Warmly vs. Mutiny
+
+| Tool | Category | Starting price |
+|---|---|---|
+| RB2B | Person-level deanonymization only (US-focused, Slack-first) | Free (150 resolutions/mo), $79–199/mo paid tiers |
+| Warmly | Deanonymization + AI chat + SDR alerting | $10,000/year floor, up to $30,000/year with chat autopilot |
+| Leadfeeder / Dealfront | Company-level deanonymization | Varies, mid-market focused |
+| Mutiny / Intellimize | Website personalization only | Enterprise pricing, typically $1,000s/month |
+| 6sense / Demandbase | Enterprise ABM platform (broader intent + orchestration, not a direct product equivalent) | Enterprise, custom |
+| Algomo | Deanonymization + personalization + AI agent + outbound + ads | From $200/month |
+
+On paper, Algomo offers a broader bundle at a much lower starting price than Warmly, the closest comparable competitor — though the real comparison depends on the traffic volume, identification coverage, and specific modules your team actually needs, which is worth testing directly rather than taking from a pricing table alone.
+
+### Which Tool Should You Choose?
+
+| Your need | Best fit |
+|---|---|
+| Cheapest visitor identification, nothing else | RB2B |
+| Identification + an AI sales chat layer, budget isn't the constraint | Warmly |
+| Identification + personalization + outbound + ads, connected together | Algomo |
+| Website personalization only, no identification needed | Mutiny |
+| Company-level identification only, simple reverse-IP use case | Dealfront / Leadfeeder |
+| Full enterprise ABM orchestration across a large GTM org | 6sense / Demandbase |
+
+## The 10 Plays: What Teams Actually Use This For
+
+Algomo organizes its use cases into a "plays" library rather than abstract feature descriptions, grouped by funnel stage:
+
+**Identify & Target**
+1. Retargeting anonymous visitors — re-engage identified visitors with personalized ads
+2. Competitor displacement — target known competitor customers with ads and pages addressing their specific frustrations
+3. Intent-based campaigns — match website messaging to the specific search keyword that brought the visitor in
+
+**Qualify & Convert**
+4. 24/7 lead qualification — the AI agent qualifies visitors any time, aware of which campaign drove the visit
+5. Inbound conversion — makes sure the landing page matches what the ad actually promised
+6. Exit-intent rescue — personalized offers for known visitors about to leave
+
+**Accelerate Pipeline**
+7. Deal acceleration — early-stage prospects see education content, late-stage prospects see case studies and pricing, based on CRM stage
+8. Pricing page recovery — alerts sales the moment a target account hits your pricing page, with an instant personalized follow-up
+
+**Enable Sales**
+9. Sales outreach support — reps grab a personalized link per prospect before sending an email, so the site is already "warmed up"
+10. Account-based follow-up — outbound and ad follow-up reference the same personalized messaging a prospect already saw on-site
+
+The pattern across all ten: identification triggers personalization, which triggers either an AI conversation or a sales alert.
+
+## Algomo Pros and Cons
+
+**Pros**
+- Unusually broad combination of visitor identification, personalization, AI qualification, outbound, and ads in one connected data layer
+- More transparent about its identification methodology (opt-in partner network, GDPR-region restriction to company-level) than many competitors disclose
+- $200/month floor is well below Warmly, the closest comparable bundled competitor — though confirm current pricing directly, since both are quote-based
+- Personalization applies across the entire site, not just a single landing page, with a plain-English conversational editor instead of a visual builder
+- One account list powers ads, website personalization, and outbound simultaneously — no re-uploading data per channel
+- AI Inbound Agent connects campaign context to the conversation, rather than starting every chat cold
+
+**Cons**
+- No self-serve pricing or trial — every plan requires a sales conversation, which slows evaluation versus RB2B's free tier or self-serve checkout
+- Individual-level identification is either unavailable or restricted in a meaningful share of the world (GDPR regions get company-level only; some countries require opt-in partner coverage that may have gaps)
+- Compliance framing is the vendor's own account of its practices — worth independent legal review before deploying, especially for individual-level identification
+- The AI Inbound Agent is sales-qualification-focused, not a general customer-support chatbot, so it won't fit a "help desk" use case
+- As a bundled platform, each individual module likely won't out-execute a dedicated best-in-class point tool (RB2B on pure identification breadth, Mutiny on personalization depth) if that one piece is your only real need
+- Company-reported scale claims ("100 accounts personalized in an afternoon") are marketing estimates, not independently verified benchmarks
+
+## Who Should Use Algomo
+
+- B2B GTM and RevOps teams currently running deanonymization, personalization, outreach, and LinkedIn ads as separate, disconnected tools
+- Teams doing account-based marketing (ABM) who need identity, messaging, and follow-up to stay consistent across channels
+- B2B companies already paying for multiple separate tools for visitor identification, personalization, outreach, and LinkedIn campaigns, where the integration overhead is its own cost
+- Sales-led B2B teams that want inbound visitors qualified and routed to a meeting without a human watching Slack alerts 24/7
+
+## Who Shouldn't Use Algomo
+
+- Teams whose only need is one piece — pure identification (RB2B is cheaper and more focused), pure personalization, or pure ad generation
+- Companies wanting to self-serve and test before committing, since there's no published self-serve tier
+- Businesses that need a customer-support chatbot, not a sales-qualification one
+- Teams with most of their traffic in regions where Algomo's identification coverage is limited to company-level only
+
+## What Algomo Does Not Replace
+
+- It doesn't replace a full CRM — it's designed to sync with HubSpot/Salesforce, not to be one
+- It doesn't guarantee every visitor can be identified — coverage varies significantly by region, and some traffic will always remain anonymous
+- It doesn't replace your own legal/privacy review — vendor compliance claims aren't a substitute for counsel sign-off in your specific jurisdictions
+- It isn't a general customer-support chatbot — the AI agent is built for sales qualification, not help-desk tickets
+- It may not out-perform a dedicated point solution at any single task — a team that only needs one piece of this bundle should compare directly against a specialist in that piece
+
+## FAQ
+
+### Is website visitor deanonymization legal?
+
+It depends heavily on jurisdiction and how the identification is sourced. Algomo restricts individual-level identification to specific regions and an opt-in consent network, and limits itself to company-level identification in GDPR-covered areas — but "legal in general" isn't the same as "compliant for your specific use case," so get your own legal review before deploying it, especially for individual identification.
+
+### How is Algomo different from RB2B?
+
+RB2B does one thing — person-level identification, mainly US-focused, delivered to Slack — at a low, self-serve price starting free. Algomo identifies visitors too, but connects that identity to website personalization, an AI qualification agent, outbound, and ad generation in the same platform. If identification alone is your only need, RB2B is the cheaper, more focused tool.
+
+### How is Algomo different from Warmly?
+
+This is the closer comparison, since Warmly also bundles deanonymization with an AI chat layer. The main difference is price: Warmly's published floor is $10,000/year for deanonymization alone, rising to $30,000/year with its inbound chat autopilot, versus Algomo's $200/month starting quote for a bundle that also includes personalization, outbound, and ad generation.
+
+### Is Algomo worth $200 a month?
+
+For a team currently paying for separate identification, personalization, and outreach tools, $200/month as a starting point compares favorably — but it's a quote-based floor, not a fixed price, so the real answer depends on your traffic volume and which modules you end up needing.
+
+### What does Algomo do with anonymous website visitors?
+
+It attempts to identify them (by company, and where legally permitted, by individual name and contact info), then feeds that identity into website personalization, the AI inbound agent, and outbound/ad targeting so the visitor's next interaction reflects who they are rather than treating them as anonymous traffic.
+
+### Does Algomo identify individual visitors in Europe?
+
+No — in GDPR-covered regions, Algomo restricts itself to company-level identification only, not individual visitor identity, which still supports account-based personalization and targeting but not person-level outreach the way it can in its 14 fully-covered countries.
+
+### Does Algomo integrate with CRM and sales tools?
+
+Yes — it syncs with HubSpot and Salesforce for conversation, qualification, and meeting data, and supports Slack alerts for high-intent visitor engagement.
+
+### Does the AI Inbound Agent replace a customer support chatbot?
+
+No — it's built for sales qualification and meeting booking based on campaign context, not for answering customer support or help-desk questions.
+
+### Can I try Algomo before committing?
+
+There's no published self-serve trial; both plans require booking a demo/sales call, and pricing is quoted based on your account volume and which modules you need.
+
+### Do I need to use all five modules?
+
+The platform is built to be used together (identification feeding personalization and outbound), but the products are described individually enough that you could plausibly start with fewer and expand — worth confirming directly with sales, since pricing isn't itemized per module publicly.
+
+## Final Verdict
+
+For a B2B GTM team already running website deanonymization and personalization as separate line items — or worse, running one without the other, so identified visitors never actually see anything different — Algomo's bundled approach solves a real, specific problem: the tools in this space are usually good at their own piece and blind to everything else. Priced against RB2B, it's not the cheapest way to just identify visitors. On paper, Algomo offers a broader bundle at a much lower starting price than Warmly, although the real comparison depends on the traffic, identification coverage, and modules your team actually needs — something worth testing directly on a demo call with your own accounts rather than taking on faith.
+
+The clearest reason to choose Algomo over a DIY stack is the shared data layer: visitor identity, personalized pages, and sales follow-up can all work from the same context, instead of three or four tools you have to keep manually in sync.
+`
+    },
+    {
       id: 48,
       slug: "babylovegrowth-review",
       toolName: "BabyLoveGrowth",
