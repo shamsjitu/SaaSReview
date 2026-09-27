@@ -218,6 +218,214 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 50,
+      slug: "grape-leads-review",
+      toolName: "Grape Leads",
+      title: "Grape Leads Review 2026: Find Local Businesses Without Websites for Cold Outreach",
+      category: "Business Tools",
+      date: "September 27, 2026",
+      readTime: "12 min",
+      image: "/images/grapeleads_review_banner.jpg",
+      excerpt: "Grape Leads Review 2026: a pay-as-you-go tool that drags a map to find local businesses without websites for $0.51–0.56/credit — vs. Webleadr and B2BLeadFinder.",
+      ctaButtons: [
+        {
+          text: 'Try Grape Leads Free',
+          url: 'https://grapeleads.com/?gr_pk=ago0',
+          toastText: 'Opening Grape Leads...',
+          isPrimary: true
+        }
+      ],
+      content: `Type "plumbers near me" into Google Maps, and you'll get a list. Click each result. Check for the little globe icon that means they have a website. No globe, no website — that's a lead. Now do that again for the next result. And the next. A hundred times, across a dozen cities, every week you're prospecting.
+
+That manual grind is exactly what Grape Leads exists to automate: drag a search area on a map, pick a business type, filter for "no website," and get a scored list back by email instead of clicking through Google Maps one listing at a time — so you can move from prospect discovery to outreach without manually checking every listing. It's a genuinely narrow, well-defined niche tool — but the "businesses without websites" space has gotten more crowded since tools like this first appeared, so this review spends as much time on what else exists in this category as it does on Grape Leads itself.
+
+![Grape Leads' homepage pitch: find businesses without websites](/images/grapeleads_hero_no_website_businesses.png)
+*Grape Leads' homepage, pitching itself specifically to web developers and agencies looking to connect with businesses that don't have a site yet.*
+
+## What Grape Leads Actually Does
+
+The workflow is four steps, entirely in-browser, no software to install:
+
+1. Drag the map to center a search area over the region you want to prospect
+2. Enter a business type (plumber, dentist, roofer, whatever your target vertical is)
+3. Apply filters — without websites, operational status, has a phone number, has recent reviews, has any reviews
+4. Search, then results arrive by email a few minutes later
+
+![Grape Leads' 4-step map-and-filter search workflow](/images/grapeleads_search_workflow.png)
+*Grape Leads' search interface — drag the map to an area, pick a business type, select filters, and click search.*
+
+### What You Get in Each Lead
+
+Each result comes back with: business name, operational status, full street address, a Google Places URL, a proprietary "Grape Lead Score," average review score, total review count, and city/state/zip/country. The Grape Lead Score is the actual value-add over just scraping raw Google Maps data yourself — it's meant to help you triage which of the no-website businesses are the strongest prospects. Grape Leads doesn't appear to publish a detailed formula for how the score is calculated, so treat it as a useful prioritization signal rather than an independently verified lead-quality rating.
+
+### Important Filter Limitation: Facebook-Only Businesses
+
+Worth noting upfront: if a business lists a Facebook page as their "website" in their Google Business Profile, Grape Leads still includes them, since a Facebook-only presence is arguably still a business worth reaching out to — a reasonable call, but worth knowing if you were expecting a stricter "zero online presence" filter.
+
+## Grape Leads Pricing & Credits
+
+Grape Leads runs on a pay-as-you-go credit model — no subscription required, which suits the agency/freelancer audience it's built for:
+
+| Pack | Price | Credits | Cost per credit |
+|---|---|---|---|
+| Freelancer | $28 one-time | 50 | $0.56 |
+| Startup | $55 one-time | 100 | $0.54 |
+| Agency | $127 one-time | 250 | $0.51 |
+
+Credits work simply: 1 credit to initiate a search, plus 1 credit per filtered lead returned. So a search for "plumbers without websites" that returns 20 matching businesses costs 21 credits total. There's a free trial (email address only, no credit card) to test the tool before buying, and the company states a satisfaction guarantee — if you're not happy with lead quality, they'll work with you or replace credits.
+
+![Grape Leads' credit pack pricing: Freelancer, Startup, and Agency tiers](/images/grapeleads_credit_packs_pricing.png)
+*Grape Leads' pay-as-you-go credit packs — Freelancer ($28/50 credits), Startup ($55/100 credits), and Agency ($127/250 credits).*
+
+### What Does 100 Leads Actually Cost?
+
+Because cost depends on how many businesses each search returns — not simply how many searches you run — it's worth doing the math before picking a pack. Getting 100 actual leads costs 101 credits total (1 to run the search + 100 for the results):
+
+- On the Freelancer pack (50 credits for $28), you couldn't fit a single 100-lead pull in one pack — you'd need to buy twice, or run smaller, more targeted searches
+- On the Startup pack (100 credits for $55), you're 1 credit short of 100 leads in a single search — practically, this pack is sized for searches returning roughly 90–99 leads at a time
+- On the Agency pack (250 credits for $127), a 100-lead search costs 101 of your 250 credits, leaving 149 credits (about 148 more leads) for further searches
+
+The practical takeaway: narrower, more targeted searches (smaller map areas, more specific business types) stretch your credits further than one broad sweep that returns hundreds of results at once.
+
+## Using Grape Leads for Cold Outreach
+
+Grape Leads hands you a list, not an outreach tool — there's no built-in email sender, call dialer, or sequencer, so what you do with the results is entirely on you. This means Grape Leads solves the lead-discovery problem, not the full prospecting workflow. In practice, that usually looks like one of two paths:
+
+- Cold email or LinkedIn, if you can find a contact email or the owner's profile from the business name and Google Places URL Grape Leads provides (it doesn't include email addresses directly, so this step takes extra work — pairing it with a separate email-finder tool is common)
+- Cold calling or in-person visits, using the phone number filter to only pull businesses that already list one, which removes a step of manual lookup before you dial
+
+Either way, the Grape Lead Score and review data are what make the list usable for outreach prioritization — a business with recent, positive reviews and no website may be a more promising outreach target than one with no recent activity or reviews, since it suggests an active, functioning business rather than one that may already be closed.
+
+## What Grape Leads Doesn't Do
+
+Worth being explicit about, since it shapes what else you'll need to budget for:
+
+- Doesn't find business owner names or email addresses
+- Doesn't send cold emails or make calls for you
+- Doesn't run an outreach sequence or follow-up cadence
+- Doesn't include a CRM to track where each lead is in your pipeline
+- Doesn't provide a live, filterable results dashboard — results come by email
+- Doesn't independently verify or guarantee every lead is a perfect fit — the Lead Score is a prioritization signal, not a certification
+
+## Where Grape Leads Sits in a Now-Crowded Niche
+
+This is the part worth being direct about, because "find businesses without a website" has become a real, populated category since tools like Grape Leads first staked it out — and the honest comparison changes the buying decision more than any feature list would.
+
+**Webleadr** is the closest direct competitor and, on pure price, the cheaper option: $12 for 100 credits ($0.12/credit) with one credit per business found, versus Grape Leads' $0.51–0.56 per credit. Webleadr also adds one-click contact and PageSpeed scoring for businesses that do have a (poor) website.
+
+**DIY scraper tools** (Apify actors built specifically for this use case, like community-built "No-Website Lead Finder" scrapers) run on pay-per-event pricing as low as roughly $0.01 per qualified lead — dramatically cheaper than either packaged tool. The catch is that you're buying a scraping workflow rather than a ready-made prospecting product, which is a real trade-off in ease of use, not just price.
+
+**B2BLeadFinder**, a newer entrant, goes further than lead discovery alone — scoring leads, finding the business owner's contact details, checking whether the business is hiring, and generating AI-written outreach proposals. This is where Grape Leads starts to look more like a lead-discovery utility than a complete cold-outreach platform.
+
+### Grape Leads vs. Webleadr vs. B2BLeadFinder: Which Should You Choose?
+
+| If you need... | Best fit |
+|---|---|
+| Simple, guided no-website lead discovery | Grape Leads |
+| The lowest cost per lead | Webleadr, or a DIY Apify scraper |
+| Owner contact details + AI-assisted outreach | B2BLeadFinder |
+| Full scraping flexibility and control | Apify (build-it-yourself) |
+| A no-code, pay-as-you-go workflow with no dashboard to learn | Grape Leads |
+
+| Feature | Grape Leads | Webleadr |
+|---|---|---|
+| Finds no-website businesses | Yes | Yes |
+| Map-and-filter search workflow | Yes | — |
+| Cost per lead | $0.51–0.56 | ~$0.12 |
+| Owner/business contact discovery | No | Yes |
+| PageSpeed scoring for existing sites | No | Yes |
+| Lead prioritization score | Yes | — |
+| Pay-as-you-go | Yes | Yes |
+
+The upshot: Grape Leads is no longer the cheapest or the most feature-rich option in its own category. What it still offers is a specific, deliberately simple workflow — drag, filter, get emailed results — and if you don't need an all-in-one outreach system, that simplicity can actually be an advantage rather than a limitation.
+
+## A Few Things Worth Knowing Before You Buy
+
+Grape Leads is built by Electrik Design Lab, a small, family-run web design and software studio in Victoria, BC — not a large company. On the positive side, the available customer review specifically praises the founder for being responsive to agency feedback and actively adding filters based on real usage.
+
+![Customer testimonial from Chris Riley, Digital Director at Galifrey, praising Grape Leads](/images/grapeleads_customer_testimonial.png)
+*A customer review from Chris Riley, Digital Director at Galifrey, on Grape Leads' own site — one of the few third-party data points available for this small-team product.*
+
+On the other hand, the company's own public roadmap still lists several features — a regional search method, SEO analysis for finding businesses with poor-performing (not just missing) websites, website analysis for outdated sites, and Zapier/webhook actions — as not yet released, some originally targeted for early 2023. If any of those specific features are why you're considering Grape Leads, confirm current availability directly before buying credits, since roadmap timelines on a small team's site don't always stay current.
+
+## Grape Leads Pros and Cons
+
+**Pros**
+- Genuinely simple, no-code workflow — drag a map area, pick a business type, get results by email
+- Pay-as-you-go credits with no subscription, and a free trial requiring only an email address
+- Grape Lead Score adds triage value beyond a raw, unranked scrape
+- Useful filter set (no website, operational, has phone, has reviews) beyond just "no website" alone
+- The available customer review praises the founder's responsiveness to agency feedback
+- Satisfaction guarantee on lead quality
+
+**Cons**
+- No longer the cheapest option in its category — Webleadr runs roughly 4–5x cheaper per credit, and DIY Apify scrapers cheaper still
+- Newer competitors (B2BLeadFinder) bundle owner contact details and AI-written outreach on top of lead discovery, which Grape Leads doesn't currently do
+- Several previously announced features (regional search, SEO/website analysis, webhook actions) remain unreleased per the company's own public roadmap
+- Results arrive by email rather than in a live dashboard, which is a slower workflow than tools built around an in-app results table
+- Small company/single-developer product — less third-party review volume to lean on than an established, well-funded SaaS tool
+
+## Who Should Use Grape Leads
+
+- Freelancers and small agencies doing cold outreach — web design, SEO, marketing, or any local service — who want a simple, guided tool rather than configuring a scraper themselves
+- Web designers who need a repeatable way to find local businesses that don't yet have a website
+- Anyone who values a pay-as-you-go model with no ongoing subscription commitment
+- Teams that want the Grape Lead Score's triage value and don't mind results landing in their inbox rather than a live dashboard
+- Buyers comfortable supporting a small, single-team product in exchange for direct, responsive support
+
+## Who Should Look Elsewhere
+
+- Anyone purely optimizing for the lowest cost per lead — Webleadr or a raw Apify scraper will beat Grape Leads on price
+- Teams that want owner contact details and AI-drafted outreach bundled with the lead list, not just discovery
+- Buyers who specifically need the regional search, SEO analysis, or webhook/Zapier features still listed as unreleased on the roadmap
+- High-volume agencies wanting a live, filterable dashboard instead of emailed result batches
+
+## FAQ
+
+### How much does it cost to find businesses without websites using Grape Leads?
+
+Credits run from $0.51 to $0.56 each depending on the pack size, and each search costs 1 credit to initiate plus 1 credit per matching business returned.
+
+### Is Grape Leads worth it for web design agencies?
+
+For an agency that wants a simple, guided way to source no-website prospects without configuring a scraper, yes — though it's worth comparing against Webleadr on price first if cost per lead is the deciding factor.
+
+### How does Grape Leads compare with Webleadr?
+
+Webleadr is roughly 4–5x cheaper per credit and adds contact discovery and PageSpeed scoring; Grape Leads offers a more guided map-based search workflow and its own lead-scoring signal. See the comparison table above for a full breakdown.
+
+### Is Grape Leads cheaper than scraping Google Maps myself?
+
+No — a DIY approach using a purpose-built scraping tool can cost roughly a tenth of Grape Leads' per-lead price, though you trade the guided map-and-filter interface for configuring a scraping tool yourself.
+
+### Does Grape Leads find business owner email addresses?
+
+No — results include business name, address, review data, and a Google Places URL, but not owner contact details the way some newer competitors like B2BLeadFinder do.
+
+### Can Grape Leads replace a full cold outreach tool?
+
+No — it only produces the lead list. Emailing, calling, sequencing, or otherwise contacting the businesses is a separate step you handle yourself or with another tool.
+
+### Does Grape Leads include businesses that only have a Facebook page?
+
+Yes — a Facebook-only business profile still counts as lacking a real website in Grape Leads' filtering, on the logic that they're still a reasonable outreach target.
+
+### Is there a free trial?
+
+Yes — you can run a search with just an email address, no credit card required, before buying a credit pack.
+
+### How do I actually receive my search results?
+
+By email, a few minutes after you run a search — there's no live, real-time results dashboard.
+
+## Final Verdict
+
+Grape Leads does what it says: turn the tedious, manual "check every Google Maps listing for a website icon" process into a drag-and-filter search that emails you a scored list. For a freelancer who wants something simple and guided, with no subscription and a real person behind the support inbox, it's a reasonable, low-commitment way to build a cold outreach list without doing the manual lookup yourself.
+
+But it's worth going in with eyes open that this category has gotten more competitive since tools like this first appeared — cheaper per-lead options exist, and at least one newer competitor bundles more of the outreach workflow on top of discovery. If you value a simple, guided workflow more than the absolute lowest cost per lead, Grape Leads remains a sensible option — especially for freelancers and small web-design agencies that don't want to configure a scraper.
+`
+    },
+    {
       id: 49,
       slug: "algomo-review",
       toolName: "Algomo",
