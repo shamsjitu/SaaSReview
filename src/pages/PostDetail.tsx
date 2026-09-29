@@ -141,7 +141,7 @@ export default function PostDetail({ overriddenSlug }: { overriddenSlug?: string
   return (
     <div className="pt-24 min-h-screen bg-white">
       {/* Top Progress Bar or Back Button */}
-      <div className="max-w-4xl mx-auto px-4 pt-12">
+      <div className="max-w-4xl mx-auto px-4">
         <button 
           onClick={() => navigate('/blog')}
           className="flex items-center gap-2 text-gray-500 hover:text-primary transition-colors mb-12 group"
