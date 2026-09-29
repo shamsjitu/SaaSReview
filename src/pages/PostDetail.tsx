@@ -139,7 +139,7 @@ export default function PostDetail({ overriddenSlug }: { overriddenSlug?: string
     .slice(0, 2);
 
   return (
-    <div className="pt-24 min-h-screen bg-white">
+    <div className="pt-16 min-h-screen bg-white">
       {/* Top Progress Bar or Back Button */}
       <div className="max-w-4xl mx-auto px-4">
         <button 
