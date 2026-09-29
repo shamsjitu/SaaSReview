@@ -230,7 +230,7 @@ export const SITE_DATA = {
       ctaButtons: [
         {
           text: 'Try UptimeRobot Free',
-          url: 'https://uptimerobot.com/',
+          url: 'https://uptimerobot.com/?red=shamss',
           toastText: 'Opening UptimeRobot...',
           isPrimary: true
         }
