@@ -20,6 +20,8 @@ import Resources from './pages/Resources';
 import ExpertBlueprints from './pages/ExpertBlueprints';
 import HowToGuides from './pages/HowToGuides';
 import AffiliateDisclosure from './pages/AffiliateDisclosure';
+import CookiePolicy from './pages/CookiePolicy';
+import DMCAPolicy from './pages/DMCAPolicy';
 import ScrollToTop from './components/ScrollToTop';
 import ContentPlanner from './pages/ContentPlanner';
 import Upcoming from './pages/Upcoming';
@@ -49,6 +51,8 @@ export default function App() {
             <Route path="/legal/privacy-policy" element={<Privacy />} />
             <Route path="/legal/terms-and-conditions" element={<TermsAndConditions />} />
             <Route path="/legal/affiliate-disclosure" element={<AffiliateDisclosure />} />
+            <Route path="/legal/cookie-policy" element={<CookiePolicy />} />
+            <Route path="/legal/dmca-policy" element={<DMCAPolicy />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/category/:slug" element={<CategoryDetail />} />
             <Route path="/upcoming" element={<Upcoming />} />
