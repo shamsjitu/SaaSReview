@@ -34,11 +34,10 @@ export default function Footer() {
             <h4 className="font-display font-bold text-primary mb-6">Popular Categories</h4>
             <ul className="space-y-4">
               {[
-                { name: 'Security & Privacy', path: '/blog' },
-                { name: 'AI Automation', path: '/upcoming' },
-                { name: 'Productivity Tools', path: '/upcoming' },
-                { name: 'Web Development', path: '/upcoming' },
-                { name: 'Design Assets', path: '/upcoming' }
+                { name: 'AppSumo Deals', path: '/category/appsumo-deals' },
+                { name: 'Business Tools', path: '/category/business-tools' },
+                { name: 'Privacy and Security', path: '/category/privacy-security' },
+                { name: 'GovTech Tools', path: '/category/govtech-tools' }
               ].map((item, index) => (
                 <li key={index}>
                   <Link to={item.path} className="text-body-text hover:text-primary transition-colors">{item.name}</Link>
@@ -48,23 +47,23 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-display font-bold text-primary mb-6">Resources</h4>
+            <h4 className="font-display font-bold text-primary mb-6">Quick Links</h4>
             <ul className="space-y-4">
-              <li><Link to="/blog" className="text-body-text hover:text-primary transition-colors">Expert Reviews</Link></li>
-              <li><Link to="/upcoming" className="text-body-text hover:text-primary transition-colors">How-To Guides</Link></li>
-              <li><Link to="/upcoming" className="text-body-text hover:text-primary transition-colors">Lifetime Deals</Link></li>
-              <li><Link to="/blog/latest-news" className="text-body-text hover:text-primary transition-colors">Latest News</Link></li>
+              <li><Link to="/blog" className="text-body-text hover:text-primary transition-colors">Latest Posts</Link></li>
+              <li><Link to="/company/about-my-process" className="text-body-text hover:text-primary transition-colors">About</Link></li>
+              <li><Link to="/company/contact" className="text-body-text hover:text-primary transition-colors">Contact</Link></li>
+              <li><Link to="/resources" className="text-body-text hover:text-primary transition-colors">Resources</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-display font-bold text-primary mb-6">Company</h4>
+            <h4 className="font-display font-bold text-primary mb-6">Legals</h4>
             <ul className="space-y-4">
-              <li><Link to="/company/about-my-process" className="text-body-text hover:text-primary transition-colors">About My Process</Link></li>
+              <li><Link to="/legal/cookie-policy" className="text-body-text hover:text-primary transition-colors">Cookie Policy</Link></li>
               <li><Link to="/legal/privacy-policy" className="text-body-text hover:text-primary transition-colors">Privacy Policy</Link></li>
               <li><Link to="/legal/terms-and-conditions" className="text-body-text hover:text-primary transition-colors">Terms & Conditions</Link></li>
               <li><Link to="/legal/affiliate-disclosure" className="text-body-text hover:text-primary transition-colors">Affiliate Disclosure</Link></li>
-              <li><Link to="/company/contact" className="text-body-text hover:text-primary transition-colors">Contact Us</Link></li>
+              <li><Link to="/legal/dmca-policy" className="text-body-text hover:text-primary transition-colors">DMCA Policy</Link></li>
             </ul>
           </div>
         </div>
