@@ -22,6 +22,9 @@ import HowToGuides from './pages/HowToGuides';
 import AffiliateDisclosure from './pages/AffiliateDisclosure';
 import CookiePolicy from './pages/CookiePolicy';
 import DMCAPolicy from './pages/DMCAPolicy';
+import Disclaimer from './pages/Disclaimer';
+import EditorialMethodology from './pages/EditorialMethodology';
+import AboutShamsStack from './pages/AboutShamsStack';
 import ScrollToTop from './components/ScrollToTop';
 import ContentPlanner from './pages/ContentPlanner';
 import Upcoming from './pages/Upcoming';
@@ -53,6 +56,9 @@ export default function App() {
             <Route path="/legal/affiliate-disclosure" element={<AffiliateDisclosure />} />
             <Route path="/legal/cookie-policy" element={<CookiePolicy />} />
             <Route path="/legal/dmca-policy" element={<DMCAPolicy />} />
+            <Route path="/legal/disclaimer" element={<Disclaimer />} />
+            <Route path="/legal/editorial-methodology" element={<EditorialMethodology />} />
+            <Route path="/company/about" element={<AboutShamsStack />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/category/:slug" element={<CategoryDetail />} />
             <Route path="/upcoming" element={<Upcoming />} />
