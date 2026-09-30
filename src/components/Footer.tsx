@@ -50,7 +50,7 @@ export default function Footer() {
             <h4 className="font-display font-bold text-primary mb-6">Quick Links</h4>
             <ul className="space-y-4">
               <li><Link to="/blog" className="text-body-text hover:text-primary transition-colors">Latest Posts</Link></li>
-              <li><Link to="/company/about-my-process" className="text-body-text hover:text-primary transition-colors">About</Link></li>
+              <li><Link to="/company/about" className="text-body-text hover:text-primary transition-colors">About</Link></li>
               <li><Link to="/company/contact" className="text-body-text hover:text-primary transition-colors">Contact</Link></li>
               <li><Link to="/resources" className="text-body-text hover:text-primary transition-colors">Resources</Link></li>
             </ul>
@@ -64,6 +64,8 @@ export default function Footer() {
               <li><Link to="/legal/terms-and-conditions" className="text-body-text hover:text-primary transition-colors">Terms & Conditions</Link></li>
               <li><Link to="/legal/affiliate-disclosure" className="text-body-text hover:text-primary transition-colors">Affiliate Disclosure</Link></li>
               <li><Link to="/legal/dmca-policy" className="text-body-text hover:text-primary transition-colors">DMCA Policy</Link></li>
+              <li><Link to="/legal/editorial-methodology" className="text-body-text hover:text-primary transition-colors">Editorial & Review Methodology</Link></li>
+              <li><Link to="/legal/disclaimer" className="text-body-text hover:text-primary transition-colors">Disclaimer</Link></li>
             </ul>
           </div>
         </div>
