@@ -3,78 +3,41 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { MousePointer2, Cpu, TrendingUp, Code2, PenTool, BarChart3, ArrowRight, Star } from 'lucide-react';
+import { Tag, Briefcase, ShieldCheck, Landmark, Calendar, ChevronRight } from 'lucide-react';
+import { SITE_DATA } from '../data/siteData';
+import { getBlogPosts } from '../utils/blogHelper';
+import BlogCoverImage from '../components/BlogCoverImage';
 
-const CATEGORY_DATA: Record<string, any> = {
-  "marketing-seo": {
-    name: "Marketing & SEO",
-    icon: TrendingUp,
-    description: "Dominate search engines and explode your traffic with these pro-level marketing tools.",
-    tools: [
-      { name: "NeuronWriter", rating: 4.9, desc: "NLP-driven content optimization for SEO." },
-      { name: "SiteGuru", rating: 4.8, desc: "Actionable SEO audits for your website." },
-      { name: "Surfer SEO", rating: 4.9, desc: "The industry standard for page optimization." }
-    ]
+const CATEGORY_META: Record<string, { name: string; icon: any; description: string }> = {
+  'appsumo-deals': {
+    name: 'AppSumo Deals',
+    icon: Tag,
+    description: 'Lifetime-deal software reviews, tested and evaluated before you spend your credits.'
   },
-  "ai-automation": {
-    name: "AI Automation",
-    icon: Cpu,
-    description: "Put your business on autopilot with cutting-edge AI and automation workflows.",
-    tools: [
-      { name: "TaskMagic", rating: 4.7, desc: "Browser-based automation without code." },
-      { name: "ContentShake AI", rating: 4.8, desc: "AI-powered content generation by Semrush." },
-      { name: "Katteb", rating: 4.6, desc: "Fact-checked AI writer for publishers." }
-    ]
+  'business-tools': {
+    name: 'Business Tools',
+    icon: Briefcase,
+    description: 'SaaS and business platforms reviewed for teams, freelancers, and growing companies.'
   },
-  "productivity": {
-    name: "Productivity",
-    icon: MousePointer2,
-    description: "Get more done in less time. Professional tools for efficient founders.",
-    tools: [
-      { name: "TidyCal", rating: 4.8, desc: "Simple and robust scheduling solution." },
-      { name: "Briefcase", rating: 4.5, desc: "Curated toolkit for busy entrepreneurs." },
-      { name: "Notion", rating: 4.9, desc: "The ultimate all-in-one workspace." }
-    ]
+  'privacy-security': {
+    name: 'Privacy & Security',
+    icon: ShieldCheck,
+    description: 'Password managers, VPNs, and security software, reviewed with your privacy in mind.'
   },
-  "web-dev": {
-    name: "Web Development",
-    icon: Code2,
-    description: "Build, host, and manage your sites with high-performance development tools.",
-    tools: [
-      { name: "Brizy Cloud", rating: 4.7, desc: "Fast and easy landing page builder." },
-      { name: "Kinsta", rating: 5.0, desc: "Managed WordPress hosting for agencies." },
-      { name: "WP Reset", rating: 4.8, desc: "The ultimate WordPress troubleshooting tool." }
-    ]
-  },
-  "design": {
-    name: "Design Tools",
-    icon: PenTool,
-    description: "Stunning visuals made easy. Pro-level design tools for non-designers.",
-    tools: [
-      { name: "Canva Pro", rating: 4.9, desc: "Universal design tool for marketing assets." },
-      { name: "Glorify", rating: 4.7, desc: "E-commerce focused specialized design tool." },
-      { name: "VistaCreate", rating: 4.6, desc: "Easy-to-use graphic design platform." }
-    ]
-  },
-  "sales-crm": {
-    name: "Sales & CRM",
-    icon: BarChart3,
-    description: "Close more deals and manage your customer relationships effortlessly.",
-    tools: [
-      { name: "LeadRocks", rating: 4.6, desc: "B2B contact database for lead generation." },
-      { name: "Sociamonials", rating: 4.7, desc: "Social media marketing with ROI tracking." },
-      { name: "Pipedrive", rating: 4.8, desc: "The sales-first CRM for growing teams." }
-    ]
+  'govtech-tools': {
+    name: 'GovTech Tools',
+    icon: Landmark,
+    description: 'Software built for government and public-sector workflows.'
   }
 };
 
 export default function CategoryDetail() {
   const { slug } = useParams();
-  const data = slug ? CATEGORY_DATA[slug] : null;
+  const meta = slug ? CATEGORY_META[slug] : null;
 
-  if (!data) {
+  if (!meta) {
     return (
       <div className="pt-32 text-center h-screen">
         <h1 className="text-2xl font-bold">Category not found.</h1>
@@ -82,7 +45,8 @@ export default function CategoryDetail() {
     );
   }
 
-  const Icon = data.icon;
+  const Icon = meta.icon;
+  const posts = getBlogPosts().filter((post) => post.category === meta.name);
 
   return (
     <div className="pt-24 min-h-screen bg-white">
@@ -96,62 +60,80 @@ export default function CategoryDetail() {
               <Icon className="w-10 h-10 text-secondary" />
             </div>
             <h1 className="text-4xl md:text-6xl font-display font-extrabold text-primary mb-6">
-              {data.name}
+              {meta.name}
             </h1>
-            <p className="text-body-text max-w-2xl mx-auto text-lg leading-relaxed italic">
-             "{data.description}"
+            <p className="text-body-text max-w-2xl mx-auto text-lg leading-relaxed">
+              {meta.description}
             </p>
           </motion.div>
         </div>
       </header>
 
       <div className="max-w-7xl mx-auto px-4 py-20 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {data.tools.map((tool: any, index: number) => (
-            <motion.div
-              key={tool.name}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
-              className="p-8 rounded-[32px] bg-white border border-gray-100 shadow-sm hover:shadow-xl transition-all group"
-            >
-              <div className="flex justify-between items-start mb-6">
-                <h3 className="text-xl font-bold text-primary group-hover:text-secondary transition-colors">
-                  {tool.name}
-                </h3>
-                <div className="flex items-center gap-1 bg-gray-50 px-3 py-1 rounded-full">
-                  <Star className="w-4 h-4 text-secondary fill-secondary" />
-                  <span className="text-xs font-bold text-primary">{tool.rating}</span>
+        {posts.length === 0 ? (
+          <div className="text-center py-20">
+            <p className="text-body-text">No articles in this category yet — check back soon.</p>
+          </div>
+        ) : (
+          <div className="grid md:grid-cols-2 gap-10">
+            {posts.map((post, index) => (
+              <motion.article
+                key={post.slug}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="bg-white rounded-[40px] overflow-hidden shadow-sm border border-gray-100 flex flex-col group hover:shadow-xl transition-all duration-500"
+              >
+                <div className="overflow-hidden">
+                  <Link to={`/blog/${post.slug}`}>
+                    <div className="group-hover:scale-102 transition-transform duration-500">
+                      <BlogCoverImage slug={post.slug} title={post.title} category={post.category} image={post.image} />
+                    </div>
+                  </Link>
                 </div>
-              </div>
-              <p className="text-body-text text-sm mb-8 leading-relaxed">
-                {tool.desc}
-              </p>
-              <button className="flex items-center gap-2 text-primary font-black uppercase text-[10px] tracking-widest group-hover:gap-4 transition-all">
-                Read Review
-                <ArrowRight className="w-4 h-4 text-secondary" />
-              </button>
-            </motion.div>
-          ))}
-          
-          {/* Dummy extra tools to fill the page */}
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="p-8 rounded-[32px] bg-gray-50/50 border border-dashed border-gray-200 flex items-center justify-center text-center">
-              <div>
-                <p className="text-gray-400 font-bold mb-2">Upcoming Analysis</p>
-                <p className="text-xs text-gray-300">More {data.name} tools being tested...</p>
-              </div>
-            </div>
-          ))}
-        </div>
+                <div className="p-8 md:p-10 flex flex-col flex-grow">
+                  <div className="flex items-center gap-4 mb-4">
+                    <span className="px-3 py-1 bg-secondary/10 text-primary rounded-full text-[10px] font-black uppercase tracking-widest">
+                      {post.category}
+                    </span>
+                    <div className="flex items-center gap-2 text-[10px] font-bold text-gray-400 uppercase tracking-widest">
+                      <Calendar className="w-3.5 h-3.5" />
+                      {post.date}
+                    </div>
+                  </div>
 
-        <div className="mt-20 p-12 rounded-[40px] bg-secondary/10 border border-secondary/20 text-center">
-          <h2 className="text-2xl font-display font-bold text-primary mb-4">Want the Full Comparison?</h2>
-          <p className="text-body-text mb-8">We have a private spreadsheet of over 200+ tools with their performance metrics.</p>
-          <button className="bg-primary text-secondary px-8 py-3 rounded-xl font-bold hover:bg-opacity-90 transition-all">
-            Join the Newsletter
-          </button>
-        </div>
+                  <Link to={`/blog/${post.slug}`}>
+                    <h2 className="text-xl md:text-2xl font-display font-bold text-primary mb-4 group-hover:text-secondary transition-colors leading-tight line-clamp-2">
+                      {post.title}
+                    </h2>
+                  </Link>
+                  <p className="text-body-text mb-8 text-base leading-relaxed line-clamp-2">
+                    {post.excerpt}
+                  </p>
+
+                  <div className="flex items-center justify-between mt-auto pt-6 border-t border-gray-50">
+                    <div className="flex items-center gap-3">
+                      <img
+                        src={SITE_DATA.author.image}
+                        alt={SITE_DATA.author.name}
+                        className="w-8 h-8 rounded-full grayscale"
+                      />
+                      <span className="text-[10px] font-black text-primary uppercase tracking-widest">{SITE_DATA.author.name}</span>
+                    </div>
+                    <Link
+                      to={`/blog/${post.slug}`}
+                      className="flex items-center gap-2 text-primary font-black uppercase text-[10px] tracking-widest group-hover:text-secondary"
+                    >
+                      Read More
+                      <ChevronRight className="w-3.5 h-3.5" />
+                    </Link>
+                  </div>
+                </div>
+              </motion.article>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
