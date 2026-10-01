@@ -50,7 +50,8 @@ export default function Footer() {
             <h4 className="font-display font-bold text-primary mb-6">Quick Links</h4>
             <ul className="space-y-4">
               <li><Link to="/blog" className="text-body-text hover:text-primary transition-colors">Latest Posts</Link></li>
-              <li><Link to="/company/about" className="text-body-text hover:text-primary transition-colors">About</Link></li>
+              <li><Link to="/company/about-my-process" className="text-body-text hover:text-primary transition-colors">About</Link></li>
+              <li><Link to="/company/about" className="text-body-text hover:text-primary transition-colors">About ShamsStack</Link></li>
               <li><Link to="/company/contact" className="text-body-text hover:text-primary transition-colors">Contact</Link></li>
               <li><Link to="/resources" className="text-body-text hover:text-primary transition-colors">Resources</Link></li>
             </ul>
