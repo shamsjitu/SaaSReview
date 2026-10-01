@@ -6,7 +6,7 @@
 export const SITE_DATA = {
   author: {
     name: "Shams Jitu",
-    bio: "I am an expert in affiliate marketing with over 5 years of experience using platforms like Impact Radius and AppSumo. My mission is to help you find the best tools to grow your business.",
+    bio: "I am an expert in affiliate marketing with over 5 years of experience using platforms like Reditus and AppSumo. My mission is to help you find the best tools to grow your business.",
     image: "https://picsum.photos/seed/shams/400/400"
   },
   currentMonth: "May",
