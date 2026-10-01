@@ -31,9 +31,9 @@ export default function AboutMe() {
           <div className="bg-white rounded-[40px] shadow-sm border border-gray-100 overflow-hidden">
             <div className="grid lg:grid-cols-2">
               <div className="p-8 md:p-10 flex flex-col justify-center">
-                <span className="text-secondary font-bold uppercase tracking-widest text-xs mb-3 block">The Person Behind ShamsStack</span>
-                <h2 className="font-display text-3xl font-bold text-primary mb-4">Hello, I'm {SITE_DATA.author.name}</h2>
-                <p className="text-body-text text-base leading-relaxed mb-6">{SITE_DATA.author.bio}</p>
+                <p className="text-body-text text-base leading-relaxed mb-6">
+                  {SITE_DATA.author.bio}
+                </p>
                 <div className="flex gap-4">
                   <Link to="/company/contact" className="flex items-center gap-2 px-6 py-3 bg-primary text-secondary rounded-xl font-bold hover:bg-opacity-90 transition-all">
                     <Mail className="w-4 h-4" />
@@ -58,9 +58,9 @@ export default function AboutMe() {
       </div>
 
       <div className="max-w-4xl mx-auto px-4 pb-24">
-        <div className="prose prose-lg text-body-text max-w-none space-y-8">
+        <div className="markdown-body text-body-text max-w-none">
           <section>
-            <p>Hello, I'm Md. Shamsuzzaman, the person behind ShamsStack.</p>
+            <p className="text-2xl md:text-3xl font-extrabold text-primary leading-snug">Hello, I'm Md. Shamsuzzaman, the person behind ShamsStack.</p>
             <p>
               I completed my Honours degree in Economics, but my professional interests have gradually moved
               toward the digital world. For around 5–6 years, I have been working with SEO, affiliate marketing,
@@ -78,7 +78,7 @@ export default function AboutMe() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">Why I Started ShamsStack</h2>
+            <h2>Why I Started ShamsStack</h2>
             <p>The software industry is full of tools that promise to make life easier, faster, or more productive.</p>
             <p>
               But when someone is trying to choose a software product, it can be difficult to understand what is
@@ -103,7 +103,7 @@ export default function AboutMe() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">My Approach to Software Reviews</h2>
+            <h2>My Approach to Software Reviews</h2>
             <p>I want to be completely transparent about how I work.</p>
             <p>
               I am not a professional software engineer or a full-time software tester, and I don't personally use
@@ -127,7 +127,7 @@ export default function AboutMe() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">Affiliate Marketing Is Not My Reason for Saying Something Is Good</h2>
+            <h2>Affiliate Marketing Is Not My Reason for Saying Something Is Good</h2>
             <p>Yes, ShamsStack may use affiliate links.</p>
             <p>
               When someone purchases a product through certain links on the website, I may receive a commission
@@ -148,7 +148,7 @@ export default function AboutMe() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">What I Will Not Do</h2>
+            <h2>What I Will Not Do</h2>
             <p>There are many ways to make an affiliate website look successful.</p>
             <p>I could make every product sound amazing.</p>
             <p>I could hide important limitations.</p>
@@ -165,7 +165,7 @@ export default function AboutMe() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">My Long-Term Goal</h2>
+            <h2>My Long-Term Goal</h2>
             <p>I am not building ShamsStack only for today's traffic or today's affiliate commission.</p>
             <p>I want to build something that can still be trusted years from now.</p>
             <p>For me, earning from affiliate marketing would be a positive outcome of creating useful content—not a reason to compromise the content itself.</p>
@@ -175,7 +175,7 @@ export default function AboutMe() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">A Little About My Background</h2>
+            <h2>A Little About My Background</h2>
             <p>My academic background is in Economics, which has influenced the way I approach information and decision-making.</p>
             <p>Over the last 5–6 years, I have worked with areas including:</p>
             <ul>
@@ -193,7 +193,7 @@ export default function AboutMe() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">Why You Can Contact Me</h2>
+            <h2>Why You Can Contact Me</h2>
             <p>If you are a reader and notice something that appears incorrect, outdated, or unclear, I welcome corrections.</p>
             <p>If you represent a software company and believe there is important information about your product that I have missed, you can also contact me.</p>
             <p>I may not always change an article simply because a company disagrees with something I wrote. However, if you can provide reliable information that changes the facts, I am happy to review it.</p>
@@ -201,14 +201,14 @@ export default function AboutMe() {
           </section>
 
           <section className="p-8 bg-gray-50 rounded-[32px] border border-gray-100">
-            <h2 className="text-xl font-bold text-primary mb-4">Finally, Thank You</h2>
-            <p className="text-sm">If you are reading this page, thank you for taking the time to learn who is behind ShamsStack.</p>
-            <p className="text-sm mt-2">There are countless websites publishing software reviews today. I don't expect you to trust mine simply because I say it is trustworthy.</p>
-            <p className="text-sm mt-2">I believe trust should be earned through the work itself.</p>
-            <p className="text-sm mt-4">My aim is simple:</p>
-            <p className="text-sm font-bold text-primary mt-1">Research carefully. Write honestly. Be transparent. Keep improving.</p>
-            <p className="text-sm mt-2">And hopefully, earn your trust one article at a time.</p>
-            <p className="text-sm mt-4 italic">— Md. Shamsuzzaman, Founder, ShamsStack</p>
+            <h2 className="!mt-0 !mb-4 !text-xl">Finally, Thank You</h2>
+            <p className="mb-0 text-sm">If you are reading this page, thank you for taking the time to learn who is behind ShamsStack.</p>
+            <p className="mb-0 text-sm mt-2">There are countless websites publishing software reviews today. I don't expect you to trust mine simply because I say it is trustworthy.</p>
+            <p className="mb-0 text-sm mt-2">I believe trust should be earned through the work itself.</p>
+            <p className="mb-0 text-sm mt-4">My aim is simple:</p>
+            <p className="mb-0 text-sm font-bold text-primary mt-1">Research carefully. Write honestly. Be transparent. Keep improving.</p>
+            <p className="mb-0 text-sm mt-2">And hopefully, earn your trust one article at a time.</p>
+            <p className="mb-0 text-sm mt-4 italic">— Md. Shamsuzzaman, Founder, ShamsStack</p>
           </section>
         </div>
       </div>
