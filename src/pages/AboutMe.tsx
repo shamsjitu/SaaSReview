@@ -200,7 +200,7 @@ export default function AboutMe() {
             <p>That is part of maintaining a trustworthy website.</p>
           </section>
 
-          <section className="p-8 bg-gray-50 rounded-[32px] border border-gray-100">
+          <section className="mt-12 p-8 bg-gray-50 rounded-[32px] border border-gray-100">
             <h2 className="!mt-0 !mb-4 !text-xl">Finally, Thank You</h2>
             <p className="mb-0 text-sm">If you are reading this page, thank you for taking the time to learn who is behind ShamsStack.</p>
             <p className="mb-0 text-sm mt-2">There are countless websites publishing software reviews today. I don't expect you to trust mine simply because I say it is trustworthy.</p>

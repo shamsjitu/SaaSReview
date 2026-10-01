@@ -10,7 +10,7 @@ export default function DMCAPolicy() {
         <h1 className="text-4xl md:text-5xl font-display font-extrabold text-primary mb-4">DMCA & Copyright Policy</h1>
         <p className="text-sm text-gray-400 mb-12">Last Updated: September 30, 2026</p>
 
-        <div className="prose prose-lg text-body-text max-w-none space-y-8">
+        <div className="markdown-body text-body-text max-w-none">
           <section>
             <p>
               ShamsStack respects the intellectual property rights of others and expects visitors, contributors,
@@ -23,7 +23,7 @@ export default function DMCAPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">1. Copyright on ShamsStack</h2>
+            <h2>1. Copyright on ShamsStack</h2>
             <p>
               Unless otherwise stated, original articles and other original content created for ShamsStack are
               protected by applicable copyright laws.
@@ -39,7 +39,7 @@ export default function DMCAPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">2. Reporting Copyright Concerns</h2>
+            <h2>2. Reporting Copyright Concerns</h2>
             <p>
               If you are a copyright owner or are authorized to act on behalf of a copyright owner, and you
               believe that material available on ShamsStack infringes your copyright, please contact us.
@@ -58,7 +58,7 @@ export default function DMCAPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">3. Where to Send a Copyright Notice</h2>
+            <h2>3. Where to Send a Copyright Notice</h2>
             <p>Copyright complaints may be sent to:</p>
             <p>
               Email: <a href="mailto:shamsuzzaman@shamsstack.com" className="text-primary font-bold underline">shamsuzzaman@shamsstack.com</a>
@@ -68,7 +68,7 @@ export default function DMCAPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">4. Review of Complaints</h2>
+            <h2>4. Review of Complaints</h2>
             <p>When we receive a copyright complaint, we may review the information provided and determine what action, if any, is appropriate.</p>
             <p>Depending on the circumstances, we may:</p>
             <ul>
@@ -82,14 +82,14 @@ export default function DMCAPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">5. False or Incomplete Notices</h2>
+            <h2>5. False or Incomplete Notices</h2>
             <p>Copyright complaints should be made in good faith.</p>
             <p>Submitting knowingly false or materially misleading information about copyright infringement may have legal consequences.</p>
             <p>If additional information is necessary to evaluate a complaint, we may request it before taking action.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">6. Counter-Notifications</h2>
+            <h2>6. Counter-Notifications</h2>
             <p>
               If material is removed or access is restricted because of a copyright complaint, the affected party
               may contact us if they believe the removal was made in error or that they have the necessary rights
@@ -100,7 +100,7 @@ export default function DMCAPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">7. Third-Party Materials</h2>
+            <h2>7. Third-Party Materials</h2>
             <p>Some ShamsStack articles discuss or review third-party software products.</p>
             <p>Such articles may contain product names, trademarks, screenshots, logos, or other materials belonging to the respective software companies.</p>
             <p>These materials are used where appropriate for purposes such as identification, commentary, review, comparison, or explanation.</p>
@@ -108,7 +108,7 @@ export default function DMCAPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">8. Repeat Infringement</h2>
+            <h2>8. Repeat Infringement</h2>
             <p>
               Where appropriate and supported by the circumstances, ShamsStack may restrict or terminate access
               to individuals or sources that repeatedly submit or publish material that infringes the rights of
@@ -116,14 +116,14 @@ export default function DMCAPolicy() {
             </p>
           </section>
 
-          <section className="p-8 bg-gray-50 rounded-[32px] border border-gray-100">
-            <h2 className="text-xl font-bold text-primary mb-4">9. Contact</h2>
-            <p className="text-sm">For copyright-related matters:</p>
-            <p className="text-sm mt-2">
+          <section className="mt-12 p-8 bg-gray-50 rounded-[32px] border border-gray-100">
+            <h2 className="!mt-0 !mb-4 !text-xl">9. Contact</h2>
+            <p className="mb-0 text-sm">For copyright-related matters:</p>
+            <p className="mb-0 text-sm mt-2">
               Website: <a href="https://shamsstack.com" className="text-primary font-bold underline">https://shamsstack.com</a><br />
               Email: <a href="mailto:shamsuzzaman@shamsstack.com" className="text-primary font-bold underline">shamsuzzaman@shamsstack.com</a>
             </p>
-            <p className="text-sm mt-4 italic">
+            <p className="mb-0 text-sm mt-4 italic">
               Please include the relevant URL and enough information for us to understand and investigate your
               concern.
             </p>

@@ -10,21 +10,21 @@ export default function CookiePolicy() {
         <h1 className="text-4xl md:text-5xl font-display font-extrabold text-primary mb-4">Cookie Policy</h1>
         <p className="text-sm text-gray-400 mb-12">Last Updated: September 30, 2026</p>
 
-        <div className="prose prose-lg text-body-text max-w-none space-y-8">
+        <div className="markdown-body text-body-text max-w-none">
           <section>
             <p>This Cookie Policy explains how ShamsStack uses cookies and similar technologies when you visit shamsstack.com.</p>
             <p>We use cookies for practical website functions, analytics, security, and, where applicable, affiliate tracking and other website services.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">1. What Are Cookies?</h2>
+            <h2>1. What Are Cookies?</h2>
             <p>Cookies are small text files that websites can store on your device when you visit them.</p>
             <p>They can help a website remember information, understand how visitors use the site, and provide certain functionality.</p>
             <p>Similar technologies may also be used for some of the same purposes.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">2. Why ShamsStack Uses Cookies</h2>
+            <h2>2. Why ShamsStack Uses Cookies</h2>
             <p>Depending on the services currently active on the website, cookies may be used to:</p>
             <ul>
               <li>Keep the website functioning properly.</li>
@@ -39,7 +39,7 @@ export default function CookiePolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">3. Types of Cookies</h2>
+            <h2>3. Types of Cookies</h2>
             <p>The cookies used on a website can generally be grouped into the following categories.</p>
             <p><strong>Strictly Necessary Cookies</strong></p>
             <p>These cookies may be required for basic website functionality, security, or features requested by the visitor. Without them, certain parts of the website may not function correctly.</p>
@@ -56,7 +56,7 @@ export default function CookiePolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">4. Third-Party Cookies</h2>
+            <h2>4. Third-Party Cookies</h2>
             <p>Some cookies may be set by third-party services rather than directly by ShamsStack.</p>
             <p>Examples can include:</p>
             <ul>
@@ -70,7 +70,7 @@ export default function CookiePolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">5. Managing Cookies</h2>
+            <h2>5. Managing Cookies</h2>
             <p>Most modern web browsers allow you to control or delete cookies through browser settings.</p>
             <p>You may be able to block cookies, delete existing cookies, or receive a warning before a cookie is stored.</p>
             <p>However, blocking certain cookies may affect how some websites or features function.</p>
@@ -78,16 +78,16 @@ export default function CookiePolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">6. Changes to Our Cookie Use</h2>
+            <h2>6. Changes to Our Cookie Use</h2>
             <p>The cookies and third-party services used by ShamsStack may change as the website develops.</p>
             <p>If we introduce new services that use cookies, this Cookie Policy may be updated accordingly.</p>
             <p>We encourage visitors to review this page periodically.</p>
           </section>
 
-          <section className="p-8 bg-gray-50 rounded-[32px] border border-gray-100">
-            <h2 className="text-xl font-bold text-primary mb-4">7. Contact</h2>
-            <p className="text-sm">If you have questions about cookies used on ShamsStack, contact:</p>
-            <p className="text-sm mt-2">
+          <section className="mt-12 p-8 bg-gray-50 rounded-[32px] border border-gray-100">
+            <h2 className="!mt-0 !mb-4 !text-xl">7. Contact</h2>
+            <p className="mb-0 text-sm">If you have questions about cookies used on ShamsStack, contact:</p>
+            <p className="mb-0 text-sm mt-2">
               Website: <a href="https://shamsstack.com" className="text-primary font-bold underline">https://shamsstack.com</a><br />
               Email: <a href="mailto:shamsuzzaman@shamsstack.com" className="text-primary font-bold underline">shamsuzzaman@shamsstack.com</a>
             </p>

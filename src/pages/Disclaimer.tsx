@@ -10,7 +10,7 @@ export default function Disclaimer() {
         <h1 className="text-4xl md:text-5xl font-display font-extrabold text-primary mb-4">Disclaimer</h1>
         <p className="text-sm text-gray-400 mb-12">Last Updated: September 30, 2026</p>
 
-        <div className="prose prose-lg text-body-text max-w-none space-y-8">
+        <div className="markdown-body text-body-text max-w-none">
           <section>
             <p>Welcome to ShamsStack.</p>
             <p>
@@ -24,7 +24,7 @@ export default function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">1. General Information</h2>
+            <h2>1. General Information</h2>
             <p>The information published on ShamsStack is provided for general informational and educational purposes.</p>
             <p>
               We make reasonable efforts to keep information accurate and useful, but software products, pricing,
@@ -38,7 +38,7 @@ export default function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">2. Affiliate Disclosure</h2>
+            <h2>2. Affiliate Disclosure</h2>
             <p>Some links on ShamsStack are affiliate links.</p>
             <p>
               This means that if you click certain links and make a purchase or complete another qualifying
@@ -56,7 +56,7 @@ export default function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">3. Affiliate Relationships Do Not Guarantee Positive Reviews</h2>
+            <h2>3. Affiliate Relationships Do Not Guarantee Positive Reviews</h2>
             <p>An affiliate relationship does not automatically mean that a product will receive a positive review.</p>
             <p>Our reviews may include:</p>
             <ul>
@@ -72,7 +72,7 @@ export default function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">4. Independent Opinions</h2>
+            <h2>4. Independent Opinions</h2>
             <p>
               Where we express an opinion about a product, that opinion represents the writer's assessment based
               on the information, testing, research, demonstrations, documentation, or other evidence available
@@ -86,7 +86,7 @@ export default function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">5. Products Provided for Review</h2>
+            <h2>5. Products Provided for Review</h2>
             <p>
               From time to time, a company may provide access to software, a trial account, demo access,
               promotional access, or other consideration so that we can evaluate its product.
@@ -96,7 +96,7 @@ export default function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">6. Sponsored Content</h2>
+            <h2>6. Sponsored Content</h2>
             <p>
               If ShamsStack publishes sponsored content, paid placements, or another form of commercial
               collaboration, we will make the commercial nature of that content clear.
@@ -106,7 +106,7 @@ export default function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">7. Pricing and Offers</h2>
+            <h2>7. Pricing and Offers</h2>
             <p>
               Software pricing, discounts, free trials, coupon codes, refund policies, and subscription terms can
               change without notice.
@@ -119,7 +119,7 @@ export default function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">8. Results and Business Decisions</h2>
+            <h2>8. Results and Business Decisions</h2>
             <p>
               ShamsStack may discuss productivity, marketing, business software, security tools, and other
               products that can affect business or financial decisions.
@@ -133,7 +133,7 @@ export default function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">9. Third-Party Information</h2>
+            <h2>9. Third-Party Information</h2>
             <p>
               Some articles may refer to information supplied by software companies, public documentation, user
               reports, independent research, or other third-party sources.
@@ -143,7 +143,7 @@ export default function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">10. External Links</h2>
+            <h2>10. External Links</h2>
             <p>
               ShamsStack links to third-party websites for additional information, product access, documentation,
               or other purposes.
@@ -155,7 +155,7 @@ export default function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">11. No Professional Advice</h2>
+            <h2>11. No Professional Advice</h2>
             <p>
               Unless specifically stated otherwise, information on ShamsStack should not be considered legal,
               financial, medical, cybersecurity, or other professional advice.
@@ -164,7 +164,7 @@ export default function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">12. Changes</h2>
+            <h2>12. Changes</h2>
             <p>
               We may update this Disclaimer as ShamsStack's business model, content, partnerships, or website
               features change.
@@ -172,17 +172,17 @@ export default function Disclaimer() {
             <p>The "Last Updated" date at the top of this page indicates when this page was most recently reviewed.</p>
           </section>
 
-          <section className="p-8 bg-gray-50 rounded-[32px] border border-gray-100">
-            <h2 className="text-xl font-bold text-primary mb-4">13. Contact</h2>
-            <p className="text-sm">
+          <section className="mt-12 p-8 bg-gray-50 rounded-[32px] border border-gray-100">
+            <h2 className="!mt-0 !mb-4 !text-xl">13. Contact</h2>
+            <p className="mb-0 text-sm">
               If you have a question about this Disclaimer or believe that an article contains inaccurate or
               outdated information, please contact:
             </p>
-            <p className="text-sm mt-2">
+            <p className="mb-0 text-sm mt-2">
               Website: <a href="https://shamsstack.com" className="text-primary font-bold underline">https://shamsstack.com</a><br />
               Email: <a href="mailto:shamsuzzaman@shamsstack.com" className="text-primary font-bold underline">shamsuzzaman@shamsstack.com</a>
             </p>
-            <p className="text-sm mt-4 italic">
+            <p className="mb-0 text-sm mt-4 italic">
               We appreciate specific feedback, including the article URL and the information you believe should
               be corrected.
             </p>

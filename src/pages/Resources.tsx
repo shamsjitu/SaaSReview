@@ -62,6 +62,10 @@ export default function Resources() {
             </motion.div>
           ))}
         </div>
+
+        {/* Articles: put article content inside this div and it will use the same style as blog posts */}
+        <div className="markdown-body text-body-text max-w-4xl mx-auto">
+        </div>
       </div>
     </div>
   );

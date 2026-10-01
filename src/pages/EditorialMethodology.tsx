@@ -10,7 +10,7 @@ export default function EditorialMethodology() {
         <h1 className="text-4xl md:text-5xl font-display font-extrabold text-primary mb-4">Editorial & Review Methodology</h1>
         <p className="text-sm text-gray-400 mb-12">How ShamsStack researches and evaluates software</p>
 
-        <div className="prose prose-lg text-body-text max-w-none space-y-8">
+        <div className="markdown-body text-body-text max-w-none">
           <section>
             <p>
               At ShamsStack, we believe a software review should help a reader make an informed decision — not
@@ -23,7 +23,7 @@ export default function EditorialMethodology() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">1. We Start With the Product and the Use Case</h2>
+            <h2>1. We Start With the Product and the Use Case</h2>
             <p>Before writing a review, we first try to understand:</p>
             <ul>
               <li>What the software is designed to do.</li>
@@ -36,7 +36,7 @@ export default function EditorialMethodology() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">2. We Research More Than the Marketing Page</h2>
+            <h2>2. We Research More Than the Marketing Page</h2>
             <p>Official product pages are an important source of information, but they are not necessarily the only source we consider.</p>
             <p>Depending on the topic, our research may include:</p>
             <ul>
@@ -56,7 +56,7 @@ export default function EditorialMethodology() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">3. We Pay Attention to Pricing</h2>
+            <h2>3. We Pay Attention to Pricing</h2>
             <p>Software pricing can be one of the most important parts of a buying decision.</p>
             <p>When relevant, we look at:</p>
             <ul>
@@ -73,7 +73,7 @@ export default function EditorialMethodology() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">4. We Look Beyond the Feature List</h2>
+            <h2>4. We Look Beyond the Feature List</h2>
             <p>A long feature list does not automatically make software useful.</p>
             <p>Where relevant, we consider practical questions such as:</p>
             <ul>
@@ -89,7 +89,7 @@ export default function EditorialMethodology() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">5. We Discuss Limitations</h2>
+            <h2>5. We Discuss Limitations</h2>
             <p>No software is perfect.</p>
             <p>
               If we identify a meaningful limitation, trade-off, pricing concern, missing feature, or potential
@@ -103,7 +103,7 @@ export default function EditorialMethodology() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">6. Product Access and Testing</h2>
+            <h2>6. Product Access and Testing</h2>
             <p>
               When possible, we may use publicly available information, trial accounts, demonstrations,
               documentation, or product access provided by the company.
@@ -120,7 +120,7 @@ export default function EditorialMethodology() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">7. Affiliate Relationships Do Not Buy Editorial Conclusions</h2>
+            <h2>7. Affiliate Relationships Do Not Buy Editorial Conclusions</h2>
             <p>ShamsStack may participate in affiliate programs.</p>
             <p>A company may also provide product access, information, or other assistance.</p>
             <p>These relationships do not guarantee a positive review.</p>
@@ -131,7 +131,7 @@ export default function EditorialMethodology() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">8. Company Feedback</h2>
+            <h2>8. Company Feedback</h2>
             <p>
               Software companies may contact us with corrections, updated product information, clarification
               about features, or other relevant information.
@@ -148,7 +148,7 @@ export default function EditorialMethodology() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">9. Keeping Articles Updated</h2>
+            <h2>9. Keeping Articles Updated</h2>
             <p>Software products change.</p>
             <p>Pricing, features, integrations, user interfaces, free plans, and policies may change after an article is published.</p>
             <p>When we become aware of meaningful changes, we may update the relevant article.</p>
@@ -156,7 +156,7 @@ export default function EditorialMethodology() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">10. Corrections</h2>
+            <h2>10. Corrections</h2>
             <p>We welcome factual corrections.</p>
             <p>If you believe an article contains inaccurate or outdated information, please contact us with:</p>
             <ul>
@@ -169,22 +169,22 @@ export default function EditorialMethodology() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">11. Sponsored Content</h2>
+            <h2>11. Sponsored Content</h2>
             <p>If ShamsStack publishes sponsored or paid content, we intend to make the commercial nature of that content clear.</p>
             <p>Sponsored content is different from an editorial review.</p>
             <p>We do not intend to present paid promotional material as an independent product review.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">12. Our Goal</h2>
+            <h2>12. Our Goal</h2>
             <p>Our goal is not to tell every reader what to buy.</p>
             <p>Our goal is to provide enough useful information for readers to understand a software product and decide whether it fits their own needs.</p>
             <p>That includes explaining both the reasons someone might choose a product and the reasons they might look elsewhere.</p>
           </section>
 
-          <section className="p-8 bg-gray-50 rounded-[32px] border border-gray-100">
-            <h2 className="text-xl font-bold text-primary mb-4">ShamsStack Editorial Team</h2>
-            <p className="text-sm">
+          <section className="mt-12 p-8 bg-gray-50 rounded-[32px] border border-gray-100">
+            <h2 className="!mt-0 !mb-4 !text-xl">ShamsStack Editorial Team</h2>
+            <p className="mb-0 text-sm">
               Website: <a href="https://shamsstack.com" className="text-primary font-bold underline">https://shamsstack.com</a><br />
               Email: <a href="mailto:shamsuzzaman@shamsstack.com" className="text-primary font-bold underline">shamsuzzaman@shamsstack.com</a>
             </p>

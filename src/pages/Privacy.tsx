@@ -12,7 +12,7 @@ export default function Privacy() {
         <h1 className="text-4xl md:text-5xl font-display font-extrabold text-primary mb-4">Privacy Policy</h1>
         <p className="text-sm text-gray-400 mb-12">Last Updated: September 30, 2026</p>
 
-        <div className="prose prose-lg text-body-text max-w-none space-y-8">
+        <div className="markdown-body text-body-text max-w-none">
           <section>
             <p>
               Welcome to ShamsStack ("ShamsStack," "we," "us," or "our"). ShamsStack is a software-focused website
@@ -31,7 +31,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">1. Information We May Collect</h2>
+            <h2>1. Information We May Collect</h2>
             <p>Depending on how you use the website, we may collect limited information such as:</p>
             <ul>
               <li>Your name or email address if you voluntarily contact us.</li>
@@ -44,7 +44,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">2. How We Use Information</h2>
+            <h2>2. How We Use Information</h2>
             <p>We may use information we collect to:</p>
             <ul>
               <li>Operate and maintain ShamsStack.</li>
@@ -62,7 +62,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">3. Analytics and Third-Party Services</h2>
+            <h2>3. Analytics and Third-Party Services</h2>
             <p>
               ShamsStack may use third-party services for analytics, website performance, security, advertising,
               affiliate tracking, or other legitimate website functions.
@@ -83,7 +83,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">4. Affiliate Links</h2>
+            <h2>4. Affiliate Links</h2>
             <p>
               Some articles on ShamsStack may contain affiliate links.
             </p>
@@ -103,7 +103,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">5. Cookies</h2>
+            <h2>5. Cookies</h2>
             <p>ShamsStack may use cookies and similar technologies for purposes such as:</p>
             <ul>
               <li>Keeping the website functioning properly.</li>
@@ -125,7 +125,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">6. Links to Other Websites</h2>
+            <h2>6. Links to Other Websites</h2>
             <p>
               Our articles may contain links to websites operated by other companies or organizations.
             </p>
@@ -137,7 +137,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">7. Data Retention</h2>
+            <h2>7. Data Retention</h2>
             <p>
               We keep personal information only for as long as reasonably necessary for the purpose for which it
               was collected, unless a longer retention period is required or permitted by applicable law.
@@ -149,7 +149,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">8. Data Security</h2>
+            <h2>8. Data Security</h2>
             <p>We take reasonable measures to protect information handled through ShamsStack.</p>
             <p>
               However, no website, server, online communication, or method of electronic storage can be
@@ -159,7 +159,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">9. Children's Privacy</h2>
+            <h2>9. Children's Privacy</h2>
             <p>ShamsStack is not designed specifically for children.</p>
             <p>
               We do not knowingly request or collect personal information from children for the purpose of
@@ -172,7 +172,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">10. Your Privacy Rights</h2>
+            <h2>10. Your Privacy Rights</h2>
             <p>Depending on where you live, you may have certain rights regarding your personal information.</p>
             <p>
               These may include rights to request access to, correction of, deletion of, or information about the
@@ -183,7 +183,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">11. Changes to This Privacy Policy</h2>
+            <h2>11. Changes to This Privacy Policy</h2>
             <p>
               We may update this Privacy Policy when our website, services, technology, or legal obligations
               change.
@@ -192,17 +192,17 @@ export default function Privacy() {
             <p>We encourage visitors to review this page periodically.</p>
           </section>
 
-          <section className="p-8 bg-gray-50 rounded-[32px] border border-gray-100">
-            <h2 className="text-xl font-bold text-primary mb-4">12. Contact</h2>
-            <p className="text-sm">
+          <section className="mt-12 p-8 bg-gray-50 rounded-[32px] border border-gray-100">
+            <h2 className="!mt-0 !mb-4 !text-xl">12. Contact</h2>
+            <p className="mb-0 text-sm">
               If you have questions about this Privacy Policy or how ShamsStack handles information, please
               contact:
             </p>
-            <p className="text-sm mt-2">
+            <p className="mb-0 text-sm mt-2">
               Website: <a href="https://shamsstack.com" className="text-primary font-bold underline">https://shamsstack.com</a><br />
               Email: <a href="mailto:shamsuzzaman@shamsstack.com" className="text-primary font-bold underline">shamsuzzaman@shamsstack.com</a>
             </p>
-            <p className="text-sm mt-4 italic">
+            <p className="mb-0 text-sm mt-4 italic">
               ShamsStack aims to keep its privacy practices understandable and proportionate to the way the
               website operates. We do not intend this policy to promise practices that the website does not
               actually follow.

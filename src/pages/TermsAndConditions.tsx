@@ -12,7 +12,7 @@ export default function TermsAndConditions() {
         <h1 className="text-4xl md:text-5xl font-display font-extrabold text-primary mb-4">Terms and Conditions</h1>
         <p className="text-sm text-gray-400 mb-12">Last Updated: September 30, 2026</p>
 
-        <div className="prose prose-lg text-body-text max-w-none space-y-8">
+        <div className="markdown-body text-body-text max-w-none">
           <section>
             <p>
               These Terms and Conditions govern your use of shamsstack.com ("ShamsStack," "we," "us," or "our").
@@ -22,7 +22,7 @@ export default function TermsAndConditions() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">1. About ShamsStack</h2>
+            <h2>1. About ShamsStack</h2>
             <p>
               ShamsStack is an independent website that publishes software reviews, comparisons, guides,
               tutorials, and related informational content.
@@ -34,7 +34,7 @@ export default function TermsAndConditions() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">2. Use of the Website</h2>
+            <h2>2. Use of the Website</h2>
             <p>You may use ShamsStack for lawful personal or business purposes.</p>
             <p>You agree not to:</p>
             <ul>
@@ -50,7 +50,7 @@ export default function TermsAndConditions() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">3. Intellectual Property</h2>
+            <h2>3. Intellectual Property</h2>
             <p>
               Unless otherwise stated, the original written content published on ShamsStack is owned by or
               licensed to ShamsStack.
@@ -73,7 +73,7 @@ export default function TermsAndConditions() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">4. Software Reviews and Third-Party Products</h2>
+            <h2>4. Software Reviews and Third-Party Products</h2>
             <p>ShamsStack reviews products and services operated by third parties.</p>
             <p>We do not own or control those products unless explicitly stated.</p>
             <p>
@@ -84,7 +84,7 @@ export default function TermsAndConditions() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">5. Affiliate Links</h2>
+            <h2>5. Affiliate Links</h2>
             <p>Some links on ShamsStack may be affiliate links.</p>
             <p>When a reader purchases through an affiliate link, we may receive a commission at no additional cost to the reader.</p>
             <p>Affiliate relationships do not automatically determine the editorial content of our reviews.</p>
@@ -95,7 +95,7 @@ export default function TermsAndConditions() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">6. Accuracy of Information</h2>
+            <h2>6. Accuracy of Information</h2>
             <p>We make reasonable efforts to publish useful and accurate information.</p>
             <p>
               However, we do not guarantee that every statement on the website will always be complete, current,
@@ -106,14 +106,14 @@ export default function TermsAndConditions() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">7. External Websites</h2>
+            <h2>7. External Websites</h2>
             <p>ShamsStack may link to third-party websites.</p>
             <p>Those websites operate independently from ShamsStack and may have their own terms, privacy policies, pricing, and practices.</p>
             <p>We are not responsible for third-party websites or for transactions you make with third-party companies.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">8. No Guarantee</h2>
+            <h2>8. No Guarantee</h2>
             <p>Your use of information provided by ShamsStack is at your own discretion.</p>
             <p>We do not guarantee that:</p>
             <ul>
@@ -126,7 +126,7 @@ export default function TermsAndConditions() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">9. Limitation of Liability</h2>
+            <h2>9. Limitation of Liability</h2>
             <p>
               To the extent permitted by applicable law, ShamsStack and its operators shall not be responsible for
               losses or damages arising from your use of, or reliance on, information published on the website or
@@ -139,7 +139,7 @@ export default function TermsAndConditions() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">10. Changes to These Terms</h2>
+            <h2>10. Changes to These Terms</h2>
             <p>We may update these Terms when necessary.</p>
             <p>The updated version will be published on this page with a revised "Last Updated" date.</p>
             <p>
@@ -148,17 +148,17 @@ export default function TermsAndConditions() {
             </p>
           </section>
 
-          <section className="p-8 bg-gray-50 rounded-[32px] border border-gray-100">
-            <h2 className="text-xl font-bold text-primary mb-4">11. Contact</h2>
-            <p className="text-sm">Questions regarding these Terms may be sent to:</p>
-            <p className="text-sm mt-2">
+          <section className="mt-12 p-8 bg-gray-50 rounded-[32px] border border-gray-100">
+            <h2 className="!mt-0 !mb-4 !text-xl">11. Contact</h2>
+            <p className="mb-0 text-sm">Questions regarding these Terms may be sent to:</p>
+            <p className="mb-0 text-sm mt-2">
               Website: <a href="https://shamsstack.com" className="text-primary font-bold underline">https://shamsstack.com</a><br />
               Email: <a href="mailto:shamsuzzaman@shamsstack.com" className="text-primary font-bold underline">shamsuzzaman@shamsstack.com</a>
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">12. Governing Law</h2>
+            <h2>12. Governing Law</h2>
             <p>
               These Terms shall be interpreted in accordance with the applicable laws of{' '}
               Bangladesh, except

@@ -11,7 +11,7 @@ export default function AboutShamsStack() {
       <div className="max-w-4xl mx-auto px-4">
         <h1 className="text-4xl md:text-5xl font-display font-extrabold text-primary mb-12">About ShamsStack</h1>
 
-        <div className="prose prose-lg text-body-text max-w-none space-y-8">
+        <div className="markdown-body text-body-text max-w-none">
           <section>
             <p className="text-xl font-bold text-primary">
               Software reviews, comparisons, and practical guides for making better software decisions.
@@ -29,7 +29,7 @@ export default function AboutShamsStack() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">What We Try to Do</h2>
+            <h2>What We Try to Do</h2>
             <p>Our goal is straightforward: give readers useful information before they decide whether a software product is worth their time or money.</p>
             <p>That means our articles may cover both the things a product does well and the areas where it may fall short.</p>
             <p>
@@ -40,7 +40,7 @@ export default function AboutShamsStack() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">How We Approach Reviews</h2>
+            <h2>How We Approach Reviews</h2>
             <p>When researching a software product, we may look at factors such as:</p>
             <ul>
               <li>Features and available plans</li>
@@ -61,7 +61,7 @@ export default function AboutShamsStack() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">Affiliate Relationships</h2>
+            <h2>Affiliate Relationships</h2>
             <p>Some links on ShamsStack are affiliate links.</p>
             <p>
               If you click an affiliate link and subsequently make a qualifying purchase or take another
@@ -77,21 +77,21 @@ export default function AboutShamsStack() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">We Don't Expect Every Product to Be a Fit</h2>
+            <h2>We Don't Expect Every Product to Be a Fit</h2>
             <p>A useful review should not simply tell everyone to buy the product.</p>
             <p>Instead, we try to explain who may benefit from a product, who may not, and what readers should consider before making a decision.</p>
             <p>That can include discussing limitations, pricing concerns, missing features, or alternative solutions when those factors are relevant.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">Corrections and Updates</h2>
+            <h2>Corrections and Updates</h2>
             <p>If you notice information on ShamsStack that is inaccurate, outdated, or missing important context, we welcome feedback.</p>
             <p>When contacting us about a correction, please include the article URL and, where possible, the specific information that needs attention.</p>
             <p>We review reasonable correction requests and update content when appropriate.</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">Our Relationship With Software Companies</h2>
+            <h2>Our Relationship With Software Companies</h2>
             <p>We may communicate directly with software companies, affiliate managers, public relations teams, and product representatives.</p>
             <p>A company may also provide information, documentation, product access, trial access, or other materials that help us understand its product.</p>
             <p>Receiving information or access from a company does not automatically determine the conclusions expressed in an article.</p>
@@ -99,24 +99,24 @@ export default function AboutShamsStack() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-primary mb-4">Who ShamsStack Is For</h2>
+            <h2>Who ShamsStack Is For</h2>
             <p>ShamsStack is written for people who want to understand software before committing their time or money to it.</p>
             <p>Our readers may include individuals, creators, freelancers, marketers, small businesses, teams, and other people evaluating digital tools.</p>
             <p>We aim to keep our writing practical and understandable rather than filling articles with unnecessary technical language.</p>
           </section>
 
-          <section className="p-8 bg-gray-50 rounded-[32px] border border-gray-100">
-            <h2 className="text-xl font-bold text-primary mb-4">Get in Touch</h2>
-            <p className="text-sm">
+          <section className="mt-12 p-8 bg-gray-50 rounded-[32px] border border-gray-100">
+            <h2 className="!mt-0 !mb-4 !text-xl">Get in Touch</h2>
+            <p className="mb-0 text-sm">
               If you represent a software company and would like to discuss an affiliate partnership, product
               information, review opportunity, or another business matter, we'd be happy to hear from you.
             </p>
-            <p className="text-sm mt-2">For corrections, feedback, copyright concerns, or general questions, you can also contact us.</p>
-            <p className="text-sm mt-4">
+            <p className="mb-0 text-sm mt-2">For corrections, feedback, copyright concerns, or general questions, you can also contact us.</p>
+            <p className="mb-0 text-sm mt-4">
               Website: <a href="https://shamsstack.com" className="text-primary font-bold underline">https://shamsstack.com</a><br />
               Email: <a href="mailto:shamsuzzaman@shamsstack.com" className="text-primary font-bold underline">shamsuzzaman@shamsstack.com</a>
             </p>
-            <p className="text-sm mt-4 italic">Thank you for visiting ShamsStack.</p>
+            <p className="mb-0 text-sm mt-4 italic">Thank you for visiting ShamsStack.</p>
           </section>
         </div>
       </div>
