@@ -5,8 +5,8 @@
 
 export const SITE_DATA = {
   author: {
-    name: "Md. Shamsuzzaman",
-    bio: "I am an expert in affiliate marketing with over 5 years of experience using platforms like Reditus and AppSumo. My mission is to help you find the best tools to grow your business.",
+    name: "Shams Jitu",
+    bio: "I am an expert in affiliate marketing with over 5 years of experience using platforms like Impact Radius and AppSumo. My mission is to help you find the best tools to grow your business.",
     image: "https://picsum.photos/seed/shams/400/400"
   },
   currentMonth: "May",
@@ -217,6 +217,184 @@ export const SITE_DATA = {
     }
   ],
   blogPosts: [
+    {
+      id: 52,
+      slug: "leavo-review",
+      toolName: "Leavo",
+      title: "Leavo Review 2026: Pricing, Features & Swiss/French Compliance",
+      category: "Business Tools",
+      date: "October 1, 2026",
+      readTime: "14 min",
+      image: "/images/leavo_review_banner.jpg",
+      excerpt: "Leavo Review 2026: HR software with built-in French CCN and Swiss CCT collective-agreement compliance checking, from $2.49/user/month, vs. LeaveBoard and Leave Dates.",
+      ctaButtons: [
+        {
+          text: 'Start Leavo Free Trial',
+          url: 'https://leavo.com/en',
+          toastText: 'Opening Leavo...',
+          isPrimary: true
+        }
+      ],
+      content: `If you're looking for a Leavo review, the interesting question isn't whether it can track vacation days — plenty of tools can do that. The real question is whether Leavo's built-in Swiss and French collective-agreement compliance features justify its higher-than-average price compared to simpler leave-tracking tools.
+
+For this review, we compared Leavo's published pricing and feature documentation against its own compliance tools and the publicly available pricing of two named competitors, Leave Dates and LeaveBoard, then judged where Leavo's higher price is actually buying something different rather than assuming more features automatically means better value.
+
+## How We Reviewed Leavo
+
+We looked beyond Leavo's feature list and checked its published pricing, its free compliance-checking tool, the differences between its three plans, and the pricing of the alternatives available in the same category. We also specifically tried to find where Leavo's higher price is buying something a cheaper competitor doesn't have, rather than assuming that more line items on a features page automatically means better value for every buyer.
+
+## What Leavo Actually Is
+
+Leavo, built by Cappsule Sarl in Geneva, Switzerland, is leave and time-tracking software covering three connected areas: leave management (requests, approvals, balances, accrual), time tracking (clock in/out with validation and audit trail), and shift planning.
+
+![Leavo's homepage, pitching itself as an all-in-one HR platform for leave, time, and shifts](/images/leavo_homepage_hero.png)
+*Leavo's homepage — positioned as an all-in-one platform for leave, time tracking, and shift planning, with a 30-day free trial.*
+
+What makes Leavo unusual among the leave-management tools we compared is a specific, narrower claim: built-in compliance checking against French (CCN) and Swiss (CCT) collective labor agreements — a detail neither Leave Dates nor LeaveBoard offers at all, because most leave-management software is built for a US/UK audience where collective bargaining agreements aren't the default legal backdrop.
+
+## Leavo's Swiss & French Compliance: What We Found
+
+Leavo publishes a free, standalone Collective Agreement Checker you can use without an account: enter one shift's hours worked, longest day, and rest period between days, and it tells you whether that shift falls within the applicable French CCN or Swiss CCT convention, whether overtime was triggered, or whether it constitutes a breach — along with the exact limit that applied and what premium pay is owed under that convention's rates.
+
+Worth being precise about what this is and isn't. Leavo states the values are compiled from official and branch sources "for guidance only," that they change periodically, and explicitly says this does not constitute legal advice — always confirm against the in-force agreement and your company's applicable terms. That's an honest disclaimer, and it matters: this is a useful first-pass compliance signal, not a replacement for checking with an employment lawyer or your company's HR/legal counsel on anything consequential. The real product value is that Leavo applies this same logic automatically, across your whole team, inside the paid platform — "flags a breach before it reaches the payslip" — rather than you running the free checker shift by shift.
+
+Our take: the compliance checker is the feature that makes Leavo genuinely different from the rest of the category. The leave-calendar-and-approvals part of the platform is comparatively easy to find elsewhere, often cheaper. Leavo also publishes free public holiday calendars and legal compliance summaries for 100+ countries, which is a lower-stakes, broader version of the same "give useful information away, then sell the automated version" approach.
+
+## Leavo Features
+
+### Leave Management
+
+Unlimited configurable leave types, accrual rules, carry-over limits, multi-level approval workflows, a real-time team calendar, and an AI assistant that handles requests like "book Friday off" or "check my balance" in plain language.
+
+Why it matters: if your HR team is currently reconciling leave requests over email and a spreadsheet, having policy rules enforced automatically removes a recurring, error-prone task rather than just moving the spreadsheet online.
+
+### Time Tracking
+
+Turns clock-in/clock-out punches into payroll-ready timesheets: morning/afternoon sessions, automatic net-worked and overtime calculation, day/week validation workflows, automatic discrepancy detection (late arrivals, missing entries, unapproved overtime), support for physical badge/clock devices, and an immutable audit trail that logs every edit with a before/after snapshot — relevant if you're ever asked "who changed this, and when" during a labor inspection.
+
+Why it matters: this is the feature that connects back to the compliance angle — an audit trail is only useful for a labor inspection if it's genuinely tamper-evident, and Leavo's before/after logging is built with that specific use case in mind.
+
+### Shift Planning
+
+The third piece, covering scheduling on top of the leave and time data, though the product pages focus more heavily on leave and time tracking than on shift planning specifics.
+
+## Leavo Pricing
+
+| Plan | Price | Per-user equivalent (15 members) | What's included |
+|---|---|---|---|
+| Free Trial | $0 / 30 days | — | Full feature access, unlimited members during trial, no credit card |
+| Professional | $448/year | $2.49/user/month | Unlimited team members, higher AI assistant quota, hours balance & overtime banking |
+| Premium | $747/year | $4.15/user/month | Unlimited organizations, maximum AI quota, extra AI credit packs, dedicated account manager, priority support |
+
+![Leavo's pricing page showing the Free Trial, Professional ($448/year), and Premium ($747/year) plans with their included features](/images/leavo_pricing_page.png)
+*Leavo's pricing page — Free Trial, Professional ($448/year, marked "Recommended"), and Premium ($747/year), each listing exactly what's included.*
+
+A few pricing details worth knowing before you commit: the 30-day free trial requires no credit card and includes unlimited members, which is a genuinely low-friction way to test it with your real team size rather than a capped demo account. Billing is pay-as-you-go with no contract — you can upgrade, downgrade, or cancel anytime, and adding a team member mid-cycle prorates automatically rather than waiting for the next billing date. Multi-company management (running several entities from one dashboard, each with its own policies and calendars) is Premium-only, which matters specifically for agencies, franchises, or holding companies managing multiple legal entities. Bank transfer invoicing is available on Professional and Premium for teams that need to pay by invoice rather than card.
+
+## Leavo vs. Leave Dates vs. LeaveBoard
+
+| What matters | Leavo | Leave Dates | LeaveBoard |
+|---|---|---|---|
+| Leave management | Yes | Yes | Yes |
+| Time tracking with audit trail | Yes | Not verified as core offering | Not verified as core offering |
+| Swiss/French collective agreement checker | Yes | No | No |
+| AI assistant | Yes | Not offered | Not offered |
+| Multi-company management | Premium only | Not verified | Not verified |
+| Free tier | 30-day trial, no card | — | Free up to 9 employees |
+| Starting paid price | $2.49/user/month | ~$0.95/user/month (£0.75) | $1.35/user/month (after 9 employees) |
+
+LeaveBoard, specifically, is free for up to 9 employees, then $1.35/employee/month (or a discounted $13.50/employee/year on annual billing) with unlimited users on its paid Pro tier, scaling to custom Enterprise pricing above roughly 80 employees. Leave Dates starts around £0.75 (~$0.95) per user/month on its entry tier, rising to roughly £1.50–1.88/user/month on higher tiers.
+
+The honest read: if all you need is leave request/approval tracking for a small team, LeaveBoard's free tier or Leave Dates' lower entry price will cover that need for less money. Leavo's price makes more sense once you're also using it for payroll-ready time tracking with an audit trail, or specifically need the French/Swiss collective-agreement compliance logic — features that aren't part of what either cheaper competitor publishes as a core offering.
+
+## Is Leavo Worth It?
+
+**Probably worth it if:**
+- Your business operates under French CCN or Swiss CCT collective agreements and compliance risk is a real concern
+- You want leave management and payroll-ready time tracking (with an audit trail) in one platform instead of two subscriptions
+- You specifically need an audit trail for labor inspections or payroll disputes, not just a leave calendar
+- You're managing multiple legal entities and want them in one dashboard (Premium)
+
+**Probably not worth it if:**
+- You only need basic vacation/leave request tracking for a small team — LeaveBoard's free tier or Leave Dates' lower price covers that
+- Your business doesn't operate under French or Swiss collective agreements, since that's Leavo's core differentiator
+- Budget per user is the deciding factor over feature depth
+
+## Leavo Pros and Cons
+
+**Pros**
+- Genuinely specific compliance feature (French CCN / Swiss CCT collective agreement checking) that neither Leave Dates nor LeaveBoard offers
+- Free Collective Agreement Checker lets you verify the compliance logic yourself before paying for anything
+- 30-day free trial with unlimited members and no credit card — you can test it at your actual team size
+- Time tracking includes an immutable audit trail, relevant for payroll disputes and labor inspections, not just leave tracking
+- AI assistant handles plain-language requests across all tiers, including the free trial
+- No-contract, prorated billing with transparent published pricing (a lot of HR software hides pricing behind "contact sales")
+
+**Cons**
+- More expensive per user than both named competitors (LeaveBoard and Leave Dates) if you only need basic leave tracking
+- The compliance checker explicitly isn't legal advice and the company says values change periodically — treat it as a strong first-pass signal, not a substitute for your own legal/HR sign-off on anything consequential
+- Multi-company management — relevant for agencies or multi-entity businesses — is locked to the more expensive Premium tier
+- The French CCN / Swiss CCT compliance angle is a narrow, specific strength — if your business isn't operating under those collective agreements, this differentiator doesn't apply to you at all
+- Leavo doesn't function as payroll software itself — it feeds payroll-ready data, but doesn't run payroll or pay employees directly
+
+## Who Should Use Leavo
+
+- Businesses operating in France or Switzerland that are actually subject to CCN or CCT collective agreements and want compliance checking built into day-to-day leave and time tracking
+- Teams that want leave management, time tracking, and shift planning in one platform rather than three separate subscriptions
+- Companies that need an audit-proof time-tracking trail for payroll disputes or labor inspections, not just leave requests
+- Agencies or holding companies managing multiple legal entities (Premium tier specifically)
+
+## Who Should Look Elsewhere
+
+- Teams that only need basic leave request/approval tracking and don't operate under French/Swiss collective agreements — LeaveBoard's free tier (up to 9 employees) or Leave Dates' lower per-user price covers that core need without paying for compliance features you won't use
+- Very small teams under 9 people who want a genuinely free, permanent option — LeaveBoard's free tier fits that specifically, where Leavo's free option is a 30-day trial, not an ongoing free plan
+- Teams that specifically need published multi-entity pricing without committing to Leavo's top (Premium) tier
+
+## FAQ
+
+### Is Leavo's collective agreement checker legally binding?
+
+No — Leavo is explicit that the values are for guidance only, compiled from official and branch sources, and don't constitute legal advice. Always confirm against the in-force agreement and your company's specific terms before relying on it for a consequential decision.
+
+### Does Leavo require a credit card for the free trial?
+
+No — the 30-day trial includes unlimited team members and doesn't require a credit card.
+
+### Is Leavo worth it for a small business?
+
+Depends on what "small" means for you. If you're under 9 people and only need basic leave tracking, LeaveBoard's permanent free tier is hard to beat on price. If you're a growing team that also wants payroll-ready time tracking with an audit trail, or you operate under French/Swiss labor conventions, Leavo's price is easier to justify.
+
+### What's the difference between Leavo Professional and Premium?
+
+Premium adds unlimited organizations (multi-company management), a higher AI assistant quota with the option to buy extra shared AI credits, a dedicated account manager, and priority support. Professional covers unlimited team members, a higher AI quota than the free trial, and hours balance/overtime banking.
+
+### Is Leavo better than Leave Dates or LeaveBoard?
+
+"Better" depends on the need. For pure leave tracking at the lowest cost, both named competitors are cheaper. For payroll-ready time tracking with an audit trail, or French/Swiss collective-agreement compliance specifically, Leavo offers features neither competitor publishes as part of their core product.
+
+### Does Leavo work for businesses outside France and Switzerland?
+
+Yes, for core leave and time-tracking functionality, including public holiday data for 100+ countries. The specific CCN/CCT collective-agreement compliance checking is only relevant if your business actually operates under those French or Swiss conventions.
+
+### Does Leavo replace payroll software?
+
+No. Leavo tracks leave, time, and overtime and produces payroll-ready data, but it isn't a payroll system itself — it doesn't calculate pay, issue payslips, or handle tax filings. You'd still use a dedicated payroll provider alongside it.
+
+### What happens if I exceed my AI assistant quota?
+
+The AI assistant pauses until the next billing cycle resets your quota. On Premium, you can buy additional credit packs immediately rather than waiting, and purchased credits never expire.
+
+### Can I cancel anytime, or am I locked into a contract?
+
+All plans are pay-as-you-go with no contract — cancel anytime from billing settings, and yearly plans can still be canceled even though they're billed annually upfront.
+
+## Final Verdict
+
+Leavo's actual differentiator checks out: the French/Swiss collective-agreement compliance logic is real, specific, and verifiable for free before you pay anything, which is a more trustworthy way to evaluate a compliance claim than taking a vendor's word for it. Against two named, cheaper competitors — LeaveBoard (free under 9 employees, then $1.35/user/month) and Leave Dates (from ~$0.95/user/month) — Leavo's $2.49–4.15/user/month only makes sense if you're paying for something those tools don't offer: the compliance checking, the audit-trailed time tracking, or both together in one subscription instead of two.
+
+If you're a French or Swiss employer dealing with CCN/CCT compliance, or you want payroll-ready time tracking with a real audit trail alongside leave management, Leavo's price is justified by features the cheaper competitors don't have. If you just need simple leave request tracking for a small team, test LeaveBoard's free tier or Leave Dates' lower price point first — you may not need to pay for Leavo's compliance layer at all.
+`
+    },
     {
       id: 51,
       slug: "uptimerobot-review",
