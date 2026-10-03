@@ -230,7 +230,7 @@ export const SITE_DATA = {
       ctaButtons: [
         {
           text: 'Start Leavo Free Trial',
-          url: 'https://leavo.com/en',
+          url: 'https://leavo.com/?red=shamss',
           toastText: 'Opening Leavo...',
           isPrimary: true
         }
