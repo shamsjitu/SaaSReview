@@ -34,7 +34,7 @@ function main() {
       image: img ? [img] : undefined,
       datePublished: iso || undefined,
       dateModified: iso || undefined,
-      author: { "@type": "Person", name: author },
+      author: author ? { "@type": "Person", name: author } : { "@type": "Organization", name: "ShamsStack" },
       publisher: { "@type": "Organization", name: "ShamsStack", url: SITE },
       mainEntityOfPage: url,
     };
@@ -58,6 +58,35 @@ ${posts.filter((x) => x.slug !== p.slug).map((x) => `<li><a href="/blog/${x.slug
     count++;
   }
 
+  // Static pages: correct title / description / canonical in the raw HTML.
+  // (Edit the text below any time; React still renders the real page on top.)
+  const STATIC_PAGES = [
+    { path: "/company/about-my-process", title: "About Me and My Review Process | ShamsStack", h1: "About Me and My Review Process",
+      description: "Who is behind ShamsStack and how every SaaS tool is tested, scored and reviewed before it gets recommended." },
+    { path: "/company/contact", title: "Contact ShamsStack", h1: "Contact ShamsStack",
+      description: "Get in touch with ShamsStack for questions, tool suggestions, partnerships or corrections." },
+    { path: "/legal/privacy-policy", title: "Privacy Policy | ShamsStack", h1: "Privacy Policy",
+      description: "How ShamsStack collects, uses and protects your information when you visit the site." },
+    { path: "/legal/affiliate-disclosure", title: "Affiliate Disclosure | ShamsStack", h1: "Affiliate Disclosure",
+      description: "ShamsStack may earn a commission when you buy through links on this site. Read how this works and how it affects our reviews." },
+    { path: "/resources", title: "Resources and Tools for Founders | ShamsStack", h1: "Resources",
+      description: "Hand-picked resources, guides and tools for publishers, marketers and software entrepreneurs." },
+    { path: "/reviews/expert-analysis", title: "Expert Software Reviews and Analysis | ShamsStack", h1: "Expert Software Reviews and Analysis",
+      description: "In-depth, hands-on SaaS reviews with pricing, pros and cons and clear verdicts." },
+    { path: "/deals/appsumo-lifetime", title: "AppSumo Lifetime Deals | ShamsStack", h1: "AppSumo Lifetime Deals",
+      description: "Curated AppSumo lifetime deals on software tools, with honest reviews to help you decide before you buy." },
+  ];
+  for (const pg of STATIC_PAGES) {
+    const staticBody = `<main style="max-width:760px;margin:0 auto;padding:24px;font-family:system-ui,sans-serif;line-height:1.7">
+<h1>${esc(pg.h1)}</h1>
+<p>${esc(pg.description)}</p>
+<p><a href="/">Home</a> · <a href="/blog">Blog</a></p>
+</main>`;
+    write(`${pg.path.slice(1)}/index.html`, buildPage(template, {
+      title: pg.title, description: pg.description, url: `${SITE}${pg.path}`, image: null, type: "website", body: staticBody,
+    }));
+  }
+
   // /blog listing with plain links to every article
   const listBody = `<main style="max-width:760px;margin:0 auto;padding:24px;font-family:system-ui,sans-serif;line-height:1.7">
 <h1>ShamsStack Blog: Software Reviews, Comparisons and Deals</h1>
@@ -71,7 +100,7 @@ ${posts.map((x) => `<li><a href="/blog/${x.slug}">${esc(x.title)}</a><br>${esc(x
     url: `${SITE}/blog`, image: null, type: "website", body: listBody,
   }));
 
-  console.log(`[prerender] done: ${count} articles + /blog`);
+  console.log(`[prerender] done: ${count} articles + ${STATIC_PAGES.length} static pages + /blog`);
 }
 
 // ---------- helpers ----------
@@ -85,7 +114,7 @@ function loadData() {
   const data = new Function(code)();
   const seen = new Set();
   const posts = (data.blogPosts || []).filter((p) => p.slug && !seen.has(p.slug) && seen.add(p.slug));
-  return { posts, author: data.author?.name || "Shams Jitu" };
+  return { posts, author: data.author?.name || null };
 }
 
 function findFile(dir, name) {

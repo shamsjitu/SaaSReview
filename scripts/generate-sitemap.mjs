@@ -67,7 +67,7 @@ const entry = (loc, lastmod) =>
   `  <url><loc>${SITE}${loc}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}</url>`;
 
 const lines = [
-  ...STATIC_PAGES.map((p) => entry(p, today)),
+  ...STATIC_PAGES.map((p) => entry(p, null)),
   ...[...articles].map(([slug, lastmod]) => entry(`/blog/${slug}`, lastmod)),
 ];
 
