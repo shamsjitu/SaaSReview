@@ -6,7 +6,7 @@
 export const SITE_DATA = {
   author: {
     name: "Md Shamsuzzaman",
-    bio: "I am an expert in affiliate marketing with over 5 years of experience using platforms like Impact Radius and AppSumo. My mission is to help you find the best tools to grow your business.",
+    bio: "I have been involved in affiliate marketing for over 5 years, helping people discover useful tools and software for their businesses and online work.\n\nWhile earning through affiliate marketing is an important goal for me, my primary focus is to provide genuine value and help people make better decisions. I believe that any recommendation I make should be useful, trustworthy, and never cause harm to the people who rely on my advice.\n\nThat is why I take the time to thoroughly research and evaluate every tool, software, and platform before recommending it. My goal is simple: to share tools that I have carefully researched and believe can genuinely help you grow, work smarter, and achieve better results.",
     image: "/images/md-shamsuzzaman.jpg"
   },
   currentMonth: "May",
