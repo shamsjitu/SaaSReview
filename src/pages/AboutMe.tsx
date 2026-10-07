@@ -31,10 +31,14 @@ export default function AboutMe() {
           <div className="bg-white rounded-[40px] shadow-sm border border-gray-100 overflow-hidden">
             <div className="grid lg:grid-cols-2">
               <div className="p-8 md:p-10 flex flex-col justify-center">
-                <p className="text-body-text text-base leading-relaxed mb-6">
-                  {SITE_DATA.author.bio}
-                </p>
-                <div className="flex gap-4">
+                <div className="space-y-4 mb-6">
+                  {SITE_DATA.author.bio.split('\n\n').map((para, i) => (
+                    <p key={i} className="text-body-text text-base leading-relaxed">
+                      {para}
+                    </p>
+                  ))}
+                </div>
+                <div className="flex gap-4 justify-center">
                   <Link to="/company/contact" className="flex items-center gap-2 px-6 py-3 bg-primary text-secondary rounded-xl font-bold hover:bg-opacity-90 transition-all">
                     <Mail className="w-4 h-4" />
                     Contact Me
@@ -48,7 +52,7 @@ export default function AboutMe() {
                 <img
                   src={SITE_DATA.author.image}
                   alt={SITE_DATA.author.name}
-                  className="w-full h-full object-contain p-4 sm:p-6 lg:p-8 grayscale hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full object-contain p-4 sm:p-6 lg:p-8"
                   referrerPolicy="no-referrer"
                 />
               </div>
