@@ -22,11 +22,15 @@ export default function AboutAuthor() {
               >
                 <span className="text-secondary font-bold uppercase tracking-widest text-xs mb-3 block">The Expert Behind The Reviews</span>
                 <h2 className="font-display text-3xl font-bold text-primary mb-4">Hello, I'm {SITE_DATA.author.name}</h2>
-                <p className="text-body-text text-base leading-relaxed mb-6">
-                  {SITE_DATA.author.bio} I test every tool in my daily workflow to bring you honest, practical advice.
-                </p>
+                <div className="space-y-4 mb-6">
+                  {SITE_DATA.author.bio.split('\n\n').map((para, i) => (
+                    <p key={i} className="text-body-text text-base leading-relaxed">
+                      {para}
+                    </p>
+                  ))}
+                </div>
                 
-                <div className="flex gap-4">
+                <div className="flex gap-4 justify-center">
                   <Link to="/company/contact" className="flex items-center gap-2 px-6 py-3 bg-primary text-secondary rounded-xl font-bold hover:bg-opacity-90 transition-all">
                     <Mail className="w-4 h-4" />
                     Contact Me
@@ -44,7 +48,7 @@ export default function AboutAuthor() {
               <img 
                 src={SITE_DATA.author.image} 
                 alt={SITE_DATA.author.name} 
-                className="w-full h-full object-contain p-4 sm:p-6 lg:p-8 grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-contain p-4 sm:p-6 lg:p-8"
                 referrerPolicy="no-referrer"
               />
             </div>
