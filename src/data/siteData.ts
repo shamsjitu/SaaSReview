@@ -218,6 +218,225 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 59,
+      slug: "how-to-warm-up-an-email-inbox",
+      toolName: "Email Warmup",
+      title: "How to Warm Up an Email Inbox Safely (Free Methods)",
+      category: "Business Tools",
+      date: "October 25, 2026",
+      readTime: "12 min",
+      image: "/images/how_to_warm_up_an_email_inbox_banner.jpg",
+      excerpt: "How to warm up an email inbox safely with free methods: check SPF, DKIM and DMARC, ramp volume gradually, skip artificial engagement, and track the delivery signals that matter.",
+      ctaButtons: [
+        {
+          text: 'Run a Free MXToolbox Check',
+          url: 'https://mxtoolbox.com/SuperTool.aspx',
+          toastText: 'Opening MXToolbox...',
+          isPrimary: true
+        }
+      ],
+      content: `A new email inbox is ready for business outreach. The question is what to do before you send your first campaign, and whether you need to pay for an email warmup service at all.
+
+The answer depends on your setup and how you plan to use the mailbox. Email warmup usually means building up sending activity gradually over time. But a gradual increase in volume can't guarantee that messages reach the inbox. Your domain configuration, contact quality, sending habits, and recipients' reactions all matter, and you can address several of them without buying a tool, as long as you understand what manual warmup can and can't do.
+
+**Short answer:** check your SPF, DKIM, and DMARC records, send real emails to people who expect them, increase volume only as fast as your delivery signals stay healthy, keep your list clean, and don't mistake a finished schedule for proof that your setup works.
+
+## Before You Start: Check Your Email Setup
+
+Not every mailbox needs the same preparation. A brand-new business address, an established inbox, and an account that's already having delivery problems each need a different approach.
+
+### Check your domain authentication
+
+If you use a custom domain for business email, check its authentication records before you increase your sending.
+
+- **SPF** lists the servers allowed to send email for your domain.
+- **DKIM** lets receiving systems verify a cryptographic signature attached to your messages.
+- **DMARC** tells receiving systems what to do with messages that fail authentication, and can send you reports.
+
+Google's requirements depend on how you send. All senders to personal Gmail accounts must meet baseline requirements, including SPF or DKIM authentication. Senders who send more than 5,000 messages a day to Gmail accounts must also meet additional requirements, including SPF, DKIM, and DMARC. Google recommends setting up all three.
+
+![Google's Gmail sender guidelines page describing how to set up SPF, DKIM, and DMARC for your domain](/images/ewp_gmail_sender_guidelines.jpg)
+*Google's help page on email sender guidelines, which covers SPF, DKIM, and DMARC setup (screenshot, October 2026). Read the full page for the current requirements.*
+
+A few details from that page are worth knowing. Your SPF record should include every sender that mails on behalf of your domain, or messages from the missing ones are more likely to be marked as spam. Sending to personal Gmail accounts requires a DKIM key of at least 1024 bits, and Google recommends 2048 bits if your domain provider supports it. And for DMARC to pass, messages must be authenticated by SPF or DKIM, and the authenticating domain must match the domain in the From header. Google also recommends turning on DMARC reports so you can monitor mail sent from your domain. You can read the full rules in [Google's email sender guidelines](https://support.google.com/a/answer/81126).
+
+If you don't know how to configure these records, ask your email provider or domain administrator to check them. Don't change DNS records at random, because incorrect settings can interfere with delivery. You can also use an online DNS lookup tool such as [MXToolbox](https://mxtoolbox.com/SuperTool.aspx) to see whether your SPF and DMARC records are published. These checks reveal DNS problems, but they don't prove your outgoing email is fully set up or that your messages will reach the inbox.
+
+### Example: checking an SPF record
+
+We ran shamsstack.com through MXToolbox's SPF lookup as a worked example.
+
+![MXToolbox SPF record lookup for shamsstack.com showing the published record and a list of passed SPF tests](/images/ewp_mxtoolbox_spf_check.jpg)
+*An SPF lookup in MXToolbox. The result shows the record that was found, how each part is interpreted, and a list of tests, each marked with a green tick.*
+
+The lookup found this SPF record:
+
+v=spf1 include:_spf.mx.cloudflare.net ~all
+
+Every test visible in the screenshot shows a green tick, which means the record was found and passed the checks listed. That isn't the same as saying an outgoing email service is configured correctly, and it doesn't guarantee inbox placement. The record only tells receiving servers which senders are authorized; it says nothing about whether your messages are good ones.
+
+### Example: checking a DMARC record
+
+The same domain, checked with MXToolbox's DMARC lookup. When we first ran it, MXToolbox reported "No DMARC Record found," so we published a basic record in monitoring mode and checked again:
+
+v=DMARC1; p=none;
+
+![MXToolbox DMARC lookup for shamsstack.com showing the record v=DMARC1; p=none; with the record published and valid, and a red cross next to DMARC Policy Not Enabled](/images/ewp_mxtoolbox_dmarc_policy_none.jpg)
+*MXToolbox's DMARC lookup after publishing a monitoring-only record. The record is found and valid, and the red cross marks "DMARC Policy Not Enabled" because no quarantine or reject policy is set.*
+
+MXToolbox now reports the record as published, with valid syntax and a passing external-validation check. It still lists one problem, "DMARC Policy Not Enabled," because no quarantine or reject policy is set. That's expected with p=none. This policy tells receiving systems to monitor messages that fail DMARC without blocking or quarantining them, so it gives you visibility but doesn't stop anyone from spoofing your domain. It's a safe first step, because it won't cause legitimate mail to be rejected.
+
+Moving to a stricter policy (quarantine or reject) is a later decision, and only after you've confirmed which services send mail as your domain. If you plan to send outreach from a domain, publish a DMARC record first, since Google recommends it for all senders and requires it for bulk senders. If MXToolbox reports no record for your own domain, follow your email provider's official instructions before making DNS changes, because the right configuration depends on how your outgoing mail is sent.
+
+One more distinction matters here. An email forwarding service can receive and forward incoming messages without providing an outgoing email service. If your business address only uses a forwarding service such as Cloudflare Email Routing, confirm how outgoing messages will be sent before you try to warm up the inbox.
+
+### Work out whether you have a warmup problem
+
+Before you choose a method, identify your situation.
+
+| Your situation | What to do first |
+|---|---|
+| New mailbox with little sending history | Check authentication and start with legitimate, expected communication |
+| Established mailbox with low sending volume | Review your normal sending needs before changing anything |
+| Emails suddenly going to spam | Investigate authentication, recipient complaints, list quality, and provider diagnostics |
+| Messages bouncing or being rejected | Identify invalid addresses, technical errors, or sending restrictions |
+| Planning a larger outreach campaign | Review provider limits, contact quality, and the risks of raising volume |
+
+An established mailbox doesn't automatically need a warmup tool just because it's been inactive. And a new mailbox doesn't become ready for a big campaign just because it has sent emails for several days.
+
+## How to Warm Up an Email Inbox Safely
+
+No single sending schedule works for every provider, mailbox, and campaign. Instead of following a fixed number of emails per day, use these steps to make informed decisions.
+
+### 1. Start with emails that have a real purpose
+
+Use the mailbox for genuine communication with colleagues, business partners, existing contacts, or other people who reasonably expect to hear from you. Send a project update, answer a business question, arrange a meeting. These are normal reasons to send email, not activity created only to make an account look busy.
+
+Don't manufacture conversations, ask people to generate artificial engagement, or treat every reply as a sign your inbox is ready for mass outreach. Ordinary use can build a natural sending history, but it doesn't guarantee a provider will place future cold emails in the primary inbox.
+
+### 2. Avoid sudden changes in sending volume
+
+Say an inbox has mostly handled occasional correspondence. Sending a large batch of sales emails overnight would be a big change in activity. A more cautious approach is to consider your sending history, how many messages you genuinely need to send, and your provider's rules before you change anything.
+
+Don't treat a warmup tool's recommended daily target as a universal safe limit, since provider restrictions and your circumstances still apply. If delivery failures or spam complaints rise after you increase volume, stop increasing it and investigate the cause.
+
+### 3. Make your contact list worth sending to
+
+A new inbox won't fix problems caused by poor contact data. Before sending, check that addresses are valid and that your recipients suit your message. Avoid purchased lists of uncertain quality, and remove addresses that keep bouncing.
+
+For business outreach, relevance matters too. Explain why you're getting in touch, keep the message accurate, and respect requests to stop. For marketing and subscription email, follow the consent and unsubscribe rules that apply to you. A warmup routine isn't permission to contact people who don't want your emails.
+
+### 4. Write messages that sound like normal business communication
+
+Early emails don't need elaborate copy. They need a clear purpose and accurate information. Use a subject line that reflects the message, avoid misleading claims and pointless attachments or links, and keep your sender identity consistent.
+
+These are sensible sending practices, not a formula that guarantees inbox placement. Email providers weigh many factors, and no writing style overcomes every deliverability problem.
+
+### 5. Review delivery signals before increasing activity
+
+Check what happens after you send. Depending on your provider and tools, useful signals include:
+
+- Bounced or rejected messages
+- Authentication failures
+- Spam complaints
+- Replies from real recipients
+- Delivery or reputation information in provider dashboards
+
+For eligible senders, [Google Postmaster Tools](https://postmaster.google.com/) shows Gmail spam rates, authentication, and domain or IP reputation once there's enough sending data.
+
+Be careful with open rates. Opens are an unreliable signal, because mail apps can load images automatically or block tracking, so a high open rate doesn't prove your message reached the primary inbox. And a steady warmup counter isn't evidence that your setup works. If delivery problems appear, investigate them instead of pushing volume higher.
+
+## How to Warm Up an Inbox for Free
+
+You can start without subscribing to a dedicated warmup service. The manual approach is most practical when your sending needs are modest and you can manage the work yourself.
+
+- **Use genuine email conversations.** Send and receive messages that serve a real purpose. You don't need to invent messages to keep the inbox busy, and exchanging a set number of emails doesn't guarantee better delivery.
+- **Use your provider's existing tools.** Check its security, authentication, and delivery information. If messages are rejected, read the error details where available. The cause may be a configuration issue, an invalid recipient, or a provider restriction that warmup won't fix.
+- **Improve the quality of your sending.** Review your list, send relevant messages, stop contacting people who ask you to, and keep your activity in line with your real business needs instead of chasing an arbitrary daily number.
+
+These steps cost little beyond your time, and they stay useful if you later decide to pay for a tool.
+
+### Understand the limits of free methods
+
+Manual warmup takes attention and doesn't give you every feature of a commercial service. You'll check delivery information yourself, and ordinary conversations can't replicate a dedicated service's inbox network or reporting. That doesn't make manual warmup useless. It means you should pick a method based on the problem you're solving, not assume that paying for automation will improve deliverability.
+
+## Manual Warmup vs. Automated Tools
+
+The main difference is how much of the process you manage and what extra features a service provides.
+
+| Factor | Manual approach | Automated tool |
+|---|---|---|
+| Cost | Can be free | May require a subscription |
+| Time | Needs your attention | Can automate some tasks |
+| Genuine communication | You manage your own conversations | Depends on how the service operates |
+| Monitoring | Provider reports and your own checks | May include extra dashboards or reports |
+| Control | Direct control over your messages | Depends on the tool's settings |
+| Delivery guarantee | None | None |
+
+Manual warmup may suit you if you send a modest amount of legitimate email and are comfortable checking results. An automated service may be worth evaluating if you manage several mailboxes or need particular workflow features. Before you pay, check what the service does, which providers it supports, what the subscription includes, and what its reports measure.
+
+Also consider how the tool creates email interactions. Some services use networks of connected inboxes that exchange automated messages to simulate engagement, and those interactions aren't the same as real interest from prospective customers.
+
+If you're considering Warmup Inbox, read our [Warmup Inbox review](/blog/warmup-inbox-review) for a product-focused assessment. To compare other services, see our [Warmup Inbox alternatives guide](/blog/warmup-inbox-alternatives). Those articles cover software selection. This guide focuses on how to prepare and manage your sending.
+
+## Email Warmup Mistakes That Can Cause Problems
+
+- **Treating a schedule as a guarantee.** Finishing a set number of days or hitting a daily target doesn't prove a mailbox is ready for a large campaign. Review your setup and delivery signals instead.
+- **Using warmup to hide technical problems.** If authentication is failing or messages are being rejected, sending more email isn't the fix. Investigate the underlying issue first.
+- **Sending to irrelevant or invalid contacts.** Wrong addresses cause bounces, and irrelevant messages cause complaints. Review your list before raising activity.
+- **Relying on artificial engagement.** Automated opens and replies can make a dashboard look good without showing real customer interest or guaranteeing primary-inbox placement.
+- **Ignoring provider rules.** Warmup doesn't override sending limits, anti-spam policies, or marketing email requirements, so check the rules for your account and type of email.
+- **Continuing despite warning signs.** If bounces, rejections, or complaints rise, don't keep scaling because a schedule says to. Pause the increase and find out what changed.
+
+## How Can You Tell Whether Your Approach Is Working?
+
+No single number confirms an inbox is warmed up. Look at several indicators together:
+
+- **Authentication:** are your messages passing the relevant checks?
+- **Delivery failures:** are messages bouncing or being rejected more often?
+- **Spam complaints:** are recipients reporting your messages as unwanted?
+- **Real responses:** are recipients engaging naturally, or ignoring you?
+- **Provider diagnostics:** do available reports show authentication, reputation, or delivery problems?
+- **Performance as activity changes:** when you begin legitimate outreach, do delivery indicators stay acceptable as your volume grows?
+
+Not every sender has access to all of these measurements, and some dashboards need enough sending volume before they show useful data. If the indicators get worse, investigate the cause instead of trying to improve the numbers with artificial engagement. If they stay stable, keep following provider rules and base future sending on your actual needs.
+
+## FAQ
+
+### Can I warm up an email inbox for free?
+
+Yes. You can use genuine email conversations, check authentication, keep a relevant contact list, and review the delivery information your provider offers. These steps help you build responsible sending habits, but they don't guarantee inbox placement.
+
+### Does email warmup actually work?
+
+Warmup is one part of a broader sending strategy. Its value depends on the mailbox, domain, provider, recipients, and sending practices. Neither a manual routine nor an automated service guarantees that emails reach the primary inbox.
+
+### How many emails should I send during warmup?
+
+There's no universal daily number. Consider your provider's limits, your sending history, your real communication needs, and the results you observe. Avoid raising volume just to hit an arbitrary target.
+
+### Do Gmail and Outlook accounts need warmup?
+
+It depends on the account type, its history, and how you'll use it. A personal mailbox used for ordinary correspondence is different from a custom-domain mailbox used for business outreach. Follow the relevant provider's requirements, because warmup doesn't override them.
+
+### Do I need a paid email warmup tool?
+
+Not necessarily. Someone with modest sending needs may manage it manually. A paid tool can offer useful automation or reporting, but its value depends on the features it provides and the problem you need to solve.
+
+### How long does email warmup take?
+
+There's no universal duration that guarantees good delivery. The right approach depends on your setup, sending history, provider, and observed results. Don't assume that reaching a particular day means your inbox is ready for a large campaign.
+
+## Final Thoughts
+
+Preparing an email inbox is less about hitting a particular sending number and more about understanding how you're using it. Check authentication, use relevant contacts, send messages for legitimate reasons, and look into delivery problems before you increase activity. You can begin with free methods if your needs are modest, and if you consider a paid service, evaluate its actual features instead of assuming automation will solve every problem.
+
+Most importantly, don't confuse a completed warmup schedule with proof of good deliverability. The better decision is the one supported by your email setup, your recipients' responses, and the delivery information available to you.
+
+At ShamsStack, the aim is to help readers make informed decisions about software and workflows, not to suggest that buying another tool is always the answer.
+`
+    },
+    {
       id: 58,
       slug: "warmup-inbox-alternatives",
       toolName: "Warmup Inbox",
