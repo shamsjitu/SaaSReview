@@ -218,6 +218,383 @@ export const SITE_DATA = {
   ],
   blogPosts: [
     {
+      id: 61,
+      slug: "why-are-your-emails-going-to-spam",
+      toolName: "Email Deliverability",
+      title: "Why Are Your Emails Going to Spam? Causes & Fixes (2026)",
+      category: "Business Tools",
+      date: "October 27, 2026",
+      readTime: "15 min",
+      image: "/images/why_are_your_emails_going_to_spam_banner.jpg",
+      excerpt: "Why are your emails going to spam? Learn the real causes, from SPF, DKIM and DMARC to bounces and complaints, and how to diagnose and fix each one step by step.",
+      ctaButtons: [
+        {
+          text: 'Run a Free MXToolbox Check',
+          url: 'https://mxtoolbox.com/SuperTool.aspx',
+          toastText: 'Opening MXToolbox...',
+          isPrimary: true
+        }
+      ],
+      content: `An email can pass authentication checks and still land in spam. Before changing your subject line or buying an email warmup tool, find out whether the problem affects one recipient, one email provider, or your entire sending domain.
+
+The cause matters because different problems need different fixes. An authentication failure requires a technical correction. A high bounce rate calls for a closer look at recipient data. If recipients are reporting your messages as spam, sending more emails will not solve the underlying problem.
+
+This guide walks through the checks that can help you identify the cause and decide what to do next.
+
+## Quick Checklist: Why Are My Emails Going to Spam?
+
+Start with these questions:
+
+- **Is the problem limited to one provider?** Check whether messages land in spam at Gmail, Outlook, Yahoo, or several providers.
+- **Does authentication pass?** Check SPF, DKIM, and DMARC results for an actual message.
+- **Are messages bouncing?** Read the complete error message rather than relying only on a delivery summary.
+- **Have recipients complained?** Review available spam complaints, unsubscribes, and recipient feedback.
+- **Did something change recently?** Look for changes to sending volume, email infrastructure, recipient lists, or campaign content.
+- **Is a relevant blocklist involved?** Check the actual sending IP or domain, not just your website's IP address.
+
+These checks help narrow down the possibilities. None of them alone guarantees a diagnosis.
+
+## Why Are My Emails Going to Spam?
+
+### Missing or Incorrect Email Authentication
+
+Receiving servers use email authentication to help determine whether a message is authorized and whether its sender identity can be trusted.
+
+Three methods are particularly important.
+
+- **SPF (Sender Policy Framework):** Identifies which sending servers are authorized for a domain.
+- **DKIM (DomainKeys Identified Mail):** Uses a digital signature to help verify a message's origin and integrity.
+- **DMARC (Domain-based Message Authentication, Reporting, and Conformance):** Checks whether SPF or DKIM authentication aligns with the domain shown in the sender's From address and specifies how receiving servers should handle messages that fail DMARC.
+
+Google requires senders to Gmail to use SPF or DKIM at a minimum. Senders who send more than 5,000 messages per day to personal Gmail accounts must meet additional requirements, including SPF, DKIM, and DMARC. Other providers have their own requirements and policies.
+
+Even when authentication passes, inbox placement is not guaranteed.
+
+**What to check:** Send a test message through your actual email service and inspect its authentication results. A DNS checker can confirm that a record exists, but it cannot prove that every message sent through your setup passes authentication.
+
+For detailed instructions, see [Google's email sender guidelines](https://support.google.com/mail/answer/81126?hl=en).
+
+### Poor Sender Reputation
+
+Email providers use signals about sending domains, IP addresses, and sending behavior when deciding how to handle incoming messages.
+
+A poor reputation may be associated with repeated spam complaints, unwanted messages, invalid recipient addresses, or other problematic sending activity. However, you should not assume that one delivery failure proves your domain has a reputation problem.
+
+If you recently started sending from a new domain, focus on correct authentication, appropriate recipients, and consistent, legitimate sending practices.
+
+**What to check:** Google Postmaster Tools can provide information about messages sent to Gmail users, including available domain reputation, authentication, and spam-rate data. The amount of data shown depends on whether Google has sufficient information for your domain.
+
+If the dashboard does not show enough data, use the evidence you do have, such as message headers, bounce responses, and delivery reports, instead of guessing at your reputation.
+
+### High Bounce Rates and Poor Recipient Data
+
+A bounced email is a message that could not be delivered. The reason may be an invalid address, a temporary server problem, a sending restriction, or another delivery error.
+
+A high number of permanent failures can indicate that your recipient list needs attention. Repeatedly attempting delivery to addresses that consistently fail is unlikely to help.
+
+There is also a difference between a valid address and an appropriate recipient. An address can exist while its owner has no interest in receiving your messages.
+
+**What to do:**
+
+1. Review bounce messages to distinguish permanent failures from temporary ones.
+2. Remove addresses confirmed to be invalid.
+3. Correct obvious data-entry mistakes where possible.
+4. Avoid repeatedly sending to addresses that consistently fail.
+5. Use email verification where it makes sense for your workflow.
+6. For marketing emails, send only to recipients who have given the required permission.
+
+Email verification can help identify certain address problems, but it cannot guarantee inbox placement.
+
+### Spam Complaints and Unwanted Messages
+
+A technically correct email can still land in spam if recipients do not want it.
+
+For example, someone may sign up for occasional product updates but receive daily promotional emails instead. Another recipient may not recognize the sender or remember requesting the messages.
+
+Make your sender identity clear, keep content relevant to the original signup, and provide an easy way to unsubscribe from marketing emails. Honor unsubscribe requests promptly.
+
+Google recommends keeping the spam rate shown in Postmaster Tools below 0.10% and avoiding rates of 0.30% or higher. Yahoo also advises senders to keep their spam complaint rate below 0.30%. These are thresholds to avoid, not targets to aim for. The figures shown by each provider may also be calculated differently.
+
+See [Google's sender guidelines](https://support.google.com/mail/answer/81126?hl=en) and [Yahoo's sender best practices](https://senders.yahooinc.com/best-practices/).
+
+### Sudden Changes in Sending Volume
+
+Suppose you normally send a small number of business emails each day and suddenly begin sending several hundred. If the recipients, infrastructure, or message patterns also change, receiving providers may handle those messages differently.
+
+An increase in volume does not automatically cause spam placement. The effect depends on factors such as the sending history, recipient expectations, email infrastructure, and provider policies.
+
+Changing email services or introducing a new campaign can also reveal configuration problems that were not present before.
+
+**What to check:** Compare your sending activity before and after the problem began. Review changes to volume, provider settings, recipient sources, and authentication. If several things changed at once, investigate them separately rather than assuming the first change you noticed caused the problem.
+
+### Misleading or Irrelevant Email Content
+
+Email content can contribute to filtering decisions, but there is no universal list of words that automatically sends every message to spam.
+
+Review your messages for:
+
+- Subject lines that misrepresent the offer.
+- Sender names recipients do not recognize.
+- Unexpected attachments or suspicious links.
+- Claims that do not match the actual content.
+- Messages that differ from what recipients agreed to receive.
+
+Words such as "free" or "discount" are not, by themselves, proof that content caused a delivery problem.
+
+Use an accurate subject line, identify your organization clearly, and make sure the message matches the recipient's expectations.
+
+### Blocklists and Provider-Specific Filtering
+
+Some blocklists identify IP addresses or domains associated with spam, malicious activity, or other unwanted email behavior.
+
+A listing does not automatically mean every email from that domain will land in spam. Different providers use different filtering systems, and a public blocklist may not be relevant to the provider rejecting your message.
+
+**What to check:** Identify the actual sending IP or domain and determine whether a relevant list is involved. Your website's IP address may be different from the IP address used by your email service.
+
+If a listing is relevant, investigate its cause and follow the list operator's removal process. If no relevant listing appears, continue checking authentication, bounce messages, complaints, and provider-specific filtering.
+
+## How to Diagnose the Problem
+
+Rather than changing several settings at once, follow this sequence to narrow down the cause.
+
+### Step 1: Find Out Where the Problem Occurs
+
+First, establish whether your messages are being rejected or accepted into spam.
+
+| What you observe | What to investigate first |
+|---|---|
+| Messages are rejected | Bounce response and SMTP error |
+| Gmail places messages in spam, but another provider accepts them into the inbox | Gmail-specific authentication and available reputation data |
+| Several providers report delivery problems | Authentication, recipient quality, sending infrastructure, and bounce data |
+| SPF and DKIM pass, but messages still go to spam | DMARC alignment, complaints, reputation, and message relevance |
+| Problems begin after a sending-volume change | Sending history and provider-level delivery data |
+| A blocklist checker reports a listing | Whether the listing applies to the actual sending IP or domain |
+
+This table is a starting point, not a definitive diagnosis. Several problems can occur together.
+
+### Step 2: Check SPF, DKIM, and DMARC
+
+Send a test message through the same service and configuration you use for normal email.
+
+If you receive the message in Gmail:
+
+1. Open the message in a desktop browser.
+2. Click the three-dot More menu beside the reply controls.
+3. Select Show original.
+4. Review the authentication results.
+
+Look for SPF, DKIM, and DMARC results where available.
+
+A failure can indicate a configuration problem, but the details matter. SPF may pass for the envelope-sender domain while DMARC alignment fails. Forwarding can also complicate authentication results.
+
+If a check fails, consult your email provider's setup instructions and review the relevant DNS records. Do not copy records from another website without confirming that they are correct for your domain and service.
+
+You can follow Google's official instructions in [Trace an email with its full header](https://support.google.com/mail/answer/29436?hl=en).
+
+### Step 3: Read the Complete Bounce Message
+
+A short status such as "Delivery failed" may not tell you enough.
+
+Look at the full response for information about invalid recipients, authentication failures, policy restrictions, rate limits, or temporary server errors.
+
+For example, a permanent rejection of an invalid address calls for a different response from a temporary rate limit. Follow the receiving server's guidance and your email provider's retry instructions.
+
+Do not keep retrying a permanently rejected message without understanding why it failed.
+
+### Step 4: Review Reputation and Complaint Data
+
+Where available, check spam complaints, authentication results, reputation information, and delivery errors.
+
+Google Postmaster Tools is useful for eligible senders delivering messages to Gmail users, but it may not display meaningful information for every low-volume domain.
+
+Your sending platform may also report bounces, complaints, and unsubscribes. These metrics help explain delivery problems, although they do not necessarily show where every accepted message landed.
+
+### Step 5: Test Inbox Placement
+
+Inbox-placement testing tools send messages to selected test accounts and report where those messages arrive, depending on the tool's capabilities.
+
+A test may reveal that a message landed in the inbox, spam folder, or another location. It can help compare results before and after a change.
+
+However, test accounts may have different histories and settings from real recipients. A successful test is evidence about that test, not a guarantee that every message will reach the inbox.
+
+Use a representative message sent through your actual setup. A test from another domain or sending service may not reveal the problem you are investigating.
+
+## How to Fix Emails Going to Spam
+
+The right fix depends on what the checks reveal.
+
+### Correct Authentication Problems
+
+Review your DNS records and your email provider's authentication instructions.
+
+- Make sure your SPF record authorizes the services that actually send email for your domain.
+- Enable DKIM signing and publish the correct record.
+- Set up DMARC and check alignment.
+- Confirm that real messages pass the relevant authentication checks.
+
+Avoid publishing multiple SPF records for the same domain. Do not remove an existing sender from an SPF record unless you have confirmed that it is no longer needed.
+
+After making changes, send another test message and inspect its authentication results. DNS changes can take time to propagate.
+
+### Improve Recipient List Quality
+
+Remove confirmed invalid addresses and stop sending to recipients who have unsubscribed or complained.
+
+For future campaigns, collect addresses through appropriate methods and explain what recipients are signing up for. If you have an old list, do not assume every address remains suitable for sending.
+
+Email verification may identify certain risky addresses, but it cannot establish that recipients want your messages.
+
+### Review Sending Practices
+
+If the problem began after a major increase in volume, a provider change, or a new campaign, investigate that change.
+
+Avoid unnecessary sending spikes and follow the requirements of your email provider. There is no universal daily sending limit that guarantees inbox placement for every domain.
+
+The appropriate volume depends on your infrastructure, recipient expectations, sending history, and provider policies.
+
+### Make Emails Relevant and Recognizable
+
+Use an accurate subject line and a sender name recipients can identify. Make sure the content matches what they expected to receive.
+
+For marketing and subscribed messages, provide an appropriate unsubscribe option and honor requests. Qualifying bulk senders must also meet the applicable provider requirements for unsubscribe functionality.
+
+Trying to disguise the purpose of an email is not a reliable way to resolve filtering problems.
+
+### Investigate Blocklist Listings
+
+If a relevant blocklist identifies your sending IP or domain:
+
+1. Confirm which address is listed.
+2. Read the list operator's explanation.
+3. Investigate the likely cause, including potentially compromised accounts or unwanted sending.
+4. Correct the underlying problem.
+5. Follow the operator's removal process if delisting is appropriate.
+6. Monitor delivery after the issue is addressed.
+
+A new domain or sending service is not automatically necessary. First establish whether the listing is relevant and what caused it.
+
+### Monitor the Results
+
+After making a change, review the same types of evidence you used to diagnose the problem.
+
+Check authentication results, bounce messages, complaint data, and available provider reputation information. Repeat comparable inbox-placement tests if they are useful.
+
+A single successful test does not prove that the problem is permanently fixed. Likewise, one message landing in spam does not establish that your entire domain has a poor reputation.
+
+## How to Check an Email Domain Blacklist
+
+Use a reputable blacklist lookup tool to check the sending IP or domain when you have reason to suspect a listing.
+
+Before acting on a result, answer three questions.
+
+### Are you checking the correct address?
+
+Your website's IP may differ from the IP used by your outgoing email service. A lookup of the website's IP alone may not tell you whether your sending infrastructure is listed.
+
+### Is the listing relevant?
+
+Different lists have different purposes. A listing on one public list does not establish that every major email provider uses it.
+
+### Does the listing explain the delivery problem?
+
+If messages are failing authentication or receiving repeated rejection responses, the listing may not be the main cause.
+
+A blacklist lookup is one part of troubleshooting, not a complete deliverability test. If no relevant listing appears, continue investigating the other likely causes.
+
+## Email Deliverability vs. Inbox Placement vs. Open Rate
+
+These terms describe different measurements.
+
+| Term | Meaning | Limitation |
+|---|---|---|
+| Email deliverability | The broader ability to send messages successfully and have them accepted by receiving systems | Acceptance does not mean every message reaches the inbox |
+| Inbox placement | Where an accepted message arrives, such as the inbox or spam folder | A test cannot predict every recipient's result |
+| Open rate | The proportion of tracked messages reported as opened by an email platform | It does not prove inbox placement or that a person read the message |
+
+A campaign may report successful delivery even when some messages land in spam. Open-rate figures can also be affected by privacy features, automated activity, and tracking limitations.
+
+Google states that it does not track open rates and cannot verify the accuracy of third-party open-rate figures. For that reason, do not use open rate alone to decide whether your messages are reaching inboxes.
+
+Combine available delivery data with authentication checks, bounce analysis, and inbox-placement testing where appropriate.
+
+## Can Email Warmup Fix Spam Placement?
+
+Email warmup is often discussed when someone starts sending from a new mailbox or changes their sending setup. Gradually establishing legitimate sending activity may be relevant in some situations, but warmup is not a universal fix for spam placement.
+
+It will not automatically correct:
+
+- Missing or incorrect authentication records.
+- Invalid recipient addresses.
+- Unwanted messages and high spam complaints.
+- Misleading content.
+- A compromised email account.
+- Every blocklist or provider-specific filtering problem.
+
+Before paying for a warmup tool, identify the problem you are trying to solve. If authentication fails, correct it. If recipients are reporting your messages as spam, investigate why they do not want them.
+
+For the process itself, read [How to Warm Up an Email Inbox](/blog/how-to-warm-up-an-email-inbox). You can also see our [Warmup Inbox Review](/blog/warmup-inbox-review) for a discussion of the tool and its limitations.
+
+If your main question is how long warmup may take, see [How Long Does Email Warmup Take](/blog/how-long-does-email-warmup-take).
+
+No warmup service can guarantee inbox placement across all providers.
+
+## Tools to Test Email Deliverability
+
+Choose a tool based on the question you need to answer. You do not need to purchase every type of tool before troubleshooting.
+
+| Tool category | What it helps you check | What it cannot guarantee |
+|---|---|---|
+| SPF, DKIM, and DMARC checkers | Whether relevant DNS records exist and appear correctly configured | That every real message passes authentication |
+| Email verification tools | Certain invalid or risky email addresses | Inbox placement or recipient engagement |
+| Blocklist lookup tools | Whether a domain or IP appears on selected lists | That a listing caused every delivery problem |
+| Inbox-placement testing tools | Where test messages arrive at selected providers | How every real recipient will receive a message |
+| Provider reporting tools | Available reputation, authentication, complaint, and delivery information | Complete data for every domain or sending volume |
+| Email platform reports | Bounces, complaints, unsubscribes, and sending activity | The exact inbox placement of every accepted message |
+
+Start with the tool that can verify your most likely cause. For example, check message authentication before paying for an inbox-placement service if you have not yet confirmed that your messages pass authentication.
+
+## FAQ
+
+### Why are my emails going to spam even when SPF and DKIM pass?
+
+Passing SPF and DKIM does not guarantee inbox placement. Check DMARC alignment, recipient complaints, sender reputation, message relevance, and provider-specific filtering. Inspect the authentication results of an actual message before deciding that authentication is no longer a concern.
+
+### How can I improve my email sender reputation?
+
+Send relevant messages to appropriate recipients, maintain accurate recipient data, honor unsubscribe requests, and investigate authentication or delivery failures. Monitor the reputation and complaint information available from your email providers.
+
+No single action guarantees a good sender reputation.
+
+### How do I check whether my email domain is blacklisted?
+
+Use a reputable lookup tool to check the sending IP or domain against relevant lists. Confirm that the result applies to your actual sending infrastructure and follow the list operator's instructions if removal is appropriate.
+
+### Will email warmup get my domain off a blacklist?
+
+Not automatically. You need to establish why the domain or IP was listed, correct the underlying problem, and follow the relevant removal process. Warmup is not a guaranteed blacklist-removal method.
+
+### Do spam words cause emails to go to spam?
+
+There is no universal list of words that automatically sends every email to spam. Filtering can depend on sender reputation, authentication, message content, recipient behavior, and other signals.
+
+Use accurate subject lines, clear sender identification, trustworthy links, and content that matches recipients' expectations.
+
+### How can I test email deliverability before and after warmup?
+
+Send representative test messages through your actual email setup. Check authentication results, available bounce and reputation data, and inbox placement at selected providers. Repeat comparable tests after making changes.
+
+Treat the results as evidence about the tests you performed, not a guarantee for every real recipient.
+
+## Final Thoughts
+
+If your emails are going to spam, start by checking where the problem occurs and what the available evidence shows. Inspect authentication results, read bounce messages, review recipient complaints, and investigate relevant blocklist listings.
+
+Fix the cause you can verify before changing your domain, purchasing a new tool, or assuming warmup will solve the problem. That approach gives you a clearer basis for deciding what to do next.
+
+At ShamsStack, the aim is to help readers make informed decisions about software and workflows, not to suggest that buying another tool is always the answer.
+`
+    },
+    {
       id: 60,
       slug: "how-long-does-email-warmup-take",
       toolName: "Email Warmup",
