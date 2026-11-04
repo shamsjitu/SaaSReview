@@ -457,10 +457,6 @@ The service also provides notification controls so users can manage how alerts r
 
 In the settings I inspected, email alerts offered two modes: Actionable only and All changes. Slack and Telegram showed “Connect” buttons, so neither was connected, and the custom webhook was marked “Not configured.”
 
-![Notify.domains notification settings showing email modes, Slack, Telegram and custom webhook options](/images/notify_domains_notifications.png)
-
-*Notify.domains notification settings and available alert options.*
-
 Webhooks may be useful for people who already use automation tools or have their own systems. A webhook can pass event information to another service without requiring someone to check the dashboard manually.
 
 The product documentation also describes account security options such as passkeys and two-factor authentication.
