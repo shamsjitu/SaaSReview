@@ -18,10 +18,10 @@ export default function AboutMe() {
           className="max-w-7xl mx-auto px-4"
         >
           <h1 className="text-4xl md:text-6xl font-display font-extrabold text-secondary mb-6">
-            About Me
+            About ShamsStack
           </h1>
           <p className="text-white/70 max-w-2xl mx-auto text-lg">
-            I'm Md. Shamsuzzaman — and I believe trust comes before income.
+            Independent Research. Honest Reviews. Better Software Decisions.
           </p>
         </motion.div>
       </header>
@@ -64,155 +64,293 @@ export default function AboutMe() {
       <div className="max-w-4xl mx-auto px-4 pb-24">
         <div className="markdown-body text-body-text max-w-none">
           <section>
-            <p className="text-2xl md:text-3xl font-extrabold text-primary leading-snug">Hello, I'm Md. Shamsuzzaman, the person behind ShamsStack.</p>
             <p>
-              I completed my Honours degree in Economics, but my professional interests have gradually moved
-              toward the digital world. For around 5–6 years, I have been working with SEO, affiliate marketing,
-              website creation, website management, content research, and online publishing.
+              Choosing the right software is not always easy. A tool may look impressive on its official website, but
+              that does not necessarily tell you what it is like to use, where it falls short, or whether it is worth
+              the price.
             </p>
-            <p>ShamsStack is the result of that journey.</p>
-            <p>But there is something more important behind this website than SEO, traffic, or affiliate commissions.</p>
-            <p className="text-xl font-bold text-primary">Trust.</p>
+            <p>That is why I created ShamsStack.</p>
             <p>
-              My first goal with ShamsStack is to build trust with readers and maintain that trust for the long
-              term. If affiliate income comes from that trust, that is a good result. If it doesn't, I would still
-              rather keep the trust than publish something I don't genuinely believe is useful.
+              I'm Md. Shamsuzzaman, the person behind ShamsStack. I have an Honours degree in Economics and around five
+              to six years of experience in SEO, affiliate marketing, website creation, and website management.
             </p>
-            <p>That principle guides how I approach the content on this website.</p>
+            <p>
+              Through ShamsStack, I research software products and publish reviews to help readers understand what a
+              tool offers, what it may be good for, and what they should consider before making a purchase.
+            </p>
+            <p>
+              My aim is not to convince everyone to buy a particular product. It is to give readers useful information
+              so they can make their own decisions.
+            </p>
+            <p>
+              <strong>Trust comes before income.</strong> That is the principle I want to follow in every article I
+              publish.
+            </p>
           </section>
 
           <section>
             <h2>Why I Started ShamsStack</h2>
-            <p>The software industry is full of tools that promise to make life easier, faster, or more productive.</p>
             <p>
-              But when someone is trying to choose a software product, it can be difficult to understand what is
-              actually useful and what is simply good marketing.
+              Software reviews can influence how people spend their money. A good review should help someone understand
+              a product, not simply repeat what the company says about itself.
             </p>
-            <p>I created ShamsStack to make that decision a little easier.</p>
-            <p>My goal is not to tell everyone that a particular software is "the best."</p>
-            <p>Instead, I try to answer practical questions such as:</p>
+            <p>
+              I wanted ShamsStack to be a place where readers could research software before deciding whether to pay for
+              it.
+            </p>
+            <p>When I cover a product, I try to answer practical questions:</p>
             <ul>
-              <li>What does this software actually do?</li>
-              <li>Who is it really suitable for?</li>
-              <li>What are its useful features?</li>
-              <li>What are its limitations?</li>
-              <li>How does its pricing work?</li>
-              <li>Are there important things a buyer should know before paying?</li>
-              <li>How does it compare with other options?</li>
-              <li>Is it worth considering for a particular type of user?</li>
+              <li>What does the software actually offer?</li>
+              <li>Who is it designed for?</li>
+              <li>Which features may be useful?</li>
+              <li>What are its limitations or potential drawbacks?</li>
+              <li>Is the pricing suitable for the people it targets?</li>
+              <li>Are there alternatives worth considering?</li>
+              <li>What should a buyer check before making a decision?</li>
             </ul>
-            <p>Sometimes the right answer is that a product may be useful.</p>
-            <p>Sometimes the right answer is that another option may be more suitable.</p>
-            <p>I believe both conclusions are valuable.</p>
+            <p>
+              Not every product is right for every person or business. A tool that works well for one user may be
+              unsuitable for another because of its price, features, needs, or experience level.
+            </p>
+            <p>
+              I want my articles to help readers understand those differences rather than make every product sound like
+              the perfect choice.
+            </p>
           </section>
 
           <section>
-            <h2>My Approach to Software Reviews</h2>
-            <p>I want to be completely transparent about how I work.</p>
+            <h2>How I Research Software</h2>
             <p>
-              I am not a professional software engineer or a full-time software tester, and I don't personally use
-              every software product I write about.
+              I take a research-based approach to software reviews. The sources I use depend on the product and the
+              information available, but I generally look at the following areas.
             </p>
-            <p>For many products, my work is primarily based on extensive research rather than pretending that I personally used every feature.</p>
-            <p>That means I may study information from:</p>
-            <ul>
-              <li>The software company's official website and documentation</li>
-              <li>Pricing and plan information</li>
-              <li>Product features and limitations</li>
-              <li>User-facing documentation and help resources</li>
-              <li>Independent reviews and comparisons</li>
-              <li>Publicly available user feedback</li>
-              <li>Industry sources and other relevant information</li>
-            </ul>
-            <p>I then bring that information together and try to explain it in a way that is useful to someone who is considering the product.</p>
-            <p>If I have personally tested or used a product, I will say so.</p>
-            <p>If I have not, I will not pretend that I did.</p>
-            <p>I believe being honest about the research process is more valuable than making a review sound more impressive than it really is.</p>
+
+            <h3>1. The Official Website and Documentation</h3>
+            <p>
+              I start with the product's official website to understand what it does, who it serves, and how the company
+              presents its features.
+            </p>
+            <p>
+              Where available, I also check product documentation, feature descriptions, pricing pages, and relevant
+              help materials. These sources can explain how a tool is intended to work and which features are included
+              in different plans.
+            </p>
+            <p>
+              However, a company's own description is not the same as independent evidence of how well a product
+              performs. I keep that distinction in mind when writing.
+            </p>
+
+            <h3>2. User Reviews on Trustpilot, G2, and Reddit</h3>
+            <p>
+              Official product pages tell only part of the story. Feedback from people who have used a product can offer
+              a different perspective.
+            </p>
+            <p>
+              Where relevant, I check user discussions and reviews on platforms such as Trustpilot, G2, and Reddit. I
+              look at both positive and negative experiences rather than selecting only comments that support a
+              favourable conclusion.
+            </p>
+            <p>
+              Positive reviews may help identify features users appreciate or problems a product solves for them.
+              Negative feedback may point to concerns about pricing, support, usability, reliability, or other parts of
+              the experience.
+            </p>
+            <p>
+              I also consider the context of a comment. One person's complaint does not automatically prove that a
+              product has a widespread problem, just as one positive review does not prove that everyone will be
+              satisfied.
+            </p>
+            <p>
+              When several independent discussions raise similar concerns, those concerns may deserve closer attention.
+              I aim to present user feedback fairly and avoid treating individual opinions as established facts.
+            </p>
+            <p>
+              User reviews are not always available, detailed, or consistent. When I cannot find enough useful
+              feedback, I do not pretend otherwise.
+            </p>
+
+            <h3>3. Features, Pricing, and Limitations</h3>
+            <p>
+              I look beyond a feature list to understand what the available information tells readers about the
+              product.
+            </p>
+            <p>
+              Pricing is an important part of that process. A tool may offer useful features, but its cost, plan
+              restrictions, usage limits, or additional charges may affect whether it makes sense for a particular
+              buyer.
+            </p>
+            <p>
+              When the information is available, I explain relevant differences between plans and point out limitations
+              that readers should know about.
+            </p>
+            <p>If a detail is unclear or cannot be confirmed from reliable sources, I avoid presenting a guess as a fact.</p>
+
+            <h3>4. Comparing Alternatives</h3>
+            <p>
+              Sometimes, the best way to understand a product is to compare it with other tools serving a similar
+              purpose.
+            </p>
+            <p>
+              When useful, I look at differences in features, pricing, intended users, and available options. The aim is
+              not to declare one product the winner in every situation, but to explain which differences may matter when
+              choosing between them.
+            </p>
+            <p>
+              An alternative that suits a small business may not be the best fit for a larger team. Likewise, a more
+              expensive product is not automatically a better choice.
+            </p>
+
+            <h3>5. Separating Facts From Opinions</h3>
+            <p>
+              I try to make a clear distinction between information confirmed through available sources, claims made by
+              the software company, feedback shared by users, and my own analysis.
+            </p>
+            <p>These are not always the same thing.</p>
+            <p>
+              For example, a company may advertise a particular benefit, while user discussions reveal concerns about a
+              related feature. Both may be relevant to a buyer, but they should not be presented as though they are the
+              same kind of evidence.
+            </p>
+            <p>
+              My goal is to give readers enough context to understand what is known, what users have reported, and what
+              remains uncertain.
+            </p>
           </section>
 
           <section>
-            <h2>Affiliate Marketing Is Not My Reason for Saying Something Is Good</h2>
-            <p>Yes, ShamsStack may use affiliate links.</p>
+            <h2>Do I Personally Test Every Software Product?</h2>
+            <p>No. I do not claim to have personally tested every product covered on ShamsStack.</p>
             <p>
-              When someone purchases a product through certain links on the website, I may receive a commission
-              at no additional cost to that person.
+              Some of my reviews are based on research using official documentation, product information, pricing
+              details, user reviews, and other relevant sources. The available evidence varies from one product to
+              another.
             </p>
-            <p>But I don't want an affiliate commission to decide what I say about a product.</p>
-            <p>A company offering an affiliate program does not automatically mean that I will recommend its software.</p>
-            <p>Likewise, a product not having an affiliate program does not automatically mean that I will ignore it.</p>
-            <p>My priority is to provide information that I believe is useful to the reader.</p>
-            <p>I also believe affiliate relationships should be disclosed clearly so readers can understand the relationship before deciding how much weight to give a recommendation.</p>
             <p>
-              You can read the full{' '}
-              <Link to="/legal/affiliate-disclosure" className="text-primary font-bold underline">Affiliate Disclosure</Link>
+              I believe it is important to be clear about this because researching a product is not the same as using it
+              firsthand.
+            </p>
+            <p>
+              I will not invent personal experiences, claim to have tested features I have not tested, or present
+              research-based findings as results from my own hands-on testing.
+            </p>
+            <p>
+              Where I have not personally used a product, readers should understand that the review is based on research
+              rather than direct experience.
+            </p>
+            <p>
+              I would rather be open about that limitation than make a claim simply to make an article sound more
+              convincing.
+            </p>
+          </section>
+
+          <section>
+            <h2>How I Approach Recommendations</h2>
+            <p>
+              I do not believe a useful software review should focus only on a product's strengths.
+            </p>
+            <p>
+              Readers also need to understand the drawbacks, costs, restrictions, and situations in which a product may
+              not be the right choice.
+            </p>
+            <p>When the available evidence supports it, I discuss:</p>
+            <ul>
+              <li>The main features and potential benefits</li>
+              <li>Limitations and possible drawbacks</li>
+              <li>Pricing and plan differences</li>
+              <li>Relevant feedback from users</li>
+              <li>Alternatives worth comparing</li>
+              <li>The types of users or businesses that may benefit from the product</li>
+            </ul>
+            <p>
+              I do not assume that a product is suitable for everyone. My aim is to explain what the available
+              information suggests and allow readers to decide whether it fits their needs.
+            </p>
+            <p>
+              Software products can also change over time. Features, pricing, and terms may be updated, so I encourage
+              readers to check the official website before making a purchase.
+            </p>
+            <p>
+              I cannot guarantee that every detail will always remain current or that every article will be free from
+              mistakes. However, I want to correct errors when they are identified and improve articles when better
+              information becomes available.
+            </p>
+          </section>
+
+          <section>
+            <h2>How ShamsStack Earns Money</h2>
+            <p>
+              Some links on ShamsStack may be affiliate links. If you purchase a product through one of these links, I
+              may earn a commission at no additional cost to you.
+            </p>
+            <p>
+              Affiliate commissions can help support the time and work involved in researching and publishing content.
+              However, earning a commission should not be a reason to hide a product's limitations or present it as a
+              better choice than the evidence supports.
+            </p>
+            <p>
+              I want readers to be able to understand both the benefits and the drawbacks of a product, whether or not
+              an affiliate relationship is involved.
+            </p>
+            <p>
+              If a product has limitations worth knowing about, I believe readers should be told about them. Hiding
+              relevant information would work against the trust I want to build through ShamsStack.
+            </p>
+            <p>
+              For more details, please read the{' '}
+              <a href="https://shamsstack.com/disclaimer" className="text-primary font-bold underline">Affiliate Disclosure</a>
               {' '}and{' '}
-              <Link to="/legal/editorial-methodology" className="text-primary font-bold underline">Editorial & Review Methodology</Link>
-              {' '}pages for more details.
+              <a href="https://shamsstack.com/privacy-policy" className="text-primary font-bold underline">Privacy Policy</a>.
             </p>
           </section>
 
           <section>
-            <h2>What I Will Not Do</h2>
-            <p>There are many ways to make an affiliate website look successful.</p>
-            <p>I could make every product sound amazing.</p>
-            <p>I could hide important limitations.</p>
-            <p>I could publish a positive review simply because a company offers a commission.</p>
-            <p>I could make claims about using software that I never actually used.</p>
-            <p>But that is not the kind of website I want to build.</p>
-            <p>I would rather publish fewer articles than publish misleading ones.</p>
-            <p>I cannot promise that every article will be perfect. Research can have limitations, software changes over time, and information can become outdated.</p>
+            <h2>My Commitment to Readers</h2>
+            <p>I run ShamsStack with a few straightforward principles in mind.</p>
             <p>
-              What I can promise is that I will make a genuine effort to research the subject carefully, present
-              information honestly, identify important limitations when I find them, and correct information when
-              I discover that something needs to be updated.
+              <strong>Honesty:</strong> I will not claim to have personally tested a product when I have not.
+            </p>
+            <p>
+              <strong>Transparency:</strong> I aim to make the basis of my research clear and disclose affiliate
+              relationships where applicable.
+            </p>
+            <p>
+              <strong>Balance:</strong> I will consider both positive and negative information rather than focusing only
+              on a product's selling points.
+            </p>
+            <p>
+              <strong>Careful research:</strong> I will use relevant sources, check important details where possible, and
+              avoid presenting unsupported claims as facts.
+            </p>
+            <p>
+              <strong>Continuous improvement:</strong> When I discover an error or receive credible information that
+              changes my understanding of a product, I want to review the content and make corrections where needed.
+            </p>
+            <p>
+              These principles do not mean every article will be perfect. They describe the standards I want to work
+              towards and maintain.
+            </p>
+            <p>
+              Building trust takes time, and I understand that it cannot be achieved through words alone. It depends on
+              how consistently those words are reflected in the work.
             </p>
           </section>
 
           <section>
-            <h2>My Long-Term Goal</h2>
-            <p>I am not building ShamsStack only for today's traffic or today's affiliate commission.</p>
-            <p>I want to build something that can still be trusted years from now.</p>
-            <p>For me, earning from affiliate marketing would be a positive outcome of creating useful content—not a reason to compromise the content itself.</p>
-            <p className="text-xl font-bold text-primary">Trust first. Income second.</p>
-            <p>If I can build a website where readers feel that their time, money, and attention are respected, then I consider that a meaningful success.</p>
-            <p>And if affiliate income comes from that trust, I will be grateful for it.</p>
-          </section>
-
-          <section>
-            <h2>A Little About My Background</h2>
-            <p>My academic background is in Economics, which has influenced the way I approach information and decision-making.</p>
-            <p>Over the last 5–6 years, I have worked with areas including:</p>
-            <ul>
-              <li>SEO</li>
-              <li>Affiliate marketing</li>
-              <li>Website creation</li>
-              <li>Website management</li>
-              <li>Content research</li>
-              <li>Online publishing</li>
-              <li>Digital marketing</li>
-            </ul>
-            <p>I am still learning.</p>
-            <p>The digital world changes quickly, and I don't believe anyone should pretend to know everything.</p>
-            <p>So I continue to research, learn, test what I can, and improve the way I create content.</p>
-          </section>
-
-          <section>
-            <h2>Why You Can Contact Me</h2>
-            <p>If you are a reader and notice something that appears incorrect, outdated, or unclear, I welcome corrections.</p>
-            <p>If you represent a software company and believe there is important information about your product that I have missed, you can also contact me.</p>
-            <p>I may not always change an article simply because a company disagrees with something I wrote. However, if you can provide reliable information that changes the facts, I am happy to review it.</p>
-            <p>That is part of maintaining a trustworthy website.</p>
-          </section>
-
-          <section className="mt-12 p-8 bg-gray-50 rounded-[32px] border border-gray-100">
-            <h2 className="!mt-0 !mb-4 !text-xl">Finally, Thank You</h2>
-            <p className="mb-0 text-sm">If you are reading this page, thank you for taking the time to learn who is behind ShamsStack.</p>
-            <p className="mb-0 text-sm mt-2">There are countless websites publishing software reviews today. I don't expect you to trust mine simply because I say it is trustworthy.</p>
-            <p className="mb-0 text-sm mt-2">I believe trust should be earned through the work itself.</p>
-            <p className="mb-0 text-sm mt-4">My aim is simple:</p>
-            <p className="mb-0 text-sm font-bold text-primary mt-1">Research carefully. Write honestly. Be transparent. Keep improving.</p>
-            <p className="mb-0 text-sm mt-2">And hopefully, earn your trust one article at a time.</p>
-            <p className="mb-0 text-sm mt-4 italic">— Md. Shamsuzzaman, Founder, ShamsStack</p>
+            <h2>Get in Touch</h2>
+            <p>
+              If you have a question about an article, notice an error, or want to share your experience with a product
+              covered on ShamsStack, I welcome your feedback.
+            </p>
+            <p>
+              Reader comments and corrections can help identify information that needs clarification or updating.
+            </p>
+            <p>You can get in touch through the contact page.</p>
+            <p>
+              Thank you for taking the time to learn about ShamsStack and how I approach software research.
+            </p>
+            <p>
+              <strong>My goal is simple: research carefully, write honestly, and help readers make informed decisions.</strong>
+            </p>
           </section>
         </div>
       </div>
